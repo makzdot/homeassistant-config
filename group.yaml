@@ -41,6 +41,7 @@ sensors:
     - group.klimaat_woonkamer
     - group.personen
     - group.schoonmakers
+    - group.other_devices
     - group.devices
     - group.have_i_been_pwned
 
@@ -68,10 +69,9 @@ Personen:
 Schoonmakers:
   - device_tracker.74a528a5844b
   - device_tracker.74a528a58562
-  - device_tracker.acbc32cbfd29
-  #Test met tablet
 
 Other devices:
+  - device_tracker.acbc32cbfd29
   - device_tracker.4c21d01b63fc
 
 Klimaat Woonkamer:
