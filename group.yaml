@@ -31,8 +31,6 @@ automation:
   icon: mdi:robot
   entities:
     - group.automation
-    - group.automation_on_demand
-    - group.automation_rules
 
 sensors:
   name: Sensors
@@ -133,14 +131,13 @@ Multi Media:
   - sensor.plex_spy
 
 Automation rules:
+  - automation.licht_aan_bij_thuiskomst
+  - automation.licht_aan_in_de_avond
+  - automation.licht_aan_voor_schoonmaker
+  - automation.licht_uit_voor_schoonmaker
   - automation.media_player_playing
   - automation.media_player_pausedstopped
-  - automation.licht_aan_bij_thuiskomst
-  - automation.licht_aan_voor_schoonmaker
   - automation.away
-
-Automation On Demand:
-  - automation.manual_scene_on
 
 Woonkamer:
   - climate.living_room_thermostaat
