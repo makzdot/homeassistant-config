@@ -97,6 +97,7 @@ Verlichting Woonkamer:
   - light.plafoniere
   - switch.switch1
   - switch.main_switch
+  - light.hal
 
 
 Scenes:
@@ -113,9 +114,6 @@ Verlichting Slaapkamer Max:
 Verlichting Slaapkamer Noeri:
   - light.schemerlamp_noeri
   - light.hanglamp_noeri
-
-Verlichting Hal:
-  - light.hal
 
 Verlichting Badkamer:
   - light.badkamer
