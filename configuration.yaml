@@ -19,6 +19,7 @@ introduction:
 frontend:
 
 http:
+  api_password: !secret api_password
   # Uncomment this to add a password (recommended!)
   # api_password: PASSWORD
   # Uncomment this if you are using SSL or running in Docker etc
@@ -92,3 +93,5 @@ sensor: !include sensor.yaml
 tts:
   platform: google
 
+##Includes
+zone: !include_dir_list zones
