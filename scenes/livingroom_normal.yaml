@@ -6,7 +6,7 @@
     light.schemerlampen:
       state: on
       brightness: 250
-    light.hal:
+    light.eettafel:
       state: on
       brightness: 60
       color_temp: 167

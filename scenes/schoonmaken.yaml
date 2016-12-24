@@ -20,9 +20,9 @@
     light.badkamer:
       state: on
       brightness: 255
-    light.hal:
+    light.eettafel:
       state: on
-      brightness: 60
+      brightness: 160
       color_temp: 167
       rgb_color: [126,126,126]
 
