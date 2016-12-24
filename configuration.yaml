@@ -12,6 +12,12 @@ homeassistant:
   time_zone: Europe/Amsterdam
   customize: !include customize.yaml
 
+weather:
+  - platform: openweathermap
+    api_key: !secret owm_api_key
+    latitude: !secret latitude
+    longitude: !secret longitude
+
 # Show links to resources in log and frontend
 introduction:
 
@@ -86,12 +92,10 @@ media_player:
     timeout: 2
   - platform: plex
 
-# Weather Prediction
-sensor: !include sensor.yaml
-
 # Text to speech
 tts:
   platform: google
 
 ##Includes
 zone: !include_dir_list zones
+sensor: !include sensor.yaml
