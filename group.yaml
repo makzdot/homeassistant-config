@@ -21,7 +21,6 @@ Verlichting:
     - group.verlichting_woonkamer
     - group.verlichting_slaapkamer_max
     - group.verlichting_slaapkamer_noeri
-    - group.verlichting_hal
     - group.verlichting_badkamer
     - group.scenes
 
@@ -104,7 +103,7 @@ Verlichting Woonkamer:
   - light.plafoniere
   - switch.switch1
   - switch.main_switch
-  - light.hal
+  - light.eettafel
 
 
 Scenes:
