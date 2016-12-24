@@ -1,0 +1,6 @@
+name: Esther
+latitude: !secret latitude_esther
+longitude: !secret longitude_esther
+radius: 200
+icon: mdi:human-female
+
