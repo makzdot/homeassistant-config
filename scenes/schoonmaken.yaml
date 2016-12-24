@@ -4,8 +4,7 @@
       state: on
       brightness: 200
     light.schemerlampen:
-      state: on
-      brightness: 255
+      state: off
     switch.switch1:
       state: on
     light.plafoniere:
