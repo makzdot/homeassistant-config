@@ -1,0 +1,28 @@
+- name: Schoonmaken
+  entities:
+    light.keuken:
+      state: on
+      brightness: 200
+    light.schemerlampen:
+      state: on
+      brightness: 255
+    switch.switch1:
+      state: on
+    light.plafoniere:
+      state: on
+      brightness: 150
+    light.plafoniere_max:
+      state: on
+      brightness: 255
+    light.hanglamp_noeri:
+      state: on
+      brightness: 255
+    light.badkamer:
+      state: on
+      brightness: 255
+    light.hal:
+      state: on
+      brightness: 60
+      color_temp: 167
+      rgb_color: [126,126,126]
+

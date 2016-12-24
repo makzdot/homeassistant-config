@@ -1,0 +1,22 @@
+- name: Livingroom normal
+  entities:
+    light.keuken:
+      state: on
+      brightness: 80
+    light.schemerlampen:
+      state: on
+      brightness: 250
+    light.hal:
+      state: on
+      brightness: 60
+      color_temp: 167
+      rgb_color: [126,126,126]
+      transition: 10
+    switch.main_switch:
+      state: on
+    switch.switch1:
+      state: on
+    light.plafoniere:
+      state: on
+      brightness: 10
+      

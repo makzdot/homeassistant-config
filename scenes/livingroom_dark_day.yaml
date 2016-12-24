@@ -1,0 +1,12 @@
+- name: Livingroom Dark Day
+  entities:
+    light.schemerlampen:
+      state: off
+    light.plafoniere:
+      state: off
+    light.keuken:
+      state: on
+      brightness: 20
+    switch.switch1:
+      state: on
+

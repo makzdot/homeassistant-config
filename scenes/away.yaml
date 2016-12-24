@@ -1,0 +1,8 @@
+- name: Away
+  entities:
+    group.all_lights: off
+    group.all_switches: off
+
+
+
+
