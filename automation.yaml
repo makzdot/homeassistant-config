@@ -33,10 +33,23 @@
   condition:
     condition: sun
     after: sunset
-    after_offset: "-2:00:00"
+    after_offset: "-1:00:00"
   action:
       service: scene.turn_on
       entity_id: scene.livingroom_normal
+
+- alias: 'Licht aan in de avond'
+  trigger:
+    platform: sun
+    event: sunset
+    offset: "-01:00:00"
+  condition:
+    condition: state
+    entity_id: group.personen
+    state: home
+  action:
+    service: scene.turn_on
+    entity_id: scene.livingroom_normal
 
 - alias: 'Away'
   trigger:
