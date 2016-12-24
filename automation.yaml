@@ -66,4 +66,4 @@
       - fri
   action:
       service: scene.turn_on
-      entity_id: scene.livingroom_normal
+      entity_id: scene.schoonmaken
