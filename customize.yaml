@@ -5,3 +5,14 @@
     switch.switch1:
       friendly_name: 'Spots woonkamer'
       icon: mdi:lightbulb
+
+    sensor.living_room_thermostat_thermostaat_humidity:
+      friendly_name: 'Luchtvochtigheid binnen'
+    sensor.living_room_thermostat_thermostaat_hvac_state:
+      friendly_name: 'Ketel status'
+    sensor.living_room_thermostat_thermostaat_operation_mode:
+      friendly_name: 'Operation modus'
+    sensor.living_room_thermostat_thermostaat_target:
+      friendly_name: 'Doeltemperatuur binnen'
+    sensor.living_room_thermostat_thermostaat_temperature:
+      friendly_name: 'Temperatuur binnen'
