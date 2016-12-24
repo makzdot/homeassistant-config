@@ -146,7 +146,7 @@ Woonkamer:
   - switch.main_switch
   - switch.zonnescherm
 
-Have I Been PWNED:
-  - !secret sensor_email
-  - !secret sensor_email2
-  - !secret sensor_workemail
+#Have I Been PWNED:
+#  - !secret sensor_email
+#  - !secret sensor_email2
+#  - !secret sensor_workemail
