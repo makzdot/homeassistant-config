@@ -1,0 +1,152 @@
+#default_view:
+#  view: yes
+#  icon: mdi:home
+#  entities:
+#    - group.personen
+#    - group.scenes
+#    - group.woonkamer
+#    - group.verlichting_slaapkamer_max
+#    - group.verlichting_slaapkamer_noeri
+#    - group.verlichting_badkamer
+#    - camera.woonkamer
+#    - media_player.woonkamer_tv
+#    - media_player.woonkamer
+#    - updater.updater
+
+Verlichting:
+  name: Verlichting
+  view: yes
+  icon: mdi:lightbulb-outline
+  entities:
+    - group.verlichting_woonkamer
+    - group.verlichting_slaapkamer_max
+    - group.verlichting_slaapkamer_noeri
+    - group.verlichting_hal
+    - group.verlichting_badkamer
+    - group.scenes
+
+automation:
+  name: Automation
+  view: yes
+  icon: mdi:robot
+  entities:
+    - group.automation
+    - group.automation_on_demand
+    - group.automation_rules
+
+sensors:
+  name: Sensors
+  view: yes
+  icon: mdi:gauge
+  entities:
+    - group.weer
+    - group.klimaat_woonkamer
+    - group.personen
+    - group.devices
+    - group.have_i_been_pwned
+
+media:
+  name: Media
+  view: yes
+  icon: mdi:play-circle-outline
+  entities:
+    - group.multi_media
+    - media_player.woonkamer_tv
+    - media_player.woonkamer
+    - media_player.xperia_van_max
+    - media_player.maxiphonesix
+
+cameras:
+  name: Cameras
+  view: yes
+  icon: mdi:camera
+  entities:
+    - camera.woonkamer
+
+Personen:
+  - device_tracker.makzdot_maxiphone6
+  - device_tracker.makzdot_maxiphone5
+
+Klimaat Woonkamer:
+  - sensor.living_room_thermostat_thermostaat_temperature
+  - sensor.living_room_thermostat_thermostaat_target
+  - sensor.living_room_thermostat_thermostaat_humidity
+  - sensor.living_room_thermostat_thermostaat_operation_mode
+  - sensor.living_room_thermostat_thermostaat_hvac_state
+  - binary_sensor.living_room_thermostat_thermostaat_online
+  - binary_sensor.living_room_thermostat_thermostaat_has_leaf
+  - binary_sensor.living_room_thermostat_thermostaat_is_using_emergency_heat
+  - binary_sensor.living_room_thermostat_thermostaat_is_locked
+  - binary_sensor.living_room_thermostat_thermostaat_fan
+
+Weer:
+  - sun.sun
+  - sensor.yr_symbol
+  - weather.openweathermap
+
+Camera:
+  - camera.woonkamer
+
+Devices:
+  - sensor.battery_maxiphone6
+  - sensor.battery_maxiphone5
+
+Verlichting Woonkamer:
+  - light.schemerlampen
+  - light.keuken
+  - light.plafoniere
+  - switch.switch1
+  - switch.main_switch
+
+
+Scenes:
+  - scene.livingroom_normal
+  - scene.livingroom_dim
+  - scene.livingroom_dark_day
+  - scene.schoonmaken
+  - scene.away
+
+Verlichting Slaapkamer Max:
+  - light.plafoniere_max
+  - light.schemerlamp_max 
+
+Verlichting Slaapkamer Noeri:
+  - light.schemerlamp_noeri
+  - light.hanglamp_noeri
+
+Verlichting Hal:
+  - light.hal
+
+Verlichting Badkamer:
+  - light.badkamer
+
+Zonwering:
+  - switch.zonnescherm
+
+Multi Media:
+  #- media_player.woonkamer_tv
+  #- media_player.woonkamer
+  - sensor.plex_spy
+
+Automation rules:
+  - automation.media_player_playing
+  - automation.media_player_pausedstopped
+  - automation.licht_aan_bij_thuiskomst
+  - automation.away
+
+Automation On Demand:
+  - automation.manual_scene_on
+
+Woonkamer:
+  - climate.living_room_thermostaat
+  - light.schemerlampen
+  - light.keuken
+  - light.plafoniere
+  - switch.switch1
+  - switch.main_switch
+  - switch.zonnescherm
+
+Have I Been PWNED:
+  - !secret sensor_email
+  - !secret sensor_email2
+  - !secret sensor_workemail

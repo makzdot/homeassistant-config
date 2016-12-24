@@ -98,3 +98,4 @@ zone: !include_dir_list zones
 sensor: !include sensor.yaml
 switch: !include switch.yaml
 light: !include light.yaml
+group: !include group.yaml
