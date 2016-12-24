@@ -18,9 +18,6 @@ weather:
     latitude: !secret latitude
     longitude: !secret longitude
 
-# Show links to resources in log and frontend
-introduction:
-
 # Enables the frontend
 frontend:
 
@@ -99,3 +96,5 @@ tts:
 ##Includes
 zone: !include_dir_list zones
 sensor: !include sensor.yaml
+switch: !include switch.yaml
+light: !include light.yaml
