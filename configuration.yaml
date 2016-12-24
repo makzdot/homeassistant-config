@@ -87,7 +87,7 @@ media_player:
     port: 55000
     name: Woonkamer TV
     timeout: 2
-  - platform: plex
+#  - platform: plex
 
 # Text to speech
 tts:
