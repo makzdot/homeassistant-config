@@ -1,17 +1,17 @@
-#default_view:
-#  view: yes
-#  icon: mdi:home
-#  entities:
-#    - group.personen
-#    - group.scenes
-#    - group.woonkamer
-#    - group.verlichting_slaapkamer_max
-#    - group.verlichting_slaapkamer_noeri
-#    - group.verlichting_badkamer
-#    - camera.woonkamer
-#    - media_player.woonkamer_tv
-#    - media_player.woonkamer
-#    - updater.updater
+default_view:
+  view: yes
+  icon: mdi:home
+  entities:
+    - group.personen
+    - group.scenes
+    - group.woonkamer
+    - group.verlichting_slaapkamer_max
+    - group.verlichting_slaapkamer_noeri
+    - group.verlichting_badkamer
+    - camera.woonkamer
+    - media_player.woonkamer_tv
+    - media_player.woonkamer
+    - updater.updater
 
 Verlichting:
   name: Verlichting
