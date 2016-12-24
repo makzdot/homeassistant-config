@@ -40,6 +40,9 @@ conversation:
 # Enables support for tracking state changes over time.
 history:
 
+influxdb:
+  host: xavier.makz.lan
+
 # View all events in a logbook
 logbook:
 
