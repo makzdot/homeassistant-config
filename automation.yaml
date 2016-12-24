@@ -54,7 +54,7 @@
     entity_id: group.schoonmakers
     to: 'home'
   condition:
-    condition: or
+    condition: and
     conditions:
     - condition: time
       after: "09:00:00"
