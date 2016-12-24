@@ -33,7 +33,7 @@
   condition:
     condition: sun
     after: sunset
-    offset: "-01:20:00"
+    after_offset: "-01:20:00"
   action:
       service: scene.turn_on
       entity_id: scene.livingroom_normal
