@@ -27,7 +27,7 @@
 - alias: 'Licht aan bij thuiskomst'
   trigger:
     platform: zone
-    entity_id: device_tracker.makzdot_maxiphone6
+    entity_id: group.personen
     zone: zone.home
     event: enter
   condition:
@@ -41,7 +41,7 @@
 - alias: 'Away'
   trigger:
     - platform: zone
-      entity_id: device_tracker.makzdot_maxiphone6
+      entity_id: group.personen
       zone: zone.home
       event: leave
   action:
@@ -63,8 +63,6 @@
       - wed
       - thu
       - fri
-      - sat
-      - sun
   action:
       service: scene.turn_on
       entity_id: scene.schoonmaken
