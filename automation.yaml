@@ -93,8 +93,6 @@
         - wed
         - thu
         - fri
-        - sat
-        - sun
     - condition: state
       entity_id: group.personen
       state: 'not_home'
