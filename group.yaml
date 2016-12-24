@@ -146,6 +146,7 @@ Woonkamer:
   - light.schemerlampen
   - light.keuken
   - light.plafoniere
+  - light.eettafel
   - switch.switch1
   - switch.main_switch
   - switch.zonnescherm
