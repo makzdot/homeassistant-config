@@ -60,7 +60,7 @@ media:
 cameras:
   name: Cameras
   view: yes
-  icon: mdi:camera
+  icon: mdi:video
   entities:
     - camera.woonkamer
 
