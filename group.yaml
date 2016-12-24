@@ -42,6 +42,7 @@ sensors:
     - group.weer
     - group.klimaat_woonkamer
     - group.personen
+    - group.schoonmakers
     - group.devices
     - group.have_i_been_pwned
 
