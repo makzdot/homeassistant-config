@@ -64,6 +64,8 @@
       - wed
       - thu
       - fri
+      - sat
+      - sun
   action:
       service: scene.turn_on
       entity_id: scene.schoonmaken

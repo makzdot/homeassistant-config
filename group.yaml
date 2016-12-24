@@ -71,6 +71,8 @@ Personen:
 Schoonmakers:
   - device_tracker.74a528a5844b
   - device_tracker.74a528a58562
+  #Test met tablet
+  - device_tracker.4c21d01b63fc
 
 Klimaat Woonkamer:
   - sensor.living_room_thermostat_thermostaat_temperature
