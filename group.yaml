@@ -30,7 +30,7 @@ automation:
   view: yes
   icon: mdi:robot
   entities:
-    - group.automation
+    - group.automation_rules
 
 sensors:
   name: Sensors
