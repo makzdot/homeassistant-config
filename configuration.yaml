@@ -99,5 +99,5 @@ sensor: !include sensor.yaml
 switch: !include switch.yaml
 light: !include light.yaml
 #group: !include group.yaml
-#scene: !include_dir_list scenes
+scene: !include_dir_list scenes
 
