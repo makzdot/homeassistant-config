@@ -1,0 +1,40 @@
+- platform: yr
+
+- platform: plex
+  name: Plex Spy
+  host: rogue.makz.lan
+  port: 32400
+  username: !secret prive_email
+  password: !secret plex_password
+  server: MaxFlix
+
+- platform: rfxtrx
+  automatic_add: False
+
+- platform: nest
+  monitored_conditions:
+    - 'temperature'
+    - 'humidity'
+    - 'target'
+    - 'operation_mode'
+    - 'weather_temperature'
+    - 'weather_humidity'
+    - 'weather_condition'
+
+- platform: mqtt
+  state_topic: "owntracks/makzdot/maxiphone6"
+  name: "Battery MaxiPhone6"
+  unit_of_measurement: "%"
+  value_template: '{{ value_json.batt }}'
+
+- platform: mqtt
+  state_topic: "owntracks/makzdot/maxiphone5"
+  name: "Battery MaxiPhone5"
+  unit_of_measurement: "%"
+  value_template: '{{ value_json.batt }}'
+
+- platform: haveibeenpwned
+  email: 
+    - !secret prive_email
+    - !secret prive_email2
+    - !secret work_email
