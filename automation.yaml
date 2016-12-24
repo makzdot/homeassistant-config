@@ -51,7 +51,7 @@
 - alias: 'Licht aan voor schoonmaker'
   trigger:
     platform: state
-    entity_id: device_tracker.4c21d01b63fc
+    entity_id: group.schoonmakers
     to: 'home'
   condition:
     condition: time
