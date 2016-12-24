@@ -23,8 +23,6 @@ frontend:
 
 http:
   api_password: !secret api_password
-  # Uncomment this to add a password (recommended!)
-  # api_password: PASSWORD
   # Uncomment this if you are using SSL or running in Docker etc
   # base_url: example.duckdns.org:8123
 
@@ -61,9 +59,9 @@ nest:
   client_secret: !secret nest_client_secret
 
 device_tracker:
-#  - platform: owntracks
-#    max_gps_accuracy: 150
-#    waypoints: True
+  - platform: owntracks
+    max_gps_accuracy: 150
+    waypoints: True
   - platform: snmp
     host: pfsense.makz.lan
     community: !secret router_snmp_communicty
@@ -90,7 +88,7 @@ media_player:
     port: 55000
     name: Woonkamer TV
     timeout: 2
-#  - platform: plex
+  - platform: plex
 
 # Text to speech
 tts:

@@ -1,12 +1,12 @@
 - platform: yr
 
-#- platform: plex
-#  name: Plex Spy
-#  host: rogue.makz.lan
-#  port: 32400
-#  username: !secret prive_email
-#  password: !secret plex_password
-#  server: MaxFlix
+- platform: plex
+  name: Plex Spy
+  host: rogue.makz.lan
+  port: 32400
+  username: !secret prive_email
+  password: !secret plex_password
+  server: MaxFlix
 
 - platform: rfxtrx
   automatic_add: False
