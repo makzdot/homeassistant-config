@@ -53,7 +53,7 @@ nest:
   client_id: !secret nest_client_id
   client_secret: !secret nest_client_secret
 
-#device_tracker:
+device_tracker:
 #  - platform: owntracks
 #    max_gps_accuracy: 150
 #    waypoints: True
