@@ -48,7 +48,7 @@
     service: scene.turn_on
     entity_id: scene.away
 
-- alias: 'Licht aan voor schoonmaker'
+- alias: 'Licht uit voor schoonmaker'
   trigger:
     platform: state
     entity_id: group.schoonmakers
