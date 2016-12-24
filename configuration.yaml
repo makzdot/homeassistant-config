@@ -100,4 +100,5 @@ switch: !include switch.yaml
 light: !include light.yaml
 group: !include group.yaml
 scene: !include_dir_list scenes
+automation: !include automation.yaml
 
