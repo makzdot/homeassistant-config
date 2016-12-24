@@ -1,0 +1,7 @@
+    device_tracker.makzdot_maxiphone5:
+      friendly_name: 'Max Mudde iPhone 5'
+    device_tracker.makzdot_maxiphone6:
+      friendly_name: 'Max Mudde iPhone 6'
+    switch.switch1:
+      friendly_name: 'Spots woonkamer'
+      icon: mdi:lightbulb
