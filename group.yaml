@@ -135,6 +135,7 @@ Automation rules:
   - automation.media_player_playing
   - automation.media_player_pausedstopped
   - automation.licht_aan_bij_thuiskomst
+  - automation.licht_aan_voor_schoonmaker
   - automation.away
 
 Automation On Demand:
