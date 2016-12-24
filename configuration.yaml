@@ -66,6 +66,25 @@ rfxtrx:
   device: /dev/serial/by-id/usb-RFXCOM_RFXtrx433_A1EMJ0H-if00-port0
   debug: False
 
+climate:
+  platform: nest
+
+camera:
+  platform: foscam
+  ip: ipcam-woonkamer.makz.lan
+  name: Woonkamer
+  port: 80
+  username: !secret foscam_username
+  password: !secret foscam_password
+
+media_player:
+  - platform: samsungtv
+    host: 172.19.11.165
+    port: 55000
+    name: Woonkamer TV
+    timeout: 2
+  - platform: plex
+
 # Weather Prediction
 sensor: !include sensor.yaml
 
