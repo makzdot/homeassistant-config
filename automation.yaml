@@ -47,3 +47,23 @@
   action:
     service: scene.turn_on
     entity_id: scene.away
+
+- alias: 'Licht aan voor schoonmaker'
+  trigger:
+    platform: zone
+    entity_id: group.schoonmakers
+    zone: zone.home
+    event: enter
+  condition:
+    condition: time
+    after: "09:00:00"
+    before: "17:30:00"
+    weekday:
+      - mon
+      - tue
+      - wed
+      - thu
+      - fri
+  action:
+      service: scene.turn_on
+      entity_id: scene.livingroom_normal
