@@ -146,7 +146,7 @@ Woonkamer:
   - switch.main_switch
   - switch.zonnescherm
 
-#Have I Been PWNED:
+Have I Been PWNED:
   - sensor.breaches_maxmuddegmailcom
   - sensor.breaches_makzdotoutlookcom
   - sensor.breaches_maxmuddesurfnetnl
