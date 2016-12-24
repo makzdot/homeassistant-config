@@ -1,0 +1,18 @@
+- platform: rfxtrx
+  automatic_add: false
+  devices:
+    0b110000011acf1604010f70:
+      name: Zonnescherm
+    0b11000b011acf1609010f70:
+      name: Main Switch
+      fire_event: True
+
+- platform: mqtt
+  name: "switch1"
+  state_topic: "ha/switch1"
+  command_topic: "ha/switch1"
+  qos: 0
+  payload_on: "ON"
+  payload_off: "OFF"
+  optimistic: false
+  retain: true
