@@ -51,7 +51,7 @@
 - alias: 'Licht aan voor schoonmaker'
   trigger:
     platform: zone
-    entity_id: group.schoonmakers
+    entity_id: device_tracker.4c21d01b63fc
     zone: zone.home
     event: enter
 #  condition:
