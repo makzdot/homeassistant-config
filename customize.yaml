@@ -16,3 +16,17 @@
       friendly_name: 'Doeltemperatuur binnen'
     sensor.living_room_thermostat_thermostaat_temperature:
       friendly_name: 'Temperatuur binnen'
+    binary_sensor.living_room_thermostat_thermostaat_fan:
+      friendly_name: 'Ventilator'
+      icon: mdi:fan
+    binary_sensor.living_room_thermostat_thermostaat_has_leaf:
+      friendly_name: 'Blaadje'
+      icon: mdi:leaf
+    binary_sensor.living_room_thermostat_thermostaat_is_locked:
+      friendly_name: 'Gelocked'
+      icon: mdi:lock
+    binary_sensor.living_room_thermostat_thermostaat_is_using_emergency_heat:
+      friendly_name: 'Noodwarmte'
+    binary_sensor.living_room_thermostat_thermostaat_online:
+      friendly_name: 'Online'
+      icon: mdi:power-plug
