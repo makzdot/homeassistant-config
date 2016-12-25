@@ -1,11 +1,11 @@
 - alias: 'Away'
   trigger:
-    - platform: state
-      entity_id: group.all_tracked
-      from: 'home'
+    platform: state
+    entity_id: group.all_tracked
+    from: 'home'
   action:
-    - service: scene.turn_on
-      entity_id: scene.away
+    service: scene.turn_on
+    entity_id: scene.away
 #    - service: notify.telegram
 #      data:
 #        message: House is in away mode!
