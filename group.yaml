@@ -64,7 +64,6 @@ cameras:
   view: yes
   icon: mdi:video
   entities:
-    - camera.woonkamer
     - camera.ipcamwoonkamer
 
 ##########################################

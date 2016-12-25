@@ -76,12 +76,6 @@ climate:
   platform: nest
 
 camera:
-  - platform: foscam
-    ip: ipcam-woonkamer.makz.lan
-    name: Woonkamer
-    port: 80
-    username: !secret foscam_username
-    password: !secret foscam_password
   - platform: synology
     url: http://wolverine.makz.lan:5000
     username: !secret synology_username
