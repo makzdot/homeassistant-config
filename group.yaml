@@ -65,6 +65,7 @@ cameras:
   icon: mdi:video
   entities:
     - camera.woonkamer
+    - camera.ipcamwoonkamer
 
 ##########################################
 # Groepen (Tabellen op pagina's)
