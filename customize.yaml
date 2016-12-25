@@ -1,8 +1,8 @@
 ## Devices
     device_tracker.makzdot_maxiphone5:
-      friendly_name: 'Max Mudde iPhone 5'
+      friendly_name: 'iPhone 5 van Max'
     device_tracker.makzdot_maxiphone6:
-      friendly_name: 'Max Mudde iPhone 6'
+      friendly_name: 'iPhone 6 van Max'
 
 ## Lights and switches
     switch.switch1:
