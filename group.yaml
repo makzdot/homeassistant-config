@@ -53,7 +53,7 @@ media:
   view: yes
   icon: mdi:play-circle-outline
   entities:
-    - group.multi_media
+    - sensor.plex_spy
     - media_player.woonkamer_tv
     - media_player.woonkamer
     - media_player.xperia_van_max
@@ -117,7 +117,6 @@ Verlichting Woonkamer:
   - switch.main_switch
   - light.eettafel
 
-
 Scenes:
   - scene.livingroom_normal
   - scene.livingroom_dim
@@ -138,11 +137,6 @@ Verlichting Badkamer:
 
 Zonwering:
   - switch.zonnescherm
-
-Multi Media:
-  #- media_player.woonkamer_tv
-  #- media_player.woonkamer
-  - sensor.plex_spy
 
 Automation rules:
   - automation.licht_aan_bij_thuiskomst
