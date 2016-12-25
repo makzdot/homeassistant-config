@@ -77,6 +77,10 @@ Schoonmakers:
   - device_tracker.74a528a5844b
   - device_tracker.74a528a58562
 
+All tracked:
+  - group.personen
+  - group.schoonmakers
+
 Alle apparaten:
   - device_tracker.makzdot_maxiphone6
   - device_tracker.makzdot_maxiphone5
@@ -84,6 +88,10 @@ Alle apparaten:
   - device_tracker.4c21d01b63fc
   - device_tracker.74a528a5844b
   - device_tracker.74a528a58562
+
+Devices:
+  - sensor.battery_maxiphone6
+  - sensor.battery_maxiphone5
 
 Klimaat Woonkamer:
   - sensor.living_room_thermostat_thermostaat_temperature
@@ -104,10 +112,6 @@ Weer:
 
 Camera:
   - camera.woonkamer
-
-Devices:
-  - sensor.battery_maxiphone6
-  - sensor.battery_maxiphone5
 
 Verlichting Woonkamer:
   - light.schemerlampen
