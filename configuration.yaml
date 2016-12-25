@@ -76,10 +76,10 @@ climate:
   platform: nest
 
 camera:
-  - platform: synology
-    url: http://wolverine.makz.lan:5000
-    username: !secret synology_username
-    password: !secret synology_password
+  platform: synology
+  url: http://wolverine.makz.lan:5000
+  username: !secret synology_username
+  password: !secret synology_password
 
 media_player:
   - platform: samsungtv
