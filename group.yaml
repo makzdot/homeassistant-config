@@ -44,7 +44,7 @@ sensors:
     - group.klimaat_woonkamer
     - group.personen
     - group.schoonmakers
-    - group.all_devices
+    - group.alle_apparaten
     - group.devices
     - group.have_i_been_pwned
 
@@ -77,7 +77,7 @@ Schoonmakers:
   - device_tracker.74a528a5844b
   - device_tracker.74a528a58562
 
-All devices:
+Alle apparaten:
   - device_tracker.makzdot_maxiphone6
   - device_tracker.makzdot_maxiphone5
   - device_tracker.acbc32cbfd29
