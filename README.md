@@ -22,3 +22,4 @@ My home automation is currenty running on a Ubuntu linux server running in a doc
 ### Mediaplayers
 - Plex
 - Samsung TV
+
