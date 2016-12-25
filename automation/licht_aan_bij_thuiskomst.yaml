@@ -5,12 +5,9 @@
     from: 'not_home'
     to: 'home'
   condition:
-    condition: and
-    conditions:
-      - condition: sun
-        after: sunset
-      # Optional offset value
-        after_offset: "-1:00:00"
+    condition: state
+    entity_id: sun.sun
+    state: 'below_horizon'
   action:
     service: scene.turn_on
     entity_id: scene.livingroom_normal
