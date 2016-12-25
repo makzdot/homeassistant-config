@@ -1,9 +1,14 @@
 - alias: 'Away'
   trigger:
-    - platform: zone
+    - platform: state
       entity_id: group.personen
-      zone: zone.home
-      event: leave
+      from: 'home'
+  condition:
+    condition: and
+    conditions:
+    - condition: state
+      entity_id: group.schoonmakers
+      state: 'not_home'
   action:
     service: scene.turn_on
     entity_id: scene.away
