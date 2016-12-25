@@ -12,7 +12,7 @@ default_view:
     - group.verlichting_slaapkamer_max
     - group.verlichting_slaapkamer_noeri
     - group.verlichting_badkamer
-    - camera.woonkamer
+    - camera.ipcamwoonkamer
     - media_player.woonkamer_tv
     - media_player.woonkamer
     - updater.updater
