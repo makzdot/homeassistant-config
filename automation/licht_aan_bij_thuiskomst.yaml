@@ -3,10 +3,11 @@
     platform: state
     entity_id: group.personen
     to: 'home'
+    from: 'not_home'
   condition:
     condition: sun
     after: sunset
     after_offset: "-01:20:00"
   action:
-      service: scene.turn_on
-      entity_id: scene.livingroom_normal
+    service: scene.turn_on
+    entity_id: scene.livingroom_normal
