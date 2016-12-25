@@ -28,13 +28,6 @@ verlichting:
     - group.verlichting_badkamer
     - group.scenes
 
-automation:
-  name: Automation
-  view: yes
-  icon: mdi:robot
-  entities:
-    - group.automation_rules
-
 sensors:
   name: Sensors
   view: yes
@@ -47,6 +40,13 @@ sensors:
     - group.alle_apparaten
     - group.devices
     - group.have_i_been_pwned
+
+automation:
+  name: Automation
+  view: yes
+  icon: mdi:robot
+  entities:
+    - group.automation_rules
 
 media:
   name: Media
