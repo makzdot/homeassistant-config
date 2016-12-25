@@ -1,9 +1,8 @@
 - alias: 'Licht aan bij thuiskomst'
   trigger:
-    platform: zone
+    platform: state
     entity_id: group.personen
-    zone: zone.home
-    event: enter
+    to: home
   condition:
     condition: sun
     after: sunset
