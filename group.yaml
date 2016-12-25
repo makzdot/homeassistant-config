@@ -1,3 +1,7 @@
+##########################################
+# Homepage en subpagina's
+##########################################
+
 default_view:
   view: yes
   icon: mdi:home
@@ -13,7 +17,7 @@ default_view:
     - media_player.woonkamer
     - updater.updater
 
-Verlichting:
+verlichting:
   name: Verlichting
   view: yes
   icon: mdi:lightbulb-outline
@@ -61,6 +65,10 @@ cameras:
   icon: mdi:video
   entities:
     - camera.woonkamer
+
+##########################################
+# Groepen (Tabellen op pagina's)
+##########################################
 
 Personen:
   - device_tracker.makzdot_maxiphone6
