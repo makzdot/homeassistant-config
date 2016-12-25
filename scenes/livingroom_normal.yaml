@@ -8,7 +8,7 @@
       brightness: 250
     light.eettafel:
       state: on
-      brightness: 60
+      brightness: 50
       color_temp: 167
       rgb_color: [126,126,126]
       transition: 10
