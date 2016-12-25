@@ -2,7 +2,7 @@
   trigger:
     platform: state
     entity_id: group.personen
-    to: home
+    to: 'home'
   condition:
     condition: sun
     after: sunset
