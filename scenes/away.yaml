@@ -2,4 +2,4 @@
   entities:
     group.all_lights: off
     group.all_switches: off
-    group.media: off
+    #group.media: off
