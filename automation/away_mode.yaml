@@ -1,0 +1,9 @@
+- alias: 'Away'
+  trigger:
+    - platform: zone
+      entity_id: group.personen
+      zone: zone.home
+      event: leave
+  action:
+    service: scene.turn_on
+    entity_id: scene.away

@@ -1,0 +1,13 @@
+- alias: 'Licht aan bij thuiskomst'
+  trigger:
+    platform: zone
+    entity_id: group.personen
+    zone: zone.home
+    event: enter
+  condition:
+    condition: sun
+    after: sunset
+    after_offset: "-01:20:00"
+  action:
+      service: scene.turn_on
+      entity_id: scene.livingroom_normal

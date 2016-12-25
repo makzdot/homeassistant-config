@@ -1,0 +1,14 @@
+- alias: 'Licht uit voor schoonmaker'
+  trigger:
+    platform: state
+    entity_id: group.schoonmakers
+    from: 'home'
+  condition:
+    condition: and
+    conditions:
+    - condition: state
+      entity_id: group.personen
+      state: 'not_home'
+  action:
+    service: scene.turn_on
+    entity_id: scene.away
