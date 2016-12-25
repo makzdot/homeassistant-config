@@ -51,7 +51,7 @@ sun:
 mqtt:
   broker: rogue.makz.lan
   port: 1883
-  client_id: home-assistant-1
+  client_id: home-assistant
   username: !secret mqtt_username
   password: !secret mqtt_password
 
