@@ -38,6 +38,7 @@ conversation:
 # Enables support for tracking state changes over time.
 history:
 
+# Enable suport for logging to influxdb
 influxdb:
   host: xavier.makz.lan
 
@@ -101,5 +102,5 @@ switch: !include switch.yaml
 light: !include light.yaml
 group: !include group.yaml
 scene: !include_dir_list scenes
-automation: !include automation.yaml
+automation: !include_dir_list automation
 
