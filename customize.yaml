@@ -1,11 +1,15 @@
+## Devices
     device_tracker.makzdot_maxiphone5:
       friendly_name: 'Max Mudde iPhone 5'
     device_tracker.makzdot_maxiphone6:
       friendly_name: 'Max Mudde iPhone 6'
+
+## Lights and switches
     switch.switch1:
       friendly_name: 'Spots woonkamer'
       icon: mdi:lightbulb
 
+## Nest Thermostaat
     sensor.living_room_thermostat_thermostaat_humidity:
       friendly_name: 'Luchtvochtigheid binnen'
     sensor.living_room_thermostat_thermostaat_hvac_state:
