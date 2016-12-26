@@ -8,7 +8,7 @@
       brightness: 20
     light.keuken:
       state: on
-      brightness: 8
+      brightness: 5
     switch.switch1:
       state: on
     light.eettafel:
