@@ -2,4 +2,4 @@
   entities:
     group.all_lights: off
     group.all_switches: off
-    group.media: off
+    media_player.woonkamer_tv: off
