@@ -4,7 +4,7 @@
       state: on
       brightness: 20
     light.plafoniere:
-      state: on
+      state: off
       brightness: 20
     light.keuken:
       state: on
@@ -16,6 +16,4 @@
       brightness: 10
       color_temp: 167
       rgb_color: [126,126,126]
-      transition: 10
-
-
+      transition: 5
