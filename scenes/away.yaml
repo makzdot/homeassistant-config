@@ -3,3 +3,4 @@
     group.all_lights: off
     group.all_switches: off
     media_player.woonkamer_tv: off
+    media_player.woonkamer: paused
