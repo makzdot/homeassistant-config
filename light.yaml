@@ -19,7 +19,7 @@
     0b1100010131a3ce0a010f60:
       name: Badkamer
 
-#lifx lampen
+#lifx lampen broadcast voor automatische discovery
 - platform: lifx
   broadcast: 172.19.11.255
 
