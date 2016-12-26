@@ -38,6 +38,7 @@ sensors:
     - group.personen
     - group.schoonmakers
     - group.alle_apparaten
+    - group.all_tracked
     - group.devices
     - group.have_i_been_pwned
 
