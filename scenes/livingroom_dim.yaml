@@ -4,7 +4,7 @@
       state: on
       brightness: 20
     light.plafoniere:
-      state: off
+      state: off\
     light.keuken:
       state: on
       brightness: 5
