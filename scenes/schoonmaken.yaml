@@ -9,7 +9,7 @@
       state: on
     light.plafoniere:
       state: on
-      brightness: 150
+      brightness: 250
     light.plafoniere_max:
       state: on
       brightness: 255
