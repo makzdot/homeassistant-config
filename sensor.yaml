@@ -37,4 +37,11 @@
   email: 
     - !secret prive_email
     - !secret prive_email2
-    - !secret work_email
+    - !secret work_emailA
+
+- platform: speedtest
+  monitored_conditions:
+    - ping
+    - download
+    - upload
+    
