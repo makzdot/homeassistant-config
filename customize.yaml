@@ -50,3 +50,10 @@
     binary_sensor.living_room_thermostat_thermostaat_online:
       friendly_name: 'Online'
       icon: mdi:power-plug
+
+    scene.away:
+      friendly_name: 'Afwezig'
+    scene.livingroom_dim:
+      friendly_name: 'Bioscoopverlichting'
+    scene.livingroom_normal: 
+      friendly_name: 'Sfeerverlichting'
