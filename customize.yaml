@@ -1,10 +1,18 @@
 ## Devices
     device_tracker.makzdot_maxiphone5:
       friendly_name: 'iPhone 5 van Max'
+      icon: mdi:cellphone-iphone
     device_tracker.makzdot_maxiphone6:
       friendly_name: 'iPhone 6 van Max'
     device_tracker.makzdot_tablet_max:
       friendly_name: 'Tablet van Max'
+      icon: mdi:tablet-android
+    device_tracker.74a528a5844b:
+      friendly_name: 'Dagmar'
+      icon: mdi:human-female
+    device_tracker.74a528a58562:
+      friendly_name: 'Ingeborg'
+      icon: mdi:human-female
 
 ## Lights and switches
     switch.switch1:
