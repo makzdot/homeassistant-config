@@ -4,6 +4,7 @@
       icon: mdi:cellphone-iphone
     device_tracker.makzdot_maxiphone6:
       friendly_name: 'iPhone 6 van Max'
+      icon: mdi:cellphone-iphone
     device_tracker.makzdot_tablet_max:
       friendly_name: 'Tablet van Max'
       icon: mdi:tablet-android
@@ -23,6 +24,8 @@
       icon: mdi:lightbulb
 
 ## Nest Thermostaat
+    climate.living_room_thermostaat:
+      friendly_name: 'Thermostaat'
     sensor.living_room_thermostat_thermostaat_humidity:
       friendly_name: 'Luchtvochtigheid binnen'
     sensor.living_room_thermostat_thermostaat_hvac_state:
