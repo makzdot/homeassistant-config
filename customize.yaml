@@ -7,6 +7,9 @@
     device_tracker.makzdot_tablet_max:
       friendly_name: 'Tablet van Max'
       icon: mdi:tablet-android
+    device_tracker.acbc32cbfd29:
+      friendly_name: 'MacBook Pro van Max'
+      icon: mdi:laptop-mac
     device_tracker.74a528a5844b:
       friendly_name: 'Dagmar'
       icon: mdi:human-female
