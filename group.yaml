@@ -41,6 +41,7 @@ sensors:
     - group.all_tracked
     - group.devices
     - group.have_i_been_pwned
+    - group.speedtest
 
 automation:
   name: Automation
@@ -167,3 +168,8 @@ Have I Been PWNED:
   - sensor.breaches_maxmuddegmailcom
   - sensor.breaches_makzdotoutlookcom
   - sensor.breaches_maxmuddesurfnetnl
+
+Speedtest:
+  - sensor.speedtest_download
+  - sensor.speedtest_upload
+  - sensor.speedtest_ping
