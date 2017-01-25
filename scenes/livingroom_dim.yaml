@@ -7,7 +7,7 @@
       state: off
     light.keuken:
       state: on
-      brightness: 5
+      brightness: 3
     switch.switch1:
       state: on
     light.eettafel:
