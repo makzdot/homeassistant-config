@@ -1,7 +1,7 @@
 - alias: "Media player paused/stopped"
   trigger:
     - platform: state
-      entity_id: media_player.woonkamer
+      entity_id: media_player.apple_tv
       from: 'playing'
   condition:
     - condition: state
