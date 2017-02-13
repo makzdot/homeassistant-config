@@ -76,7 +76,7 @@ device_tracker:
     baseoid: 1.3.6.1.2.1.4.22.1.2
 
 rfxtrx:
-  device: /dev/serial/by-id/usb-RFXCOM_RFXtrx433_A1EMJ0H-if00-port0
+  device: /dev/ttyUSB0
   debug: False
 
 climate:
