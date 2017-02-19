@@ -23,6 +23,9 @@ frontend:
 
 http:
   api_password: !secret api_password
+  use_x_forwarded_for: True
+  login_attempts_threshold: 3
+  ip_ban_enabled: True
   # Uncomment this if you are using SSL or running in Docker etc
   # base_url: example.duckdns.org:8123
 
