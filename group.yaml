@@ -2,22 +2,22 @@
 # Homepage en subpagina's
 ##########################################
 
-#default_view:
-#  view: yes
-#  icon: mdi:home
-#  entities:
-#    - group.personen
-#    - group.scenes
-#    - group.woonkamer
-#    - group.verlichting_slaapkamer_max
-#    - group.verlichting_slaapkamer_noeri
-#    - group.verlichting_badkamer
-#    - group.verlichting_hal
-#    - camera.ipcamwoonkamer
-#    - media_player.apple_tv
-#    - media_player.woonkamer_tv
-#    - media_player.woonkamer
-#    - updater.updater
+default_view:
+  view: yes
+  icon: mdi:home
+  entities:
+    - group.personen
+    - group.scenes
+    - group.woonkamer
+    - group.verlichting_slaapkamer_max
+    - group.verlichting_slaapkamer_noeri
+    - group.verlichting_badkamer
+    - group.verlichting_hal
+    - camera.ipcamwoonkamer
+    - media_player.apple_tv
+    - media_player.woonkamer_tv
+    - media_player.woonkamer
+    - updater.updater
 
 verlichting:
   name: Verlichting
