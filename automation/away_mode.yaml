@@ -5,8 +5,9 @@
     from: 'home'
     to: 'not_home'
   action:
-    service: scene.turn_on
-    entity_id: scene.away
-#    - service: notify.telegram
-#      data:
-#        message: House is in away mode!
+    - service: scene.turn_on
+      entity_id: scene.away
+    - service: climate.set_away_mode
+      data:
+        entity_id: climate.living_room_thermostaat
+        away_mode: 'off'
