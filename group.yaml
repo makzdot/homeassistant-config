@@ -18,6 +18,7 @@ default_view:
     - media_player.woonkamer_tv
 #    - media_player.woonkamer
     - updater.updater
+    - climate.set_away_mode
 
 verlichting:
   name: Verlichting
