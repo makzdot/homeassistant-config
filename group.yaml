@@ -135,7 +135,7 @@ Scenes:
 
 Verlichting Slaapkamer Max:
   - light.plafoniere_max
-  - light.schemerlamp_max 
+  - light.schemerlamp_max
 
 Verlichting Slaapkamer Noeri:
   - light.schemerlamp_noeri
@@ -148,13 +148,14 @@ Zonwering:
   - switch.zonnescherm
 
 Automation rules:
-  - automation.licht_aan_bij_thuiskomst
-  - automation.licht_aan_in_de_avond
-  - automation.licht_aan_voor_schoonmaker
-  - automation.licht_uit_voor_schoonmaker
-  - automation.media_player_playing
-  - automation.media_player_pausedstopped
-  - automation.away
+  - group.all_automations
+#  - automation.licht_aan_bij_thuiskomst
+#  - automation.licht_aan_in_de_avond
+#  - automation.licht_aan_voor_schoonmaker
+#  - automation.licht_uit_voor_schoonmaker
+#  - automation.media_player_playing
+#  - automation.media_player_pausedstopped
+#  - automation.away
 
 Woonkamer:
   - climate.living_room_thermostaat
