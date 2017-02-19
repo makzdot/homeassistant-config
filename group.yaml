@@ -15,7 +15,7 @@ default_view:
     - camera.ipcamwoonkamer
     - media_player.apple_tv
     - media_player.woonkamer_tv
-    - media_player.woonkamer
+#    - media_player.woonkamer
     - updater.updater
 
 verlichting:
