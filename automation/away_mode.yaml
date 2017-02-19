@@ -10,4 +10,4 @@
     - service: climate.set_away_mode
       data:
         entity_id: climate.living_room_thermostaat
-        away_mode: 'on'
+        away_mode: true
