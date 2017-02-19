@@ -149,13 +149,15 @@ Zonwering:
 
 Automation rules:
   - group.all_automations
-#  - automation.licht_aan_bij_thuiskomst
-#  - automation.licht_aan_in_de_avond
-#  - automation.licht_aan_voor_schoonmaker
-#  - automation.licht_uit_voor_schoonmaker
-#  - automation.media_player_playing
-#  - automation.media_player_pausedstopped
-#  - automation.away
+  - automation.licht_aan_met_afstandsbediening
+  - automation.licht_uit_met_afstandsbediening
+  - automation.licht_aan_bij_thuiskomst
+  - automation.licht_aan_in_de_avond
+  - automation.licht_aan_voor_schoonmaker
+  - automation.licht_uit_voor_schoonmaker
+  - automation.media_player_playing
+  - automation.media_player_pausedstopped
+  - automation.away
 
 Woonkamer:
   - climate.living_room_thermostaat
