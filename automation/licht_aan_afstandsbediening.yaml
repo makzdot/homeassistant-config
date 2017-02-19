@@ -1,0 +1,19 @@
+- alias: 'Licht aan met afstandsbediening'
+  trigger:
+    platform: state
+    entity_id: switch.main_switch
+    from: 'off'
+    to: 'on'
+  action:
+    service: scene.turn_on
+    entity_id: scene.livingroom_normal
+
+- alias: 'Licht uit met afstandsbediening'
+  trigger:
+    platform: state
+    entity_id: switch.main_switch
+    from: 'on'
+    to: 'off'
+  action:
+    service: scene.turn_on
+    entity_id: scene.alle_lichten_uit
