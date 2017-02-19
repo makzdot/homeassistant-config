@@ -12,6 +12,7 @@ default_view:
     - group.verlichting_slaapkamer_max
     - group.verlichting_slaapkamer_noeri
     - group.verlichting_badkamer
+    - group.verlichting_hal
     - camera.ipcamwoonkamer
     - media_player.apple_tv
     - media_player.woonkamer_tv
@@ -27,6 +28,7 @@ verlichting:
     - group.verlichting_slaapkamer_max
     - group.verlichting_slaapkamer_noeri
     - group.verlichting_badkamer
+    - group.verlichting_hal
     - group.scenes
 
 sensors:
@@ -143,6 +145,9 @@ Verlichting Slaapkamer Noeri:
 
 Verlichting Badkamer:
   - light.badkamer
+
+Verlichting Hal:
+  - light.hal
 
 Zonwering:
   - switch.zonnescherm
