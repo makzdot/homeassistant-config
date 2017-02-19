@@ -19,6 +19,9 @@
     light.badkamer:
       state: on
       brightness: 255
+    light.hal:
+      state: on
+      brightness: 255
     light.eettafel:
       state: on
       brightness: 160
