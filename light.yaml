@@ -1,6 +1,6 @@
 #klik aan klik uit verlichting
 - platform: rfxtrx
-  automatic_add: false
+  automatic_add: true
   devices:
     0b11000203f5682002000070:
       name: Keuken
@@ -15,7 +15,7 @@
     0b11000c011acf160d000070:
       name: Plafoniere Max
     0b11000e011acf160e010f50:
-      name: Schemerlampen 
+      name: Schemerlampen
     0b1100010131a3ce0a010f60:
       name: Badkamer
 
