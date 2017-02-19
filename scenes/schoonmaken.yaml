@@ -24,4 +24,5 @@
       brightness: 160
       color_temp: 167
       rgb_color: [126,126,126]
+    switch.main_switch: on
 
