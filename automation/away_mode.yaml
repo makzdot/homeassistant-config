@@ -11,3 +11,15 @@
       data:
         entity_id: climate.living_room_thermostaat
         away_mode: true
+
+- alias: 'Thermostaat uit Away mode bij thuiskomst'
+  trigger:
+    platform: state
+    entity_id: group.personen
+    from: 'not_home'
+    to: 'home'
+  action:
+    - service: climate.set_away_mode
+      data:
+        entity_id: climate.living_room_thermostaat
+        away_mode: false
