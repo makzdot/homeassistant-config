@@ -129,6 +129,10 @@ schoonmaak:
     - device_tracker.74a528a58562
     - device_tracker.74a528a5844b
 
+Alle apparaten:
+  entities:
+    - group.all_devices
+
 Weer:
   entities:
     - weather.openweathermap
