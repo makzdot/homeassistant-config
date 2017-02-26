@@ -13,6 +13,10 @@ verlichting:
   icon: mdi:lightbulb-outline
   entities:
     - group.verlichting_woonkamer
+    - group.verlichting_slaapkamer_max
+    - group.verlichting_slaapkamer_noeri
+    - group.verlichting_hal
+    - group.verlichting_badkamer
 
 sensors:
   name: Sensors
@@ -48,3 +52,17 @@ Verlichting Woonkamer:
   - light.schemerlampen
   - switch.switch1
   - light.eettafel
+
+Verlichting Slaapkamer Max:
+  - light.plafoniere_max
+  - light.schemerlamp_max
+
+Verlichting Slaapkamer Noeri:
+  - light.hanglamp_noeri
+  - light.schemerlamp_noeri
+
+Verlichting Hal:
+  - light.hal
+
+Verlichting Badkamer:
+  - light.badkamer
