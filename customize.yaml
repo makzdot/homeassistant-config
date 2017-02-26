@@ -13,10 +13,10 @@
       icon: mdi:laptop-mac
     device_tracker.74a528a5844b:
       friendly_name: 'Dagmar'
-      icon: mdi:human-female
+      icon: mdi:cellphone-android
     device_tracker.74a528a58562:
       friendly_name: 'Ingeborg'
-      icon: mdi:human-female
+      icon: mdi:cellphone-android
     device_tracker.makzdot_rikki_telefoon:
       friendly_name: 'Mam'
       icon: mdi:cellphone-android
