@@ -78,3 +78,7 @@ Mediaspelers Woonkamer:
     - media_player.apple_tv
     - media_player.woonkamer
     - media_player.woonkamer_tv
+
+Climaat beheersing Woonkamer:
+  entities:
+    - climate.living_room_thermostaat
