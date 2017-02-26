@@ -39,6 +39,7 @@ media:
   icon: mdi:play-circle-outline
   entities:
     - group.mediaspelers_woonkamer
+    - sensor.plex_spy
 
 cameras:
   name: Cameras
@@ -130,4 +131,9 @@ Weer:
     - weather.openweathermap
     - sensor.yr_symbol
     - sun.sun
+
+Speedtest:
+  entities:
+    - sensor.speedtest_download
+    - sensor.speedtest_upload
 
