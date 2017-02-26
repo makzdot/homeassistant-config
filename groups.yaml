@@ -25,6 +25,7 @@ sensors:
   entities:
     - group.personen
     - group.schoonmaak
+    - group.weer
 
 automation:
   name: Automation
@@ -123,3 +124,10 @@ schoonmaak:
   entities:
     - device_tracker.74a528a58562
     - device_tracker.74a528a5844b
+
+Weer:
+  entities:
+    - weather.openweathermap
+    - sensor.yr_symbol
+    - sun.sun
+
