@@ -6,6 +6,8 @@ default_view:
   view: yes
   icon: mdi:home
   entities:
+    - group.scenes
+    - group.klimaatbeheersing_woonkamer
     - group.verlichting_woonkamer
     - group.verlichting_slaapkamer_max
     - group.verlichting_slaapkamer_noeri
