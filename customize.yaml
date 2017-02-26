@@ -21,6 +21,11 @@
       friendly_name: 'Mam'
       icon: mdi:cellphone-android
 
+## Overig
+    sensor.plex_spy:
+      friendly_name: 'MaxFlix'
+      icon: mdi:play-circle-outline
+
 ## Lights and switches
     switch.switch1:
       friendly_name: 'Spots woonkamer'
