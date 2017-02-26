@@ -26,6 +26,7 @@ sensors:
     - group.personen
     - group.schoonmaak
     - group.weer
+    - group.alle_apparaten
 
 automation:
   name: Automation
