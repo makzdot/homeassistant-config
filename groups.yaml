@@ -39,7 +39,7 @@ media:
   icon: mdi:play-circle-outline
   entities:
     - group.mediaspelers_woonkamer
-    - sensor.plex_spy
+    - group.plex_server
 
 cameras:
   name: Cameras
@@ -136,4 +136,8 @@ Speedtest:
   entities:
     - sensor.speedtest_download
     - sensor.speedtest_upload
+
+Plex server:
+  entities:
+    - sensor.plex_spy
 
