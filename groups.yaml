@@ -32,7 +32,7 @@ automation:
   view: yes
   icon: mdi:robot
   entities:
-    group.all_automations
+    - group.automations
 
 media:
   name: Media
