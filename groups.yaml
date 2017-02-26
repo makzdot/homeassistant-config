@@ -2,9 +2,9 @@
 # Homepage en subpagina's
 ##########################################
 
-#default_view:
-#  view: yes
-#  icon: mdi:home
+default_view:
+  view: yes
+  icon: mdi:home
 
 verlichting:
   name: Verlichting
