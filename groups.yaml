@@ -2,10 +2,16 @@
 # Homepage en subpagina's
 ##########################################
 
-#default_view:
-#  view: yes
-#  icon: mdi:home
-#  entities:
+default_view:
+  view: yes
+  icon: mdi:home
+  entities:
+    - group.verlichting_woonkamer
+    - group.verlichting_slaapkamer_max
+    - group.verlichting_slaapkamer_noeri
+    - group.verlichting_hal
+    - group.verlichting_badkamer
+    - group.mediaspelers_woonkamer
 
 verlichting:
   name: Verlichting
@@ -159,3 +165,11 @@ Automations:
     - automation.media_player_playing
     - automation.media_player_pausedstopped
     - automation.away
+
+Scenes:
+  entities:
+    - scene.livingroom_normal
+    - scene.livingroom_dim
+    - scene.alle_lichten_uit
+    - scene.away
+    - scene.schoonmaken
