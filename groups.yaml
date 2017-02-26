@@ -122,7 +122,6 @@ personen:
     - device_tracker.makzdot_tablet_max
     - device_tracker.acbc32cbfd29 #macbookpro max
     - device_tracker.makzdot_rikki_telefoon
-    -
 
 schoonmaak:
   name: "Schoonmakers"
