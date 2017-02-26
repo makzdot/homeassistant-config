@@ -48,27 +48,33 @@ cameras:
 ##########################################
 
 Verlichting Woonkamer:
-  - light.keuken
-  - light.plafoniere
-  - light.schemerlampen
-  - switch.switch1
-  - light.eettafel
+  entities:
+    - light.keuken
+    - light.plafoniere
+    - light.schemerlampen
+    - switch.switch1
+    - light.eettafel
 
 Verlichting Slaapkamer Max:
-  - light.plafoniere_max
-  - light.schemerlamp_max
+  entities:
+    - light.plafoniere_max
+    - light.schemerlamp_max
 
 Verlichting Slaapkamer Noeri:
-  - light.hanglamp_noeri
-  - light.schemerlamp_noeri
+  entities:
+    - light.hanglamp_noeri
+    - light.schemerlamp_noeri
 
 Verlichting Hal:
-  - light.hal
+  entities:
+    - light.hal
 
 Verlichting Badkamer:
-  - light.badkamer
+  entities:
+    - light.badkamer
 
 Mediaspelers Woonkamer:
-  - media_player.apple_tv
-  - media_player.woonkamer
-  - media_player.woonkamer_tv
+  entities:
+    - media_player.apple_tv
+    - media_player.woonkamer
+    - media_player.woonkamer_tv
