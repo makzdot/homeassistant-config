@@ -79,6 +79,6 @@ Mediaspelers Woonkamer:
     - media_player.woonkamer
     - media_player.woonkamer_tv
 
-Climaat beheersing Woonkamer:
+Climaatbeheersing Woonkamer:
   entities:
     - climate.living_room_thermostaat
