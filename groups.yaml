@@ -73,12 +73,26 @@ Verlichting Badkamer:
   entities:
     - light.badkamer
 
+##########################################
+# Groups Mediaspelers per kamer
+##########################################
 Mediaspelers Woonkamer:
   entities:
     - media_player.apple_tv
     - media_player.woonkamer
     - media_player.woonkamer_tv
 
-Climaatbeheersing Woonkamer:
+##########################################
+# Groups klimaatbeheersing per kamer
+##########################################
+Klimaatbeheersing Woonkamer:
   entities:
     - climate.living_room_thermostaat
+
+##########################################
+# Groups bewakingscamera's per kamer
+##########################################
+bewakingscameras_woonkamer:
+  name: "Bewakingscamera's Woonkamer"
+  entities:
+    - camera.ipcamwoonkamer
