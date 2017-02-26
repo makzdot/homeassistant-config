@@ -21,6 +21,9 @@ weather:
 # Enables the frontend
 frontend:
 
+#Enable config panel
+config:
+
 http:
   api_password: !secret api_password
   use_x_forwarded_for: True
@@ -111,7 +114,7 @@ zone: !include_dir_list zones
 sensor: !include sensor.yaml
 switch: !include switch.yaml
 light: !include light.yaml
-group: !include group.yaml
+group: !include groups.yaml
 scene: !include_dir_list scenes
 automation: !include_dir_merge_list automation
 
