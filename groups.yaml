@@ -7,13 +7,12 @@
 #  icon: mdi:home
 #  entities:
 
-
 verlichting:
   name: Verlichting
   view: yes
   icon: mdi:lightbulb-outline
   entities:
-    - group.all_devices
+    - group.verlichting_woonkamer
 
 sensors:
   name: Sensors
@@ -38,3 +37,14 @@ cameras:
   view: yes
   icon: mdi:video
   entities:
+
+##########################################
+# Groups verlichting per kamer
+##########################################
+
+Verlichting Woonkamer:
+  - light.keuken
+  - light.plafoniere
+  - light.schemerlampen
+  - switch.switch1
+  - light.eettafel
