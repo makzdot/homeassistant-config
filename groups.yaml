@@ -91,6 +91,10 @@ Mediaspelers Woonkamer:
 Klimaatbeheersing Woonkamer:
   entities:
     - climate.living_room_thermostaat
+    - binary_sensor.living_room_thermostat_thermostaat_has_leaf
+    - binary_sensor.living_room_thermostat_thermostaat_online
+    - sensor.living_room_thermostat_thermostaat_hvac_state
+    - sensor.living_room_thermostat_thermostaat_operation_mode
 
 ##########################################
 # Groups bewakingscamera's per kamer
