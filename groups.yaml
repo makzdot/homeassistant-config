@@ -97,3 +97,22 @@ bewakingscameras_woonkamer:
   name: "Bewakingscamera's Woonkamer"
   entities:
     - camera.ipcamwoonkamer
+
+##########################################
+# Groups device tracking
+##########################################
+
+personen:
+  name: "Personen en apparaten"
+  entities:
+    - device_tracker.makzdot_maxiphone6
+    - device_tracker.makzdot_maxiphone5
+    - device_tracker.makzdot_tablet_max
+    - device_tracker.acbc32cbfd29 #macbookpro max
+    - device_tracker.makzdot_rikki_telefoon
+
+schoommaak:
+  name: "Schoonmakers"
+  entities:
+    - device_tracker.74a528a58562
+    - device_tracker.74a528a5844b
