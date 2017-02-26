@@ -33,6 +33,7 @@
       friendly_name: 'Luchtvochtigheid binnen'
     sensor.living_room_thermostat_thermostaat_hvac_state:
       friendly_name: 'Ketel status'
+      icon: mdi:fire
     sensor.living_room_thermostat_thermostaat_operation_mode:
       friendly_name: 'Operation modus'
     sensor.living_room_thermostat_thermostaat_target:
