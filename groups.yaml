@@ -35,6 +35,7 @@ media:
   view: yes
   icon: mdi:play-circle-outline
   entities:
+    - group.mediaspelers_woonkamer
 
 cameras:
   name: Cameras
@@ -66,3 +67,8 @@ Verlichting Hal:
 
 Verlichting Badkamer:
   - light.badkamer
+
+Mediaspelers Woonkamer:
+  - media_player.apple_tv
+  - media_player.woonkamer
+  - media_player.woonkamer_tv
