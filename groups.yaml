@@ -13,6 +13,7 @@ verlichting:
   view: yes
   icon: mdi:lightbulb-outline
   entities:
+    - group.all_devices
 
 sensors:
   name: Sensors
