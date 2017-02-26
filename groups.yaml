@@ -141,3 +141,15 @@ Speedtest:
 Plex server:
   entities:
     - sensor.plex_spy
+
+Automations:
+  entities:
+    - automation.licht_aan_bij_thuiskomst
+    - automation.licht_aan_in_de_avond
+    - automation.licht_aan_met_afstandsbediening
+    - automation.licht_uit_met_afstandsbediening
+    - automation.licht_aan_voor_schoonmaker
+    - automation.thermostaat_uit_away_mode_bij_thuiskomst
+    - automation.media_player_playing
+    - automation.media_player_pausedstopped
+    - automation.away
