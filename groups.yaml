@@ -94,6 +94,7 @@ Klimaatbeheersing Woonkamer:
     - binary_sensor.living_room_thermostat_thermostaat_has_leaf
     - binary_sensor.living_room_thermostat_thermostaat_online
     - sensor.living_room_thermostat_thermostaat_hvac_state
+    - binary_sensor.living_room_thermostat_thermostaat_is_locked
 
 
 ##########################################
