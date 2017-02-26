@@ -23,6 +23,8 @@ sensors:
   view: yes
   icon: mdi:gauge
   entities:
+    - group.personen
+    - group.schoonmaak
 
 automation:
   name: Automation
