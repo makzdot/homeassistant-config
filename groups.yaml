@@ -32,6 +32,7 @@ automation:
   view: yes
   icon: mdi:robot
   entities:
+    group.all_automations
 
 media:
   name: Media
@@ -140,4 +141,3 @@ Speedtest:
 Plex server:
   entities:
     - sensor.plex_spy
-
