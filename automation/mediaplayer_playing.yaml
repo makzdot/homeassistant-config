@@ -7,6 +7,8 @@
     - condition: state
       entity_id: sun.sun
       state: 'below_horizon'
+    - condition: state
+      value_template: '{{ states.media_player.woonkamer_appletv.attributes.media_content_type == "movie" }}'
   action:
       service: scene.turn_on
       entity_id: scene.livingroom_dim
