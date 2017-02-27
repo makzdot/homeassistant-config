@@ -3,10 +3,6 @@
     - platform: state
       entity_id: media_player.apple_tv
       from: 'playing'
-      for:
-        hours: 0
-        minutes: 0
-        seconds: 10
   condition:
     - condition: state
       entity_id: sun.sun
