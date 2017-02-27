@@ -1,4 +1,4 @@
-- alias: "Media player playing"
+- alias: "Media player playing Movie"
   trigger:
     - platform: state
       entity_id: media_player.woonkamer_appletv
@@ -9,6 +9,21 @@
       state: 'below_horizon'
     - condition: template
       value_template: '{{ states.media_player.woonkamer_appletv.attributes.media_content_type == "movie" }}'
+  action:
+      service: scene.turn_on
+      entity_id: scene.livingroom_dim
+
+- alias: "Media player playing TVshow"
+  trigger:
+    - platform: state
+      entity_id: media_player.woonkamer_appletv
+      state: 'playing'
+  condition:
+    - condition: state
+      entity_id: sun.sun
+      state: 'below_horizon'
+    - condition: template
+      value_template: '{{ states.media_player.woonkamer_appletv.attributes.media_content_type == "tvshow" }}'
   action:
       service: scene.turn_on
       entity_id: scene.livingroom_dim
