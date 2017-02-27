@@ -103,6 +103,7 @@ media_player:
     timeout: 2
   - platform: plex
   - platform: apple_tv
+    name: Woonkamer AppleTV
     host: 172.19.11.24
     login_id: 00000000-05fa-0619-0e95-96c5558846e1
 
