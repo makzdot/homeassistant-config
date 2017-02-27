@@ -1,8 +1,10 @@
 - alias: "Media player playing"
   trigger:
     - platform: state
-      entity_id: media_player.woonkamer_tv
-      to: 'playing'
+      entity_id: media_player.woonkamer_appletv
+      state: 'playing'
+      for:
+        seconds: 10
   condition:
     - condition: state
       entity_id: sun.sun
