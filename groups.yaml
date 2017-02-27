@@ -14,6 +14,7 @@ default_view:
     - group.verlichting_hal
     - group.verlichting_badkamer
     - group.mediaspelers_woonkamer
+    - group.schakelaars_woonkamer
 
 verlichting:
   name: Verlichting
@@ -118,6 +119,13 @@ bewakingscameras_woonkamer:
     - camera.ipcamwoonkamer
 
 ##########################################
+# Groups Schakelaars per kamer
+##########################################
+Schakelaars Woonkamer:
+  - switch.main_switch
+  - switch.zonnescherm
+
+##########################################
 # Groups device tracking
 ##########################################
 
@@ -167,7 +175,9 @@ Automations:
     - automation.licht_uit_met_afstandsbediening
     - automation.licht_aan_voor_schoonmaker
     - automation.thermostaat_uit_away_mode_bij_thuiskomst
-    - automation.media_player_playing
+    - automation.media_player_playing_movie
+    - automation.media_player_playing_tvshow
+    - automation.media_player_playing_music
     - automation.media_player_pausedstopped
     - automation.away
 
