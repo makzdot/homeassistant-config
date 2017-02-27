@@ -124,12 +124,14 @@ personen:
   name: "Personen en apparaten"
   entities:
     - device_tracker.makzdot_maxiphone6
-    - sensor.battery_maxiphone6
-    - device_tracker.makzdot_maxiphone5
-    - sensor.battery_maxiphone5
-    - device_tracker.makzdot_tablet_max
-    - device_tracker.acbc32cbfd29 #macbookpro max
     - device_tracker.makzdot_rikki_telefoon
+
+Overige_apparaten:
+  name: "Overige apparaten"
+  entities:
+    - device_tracker.makzdot_maxiphone5
+    - device_tracker.makzdot_tablet_max
+    - device_tracker.acbc32cbfd29 #mac
 
 schoonmaak:
   name: "Schoonmakers"
