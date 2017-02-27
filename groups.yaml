@@ -32,6 +32,7 @@ sensors:
   icon: mdi:gauge
   entities:
     - group.personen
+    - group.overige_apparaten
     - group.schoonmaak
     - group.weer
 
