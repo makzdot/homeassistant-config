@@ -93,7 +93,7 @@ Verlichting Badkamer:
 ##########################################
 Mediaspelers Woonkamer:
   entities:
-    - media_player.apple_tv
+    - media_player.woonkamer_appletv
 #    - media_player.woonkamer
     - media_player.woonkamer_tv
 
