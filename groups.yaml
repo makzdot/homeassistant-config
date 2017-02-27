@@ -132,7 +132,7 @@ Overige_apparaten:
   entities:
     - device_tracker.makzdot_maxiphone5
     - device_tracker.makzdot_tablet_max
-    - device_tracker.acbc32cbfd29 #mac
+    - device_tracker.acbc32cbfd29 #macbook max
 
 schoonmaak:
   name: "Schoonmakers"
