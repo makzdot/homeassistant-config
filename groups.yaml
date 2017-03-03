@@ -62,6 +62,13 @@ cameras:
 ##########################################
 # Groups verlichting per kamer
 ##########################################
+Scenes:
+  entities:
+    - scene.livingroom_normal
+    - scene.livingroom_dim
+    - scene.alle_lichten_uit
+    - scene.away
+    - scene.schoonmaken
 
 Verlichting Woonkamer:
   entities:
@@ -183,10 +190,3 @@ Automations:
     - automation.media_player_pausedstopped
     - automation.away
 
-Scenes:
-  entities:
-    - scene.livingroom_normal
-    - scene.livingroom_dim
-    - scene.alle_lichten_uit
-    - scene.away
-    - scene.schoonmaken
