@@ -12,10 +12,10 @@
       friendly_name: 'MacBook Pro van Max'
       icon: mdi:laptop-mac
     device_tracker.74a528a5844b:
-      friendly_name: 'Dagmar'
+      friendly_name: 'Ingeborg'
       icon: mdi:cellphone-android
     device_tracker.74a528a58562:
-      friendly_name: 'Ingeborg'
+      friendly_name: 'Dagmar'
       icon: mdi:cellphone-android
     device_tracker.makzdot_rikki_telefoon:
       friendly_name: 'Mam'

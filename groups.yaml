@@ -134,6 +134,8 @@ personen:
   entities:
     - device_tracker.makzdot_maxiphone6
     - device_tracker.makzdot_rikki_telefoon
+    - device_tracker.74a528a58562
+    - device_tracker.74a528a5844b
 
 Overige_apparaten:
   name: "Overige apparaten"

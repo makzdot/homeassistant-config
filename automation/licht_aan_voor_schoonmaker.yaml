@@ -1,7 +1,7 @@
 - alias: 'Licht aan voor schoonmaker'
   trigger:
     platform: state
-    entity_id: group.schoonmakers
+    entity_id: group.schoonmaak
     to: 'home'
   condition:
     condition: and
@@ -16,7 +16,7 @@
         - thu
         - fri
     - condition: state
-      entity_id: group.personen
+      entity_id: group.schoonmaak
       state: 'not_home'
   action:
       service: scene.turn_on
