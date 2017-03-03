@@ -78,6 +78,10 @@ Verlichting Woonkamer:
     - switch.switch1
     - light.eettafel
 
+Schakelaars Woonkamer:
+  - switch.main_switch
+  - switch.zonnescherm
+
 Verlichting Slaapkamer Max:
   entities:
     - light.plafoniere_max
@@ -125,12 +129,6 @@ bewakingscameras_woonkamer:
   entities:
     - camera.ipcamwoonkamer
 
-##########################################
-# Groups Schakelaars per kamer
-##########################################
-Schakelaars Woonkamer:
-  - switch.main_switch
-  - switch.zonnescherm
 
 ##########################################
 # Groups device tracking
