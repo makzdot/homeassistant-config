@@ -82,6 +82,14 @@ Schakelaars Woonkamer:
   - switch.main_switch
   - switch.zonnescherm
 
+Klimaatbeheersing Woonkamer:
+  entities:
+    - climate.living_room_thermostaat
+    - binary_sensor.living_room_thermostat_thermostaat_has_leaf
+    - binary_sensor.living_room_thermostat_thermostaat_online
+    - sensor.living_room_thermostat_thermostaat_hvac_state
+    - binary_sensor.living_room_thermostat_thermostaat_is_locked
+
 Verlichting Slaapkamer Max:
   entities:
     - light.plafoniere_max
@@ -109,16 +117,6 @@ Mediaspelers Woonkamer:
 #    - media_player.woonkamer
     - media_player.woonkamer_tv
 
-##########################################
-# Groups klimaatbeheersing per kamer
-##########################################
-Klimaatbeheersing Woonkamer:
-  entities:
-    - climate.living_room_thermostaat
-    - binary_sensor.living_room_thermostat_thermostaat_has_leaf
-    - binary_sensor.living_room_thermostat_thermostaat_online
-    - sensor.living_room_thermostat_thermostaat_hvac_state
-    - binary_sensor.living_room_thermostat_thermostaat_is_locked
 
 
 ##########################################
