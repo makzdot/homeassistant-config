@@ -109,7 +109,9 @@ media_player:
 
 # Text to speech
 tts:
-  platform: google
+  - platform: google
+    language: 'nl'
+
 
 ##Includes
 zone: !include_dir_list zones
