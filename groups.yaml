@@ -166,14 +166,14 @@ Weer:
 
 NZBget:
   entities:
-    - sensor.nzbget_article_cache
+    - sensor.nzbget_speed
     - sensor.nzbget_average_speed
+    - sensor.nzbget_article_cache
     - sensor.nzbget_disk_free
     - sensor.nzbget_download_paused
     - sensor.nzbget_post_processing_paused
     - sensor.nzbget_queue_size
     - sensor.nzbget_size
-    - sensor.nzbget_speed
     - sensor.nzbget_uptime
 
 Speedtest:
