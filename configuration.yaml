@@ -95,7 +95,7 @@ camera:
     username: !secret synology_username
     password: !secret synology_password
   - platform: foscam
-    ip: ipcam-woonkamer.makz.lan
+    ip: 172.19.11.4
     username: !secret foscam_username
     password: !secret foscam_password
 
