@@ -17,7 +17,7 @@
   optimistic: false
   retain: true
 
-platform: flux
+- platform: flux
   lights:
     - light.eettafel
   name: Fluxer
