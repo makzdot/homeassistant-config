@@ -58,7 +58,7 @@ cameras:
   view: yes
   icon: mdi:video
   entities:
-    - group.bewakingscameras_woonkamer
+    - group.bewakingscamera_woonkamer
 
 ##########################################
 # Groups verlichting per kamer
@@ -128,6 +128,7 @@ bewakingscameras_woonkamer:
   name: "Bewakingscamera's Woonkamer"
   entities:
     - camera.ipcamwoonkamer
+    - camera.foscam_camera
 
 
 ##########################################
