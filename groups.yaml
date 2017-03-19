@@ -82,6 +82,7 @@ Verlichting Woonkamer:
 Schakelaars Woonkamer:
   - switch.main_switch
   - switch.zonnescherm
+  - switch.fluxer
 
 Klimaatbeheersing Woonkamer:
   entities:
