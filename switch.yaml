@@ -26,6 +26,6 @@
 #  start_colortemp: 3000
 #  sunset_colortemp: 2400
 #  stop_colortemp: 1900
-#  brightness: 200
+  brightness: 100
 #  disable_brightness_adjust: False
 #  mode: xy
