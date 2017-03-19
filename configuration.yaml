@@ -116,7 +116,6 @@ tts:
   - platform: google
     language: 'nl'
 
-
 ##Includes
 zone: !include_dir_list zones
 sensor: !include sensor.yaml
