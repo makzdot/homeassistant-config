@@ -58,7 +58,7 @@ cameras:
   view: yes
   icon: mdi:video
   entities:
-    - group.bewakingscamera_woonkamer
+    - group.bewakingscameras_woonkamer
 
 ##########################################
 # Groups verlichting per kamer
