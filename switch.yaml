@@ -23,8 +23,8 @@
   name: Fluxer
   start_time: '7:00'
   stop_time: '23:00'
-  start_colortemp: 4000
-  sunset_colortemp: 3000
+  start_colortemp: 3000
+  sunset_colortemp: 2400
   stop_colortemp: 1900
   brightness: 200
   disable_brightness_adjust: True
