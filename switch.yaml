@@ -22,3 +22,9 @@
   lights:
     - light.eettafel
   brightness: 70
+  start_time: '7:00'
+  stop_time: '23:59'
+  start_colortemp: 4000
+  sunset_colortemp: 2000
+  stop_colortemp: 1900
+
