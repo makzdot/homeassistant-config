@@ -21,7 +21,7 @@
   name: Fluxer
   lights:
     - light.eettafel
-  brightness: 70
+  brightness: 35
   start_time: '7:00'
   stop_time: '23:59'
   start_colortemp: 4000
