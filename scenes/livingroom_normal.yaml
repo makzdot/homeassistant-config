@@ -17,3 +17,4 @@
       rgb_color: [126,126,126]
       transition: 5
     switch.main_switch: on
+    switch.fluxer: on

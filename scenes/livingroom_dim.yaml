@@ -16,4 +16,5 @@
       color_temp: 360
       rgb_color: [126,126,126]
       transition: 5
+    switch.fluxer: off
 
