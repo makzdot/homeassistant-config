@@ -21,3 +21,4 @@
   name: Fluxer
   lights:
     - light.eettafel
+  brightness: 70
