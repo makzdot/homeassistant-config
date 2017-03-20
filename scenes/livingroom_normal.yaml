@@ -12,9 +12,9 @@
       state: off
     light.eettafel:
       state: on
-      brightness: 35
-      color_temp: 360
-      rgb_color: [126,126,126]
-      transition: 5
+#      brightness: 35
+#      color_temp: 360
+#      rgb_color: [126,126,126]
+#      transition: 5
     switch.main_switch: on
     switch.fluxer: on
