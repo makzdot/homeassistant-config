@@ -1,0 +1,30 @@
+---
+- hosts: xavier
+  become: true
+  tasks:
+    - name: 'Update homeassistant config from git'
+      git:
+        repo: https://github.com/makzdot/homeassistent-config.git
+        dest: /opt/homeassistant/appdata
+
+    - name: 'Home-Assistant'
+      docker_container:
+        name: homeassistant
+        hostname: homeassistant
+        image: "homeassistant/home-assistant"
+        state: started
+        restart_policy: always
+        restart: yes
+        pull: true
+        network_mode: host
+        #ports:
+          #- 8123:8123
+        volumes:
+          - /opt/homeassistant/appdata:/config
+          - /etc/localtime:/etc/localtime:ro
+        env:
+          PGID=1000
+          PUID=1000
+        devices:
+          - "/dev/ttyUSB0:/dev/ttyUSB0"
+        privileged: true
