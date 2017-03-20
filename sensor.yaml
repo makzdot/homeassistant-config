@@ -39,12 +39,6 @@
     - !secret prive_email2
     - !secret work_emailA
 
-#- platform: speedtest
-#  monitored_conditions:
-#    - ping
-#    - download
-#    - upload
-
 - platform: nzbget
   host: !secret nzbget_host
   username: !secret nzbget_username
