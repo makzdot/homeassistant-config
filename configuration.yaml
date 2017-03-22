@@ -55,11 +55,11 @@ logbook:
 sun:
 
 # Telegram notifications
-#notify:
-#  - name: telegram
-#    platform: telegram
-#    api_key: !secret telegram_api_key
-#    chat_id: !secret telegram_chat_id
+notify:
+  - name: telegram
+    platform: telegram
+    api_key: !secret telegram_api_key
+    chat_id: !secret telegram_chat_id
 
 mqtt:
   broker: rogue.makz.lan
