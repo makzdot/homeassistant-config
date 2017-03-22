@@ -13,7 +13,8 @@
     - service: scene.turn_on
       entity_id: scene.livingroom_dim
     - service: notify.telegram
-      message: "AppleTV Playing movie"
+      data:
+        message: "AppleTV Playing movie"
 
 - alias: "Media player playing TVshow"
   trigger:
@@ -30,4 +31,5 @@
     - service: scene.turn_on
       entity_id: scene.livingroom_dim
     - service: notify.telegram
-      message: "AppleTV Playing tvshow"
+      data:
+        message: "AppleTV Playing tvshow"
