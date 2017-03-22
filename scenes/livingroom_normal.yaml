@@ -1,5 +1,6 @@
 - name: Livingroom normal
   entities:
+    switch.fluxer: on
     light.keuken:
       state: on
       brightness: 80
@@ -17,4 +18,3 @@
 #      rgb_color: [126,126,126]
 #      transition: 5
     switch.main_switch: on
-    switch.fluxer: on
