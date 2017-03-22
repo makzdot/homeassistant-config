@@ -94,10 +94,10 @@ camera:
     url: http://wolverine.makz.lan:5000
     username: !secret synology_username
     password: !secret synology_password
-  - platform: foscam
-    ip: 172.19.11.4
-    username: !secret foscam_username
-    password: !secret foscam_password
+#  - platform: foscam
+#    ip: 172.19.11.4
+#    username: !secret foscam_username
+#    password: !secret foscam_password
 
 media_player:
   - platform: samsungtv
