@@ -9,7 +9,7 @@
     light.keuken:
       state: on
       brightness: 3
-    switch.switch1:
+    light.switch1:
       state: on
     light.eettafel:
       state: on

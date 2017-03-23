@@ -7,16 +7,6 @@
       name: Main Switch
       fire_event: True
 
-- platform: mqtt
-  name: "switch1"
-  state_topic: "ha/switch1"
-  command_topic: "ha/switch1"
-  qos: 0
-  payload_on: "ON"
-  payload_off: "OFF"
-  optimistic: false
-  retain: true
-
 - platform: flux
   name: Fluxer
   lights:

@@ -76,7 +76,7 @@ Verlichting Woonkamer:
     - light.keuken
     - light.plafoniere
     - light.schemerlampen
-    - switch.switch1
+    - light.switch1
     - light.eettafel
 
 Schakelaars Woonkamer:

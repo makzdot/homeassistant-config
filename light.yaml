@@ -24,3 +24,13 @@
       name: Badkamer
     0b110036011acf1607010f70:
       name: Hal
+
+- platform: mqtt
+  name: "switch1"
+  state_topic: "ha/switch1"
+  command_topic: "ha/switch1"
+  qos: 0
+  payload_on: "ON"
+  payload_off: "OFF"
+  optimistic: false
+  retain: true
