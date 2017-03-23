@@ -27,7 +27,7 @@
       icon: mdi:play-circle-outline
 
 ## Lights and switches
-    switch.switch1:
+    light.switch1:
       friendly_name: 'Spots woonkamer'
       icon: mdi:lightbulb
 
