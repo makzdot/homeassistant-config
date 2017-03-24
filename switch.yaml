@@ -16,5 +16,5 @@
   stop_time: '23:59'
   start_colortemp: 5000
   sunset_colortemp: 4000
-  stop_colortemp: 2500
+  stop_colortemp: 2700
 
