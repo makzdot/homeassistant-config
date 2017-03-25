@@ -147,7 +147,7 @@ Overige_apparaten:
   name: "Overige apparaten"
   entities:
     - device_tracker.makzdot_maxiphone5
-    - device_tracker.makzdot_tablet_max
+    - device_tracker.experiaz_tablet_experiaz
     - device_tracker.acbc32cbfd29 #macbook max
 
 schoonmaak:
