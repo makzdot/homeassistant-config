@@ -76,6 +76,8 @@ device_tracker:
   - platform: owntracks
     max_gps_accuracy: 150
     waypoints: True
+    waypoint_whitelist:
+      - makzdot
   - platform: snmp
     host: pfsense.makz.lan
     community: !secret router_snmp_communicty
