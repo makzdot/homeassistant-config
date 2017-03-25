@@ -5,7 +5,7 @@
     device_tracker.makzdot_maxiphone6:
       friendly_name: 'iPhone 6 van Max'
       icon: mdi:cellphone-iphone
-    device_tracker.makzdot_tablet_max:
+    device_tracker.experiaz_tablet_experiaz:
       friendly_name: 'Tablet van Max'
       icon: mdi:tablet-android
     device_tracker.acbc32cbfd29:
