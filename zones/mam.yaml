@@ -1,0 +1,6 @@
+name: Mam
+latitude: !secret latitude_mam
+longitude: !secret longitude_mam
+radius: 200
+icon: mdi:home-outline
+
