@@ -126,4 +126,4 @@ light: !include light.yaml
 group: !include groups.yaml
 scene: !include_dir_list scenes
 automation: !include_dir_merge_list automation
-
+script: !include_dir_named scripts
