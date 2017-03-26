@@ -12,6 +12,6 @@
     - service: scene.turn_on
       entity_id: scene.livingroom_normal
     - delay: 0:10
-    - service: notify.telegram
-      data:
-        message: "AppleTV Paused"
+#    - service: notify.telegram
+#      data:
+#        message: "AppleTV Paused"

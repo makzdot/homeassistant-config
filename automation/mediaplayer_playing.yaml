@@ -13,9 +13,9 @@
     - service: scene.turn_on
       entity_id: scene.livingroom_dim
     - delay: 0:10
-    - service: notify.telegram
-      data:
-        message: "AppleTV Playing movie"
+#    - service: notify.telegram
+#      data:
+#        message: "AppleTV Playing movie"
 
 - alias: "Media player playing TVshow"
   trigger:
@@ -32,6 +32,6 @@
     - service: scene.turn_on
       entity_id: scene.livingroom_dim
     - delay: 0:10
-    - service: notify.telegram
-      data:
-        message: "AppleTV Playing tvshow"
+#    - service: notify.telegram
+#      data:
+#        message: "AppleTV Playing tvshow"
