@@ -7,14 +7,14 @@
       name: Main Switch
       fire_event: True
 
-  - platform: flux
-    lights:
-      - light.eettafel
-    name: Fluxer
-    start_time: '06:30'
-    stop_time: '23:59'
-    start_colortemp: 4000
-    sunset_colortemp: 2800
-    stop_colortemp: 2700
-    disable_brightness_adjust: True
-    mode: mired
+- platform: flux
+  lights:
+    - light.eettafel
+  name: Fluxer
+  start_time: '06:30'
+  stop_time: '23:59'
+  start_colortemp: 4000
+  sunset_colortemp: 2800
+  stop_colortemp: 2700
+  disable_brightness_adjust: True
+  mode: mired
