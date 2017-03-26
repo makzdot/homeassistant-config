@@ -13,8 +13,8 @@
   name: Fluxer
   start_time: '06:30'
   stop_time: '23:59'
-  start_colortemp: 4000
+  start_colortemp: 5000
   sunset_colortemp: 2800
-  stop_colortemp: 2700
+  stop_colortemp: 2500
   disable_brightness_adjust: False
   mode: mired
