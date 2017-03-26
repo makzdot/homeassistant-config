@@ -165,6 +165,7 @@ Weer:
     - weather.openweathermap
     - sensor.yr_symbol
     - sun.sun
+    - sensor.moon
 
 NZBget:
   entities:
