@@ -83,6 +83,7 @@ Schakelaars Woonkamer:
   - switch.main_switch
   - switch.zonnescherm
   - switch.fluxer
+  - switch.sonoff_power
 
 Klimaatbeheersing Woonkamer:
   entities:
