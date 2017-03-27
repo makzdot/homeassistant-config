@@ -20,12 +20,11 @@
   brightness: 60
   mode: mired
 
-switch:
-  - platform: mqtt
-    name: "Sonoff power"
-    state_topic: "stat/sonoff/POWER"
-    command_topic: "cmnd/sonoff/POWER"
-    qos: 1
-    payload_on: "ON"
-    payload_off: "OFF"
-    retain: true
+- platform: mqtt
+  name: "Sonoff power"
+  state_topic: "stat/sonoff/POWER"
+  command_topic: "cmnd/sonoff/POWER"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  retain: true
