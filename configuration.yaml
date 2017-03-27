@@ -65,8 +65,19 @@ mqtt:
   broker: rogue.makz.lan
   port: 1883
   client_id: home-assistant
+  keepalive 60
   username: !secret mqtt_username
   password: !secret mqtt_password
+  birth_message:
+    topic: "tele/hass1/LWT"
+    payload: "Online"
+    qos: 1
+    retain: true
+  will_message:
+    topic: "tele/hass1/LWT"
+    payload: "Offline"
+    qos: 1
+    retain: true
 
 nest:
   client_id: !secret nest_client_id
