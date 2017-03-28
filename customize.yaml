@@ -26,10 +26,6 @@
       friendly_name: 'MaxFlix'
       icon: mdi:play-circle-outline
 
-## Lights and switches
-    light.switch1:
-      friendly_name: 'Spots woonkamer'
-      icon: mdi:lightbulb
 
 ## Nest Thermostaat
     climate.living_room_thermostaat:

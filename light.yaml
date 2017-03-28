@@ -26,16 +26,6 @@
       name: Hal
 
 - platform: mqtt
-  name: "switch1"
-  state_topic: "ha/switch1"
-  command_topic: "ha/switch1"
-  qos: 0
-  payload_on: "ON"
-  payload_off: "OFF"
-  optimistic: false
-  retain: true
-
-- platform: mqtt
   name: "Schemerlamp Max"
   state_topic: "stat/sonoff-01/POWER"
   command_topic: "cmnd/sonoff-01/POWER"
@@ -48,6 +38,15 @@
   name: "Schemerlamp Noeri"
   state_topic: "stat/sonoff-02/POWER"
   command_topic: "cmnd/sonoff-02/POWER"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  retain: true
+
+- platform: mqtt
+  name: "Spots"
+  state_topic: "stat/sonoff-03/POWER"
+  command_topic: "cmnd/sonoff-03/POWER"
   qos: 1
   payload_on: "ON"
   payload_off: "OFF"

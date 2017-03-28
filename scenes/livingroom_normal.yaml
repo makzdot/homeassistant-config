@@ -7,7 +7,7 @@
     light.schemerlampen:
       state: on
       brightness: 250
-    light.switch1:
+    light.spots:
       state: on
     light.plafoniere:
       state: off
