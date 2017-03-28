@@ -19,12 +19,3 @@
   disable_brightness_adjust: False
   brightness: 60
   mode: mired
-
-- platform: mqtt
-  name: "Sonoff power"
-  state_topic: "stat/sonoff/POWER"
-  command_topic: "cmnd/sonoff/POWER"
-  qos: 1
-  payload_on: "ON"
-  payload_off: "OFF"
-  retain: true

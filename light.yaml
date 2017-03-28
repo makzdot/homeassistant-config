@@ -12,12 +12,12 @@
       name: Schemerlampen
     0b110005011acf1602000070:
       name: Plafoniere
-    0b110004011acf1605010f70:
-      name: Schemerlamp Noeri
+#    0b110004011acf1605010f70:
+#      name: Schemerlamp Noeri
     0b110000011acf160f010f70:
       name: Hanglamp Noeri
-    0b11000b011acf1606000070:
-      name: Schemerlamp Max
+#    0b11000b011acf1606000070:
+#      name: Schemerlamp Max
     0b11000c011acf160d000070:
       name: Plafoniere Max
     0b1100010131a3ce0a010f60:
@@ -33,4 +33,22 @@
   payload_on: "ON"
   payload_off: "OFF"
   optimistic: false
+  retain: true
+
+- platform: mqtt
+  name: "Schemerlamp Max"
+  state_topic: "stat/sonoff-02/POWER"
+  command_topic: "cmnd/sonoff-02/POWER"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  retain: true
+
+- platform: mqtt
+  name: "Schemerlamp Noeri"
+  state_topic: "stat/sonoff-01/POWER"
+  command_topic: "cmnd/sonoff-01/POWER"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
   retain: true
