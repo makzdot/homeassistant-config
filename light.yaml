@@ -37,8 +37,8 @@
 
 - platform: mqtt
   name: "Schemerlamp Max"
-  state_topic: "stat/sonoff-02/POWER"
-  command_topic: "cmnd/sonoff-02/POWER"
+  state_topic: "stat/sonoff-01/POWER"
+  command_topic: "cmnd/sonoff-01/POWER"
   qos: 1
   payload_on: "ON"
   payload_off: "OFF"
@@ -46,8 +46,8 @@
 
 - platform: mqtt
   name: "Schemerlamp Noeri"
-  state_topic: "stat/sonoff-01/POWER"
-  command_topic: "cmnd/sonoff-01/POWER"
+  state_topic: "stat/sonoff-02/POWER"
+  command_topic: "cmnd/sonoff-02/POWER"
   qos: 1
   payload_on: "ON"
   payload_off: "OFF"
