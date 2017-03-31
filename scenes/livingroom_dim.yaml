@@ -1,6 +1,6 @@
 - name: Livingroom dim
   entities:
-    switch.fluxer: off
+#    switch.fluxer: off
     light.schemerlampen:
       state: on
       brightness: 20
@@ -16,6 +16,6 @@
       brightness: 10
       color_temp: 360
       rgb_color: [126,126,126]
-      transition: 5
+      transition: 10
 
 
