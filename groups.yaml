@@ -70,6 +70,7 @@ Scenes:
     - scene.alle_lichten_uit
     - scene.away
     - scene.schoonmaken
+    - scene.eettafel_effect
 
 Verlichting Woonkamer:
   entities:
