@@ -82,7 +82,7 @@ Verlichting Woonkamer:
 
 Schakelaars Woonkamer:
   - switch.main_switch
-  - cover.zonnescherm
+  - switch.zonnescherm
   - switch.fluxer
   - switch.sonoff_power
 
