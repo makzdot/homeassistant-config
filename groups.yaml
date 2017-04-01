@@ -13,7 +13,7 @@ default_view:
     - group.verlichting_slaapkamer_noeri
     - group.verlichting_hal
     - group.verlichting_badkamer
-    - group.mediaspelers_woonkamer
+#    - group.mediaspelers_woonkamer
     - group.schakelaars_woonkamer
 
 verlichting:
