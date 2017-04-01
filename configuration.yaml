@@ -133,6 +133,7 @@ tts:
 zone: !include_dir_list zones
 sensor: !include sensor.yaml
 switch: !include switch.yaml
+cover: !include cover.yaml
 light: !include light.yaml
 group: !include groups.yaml
 scene: !include_dir_list scenes
