@@ -1,5 +1,6 @@
 - platform: rfxtrx
   automatic_add: false
+  devices:
     0b11000b011acf1609010f70:
       name: Main Switch
       fire_event: True
