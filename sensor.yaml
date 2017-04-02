@@ -13,6 +13,8 @@
 - platform: rfxtrx
   automatic_add: true
 
+- platform: nest
+
 - platform: mqtt
   state_topic: "owntracks/makzdot/maxiphone6"
   name: "Battery MaxiPhone6"
