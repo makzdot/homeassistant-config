@@ -83,6 +83,20 @@ nest:
   client_id: !secret nest_client_id
   client_secret: !secret nest_client_secret
   sensors:
+    monitored_conditions:
+      - 'humidity'
+      - 'operation_mode'
+      - 'temperature'
+      - 'target'
+      - 'hvac_state'
+      - 'co_status'
+      - 'smoke_status'
+      - 'batter_health'
+      - 'online'
+      - 'fan'
+      - 'is_using_emergency_heat'
+      - 'is_locked'
+      - 'has_leaf'
 
 device_tracker:
   - platform: owntracks
