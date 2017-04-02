@@ -13,6 +13,16 @@
 - platform: rfxtrx
   automatic_add: true
 
+- platform: nest
+  monitored_conditions:
+    - 'temperature'
+    - 'humidity'
+    - 'target'
+    - 'operation_mode'
+    - 'weather_temperature'
+    - 'weather_humidity'
+    - 'weather_condition'
+
 - platform: mqtt
   state_topic: "owntracks/makzdot/maxiphone6"
   name: "Battery MaxiPhone6"
