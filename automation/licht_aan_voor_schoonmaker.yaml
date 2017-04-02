@@ -2,6 +2,7 @@
   trigger:
     platform: state
     entity_id: group.schoonmaak
+    from: 'not_home'
     to: 'home'
   condition:
     condition: and
@@ -16,7 +17,7 @@
         - thu
         - fri
     - condition: state
-      entity_id: group.schoonmaak
+      entity_id: group.personen
       state: 'not_home'
   action:
       service: scene.turn_on

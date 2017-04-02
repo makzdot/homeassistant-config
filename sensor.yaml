@@ -15,13 +15,14 @@
 
 - platform: nest
   monitored_conditions:
-    - 'temperature'
     - 'humidity'
-    - 'target'
     - 'operation_mode'
-    - 'weather_temperature'
-    - 'weather_humidity'
-    - 'weather_condition'
+    - 'temperature'
+    - 'target'
+    - 'hvac_state'
+    - 'co_status'
+    - 'smoke_status'
+    - 'batter_health'
 
 - platform: mqtt
   state_topic: "owntracks/makzdot/maxiphone6"
