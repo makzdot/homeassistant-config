@@ -37,6 +37,7 @@ sensors:
     - group.schoonmaak
     - group.weer
     - group.nzbget
+    - group.rookmelder_hal
 
 automation:
   name: Automation
@@ -203,4 +204,8 @@ Automations:
     - automation.media_player_pausedstopped
     - automation.away
 
-
+Rookmelder Hal:
+  entities:
+    - sensor.hallway_nest_protect_battery_health
+    - sensor.hallway_nest_protect_co_status
+    - sensor.hallway_nest_protect_smoke_status
