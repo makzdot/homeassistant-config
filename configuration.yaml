@@ -46,7 +46,7 @@ history:
 
 # Enable suport for logging to influxdb
 influxdb:
-  host: xavier.makz.lan
+  host: rogue.makz.lan
 
 # View all events in a logbook
 logbook:
