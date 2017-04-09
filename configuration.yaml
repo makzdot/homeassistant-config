@@ -62,7 +62,7 @@ notify:
     chat_id: !secret telegram_chat_id
 
 mqtt:
-  broker: rogue.makz.lan
+  broker: localhost
   port: 1883
   client_id: home-assistant
   keepalive: 60
