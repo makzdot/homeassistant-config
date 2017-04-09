@@ -112,6 +112,7 @@ camera:
     username: !secret foscam_username
     password: !secret foscam_password
 
+
 media_player:
   - platform: samsungtv
     host: 172.19.11.165
