@@ -168,6 +168,7 @@ Weer:
     - sensor.yr_symbol
     - sun.sun
     - sensor.moon
+    - binary_sensor.workday_sensor
 
 NZBget:
   entities:
