@@ -164,11 +164,19 @@ Alle apparaten:
 
 Weer:
   entities:
-    - weather.openweathermap
     - sensor.yr_symbol
     - sun.sun
     - sensor.moon
     - binary_sensor.workday_sensor
+    - sensor.owm_cloud_coverage
+    - sensor.owm_condition
+    - sensor.owm_humidity
+    - sensor.owm_pressure
+    - sensor.owm_rain
+    - sensor.owm_snow
+    - sensor.owm_temperature
+    - sensor.owm_wind_bearing
+    - sensor.owm_wind_speed
 
 NZBget:
   entities:
