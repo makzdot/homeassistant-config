@@ -212,6 +212,7 @@ Automations:
     - automation.media_player_playing_music
     - automation.media_player_pausedstopped
     - automation.away
+    - automation.refresh_owntracks
 
 Rookmelder Hal:
   entities:
