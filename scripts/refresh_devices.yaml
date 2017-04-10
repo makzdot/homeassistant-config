@@ -12,3 +12,7 @@ sequence:
     data:
       topic: "owntracks/makzdot/rikki_telefoon/cmd"
       payload_template: '{"_type":"cmd","action":"reportLocation"}'
+  - service: mqtt.publish
+    data:
+      topic: "owntracks/experiaz/Tablet_ExperiaZ/cmd"
+      payload_template: '{"_type":"cmd","action":"reportLocation"}'
