@@ -45,8 +45,8 @@ conversation:
 history:
 
 # Enable suport for logging to influxdb
-#influxdb:
-#  host: rogue.makz.lan
+influxdb:
+  host: rogue.makz.lan
 
 # View all events in a logbook
 logbook:
