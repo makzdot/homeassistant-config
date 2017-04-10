@@ -1,0 +1,14 @@
+alias: "Device Refresh"
+sequence:
+  - service: mqtt.publish
+    data:
+      topic: "owntracks/makzdot/maxiphone6/cmd"
+      payload_template: '{"_type":"cmd","action":"reportLocation"}'
+  - service: mqtt.publish
+    data:
+      topic: "owntracks/makzdot/maxiphone5/cmd"
+      payload_template: '{"_type":"cmd","action":"reportLocation"}'
+  - service: mqtt.publish
+    data:
+      topic: "owntracks/makzdot/rikki_telefoon/cmd"
+      payload_template: '{"_type":"cmd","action":"reportLocation"}'
