@@ -10,15 +10,12 @@
     - condition: time
       after: "09:00:00"
       before: "17:30:00"
-      weekday:
-        - mon
-        - tue
-        - wed
-        - thu
-        - fri
     - condition: state
       entity_id: group.personen
       state: 'not_home'
+    - condition: state
+      entity_id: 'binary_sensor.workday_sensor'
+      state: 'on'
   action:
       service: scene.turn_on
       entity_id: scene.schoonmaken
