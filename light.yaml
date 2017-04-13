@@ -54,8 +54,8 @@
 
 - platform: mqtt_json
   name: mqtt_json_light_1
-  state_topic: "stat/rgb1/POWER"
-  command_topic: "cmnd/rgb1/POWER"
+  state_topic: "home/rgb1"
+  command_topic: "home/rgb1/set"
   brightness: true
   rgb: true
   optimistic: false
