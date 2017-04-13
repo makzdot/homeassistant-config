@@ -80,7 +80,7 @@ Verlichting Woonkamer:
     - light.schemerlampen
     - light.spots
     - light.eettafel
-    - light.mqtt_json_light_1
+    - light.led_strip
 
 Schakelaars Woonkamer:
   - switch.main_switch
