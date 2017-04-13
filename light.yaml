@@ -58,5 +58,5 @@
   command_topic: "home/rgb1/set"
   brightness: true
   rgb: true
-  optimistic: false
+  # optimistic: false
   qos: 0
