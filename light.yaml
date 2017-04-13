@@ -51,3 +51,12 @@
   payload_on: "ON"
   payload_off: "OFF"
   retain: true
+
+- platform: mqtt_json
+  name: mqtt_json_light_1
+  state_topic: "stat/rgb1/POWER"
+  command_topic: "cmnd/rgb1/POWER"
+  brightness: true
+  rgb: true
+  optimistic: false
+  qos: 1
