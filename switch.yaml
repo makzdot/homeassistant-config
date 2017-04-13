@@ -7,6 +7,8 @@
       name: Main Switch
       fire_event: True
 
+
+
 - platform: flux
   lights:
     - light.eettafel
@@ -19,3 +21,6 @@
   disable_brightness_adjust: False
   brightness: 60
   mode: mired
+
+
+
