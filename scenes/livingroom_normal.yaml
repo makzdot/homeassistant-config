@@ -17,4 +17,10 @@
       color_temp: 360
       rgb_color: [126,126,126]
       transition: 10
+    light.led_strip:
+      state: on
+      brightness: 35
+      color_temp: 360
+      rgb_color: [126,126,126]
+      transition: 10
     switch.main_switch: on
