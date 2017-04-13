@@ -19,7 +19,7 @@
       transition: 5
     light.led_strip:
       state: on
-      brightness: 100
+      brightness: 90
       rgb_color: [208,47,0]
       transition: 5
     switch.main_switch: on
