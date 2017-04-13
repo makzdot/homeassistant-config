@@ -59,4 +59,4 @@
   brightness: true
   rgb: true
   optimistic: false
-  qos: 1
+  qos: 0
