@@ -16,10 +16,10 @@
       brightness: 10
       color_temp: 360
       rgb_color: [126,126,126]
-      transition: 10
+      transition: 5
     light.led_strip:
       state: on
-      brightness: 30
+      brightness: 10
       rgb_color: [126,126,126]
-      transition: 20
+      transition: 10
 
