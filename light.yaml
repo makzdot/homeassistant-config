@@ -60,3 +60,12 @@
   rgb: true
   # optimistic: false
   qos: 0
+
+- platform: mqtt_json
+  name: LED strip 2
+  state_topic: "home/rgb2"
+  command_topic: "home/rgb2/set"
+  brightness: true
+  rgb: true
+  # optimistic: false
+  qos: 0
