@@ -22,4 +22,9 @@
       brightness: 14
       rgb_color: [208,47,0]
       transition: 5
+    light.led_strip_2:
+      state: on
+      brightness: 14
+      rgb_color: [208,47,0]
+      transition: 5
 
