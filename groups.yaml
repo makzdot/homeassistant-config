@@ -81,6 +81,7 @@ Verlichting Woonkamer:
     - light.spots
     - light.eettafel
     - light.led_strip
+    - light.led_strip_2
 
 Schakelaars Woonkamer:
   - switch.main_switch
