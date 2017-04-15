@@ -68,3 +68,5 @@
     - clouds
     - rain
     - snow
+
+- platform: api_streams
