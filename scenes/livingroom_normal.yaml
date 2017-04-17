@@ -19,13 +19,13 @@
       transition: 5
     light.led_strip:
       state: on
-      brightness: 90
-      rgb_color: [208,47,0]
-      transition: 5
+      brightness: 180
+      rgb_color: [255,159,80]
+      transition: 3
     light.led_strip_2:
       state: on
-      brightness: 150
-      rgb_color: [208,47,0]
-      transition: 5
+      brightness: 180
+      rgb_color: [255,159,80]
+      transition: 3
     switch.main_switch: on
 
