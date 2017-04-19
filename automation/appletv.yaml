@@ -1,0 +1,17 @@
+- alias: 'AppleTV aan samen met TV'
+  trigger:
+    platform: state
+    entity_id: media_player.woonkamer_tv
+    to: 'on'
+  action:
+    service: homeassistant.turn_on
+    entity_id: media_player.woonkamer_appletv
+
+- alias: 'AppleTV uit samen met TV'
+  trigger:
+    platform: state
+    entity_id: media_player.woonkamer_tv
+    to: 'off'
+  action:
+    service: homeassistant.turn_off
+    entity_id: media_player.woonkamer_appletv
