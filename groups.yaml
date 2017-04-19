@@ -215,6 +215,8 @@ Automations:
     - automation.media_player_pausedstopped
     - automation.away
     - automation.refresh_owntracks
+    - automation.appletv_aan_samen_met_tv
+    - automation.appletv_uit_samen_met_tv
 
 Rookmelder Hal:
   entities:
