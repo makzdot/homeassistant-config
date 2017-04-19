@@ -192,6 +192,10 @@ NZBget:
     - sensor.nzbget_size
     - sensor.nzbget_uptime
 
+Beweging:
+  entities:
+    - binary_sensor.woonkamer_bewegingssensor
+
 Speedtest:
   entities:
     - sensor.speedtest_download

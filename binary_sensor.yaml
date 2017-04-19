@@ -1,3 +1,7 @@
 - platform: workday
   country: NL
 #  province: UT
+
+- platform: ffmpeg_motion
+  name: Woonkamer bewegingssensor
+  input: !secret foscam_stream_url
