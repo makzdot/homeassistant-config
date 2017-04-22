@@ -70,3 +70,11 @@
     - snow
 
 - platform: api_streams
+
+- platform: darksky
+  api_key: !secret dark_sky_api
+  monitored_conditions:
+    - summary
+    - icon
+    - nearest_storm_distance
+
