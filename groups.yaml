@@ -39,6 +39,15 @@ sensors:
     - group.nzbget
     - group.rookmelder_hal
 
+weer:
+  name: Weer
+  view: yes
+  icon: mdi:weather-partlycloudy
+  entities:
+    - group.weer_algemeen
+    - group.dark_sky
+    - group.open_weathermap
+
 automation:
   name: Automation
   view: yes
@@ -164,12 +173,15 @@ Alle apparaten:
   entities:
     - group.all_devices
 
-Weer:
+Weer Algemeen:
   entities:
     - sensor.yr_symbol
     - sun.sun
     - sensor.moon
     - binary_sensor.workday_sensor
+
+Open weathermap:
+  entities:
     - sensor.owm_cloud_coverage
     - sensor.owm_condition
     - sensor.owm_humidity
@@ -179,6 +191,13 @@ Weer:
     - sensor.owm_temperature
     - sensor.owm_wind_bearing
     - sensor.owm_wind_speed
+
+Dark Sky:
+  entities:
+    - sensor.dark_sky_summary
+    - sensor.dark_sky_icon
+    - sensor.dark_sky_nearest_storm_distance
+
 
 NZBget:
   entities:
