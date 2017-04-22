@@ -53,7 +53,10 @@ automation:
   view: yes
   icon: mdi:robot
   entities:
-    - group.automations
+    - group.Licht en Scenes
+    - group.multimedia
+    - group.device_tracker
+    - group.klimaat
 
 media:
   name: Media
@@ -220,22 +223,31 @@ Plex server:
   entities:
     - sensor.plex_spy
 
-Automations:
+Licht en Scenes:
   entities:
     - automation.licht_aan_bij_thuiskomst
     - automation.licht_aan_in_de_avond
     - automation.licht_aan_met_afstandsbediening
     - automation.licht_uit_met_afstandsbediening
     - automation.licht_aan_voor_schoonmaker
-    - automation.thermostaat_uit_away_mode_bij_thuiskomst
+    - automation.away
+
+Device tracker:
+  entities:
+    - automation.refresh_owntracks
+
+Multimedia:
+  entities:
+    - automation.appletv_aan_samen_met_tv
+    - automation.appletv_uit_samen_met_tv
     - automation.media_player_playing_movie
     - automation.media_player_playing_tvshow
     - automation.media_player_playing_music
     - automation.media_player_pausedstopped
-    - automation.away
-    - automation.refresh_owntracks
-    - automation.appletv_aan_samen_met_tv
-    - automation.appletv_uit_samen_met_tv
+
+Klimaat:
+  entities:
+    - automation.thermostaat_uit_away_mode_bij_thuiskomst
 
 Rookmelder Hal:
   entities:
