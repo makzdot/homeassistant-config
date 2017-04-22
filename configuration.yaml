@@ -21,6 +21,9 @@ weather:
 # Enables the frontend
 frontend:
 
+# Enables the iOS component
+ios:
+
 #Enable config panel
 config:
 
