@@ -53,7 +53,7 @@ automation:
   view: yes
   icon: mdi:robot
   entities:
-    - group.Licht en Scenes
+    - group.licht_en_scenes
     - group.multimedia
     - group.device_tracker
     - group.klimaat
