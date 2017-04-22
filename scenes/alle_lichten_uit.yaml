@@ -1,4 +1,4 @@
 - name: Alle lichten uit
   entities:
     group.all_lights: off
-    group.all_switches: off
+    # group.all_switches: off
