@@ -1,0 +1,13 @@
+# iOS Notifications
+- alias: Notify iOS app
+  trigger:
+    platform: state
+    entity_id: media_player.woonkamer_tv
+    to: 'on'
+  action:
+    service: notify.ios_max_mudde
+    data:
+      message: "De TV gaat aan!"
+      data:
+        push:
+          badge: 5
