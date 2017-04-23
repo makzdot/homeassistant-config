@@ -164,6 +164,7 @@ Overige_apparaten:
     - device_tracker.makzdot_maxiphone5
     - device_tracker.experiaz_tablet_experiaz
     - device_tracker.acbc32cbfd29 #macbook max
+    - device_tracker.maxiphonesix
 
 schoonmaak:
   name: "Schoonmakers"
