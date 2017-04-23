@@ -3,4 +3,3 @@ latitude: !secret latitude_surfnet
 longitude: !secret longitude_surfnet
 radius: 200
 icon: mdi:briefcase
-

@@ -26,7 +26,6 @@
       friendly_name: 'MaxFlix'
       icon: mdi:play-circle-outline
 
-
 ## Nest Thermostaat
     climate.living_room_thermostaat:
       friendly_name: 'Thermostaat'
