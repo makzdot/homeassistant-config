@@ -10,4 +10,4 @@
       message: "De TV gaat aan!"
       data:
         push:
-          badge: 5
+          badge: 1
