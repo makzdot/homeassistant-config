@@ -127,7 +127,7 @@ media_player:
   - platform: apple_tv
     name: Woonkamer AppleTV
     host: 172.19.11.24
-    login_id: 00000000-05fa-0619-0e95-96c5558846e1
+    login_id: !secret appletv_login_id
 
 # Text to speech
 tts:
