@@ -103,6 +103,7 @@ Schakelaars Woonkamer:
 Klimaatbeheersing Woonkamer:
   entities:
     - climate.living_room_thermostaat
+    - sensor.living_room_thermostat_thermostaat_humidity
     - binary_sensor.living_room_thermostat_thermostaat_has_leaf
     - binary_sensor.living_room_thermostat_thermostaat_online
     - sensor.living_room_thermostat_thermostaat_hvac_state
