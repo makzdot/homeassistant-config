@@ -18,11 +18,11 @@
       name: Hanglamp Noeri
 #    0b11000b011acf1606000070:
 #      name: Schemerlamp Max
-    0b11000c011acf160d000070:
+    0b110036011acf1607010f70:
       name: Plafoniere Max
     0b1100010131a3ce0a010f60:
       name: Badkamer
-    0b110036011acf1607010f70:
+    0b11000c011acf160d000070:
       name: Hal
 
 - platform: mqtt
