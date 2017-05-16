@@ -35,7 +35,7 @@
     - condition: template
       value_template: '{{ (now().strftime("%s") | int | timestamp_custom("%H:%M")) == states.sensor.auto_light_start.state }}'
   action:
-    - service: homeassistant.turn_on
+    - service: light.turn_on
       entity_id: "light.schemerlamp_max"
 - alias: 'auto_light_off'
   initial_state: True
@@ -47,5 +47,5 @@
     - condition: template
       value_template: '{{ (now().strftime("%s") | int | timestamp_custom("%H:%M")) == states.sensor.auto_light_stop.state }}'
   action:
-    - service: homeassistant.turn_off
+    - service: light.turn_off
       entity_id: "light.schemerlamp_max"
