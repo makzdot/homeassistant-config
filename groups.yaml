@@ -1,7 +1,8 @@
 ##########################################
 # Homepage en subpagina's
 ##########################################
-default_view:
+home:
+  name: Home
   view: yes
   icon: mdi:home
   entities:

@@ -10,3 +10,42 @@
   action:
     service: scene.turn_on
     entity_id: scene.livingroom_normal
+
+
+- alias: "auto_light_on enabled"
+  trigger:
+    platform: state
+    entity_id: input_slider.auto_light_minutes, input_slider.auto_light_duration
+  action:
+  - service: homeassistant.turn_on
+    data:
+      entity_id:
+        - automation.auto_light_on
+  - service: homeassistant.turn_on
+    data:
+      entity_id:
+        - automation.auto_light_off
+- alias: 'auto_light_on'
+  initial_state: True
+  trigger:
+    - platform: time
+      minutes: '/1'
+      seconds: 10
+  condition:
+    - condition: template
+      value_template: '{{ (now().strftime("%s") | int | timestamp_custom("%H:%M")) == states.sensor.auto_light_start.state }}'
+  action:
+    - service: homeassistant.turn_on
+      entity_id: "group.lights"
+- alias: 'auto_light_off'
+  initial_state: True
+  trigger:
+    - platform: time
+      minutes: '/1'
+      seconds: 10
+  condition:
+    - condition: template
+      value_template: '{{ (now().strftime("%s") | int | timestamp_custom("%H:%M")) == states.sensor.auto_light_stop.state }}'
+  action:
+    - service: homeassistant.turn_off
+      entity_id: "group.lights"
