@@ -131,7 +131,7 @@ Verlichting Badkamer:
 Timer light:
   entities:
     - input_slider.auto_light_minutes
-    - input_slider.auto_light_minutes
+    - input_slider.auto_light_duration
     - sensor.auto_light_duration
     - sensor.auto_light_minutes
     - sensor.auto_light_start
