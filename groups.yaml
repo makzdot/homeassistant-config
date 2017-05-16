@@ -128,6 +128,17 @@ Verlichting Badkamer:
   entities:
     - light.badkamer
 
+Timer light:
+  entities:
+    - input_slider.auto_light_minutes
+    - input_slider.auto_light_minutes
+    - sensor.auto_light_duration
+    - sensor.auto_light_minutes
+    - sensor.auto_light_start
+    - sensor.auto_light_stop
+    - automation.auto_light_on
+    - automation.auto_light_off
+
 ##########################################
 # Groups Mediaspelers per kamer
 ##########################################
