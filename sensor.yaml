@@ -2,6 +2,10 @@
 
 - platform: moon
 
+- platform: time_date
+  display_options:
+    - 'time'
+
 - platform: plex
   name: Plex Spy
   host: rogue.makz.lan
