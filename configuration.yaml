@@ -148,3 +148,4 @@ binary_sensor: !include binary_sensor.yaml
 input_slider: !include input_slider.yaml
 shell_command: !include shell_command.yaml
 
+
