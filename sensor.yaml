@@ -99,12 +99,23 @@
     auto_light_start:
       friendly_name: 'Lights on at'
       value_template: '{{ (as_timestamp(states.sun.sun.attributes.next_setting) + (states("input_slider.auto_light_minutes") | int)  * 60)  | timestamp_custom("%H:%M") }}'
+      entity_id:
+        - sun.sun
+        - input_slider.auto_light_minutes
     auto_light_stop:
       friendly_name: 'Lights out at'
       value_template: '{{ ( as_timestamp(states.sun.sun.attributes.next_setting) + (states("input_slider.auto_light_minutes") | int)  * 60 + (states("input_slider.auto_light_duration") | float) * 60 * 60  )  | timestamp_custom("%H:%M") }}'
+      entity_id:
+        - sun.sun
+        - input_slider.auto_light_minutes
+        - input_slider.auto_light_duration
     auto_light_minutes:
       friendly_name: 'Lights on '
       value_template: '{{ "%d minutes after sunset" | format(states("input_slider.auto_light_minutes") | int) }}'
+      entity_id:
+        - input_slider.auto_light_minutes
     auto_light_duration:
       friendly_name: 'Lights on for'
       value_template: '{{ "%0.1f hours" | format(states("input_slider.auto_light_duration") | float) }}'
+      entity_id:
+        - input_slider.auto_light_duration
