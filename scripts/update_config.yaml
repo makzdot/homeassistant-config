@@ -1,4 +1,4 @@
-alias: "Update Config and Restart App"
+alias: "Update config and restart"
 sequence:
   - service: shell_command.get_latest_config
   - service: homeassistant.restart
