@@ -25,6 +25,7 @@
     data:
       entity_id:
         - automation.auto_light_off
+
 - alias: 'auto_light_on'
   initial_state: True
   trigger:
@@ -36,7 +37,8 @@
       value_template: '{{ (now().strftime("%s") | int | timestamp_custom("%H:%M")) == states.sensor.auto_light_start.state }}'
   action:
     - service: light.turn_on
-      entity_id: "light.schemerlamp_max"
+      entity_id: light.schemerlamp_max
+
 - alias: 'auto_light_off'
   initial_state: True
   trigger:
@@ -48,4 +50,4 @@
       value_template: '{{ (now().strftime("%s") | int | timestamp_custom("%H:%M")) == states.sensor.auto_light_stop.state }}'
   action:
     - service: light.turn_off
-      entity_id: "light.schemerlamp_max"
+      entity_id: light.schemerlamp_max
