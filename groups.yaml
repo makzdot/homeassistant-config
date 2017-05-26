@@ -60,3 +60,26 @@ NZBget:
     - sensor.nzbget_queue_size
     - sensor.nzbget_size
     - sensor.nzbget_uptime
+
+Rookmelder Hal:
+  entities:
+    - binary_sensor.hallway_nest_protect_online
+    - sensor.hallway_nest_protect_battery_health
+    - sensor.hallway_nest_protect_co_status
+    - sensor.hallway_nest_protect_smoke_status
+
+Klimaatbeheersing Woonkamer:
+  entities:
+    - climate.living_room_thermostaat
+    - sensor.living_room_thermostat_thermostaat_humidity
+    - binary_sensor.living_room_thermostat_thermostaat_has_leaf
+    - binary_sensor.living_room_thermostat_thermostaat_online
+    - sensor.living_room_thermostat_thermostaat_hvac_state
+    - binary_sensor.living_room_thermostat_thermostaat_is_locked
+
+Have I been pwned?:
+  entities:
+    - !secret pwned1
+    - !secret pwned2
+    - !secret pwned3
+
