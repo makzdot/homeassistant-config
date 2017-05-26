@@ -1,77 +1,3 @@
-##########################################
-# Homepage en subpagina's
-##########################################
-home:
-  name: Home
-  view: yes
-  icon: mdi:home
-  entities:
-    - group.scenes
-    - group.klimaatbeheersing_woonkamer
-    - group.verlichting_woonkamer
-    - group.verlichting_slaapkamer_max
-    - group.verlichting_slaapkamer_noeri
-    - group.verlichting_hal
-    - group.verlichting_badkamer
-#    - group.mediaspelers_woonkamer
-    - group.schakelaars_woonkamer
-
-verlichting:
-  name: Verlichting
-  view: yes
-  icon: mdi:lightbulb-outline
-  entities:
-    - group.verlichting_woonkamer
-    - group.verlichting_slaapkamer_max
-    - group.verlichting_slaapkamer_noeri
-    - group.verlichting_hal
-    - group.verlichting_badkamer
-
-sensors:
-  name: Sensors
-  view: yes
-  icon: mdi:gauge
-  entities:
-    - group.personen
-    - group.overige_apparaten
-    - group.schoonmaak
-    - group.weer
-    - group.nzbget
-    - group.rookmelder_hal
-
-weer:
-  name: Weer
-  view: yes
-  icon: mdi:weather-partlycloudy
-  entities:
-    - group.weer_algemeen
-    - group.dark_sky
-    - group.open_weathermap
-
-automation:
-  name: Automation
-  view: yes
-  icon: mdi:robot
-  entities:
-    - group.automate_licht_en_scenes
-    - group.automate_multimedia
-    - group.automate_device_tracker
-    - group.automate_klimaat
-
-media:
-  name: Media
-  view: yes
-  icon: mdi:play-circle-outline
-  entities:
-    - group.mediaspelers_woonkamer
-    - group.plex_server
-
-cameras:
-  name: Cameras
-  view: yes
-  icon: mdi:video
-  entities:
-    - group.bewakingscameras_woonkamer
 
 ##########################################
 # Groups verlichting per kamer
@@ -256,6 +182,24 @@ Plex server:
   entities:
     - sensor.plex_spy
 
+Rookmelder Hal:
+  entities:
+    - binary_sensor.hallway_nest_protect_online
+    - sensor.hallway_nest_protect_battery_health
+    - sensor.hallway_nest_protect_co_status
+    - sensor.hallway_nest_protect_smoke_status
+
+Have I been pwned?:
+  entities:
+    - !secret pwned1
+    - !secret pwned2
+    - !secret pwned3
+
+################################################
+##         Automation Groups                  ##
+################################################
+
+
 Automate Licht en Scenes:
   entities:
     - automation.licht_aan_bij_thuiskomst
@@ -283,15 +227,3 @@ Automate Klimaat:
   entities:
     - automation.thermostaat_uit_away_mode_bij_thuiskomst
 
-Rookmelder Hal:
-  entities:
-    - binary_sensor.hallway_nest_protect_online
-    - sensor.hallway_nest_protect_battery_health
-    - sensor.hallway_nest_protect_co_status
-    - sensor.hallway_nest_protect_smoke_status
-
-Have I been pwned?:
-  entities:
-    - !secret pwned1
-    - !secret pwned2
-    - !secret pwned3
