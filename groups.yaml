@@ -98,6 +98,7 @@ Overige_apparaten:
     - device_tracker.experiaz_tablet_experiaz
     - device_tracker.acbc32cbfd29 #macbook max
     - device_tracker.maxiphonesix
+    - device_tracker.maxiphonefive
 
 schoonmaak:
   name: "Schoonmakers"
@@ -105,6 +106,12 @@ schoonmaak:
     - device_tracker.74a528a58562
     - device_tracker.74a528a5844b
 
-Alle apparaten:
+Batterylevels:
+  name: "Accu Niveaus"
   entities:
-    - group.all_devices
+    - sensor.battery_maxiphone5
+    - sensor.battery_maxiphone6
+    - sensor.maxiphone_battery_level
+    - sensor.maxiphone_battery_state
+    - sensor.maxiphonesix_battery_level
+    - sensor.maxiphonesix_battery_state
