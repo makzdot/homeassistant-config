@@ -75,6 +75,7 @@ Klimaatbeheersing Woonkamer:
     - sensor.living_room_thermostat_thermostaat_humidity
     - binary_sensor.living_room_thermostat_thermostaat_has_leaf
     - binary_sensor.living_room_thermostat_thermostaat_online
+    - sensor.living_room_thermostat_thermostaat_operation_mode
     - sensor.living_room_thermostat_thermostaat_hvac_state
     - binary_sensor.living_room_thermostat_thermostaat_is_locked
     - binary_sensor.living_room_thermostat_thermostaat_is_using_emergency_heat
@@ -82,6 +83,10 @@ Klimaatbeheersing Woonkamer:
     - sensor.living_room_thermostat_thermostaat_humidity
     - sensor.living_room_thermostat_thermostaat_temperature
     - sensor.living_room_thermostat_thermostaat_target
+
+Plex sensor:
+  entities:
+    - sensor.plex_spy
 
 ################################################
 ##         Device tracker Groups              ##
