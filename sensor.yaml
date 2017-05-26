@@ -57,7 +57,7 @@
     - rain
     - snow
 
-- platform: api_streams
+# - platform: api_streams
 
 - platform: darksky
   api_key: !secret dark_sky_api
