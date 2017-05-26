@@ -78,3 +78,33 @@ Klimaatbeheersing Woonkamer:
     - binary_sensor.living_room_thermostat_thermostaat_is_locked
     - binary_sensor.living_room_thermostat_thermostaat_is_using_emergency_heat
     - binary_sensor.living_room_thermostat_thermostaat_fan
+
+################################################
+##         Device tracker Groups              ##
+################################################
+
+personen:
+  name: "Personen en apparaten"
+  entities:
+    - device_tracker.makzdot_maxiphone6
+    - device_tracker.makzdot_rikki_telefoon
+#    - device_tracker.74a528a58562
+#    - device_tracker.74a528a5844b
+
+Overige_apparaten:
+  name: "Overige apparaten"
+  entities:
+    - device_tracker.makzdot_maxiphone5
+    - device_tracker.experiaz_tablet_experiaz
+    - device_tracker.acbc32cbfd29 #macbook max
+    - device_tracker.maxiphonesix
+
+schoonmaak:
+  name: "Schoonmakers"
+  entities:
+    - device_tracker.74a528a58562
+    - device_tracker.74a528a5844b
+
+Alle apparaten:
+  entities:
+    - group.all_devices
