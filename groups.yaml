@@ -4,6 +4,7 @@
 
 Weer Algemeen:
   entities:
+    - sensor.time
     - sensor.yr_symbol
     - sun.sun
     - sensor.moon
@@ -78,6 +79,9 @@ Klimaatbeheersing Woonkamer:
     - binary_sensor.living_room_thermostat_thermostaat_is_locked
     - binary_sensor.living_room_thermostat_thermostaat_is_using_emergency_heat
     - binary_sensor.living_room_thermostat_thermostaat_fan
+    - sensor.living_room_thermostat_thermostaat_humidity
+    - sensor.living_room_thermostat_thermostaat_temperature
+    - sensor.living_room_thermostat_thermostaat_target
 
 ################################################
 ##         Device tracker Groups              ##
