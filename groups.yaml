@@ -248,11 +248,6 @@ NZBget:
     - sensor.nzbget_size
     - sensor.nzbget_uptime
 
-Speedtest:
-  entities:
-    - sensor.speedtest_download
-    - sensor.speedtest_upload
-
 Plex server:
   entities:
     - sensor.plex_spy
@@ -289,3 +284,9 @@ Rookmelder Hal:
     - sensor.hallway_nest_protect_battery_health
     - sensor.hallway_nest_protect_co_status
     - sensor.hallway_nest_protect_smoke_status
+
+Have I been pwned?:
+  entities:
+    - !secret pwned1
+    - !secret pwned2
+    - !secret pwned3
