@@ -189,6 +189,10 @@ Alle apparaten:
   entities:
     - group.all_devices
 
+################################################
+##         Sensore Groups                     ##
+################################################
+
 Weer Algemeen:
   entities:
     - sensor.yr_symbol
