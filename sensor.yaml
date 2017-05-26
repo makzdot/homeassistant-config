@@ -29,12 +29,6 @@
   unit_of_measurement: "%"
   value_template: '{{ value_json.batt }}'
 
-- platform: haveibeenpwned
-  email:
-    - !secret prive_email
-    - !secret prive_email2
-    - !secret work_emailA
-
 - platform: nzbget
   host: !secret nzbget_host
   username: !secret nzbget_username
