@@ -28,6 +28,7 @@ media:
   entities:
     - group.mediaspelers_woonkamer
     - group.plex_server
+    - group.plex_sensor
 
 automation:
   name: Automation
