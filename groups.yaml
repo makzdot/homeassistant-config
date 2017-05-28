@@ -151,6 +151,7 @@ Batterylevels:
     - sensor.maxiphone_battery_state
     - sensor.maxiphonesix_battery_level
     - sensor.maxiphonesix_battery_state
+    - sensor.hallway_nest_protect_battery_health
 
 ################################################
 ##         Automation Groups                  ##
