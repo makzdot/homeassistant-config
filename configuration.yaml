@@ -118,11 +118,6 @@ camera:
 
 
 media_player:
-  - platform: samsungtv
-    host: 172.19.11.165
-    port: 55000
-    name: Woonkamer TV
-    timeout: 2
   - platform: plex
   - platform: apple_tv
     name: Woonkamer AppleTV
