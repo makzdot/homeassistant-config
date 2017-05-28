@@ -13,6 +13,13 @@ verlichting:
     - group.verlichting_hal
     - group.verlichting_badkamer
 
+cameras:
+  name: Cameras
+  view: yes
+  icon: mdi:video
+  entities:
+    - group.bewakingscameras_woonkamer
+
 automation:
   name: Automation
   view: yes
@@ -272,6 +279,14 @@ Mediaspelers Woonkamer:
     - media_player.woonkamer_appletv
 #    - media_player.woonkamer
     - media_player.woonkamer_tv
+
+##########################################
+# Groups bewakingscamera's per kamer
+##########################################
+bewakingscameras_woonkamer:
+  name: "Bewakingscamera's Woonkamer"
+  entities:
+    - camera.foscam_camera
 
 ##########################################
 # Groups bewakingscamera's per kamer
