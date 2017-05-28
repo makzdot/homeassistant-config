@@ -64,7 +64,6 @@ weer:
 ################################################
 ##         Sensore Groups                     ##
 ################################################
-
 Weer Algemeen:
   entities:
     - sensor.time
@@ -154,7 +153,6 @@ Plex sensor:
 ################################################
 ##         Device tracker Groups              ##
 ################################################
-
 personen:
   name: "Personen en apparaten"
   entities:
@@ -192,7 +190,6 @@ Batterylevels:
 ################################################
 ##         Automation Groups                  ##
 ################################################
-
 Timer light:
   entities:
     - input_slider.auto_light_minutes
@@ -238,7 +235,6 @@ Scripts:
 ################################################
 ##         Lighting groups                    ##
 ################################################
-
 Scenes:
   entities:
     - scene.alle_lichten_uit
@@ -287,14 +283,6 @@ Mediaspelers Woonkamer:
     - media_player.woonkamer_appletv
 #    - media_player.woonkamer
     - media_player.woonkamer_tv
-
-##########################################
-# Groups bewakingscamera's per kamer
-##########################################
-bewakingscameras_woonkamer:
-  name: "Bewakingscamera's Woonkamer"
-  entities:
-    - camera.foscam_camera
 
 ##########################################
 # Groups bewakingscamera's per kamer
