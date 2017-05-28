@@ -21,7 +21,7 @@ automation:
     - group.multimedia
     - group.device_tracker
     - group.klimaat
-
+    - group.scripts
 
 sensors:
   name: Sensors
@@ -213,6 +213,11 @@ Licht en Scenes:
 Device tracker:
   entities:
     - automation.refresh_owntracks
+
+Scripts:
+  entities:
+    - script.update_config
+    - script.refresh_devices
 
 ################################################
 ##         Lighting groups                    ##
