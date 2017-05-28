@@ -25,6 +25,15 @@ sensors:
     - group.rookmelder_hal
     - group.batterylevels
 
+weer:
+  name: Weer
+  view: yes
+  icon: mdi:weather-partlycloudy
+  entities:
+    - group.weer_algemeen
+    - group.dark_sky
+    - group.open_weathermap
+
 ################################################
 ##         Sensore Groups                     ##
 ################################################
