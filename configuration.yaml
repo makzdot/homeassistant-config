@@ -126,7 +126,7 @@ media_player:
   - platform: plex
   - platform: apple_tv
     name: Woonkamer AppleTV
-    host: 172.19.11.24
+    host: 172.19.11.191
     login_id: !secret appletv_login_id
 
 # Text to speech
