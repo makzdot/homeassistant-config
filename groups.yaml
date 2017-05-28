@@ -12,6 +12,17 @@ verlichting:
     - group.verlichting_hal
     - group.verlichting_badkamer
 
+automation:
+  name: Automation
+  view: yes
+  icon: mdi:robot
+  entities:
+    - group.licht_en_scenes
+    - group.multimedia
+    - group.device_tracker
+    - group.klimaat
+
+
 sensors:
   name: Sensors
   view: yes
