@@ -23,6 +23,7 @@ sensors:
     - group.weer
     - group.nzbget
     - group.rookmelder_hal
+    - group.batterylevels
 
 ################################################
 ##         Sensore Groups                     ##
