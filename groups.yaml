@@ -20,6 +20,14 @@ cameras:
   entities:
     - group.bewakingscameras_woonkamer
 
+media:
+  name: Media
+  view: yes
+  icon: mdi:play-circle-outline
+  entities:
+    - group.mediaspelers_woonkamer
+    - group.plex_server
+
 automation:
   name: Automation
   view: yes
@@ -295,3 +303,12 @@ bewakingscameras_woonkamer:
   name: "Bewakingscamera's Woonkamer"
   entities:
     - camera.foscam_camera
+
+##########################################
+# Groups Mediaspelers per kamer
+##########################################
+Mediaspelers Woonkamer:
+  entities:
+    - media_player.woonkamer_appletv
+#    - media_player.woonkamer
+    - media_player.woonkamer_tv
