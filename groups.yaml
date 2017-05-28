@@ -291,12 +291,3 @@ bewakingscameras_woonkamer:
   name: "Bewakingscamera's Woonkamer"
   entities:
     - camera.foscam_camera
-
-##########################################
-# Groups Mediaspelers per kamer
-##########################################
-Mediaspelers Woonkamer:
-  entities:
-    - media_player.woonkamer_appletv
-#    - media_player.woonkamer
-    - media_player.woonkamer_tv
