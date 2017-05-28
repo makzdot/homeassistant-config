@@ -222,6 +222,15 @@ Scripts:
 ################################################
 ##         Lighting groups                    ##
 ################################################
+Verlichting Woonkamer:
+  entities:
+    - light.keuken
+    - light.plafoniere
+    - light.schemerlampen
+    - light.spots
+    - light.eettafel
+    - light.led_strip
+    - light.led_strip_2
 
 Verlichting Slaapkamer Max:
   entities:
