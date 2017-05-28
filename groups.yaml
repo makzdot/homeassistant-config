@@ -12,6 +12,7 @@ verlichting:
     - group.verlichting_slaapkamer_noeri
     - group.verlichting_hal
     - group.verlichting_badkamer
+    - group.timer_light
 
 cameras:
   name: Cameras
