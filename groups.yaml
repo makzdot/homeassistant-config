@@ -6,6 +6,7 @@ verlichting:
   view: yes
   icon: mdi:lightbulb-outline
   entities:
+    - group.scenes
     - group.verlichting_woonkamer
     - group.verlichting_slaapkamer_max
     - group.verlichting_slaapkamer_noeri
@@ -222,6 +223,19 @@ Scripts:
 ################################################
 ##         Lighting groups                    ##
 ################################################
+
+Scenes:
+  entities:
+    - scene.alle_lichten_uit
+    - scene.away
+    - scene.eettafel_effect
+    - scene.livingroom_dim
+    - scene.livingroom_normal
+    - scene.schoonmaken
+
+################################################
+##         Lighting groups                    ##
+################################################
 Verlichting Woonkamer:
   entities:
     - light.keuken
@@ -258,8 +272,6 @@ Mediaspelers Woonkamer:
     - media_player.woonkamer_appletv
 #    - media_player.woonkamer
     - media_player.woonkamer_tv
-
-
 
 ##########################################
 # Groups bewakingscamera's per kamer
