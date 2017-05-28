@@ -1,4 +1,30 @@
 ################################################
+##         View                               ##
+################################################
+verlichting:
+  name: Verlichting
+  view: yes
+  icon: mdi:lightbulb-outline
+  entities:
+    - group.verlichting_woonkamer
+    - group.verlichting_slaapkamer_max
+    - group.verlichting_slaapkamer_noeri
+    - group.verlichting_hal
+    - group.verlichting_badkamer
+
+sensors:
+  name: Sensors
+  view: yes
+  icon: mdi:gauge
+  entities:
+    - group.personen
+    - group.overige_apparaten
+    - group.schoonmaak
+    - group.weer
+    - group.nzbget
+    - group.rookmelder_hal
+
+################################################
 ##         Sensore Groups                     ##
 ################################################
 
@@ -139,3 +165,70 @@ Timer light:
     - sensor.auto_light_stop
     - automation.auto_light_on
     - automation.auto_light_off
+
+Multimedia:
+  entities:
+    - automation.appletv_aan_samen_met_tv
+    - automation.appletv_uit_samen_met_tv
+    - automation.media_player_playing_movie
+    - automation.media_player_playing_tvshow
+    - automation.media_player_playing_music
+    - automation.media_player_pausedstopped
+
+Klimaat:
+  entities:
+    - automation.thermostaat_uit_away_mode_bij_thuiskomst
+
+Licht en Scenes:
+  entities:
+    - automation.licht_aan_bij_thuiskomst
+    - automation.licht_aan_in_de_avond
+    - automation.licht_aan_met_afstandsbediening
+    - automation.licht_uit_met_afstandsbediening
+    - automation.licht_aan_voor_schoonmaker
+    - automation.away
+
+Device tracker:
+  entities:
+    - automation.refresh_owntracks
+
+################################################
+##         Lighting groups                    ##
+################################################
+
+Verlichting Slaapkamer Max:
+  entities:
+    - light.plafoniere_max
+    - light.schemerlamp_max
+
+Verlichting Slaapkamer Noeri:
+  entities:
+    - light.hanglamp_noeri
+    - light.schemerlamp_noeri
+
+Verlichting Hal:
+  entities:
+    - light.hal
+
+Verlichting Badkamer:
+  entities:
+    - light.badkamer
+
+##########################################
+# Groups Mediaspelers per kamer
+##########################################
+Mediaspelers Woonkamer:
+  entities:
+    - media_player.woonkamer_appletv
+#    - media_player.woonkamer
+    - media_player.woonkamer_tv
+
+
+
+##########################################
+# Groups bewakingscamera's per kamer
+##########################################
+bewakingscameras_woonkamer:
+  name: "Bewakingscamera's Woonkamer"
+  entities:
+    - camera.foscam_camera
