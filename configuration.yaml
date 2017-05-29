@@ -129,6 +129,11 @@ tts:
   - platform: google
     language: 'nl'
 
+image_processing:
+  - platform: dlib_face_detect
+    source:
+      - entity_id: camera.foscam_camera
+
 ##Includes
 zone: !include_dir_list zones
 sensor: !include sensor.yaml
