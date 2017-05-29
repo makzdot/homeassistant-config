@@ -97,7 +97,7 @@ device_tracker:
     host: router.makz.lan
     community: !secret router_snmp_communicty
     baseoid: 1.3.6.1.2.1.4.22.1.2
-    track_new_devices: no
+    track_new_devices: false
 
 rfxtrx:
   device: /dev/ttyUSB0
