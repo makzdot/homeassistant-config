@@ -13,6 +13,7 @@ verlichting:
     - group.verlichting_hal
     - group.verlichting_badkamer
     - group.timer_light
+    - group.all_switches
 
 cameras:
   name: Cameras
