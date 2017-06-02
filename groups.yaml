@@ -13,7 +13,7 @@ verlichting:
     - group.verlichting_hal
     - group.verlichting_badkamer
     - group.timer_light
-    - group.all_switches
+    - group.schakelaars_woonkamer
 
 cameras:
   name: Cameras
@@ -242,7 +242,7 @@ Scripts:
     - script.refresh_devices
 
 ################################################
-##         Lighting groups                    ##
+##         Scene groups                       ##
 ################################################
 Scenes:
   entities:
@@ -263,6 +263,7 @@ Verlichting Woonkamer:
     - light.schemerlampen
     - light.spots
     - light.eettafel
+    - switch.fluxer
     - light.led_strip
     - light.led_strip_2
 
@@ -283,6 +284,12 @@ Verlichting Hal:
 Verlichting Badkamer:
   entities:
     - light.badkamer
+
+Schakelaars Woonkamer:
+  entities:
+    - switch.zonnescherm
+    - switch.main_switch
+    - switch.fluxer
 
 ##########################################
 # Groups Mediaspelers per kamer
