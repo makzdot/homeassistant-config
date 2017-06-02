@@ -53,6 +53,7 @@ sensors:
     - group.nzbget
     - group.rookmelder_hal
     - group.batterylevels
+    - group.time_and_date
 
 weer:
   name: Weer
