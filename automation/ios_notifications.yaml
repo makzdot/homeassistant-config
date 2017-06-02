@@ -5,7 +5,7 @@
     entity_id: media_player.woonkamer_tv
     to: 'on'
   action:
-    service: notify.ios_max_mudde
+    service: notify.ios_maxiphonesix
     data:
       message: "De TV gaat aan!"
       data:
