@@ -68,10 +68,15 @@ weer:
 ################################################
 Weer Algemeen:
   entities:
-    - sensor.time
     - sensor.yr_symbol
     - sun.sun
     - sensor.moon
+
+time and date:
+  name: "Tijd & datum"
+  entities:
+    - sensor.time
+    - sensor.date
     - binary_sensor.workday_sensor
 
 Open weathermap:
