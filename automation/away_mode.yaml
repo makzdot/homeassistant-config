@@ -6,8 +6,8 @@
     to: 'not_home'
   condition:
     condition: state
-        entity_id: 'group.schoonmaak'
-        state: 'not_home'
+      entity_id: 'group.schoonmaak'
+      state: 'not_home'
   action:
     - service: scene.turn_on
       entity_id: scene.away
