@@ -1,4 +1,4 @@
-- alias: 'Away'
+- alias: 'Bewoners verlaten huis'
   trigger:
     platform: state
     entity_id: group.personen
@@ -33,7 +33,6 @@
       data:
         entity_id: climate.living_room_thermostaat
         away_mode: true
-
 
 - alias: 'Thermostaat uit Away mode bij thuiskomst'
   trigger:
