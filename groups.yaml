@@ -230,7 +230,8 @@ Licht en Scenes:
     - automation.licht_aan_met_afstandsbediening
     - automation.licht_uit_met_afstandsbediening
     - automation.licht_aan_voor_schoonmaker
-    - automation.away
+    - automation.bewoners_verlaten_huis
+    - automation.schoonmaak_verlaat_huis
 
 Device tracker:
   entities:
