@@ -16,6 +16,24 @@
         entity_id: climate.living_room_thermostaat
         away_mode: true
 
+- Alias: 'Schoonmaak verlaat huis'
+  trigger:
+    platform: state
+    entity_id: group.schoonmaak
+    from: 'home'
+    to: 'not_home'
+  condition:
+    condition: state
+    entity_id: group.personen
+    state: 'not_home'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.away
+    - service: climate.set_away_mode
+      data:
+        entity_id: climate.living_room_thermostaat
+        away_mode: true
+
 
 - alias: 'Thermostaat uit Away mode bij thuiskomst'
   trigger:
