@@ -2,7 +2,7 @@
   trigger:
     platform: state
     entity_id: media_player.woonkamertv_ue46d8000
-    to: on
+    to: 'on'
   action:
     service: homeassistant.turn_on
     entity_id: media_player.woonkamer_appletv
@@ -11,7 +11,7 @@
   trigger:
     platform: state
     entity_id: media_player.woonkamertv_ue46d8000
-    to: off
+    to: 'off'
   action:
     service: homeassistant.turn_off
     entity_id: media_player.woonkamer_appletv
