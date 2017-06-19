@@ -16,7 +16,7 @@
         entity_id: climate.living_room_thermostaat
         away_mode: true
 
-- Alias: 'Schoonmaak verlaat huis'
+- alias: 'Schoonmaak verlaat huis'
   trigger:
     platform: state
     entity_id: group.schoonmaak
