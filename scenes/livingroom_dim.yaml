@@ -16,7 +16,6 @@
       brightness: 20
       kelvin: 2700
 #      rgb_color: [255,255,255]
-      color_name: white
       transition: 5
     light.led_strip:
       state: on
