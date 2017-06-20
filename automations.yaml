@@ -1,4 +1,5 @@
-- alias: 'AppleTV aan samen met TV'
+- id: 1
+  alias: 'AppleTV aan samen met TV'
   trigger:
     platform: state
     entity_id: media_player.woonkamertv_ue46d8000
@@ -7,7 +8,8 @@
     service: homeassistant.turn_on
     entity_id: media_player.woonkamer_appletv
 
-- alias: 'AppleTV uit samen met TV'
+- id: 2
+  alias: 'AppleTV uit samen met TV'
   trigger:
     platform: state
     entity_id: media_player.woonkamertv_ue46d8000
@@ -16,7 +18,8 @@
     service: homeassistant.turn_off
     entity_id: media_player.woonkamer_appletv
 
-- alias: 'Bewoners verlaten huis'
+- id: 3
+  alias: 'Bewoners verlaten huis'
   trigger:
     platform: state
     entity_id: group.personen
@@ -34,7 +37,8 @@
         entity_id: climate.living_room_thermostaat
         away_mode: true
 
-- alias: 'Schoonmaak verlaat huis'
+- id: 4
+  alias: 'Schoonmaak verlaat huis'
   trigger:
     platform: state
     entity_id: group.schoonmaak
@@ -52,7 +56,8 @@
         entity_id: climate.living_room_thermostaat
         away_mode: true
 
-- alias: 'Thermostaat uit Away mode bij thuiskomst'
+- id: 5
+  alias: 'Thermostaat uit Away mode bij thuiskomst'
   trigger:
     platform: state
     entity_id: group.personen
@@ -64,8 +69,9 @@
         entity_id: climate.living_room_thermostaat
         away_mode: false
 
-# iOS Notifications
-- alias: Notify iOS app
+- id: 6
+  # iOS Notifications
+  alias: Notify iOS app
   trigger:
     platform: state
     entity_id: media_player.woonkamer_tv
@@ -78,7 +84,8 @@
         push:
           badge: 1
 
-- alias: 'Licht aan met afstandsbediening'
+- id: 7
+  alias: 'Licht aan met afstandsbediening'
   trigger:
     platform: state
     entity_id: switch.main_switch
@@ -87,7 +94,8 @@
     service: scene.turn_on
     entity_id: scene.livingroom_normal
 
-- alias: 'Licht uit met afstandsbediening'
+- id: 8
+  alias: 'Licht uit met afstandsbediening'
   trigger:
     platform: state
     entity_id: switch.main_switch
@@ -96,7 +104,8 @@
     service: scene.turn_on
     entity_id: scene.alle_lichten_uit
 
-- alias: 'Licht aan bij thuiskomst'
+- id: 9
+  alias: 'Licht aan bij thuiskomst'
   trigger:
     platform: state
     entity_id: group.personen
@@ -109,7 +118,8 @@
     service: scene.turn_on
     entity_id: scene.livingroom_normal
 
-- alias: 'Licht aan in de avond'
+- id: 10
+  alias: 'Licht aan in de avond'
   trigger:
     platform: sun
     event: sunset
@@ -122,8 +132,8 @@
     service: scene.turn_on
     entity_id: scene.livingroom_normal
 
-
-- alias: "auto_light_on enabled"
+- id: 11
+  alias: "auto_light_on enabled"
   trigger:
     platform: state
     entity_id: input_slider.auto_light_minutes, input_slider.auto_light_duration
@@ -137,7 +147,8 @@
       entity_id:
         - automation.auto_light_off
 
-- alias: 'auto_light_on'
+- id: 12
+  alias: 'auto_light_on'
   initial_state: True
   trigger:
     - platform: time
@@ -150,7 +161,8 @@
     - service: light.turn_on
       entity_id: light.schemerlamp_max
 
-- alias: 'auto_light_off'
+- id: 13
+  alias: 'auto_light_off'
   initial_state: True
   trigger:
     - platform: time
@@ -163,7 +175,8 @@
     - service: light.turn_off
       entity_id: light.schemerlamp_max
 
-- alias: 'Licht aan voor schoonmaker'
+- id: 14
+  alias: 'Licht aan voor schoonmaker'
   trigger:
     platform: state
     entity_id: group.schoonmaak
@@ -185,7 +198,8 @@
       service: scene.turn_on
       entity_id: scene.schoonmaken
 
-- alias: "Media player paused/stopped"
+- id: 15
+  alias: "Media player paused/stopped"
   trigger:
     - platform: state
       entity_id: media_player.woonkamer_appletv
@@ -203,7 +217,8 @@
 #      data:
 #        message: "AppleTV Paused"
 
-- alias: "Media player playing Movie"
+- id: 16
+  alias: "Media player playing Movie"
   trigger:
     - platform: state
       entity_id: media_player.woonkamer_appletv
@@ -222,7 +237,8 @@
 #      data:
 #        message: "AppleTV Playing movie"
 
-- alias: "Media player playing TVshow"
+- id: 17
+  alias: "Media player playing TVshow"
   trigger:
     - platform: state
       entity_id: media_player.woonkamer_appletv
@@ -241,7 +257,8 @@
 #      data:
 #        message: "AppleTV Playing tvshow"
 
-- alias: Refresh Owntracks
+- id: 18
+  alias: Refresh Owntracks
   trigger:
     - platform: time
       minutes: '/30'
