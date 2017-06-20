@@ -137,7 +137,7 @@ cover: !include cover.yaml
 light: !include light.yaml
 group: !include groups.yaml
 scene: !include_dir_list scenes
-automation: !include automations.yaml
+automation: !include_dir_list automation
 script: !include_dir_named scripts
 binary_sensor: !include binary_sensor.yaml
 input_slider: !include input_slider.yaml
