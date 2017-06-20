@@ -14,9 +14,9 @@
     light.eettafel:
       state: on
       brightness: 10
-      color_temp: 360
-      rgb_color: [126,126,126]
-      transition: 5
+#      color_temp: 360
+#      rgb_color: [126,126,126]
+#      transition: 5
     light.led_strip:
       state: on
       brightness: 80
