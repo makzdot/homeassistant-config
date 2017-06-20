@@ -1,0 +1,250 @@
+- alias: 'AppleTV aan samen met TV'
+  trigger:
+    platform: state
+    entity_id: media_player.woonkamertv_ue46d8000
+    to: 'on'
+  action:
+    service: homeassistant.turn_on
+    entity_id: media_player.woonkamer_appletv
+
+- alias: 'AppleTV uit samen met TV'
+  trigger:
+    platform: state
+    entity_id: media_player.woonkamertv_ue46d8000
+    to: 'off'
+  action:
+    service: homeassistant.turn_off
+    entity_id: media_player.woonkamer_appletv
+
+- alias: 'Bewoners verlaten huis'
+  trigger:
+    platform: state
+    entity_id: group.personen
+    from: 'home'
+    to: 'not_home'
+  condition:
+    condition: state
+    entity_id: group.schoonmaak
+    state: 'not_home'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.away
+    - service: climate.set_away_mode
+      data:
+        entity_id: climate.living_room_thermostaat
+        away_mode: true
+
+- alias: 'Schoonmaak verlaat huis'
+  trigger:
+    platform: state
+    entity_id: group.schoonmaak
+    from: 'home'
+    to: 'not_home'
+  condition:
+    condition: state
+    entity_id: group.personen
+    state: 'not_home'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.away
+    - service: climate.set_away_mode
+      data:
+        entity_id: climate.living_room_thermostaat
+        away_mode: true
+
+- alias: 'Thermostaat uit Away mode bij thuiskomst'
+  trigger:
+    platform: state
+    entity_id: group.personen
+    from: 'not_home'
+    to: 'home'
+  action:
+    - service: climate.set_away_mode
+      data:
+        entity_id: climate.living_room_thermostaat
+        away_mode: false
+
+# iOS Notifications
+- alias: Notify iOS app
+  trigger:
+    platform: state
+    entity_id: media_player.woonkamer_tv
+    to: 'on'
+  action:
+    service: notify.ios_maxiphonesix
+    data:
+      message: "De TV gaat aan!"
+      data:
+        push:
+          badge: 1
+
+- alias: 'Licht aan met afstandsbediening'
+  trigger:
+    platform: state
+    entity_id: switch.main_switch
+    to: 'on'
+  action:
+    service: scene.turn_on
+    entity_id: scene.livingroom_normal
+
+- alias: 'Licht uit met afstandsbediening'
+  trigger:
+    platform: state
+    entity_id: switch.main_switch
+    to: 'off'
+  action:
+    service: scene.turn_on
+    entity_id: scene.alle_lichten_uit
+
+- alias: 'Licht aan bij thuiskomst'
+  trigger:
+    platform: state
+    entity_id: group.personen
+    to: home
+  condition:
+    condition: sun
+    after: 'sunset'
+    after_offset: "-1:20:00"
+  action:
+    service: scene.turn_on
+    entity_id: scene.livingroom_normal
+
+- alias: 'Licht aan in de avond'
+  trigger:
+    platform: sun
+    event: sunset
+    offset: "-01:20:00"
+  condition:
+    condition: state
+    entity_id: group.personen
+    state: home
+  action:
+    service: scene.turn_on
+    entity_id: scene.livingroom_normal
+
+
+- alias: "auto_light_on enabled"
+  trigger:
+    platform: state
+    entity_id: input_slider.auto_light_minutes, input_slider.auto_light_duration
+  action:
+  - service: homeassistant.turn_on
+    data:
+      entity_id:
+        - automation.auto_light_on
+  - service: homeassistant.turn_on
+    data:
+      entity_id:
+        - automation.auto_light_off
+
+- alias: 'auto_light_on'
+  initial_state: True
+  trigger:
+    - platform: time
+      minutes: '/1'
+      seconds: 10
+  condition:
+    - condition: template
+      value_template: '{{ (now().strftime("%s") | int | timestamp_custom("%H:%M")) == states.sensor.auto_light_start.state }}'
+  action:
+    - service: light.turn_on
+      entity_id: light.schemerlamp_max
+
+- alias: 'auto_light_off'
+  initial_state: True
+  trigger:
+    - platform: time
+      minutes: '/1'
+      seconds: 10
+  condition:
+    - condition: template
+      value_template: '{{ (now().strftime("%s") | int | timestamp_custom("%H:%M")) == states.sensor.auto_light_stop.state }}'
+  action:
+    - service: light.turn_off
+      entity_id: light.schemerlamp_max
+
+- alias: 'Licht aan voor schoonmaker'
+  trigger:
+    platform: state
+    entity_id: group.schoonmaak
+    from: 'not_home'
+    to: 'home'
+  condition:
+    condition: and
+    conditions:
+    - condition: time
+      after: "09:00:00"
+      before: "17:30:00"
+    - condition: state
+      entity_id: group.personen
+      state: 'not_home'
+    - condition: state
+      entity_id: 'binary_sensor.workday_sensor'
+      state: 'on'
+  action:
+      service: scene.turn_on
+      entity_id: scene.schoonmaken
+
+- alias: "Media player paused/stopped"
+  trigger:
+    - platform: state
+      entity_id: media_player.woonkamer_appletv
+      from: 'playing'
+      to: 'paused'
+  condition:
+    - condition: state
+      entity_id: sun.sun
+      state: 'below_horizon'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.livingroom_normal
+    - delay: 0:10
+#    - service: notify.telegram
+#      data:
+#        message: "AppleTV Paused"
+
+- alias: "Media player playing Movie"
+  trigger:
+    - platform: state
+      entity_id: media_player.woonkamer_appletv
+      state: 'playing'
+  condition:
+    - condition: state
+      entity_id: sun.sun
+      state: 'below_horizon'
+    - condition: template
+      value_template: '{{ states.media_player.woonkamer_appletv.attributes.media_content_type == "movie" }}'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.livingroom_dim
+    - delay: 0:10
+#    - service: notify.telegram
+#      data:
+#        message: "AppleTV Playing movie"
+
+- alias: "Media player playing TVshow"
+  trigger:
+    - platform: state
+      entity_id: media_player.woonkamer_appletv
+      state: 'playing'
+  condition:
+    - condition: state
+      entity_id: sun.sun
+      state: 'below_horizon'
+    - condition: template
+      value_template: '{{ states.media_player.woonkamer_appletv.attributes.media_content_type == "tvshow" }}'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.livingroom_dim
+    - delay: 0:10
+#    - service: notify.telegram
+#      data:
+#        message: "AppleTV Playing tvshow"
+
+- alias: Refresh Owntracks
+  trigger:
+    - platform: time
+      minutes: '/30'
+      seconds: 0
+  action:
+    service: script.refresh_devices
