@@ -1,4 +1,4 @@
-- id: 1
+- id: '1'
   alias: 'AppleTV aan samen met TV'
   trigger:
     platform: state
@@ -8,7 +8,7 @@
     service: homeassistant.turn_on
     entity_id: media_player.woonkamer_appletv
 
-- id: 2
+- id: '2'
   alias: 'AppleTV uit samen met TV'
   trigger:
     platform: state
@@ -18,7 +18,7 @@
     service: homeassistant.turn_off
     entity_id: media_player.woonkamer_appletv
 
-- id: 3
+- id: '3'
   alias: 'Bewoners verlaten huis'
   trigger:
     platform: state
@@ -37,7 +37,7 @@
         entity_id: climate.living_room_thermostaat
         away_mode: true
 
-- id: 4
+- id: '4'
   alias: 'Schoonmaak verlaat huis'
   trigger:
     platform: state
@@ -56,7 +56,7 @@
         entity_id: climate.living_room_thermostaat
         away_mode: true
 
-- id: 5
+- id: '5'
   alias: 'Thermostaat uit Away mode bij thuiskomst'
   trigger:
     platform: state
@@ -69,7 +69,7 @@
         entity_id: climate.living_room_thermostaat
         away_mode: false
 
-- id: 6
+- id: '6'
   # iOS Notifications
   alias: Notify iOS app
   trigger:
@@ -84,7 +84,7 @@
         push:
           badge: 1
 
-- id: 7
+- id: '7'
   alias: 'Licht aan met afstandsbediening'
   trigger:
     platform: state
@@ -94,7 +94,7 @@
     service: scene.turn_on
     entity_id: scene.livingroom_normal
 
-- id: 8
+- id: '8'
   alias: 'Licht uit met afstandsbediening'
   trigger:
     platform: state
@@ -104,7 +104,7 @@
     service: scene.turn_on
     entity_id: scene.alle_lichten_uit
 
-- id: 9
+- id: '9'
   alias: 'Licht aan bij thuiskomst'
   trigger:
     platform: state
@@ -118,7 +118,7 @@
     service: scene.turn_on
     entity_id: scene.livingroom_normal
 
-- id: 10
+- id: '10'
   alias: 'Licht aan in de avond'
   trigger:
     platform: sun
@@ -132,7 +132,7 @@
     service: scene.turn_on
     entity_id: scene.livingroom_normal
 
-- id: 11
+- id: '11'
   alias: "auto_light_on enabled"
   trigger:
     platform: state
@@ -147,7 +147,7 @@
       entity_id:
         - automation.auto_light_off
 
-- id: 12
+- id: '12'
   alias: 'auto_light_on'
   initial_state: True
   trigger:
@@ -161,7 +161,7 @@
     - service: light.turn_on
       entity_id: light.schemerlamp_max
 
-- id: 13
+- id: '13'
   alias: 'auto_light_off'
   initial_state: True
   trigger:
@@ -175,7 +175,7 @@
     - service: light.turn_off
       entity_id: light.schemerlamp_max
 
-- id: 14
+- id: '14'
   alias: 'Licht aan voor schoonmaker'
   trigger:
     platform: state
@@ -198,7 +198,7 @@
       service: scene.turn_on
       entity_id: scene.schoonmaken
 
-- id: 15
+- id: '15'
   alias: "Media player paused/stopped"
   trigger:
     - platform: state
@@ -217,7 +217,7 @@
 #      data:
 #        message: "AppleTV Paused"
 
-- id: 16
+- id: '16'
   alias: "Media player playing Movie"
   trigger:
     - platform: state
@@ -237,7 +237,7 @@
 #      data:
 #        message: "AppleTV Playing movie"
 
-- id: 17
+- id: '17'
   alias: "Media player playing TVshow"
   trigger:
     - platform: state
@@ -257,7 +257,7 @@
 #      data:
 #        message: "AppleTV Playing tvshow"
 
-- id: 18
+- id: '18'
   alias: Refresh Owntracks
   trigger:
     - platform: time
