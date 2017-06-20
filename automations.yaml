@@ -249,7 +249,7 @@
           badge: 1
       message: Zonnescherm is ingerold
     service: notify.ios_maxiphonesix
-  alias: bericht zonnescherm in
+  alias: Bericht zonnescherm in
   id: '1497967142440'
   trigger:
   - entity_id: switch.zonnescherm
