@@ -15,7 +15,7 @@
       state: on
       brightness: 35
       kelvin: 2700
-      rgb_color: [126, 126, 126]
+#      rgb_color: [126, 126, 126]
       transition: 5
     light.led_strip:
       state: on
