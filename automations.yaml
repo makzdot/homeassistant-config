@@ -247,12 +247,12 @@
       data:
         push:
           badge: 1
-      message: Zonnescherm is ingerold
+      message: Dagmar & Ingeborg zijn gearriveerd.
     service: notify.ios_maxiphonesix
-  alias: Bericht zonnescherm in
+  alias: Bericht schoonmaak arriveerd
   id: '1497967142440'
   trigger:
-  - entity_id: switch.zonnescherm
-    from: 'on'
+  - entity_id: group.schoonmaak
+    from: not_home
     platform: state
-    to: 'off'
+    to: home
