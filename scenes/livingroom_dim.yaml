@@ -13,7 +13,7 @@
       state: on
     light.eettafel:
       state: on
-      brightness: 10
+      brightness: 20
       kelvin: 2700
 #      rgb_color: [255,255,255]
       color_name: white
