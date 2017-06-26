@@ -16,3 +16,20 @@
     service: scene.turn_on
     entity_id: scene.alle_lichten_uit
 
+- alias: 'badkamer aan met afstandsbediening'
+  trigger:
+    platform: state
+    entity_id: switch.test_switch
+    to: 'on'
+  action:
+    service: light.turn_on
+    entity_id: light.badkamer
+
+- alias: 'Badkamer uit met afstandsbediening'
+  trigger:
+    platform: state
+    entity_id: switch.test_switch
+    to: 'off'
+  action:
+    service: light.turn_off
+    entity_id: light.badkamer
