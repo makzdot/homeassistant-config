@@ -4,7 +4,7 @@
 
 #klik aan klik uit verlichting
 - platform: rfxtrx
-  automatic_add: false
+  automatic_add: true
   devices:
     0b11000203f5682002000070:
       name: Keuken
