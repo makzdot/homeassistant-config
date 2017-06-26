@@ -23,7 +23,7 @@
     to: 'on'
   action:
     service: light.turn_on
-    entity_id: light.badkamer
+    entity_id: light.schemerlamp_noeri
 
 - alias: 'Badkamer uit met afstandsbediening'
   trigger:
@@ -32,4 +32,4 @@
     to: 'off'
   action:
     service: light.turn_off
-    entity_id: light.badkamer
+    entity_id: light.schemerlamp_noeri
