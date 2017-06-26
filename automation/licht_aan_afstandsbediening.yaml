@@ -38,3 +38,20 @@
       - light.schemerlamp_noeri
       - light.schemerlamp_max
 
+- alias: 'Eettafel aan met afstandsbediening'
+  trigger:
+    platform: state
+    entity_id: switch.test_eettfel
+    to: 'on'
+  action:
+    service: light.turn_on
+    entity_id: light.eettafel
+
+- alias: 'Eettafel uit met afstandsbediening'
+  trigger:
+    platform: state
+    entity_id: switch.test_eettafel
+    to: 'off'
+  action:
+    service: light.turn_off
+    entity_id: light.eettafel

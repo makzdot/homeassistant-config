@@ -9,6 +9,9 @@
     0b110001011acf160a000070:
       name: Test Switch
       fire_event: true
+    0b110034011acf160b000070:
+      name: Test eettafel
+      fire_event: true
 
 - platform: flux
   lights:
