@@ -6,6 +6,9 @@
     0b11000b011acf1609010f70:
       name: Main Switch
       fire_event: True
+    0b110001011acf160a000070:
+      name: Test Switch
+      fire_event: true
 
 - platform: flux
   lights:
