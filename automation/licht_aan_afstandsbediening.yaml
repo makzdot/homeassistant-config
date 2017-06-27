@@ -16,7 +16,7 @@
     service: scene.turn_on
     entity_id: scene.alle_lichten_uit
 
-- alias: 'badkamer aan met afstandsbediening'
+- alias: 'schemerlampen wooonkamer aan met afstandsbediening'
   trigger:
     platform: state
     entity_id: switch.test_switch
@@ -27,7 +27,7 @@
       - light.schemerlamp_noeri
       - light.schemerlamp_max
 
-- alias: 'Badkamer uit met afstandsbediening'
+- alias: 'schemerlampen wooonkamer uit met afstandsbediening'
   trigger:
     platform: state
     entity_id: switch.test_switch
@@ -38,20 +38,20 @@
       - light.schemerlamp_noeri
       - light.schemerlamp_max
 
-- alias: 'Eettafel aan met afstandsbediening'
+- alias: 'Verander status van schakelaar als schemerlamp aan gaat'
   trigger:
     platform: state
-    entity_id: switch.test_eettfel
+    entity_id: light.schemerlamp_noeri
     to: 'on'
   action:
-    service: light.turn_on
-    entity_id: light.eettafel
+    service: switch.turn_on
+    entity_id: switch.test_switch
 
-- alias: 'Eettafel uit met afstandsbediening'
+- alias: 'Verander status van schakelaar als schemerlamp uit gaat'
   trigger:
     platform: state
-    entity_id: switch.test_eettafel
+    entity_id: light.schemerlamp_noeri
     to: 'off'
   action:
-    service: light.turn_off
-    entity_id: light.eettafel
+    service: switch.turn_off
+    entity_id: switch.test_switch
