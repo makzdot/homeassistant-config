@@ -291,6 +291,7 @@ Schakelaars Woonkamer:
     - switch.zonnescherm
     - switch.main_switch
     - switch.fluxer
+    - switch.test_switch
 
 ##########################################
 # Groups Mediaspelers per kamer
