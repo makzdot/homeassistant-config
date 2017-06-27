@@ -40,18 +40,24 @@
 
 - alias: 'Verander status van schakelaar als schemerlamp aan gaat'
   trigger:
-    platform: state
-    entity_id: light.schemerlamp_noeri
-    to: 'on'
+    - platform: state
+      entity_id: light.schemerlamp_noeri
+      to: 'on'
+    - platform: state
+      entity_id: light.schemerlamp_max
+      to: 'on'
   action:
     service: switch.turn_on
     entity_id: switch.test_switch
 
 - alias: 'Verander status van schakelaar als schemerlamp uit gaat'
   trigger:
-    platform: state
-    entity_id: light.schemerlamp_noeri
-    to: 'off'
+    - platform: state
+      entity_id: light.schemerlamp_noeri
+      to: 'off'
+    - platform: state
+      entity_id: light.schemerlamp_max
+      to: 'off'
   action:
     service: switch.turn_off
     entity_id: switch.test_switch
