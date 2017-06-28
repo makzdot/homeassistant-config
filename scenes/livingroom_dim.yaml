@@ -1,9 +1,5 @@
 - name: Livingroom dim
   entities:
-#    switch.fluxer: off
-    light.schemerlampen:
-      state: on
-      brightness: 20
     light.plafoniere:
       state: off
     light.keuken:
@@ -27,3 +23,7 @@
       brightness: 80
       rgb_color: [255,159,80]
       transition: 3
+    light.schemerlamp_noeri:
+      state: off
+    light.schemerlamp_max:
+      state: off

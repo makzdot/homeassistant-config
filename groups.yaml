@@ -261,22 +261,22 @@ Verlichting Woonkamer:
   entities:
     - light.keuken
     - light.plafoniere
-    - light.schemerlampen
     - light.spots
     - light.eettafel
     - switch.fluxer
     - light.led_strip
     - light.led_strip_2
+    - light.schemerlamp_max
+    - light.schemerlamp_noeri
 
 Verlichting Slaapkamer Max:
   entities:
     - light.plafoniere_max
-    - light.schemerlamp_max
+    - light.schemerlampen
 
 Verlichting Slaapkamer Noeri:
   entities:
     - light.hanglamp_noeri
-    - light.schemerlamp_noeri
 
 Verlichting Hal:
   entities:

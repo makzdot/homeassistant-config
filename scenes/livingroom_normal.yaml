@@ -4,9 +4,6 @@
     light.keuken:
       state: on
       brightness: 80
-    light.schemerlampen:
-      state: on
-      brightness: 250
     light.spots:
       state: on
     light.plafoniere:
@@ -28,3 +25,7 @@
       rgb_color: [255,159,80]
       transition: 3
     switch.main_switch: on
+    light.schemerlamp_noeri:
+      state: on
+    light.schemerlamp_max:
+      state: on
