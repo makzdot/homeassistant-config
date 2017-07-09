@@ -18,6 +18,9 @@ weather:
     latitude: !secret latitude
     longitude: !secret longitude
 
+upnp:
+  port_mapping: false
+
 # Enables the frontend
 frontend:
 
