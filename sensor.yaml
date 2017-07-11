@@ -10,7 +10,7 @@
 sensor:
   - platform: synologydsm
     host: wolverine.makz.lan
-    username: !secret synology_user
+    username: !secret synology_username
     password: !secret synology_password
     monitored_conditions:
       - cpu_total_load
