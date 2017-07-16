@@ -123,10 +123,12 @@ camera:
 
 media_player:
   - platform: plex
-  - platform: apple_tv
-    name: Woonkamer AppleTV
+
+apple_tv:
+  - name: Woonkamer AppleTV
     host: 172.19.11.191
     login_id: !secret appletv_login_id
+    start_off: true
 
 # Text to speech
 tts:
