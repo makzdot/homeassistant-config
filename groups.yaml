@@ -1,8 +1,8 @@
 ################################################
 ##         View                               ##
 ################################################
-verlichting:
-  name: default_view
+default_view:
+  name: Verlichting
   view: yes
   icon: mdi:lightbulb-outline
   entities:
