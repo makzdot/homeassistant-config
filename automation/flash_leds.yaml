@@ -1,0 +1,12 @@
+- alias: Test flash
+  trigger:
+    - platform: state
+      entity_id: Test Switch
+      to: 'on'
+  action:
+    - service: light.turn_on
+      data:
+        entity_id: light.led_strip
+        brightness: 255
+        color_name: red
+        flash: long
