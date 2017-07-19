@@ -4,4 +4,4 @@
     light.eettafel:
       state: on
       brightness: 40
-      effect: random
+      effect: lifx_effect_colorloop
