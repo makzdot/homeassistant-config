@@ -4,7 +4,7 @@
 default_view:
   name: Verlichting
   view: yes
-  icon: mdi:lightbulb-outline
+  icon: mdi:home
   entities:
     - group.scenes
     - group.verlichting_woonkamer
