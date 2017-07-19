@@ -253,6 +253,8 @@ Verlichting Slaapkamer Noeri:
 Verlichting Hal:
   entities:
     - light.hal
+    - scene.hal_voluit
+    - scene.hal_zacht
 
 Verlichting Badkamer:
   entities:
