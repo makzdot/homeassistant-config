@@ -1,7 +1,7 @@
 - alias: Test flash
   trigger:
     - platform: state
-      entity_id: Test Switch
+      entity_id: switch.test_switch
       to: 'on'
   action:
     - service: light.turn_on
