@@ -62,7 +62,6 @@ weer:
   entities:
     - group.weer_algemeen
     - group.dark_sky
-    - group.open_weathermap
 
 ################################################
 ##         Sensore Groups                     ##

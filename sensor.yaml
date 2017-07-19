@@ -47,6 +47,7 @@
 
 - platform: darksky
   api_key: !secret dark_sky_api
+  update_interval: '00:05'
   monitored_conditions:
     - summary
     - icon
