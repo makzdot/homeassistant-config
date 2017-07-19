@@ -51,7 +51,6 @@ sensors:
     - group.overige_apparaten
     - group.schoonmaak
     - group.weer
-    - group.nzbget
     - group.rookmelder_hal
     - group.batterylevels
     - group.time_and_date
@@ -120,18 +119,6 @@ Dark Sky:
     - sensor.dark_sky_visibility
     - sensor.dark_sky_wind_bearing
     - sensor.dark_sky_wind_speed
-
-NZBget:
-  entities:
-    - sensor.nzbget_speed
-    - sensor.nzbget_average_speed
-    - sensor.nzbget_article_cache
-    - sensor.nzbget_disk_free
-    - sensor.nzbget_download_paused
-    - sensor.nzbget_post_processing_paused
-    - sensor.nzbget_queue_size
-    - sensor.nzbget_size
-    - sensor.nzbget_uptime
 
 Rookmelder Hal:
   entities:

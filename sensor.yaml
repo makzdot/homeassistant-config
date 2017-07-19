@@ -7,20 +7,6 @@
     - 'time'
     - 'date'
 
-
-- platform: synologydsm
-  host: wolverine.makz.lan
-  username: !secret synology_username
-  password: !secret synology_password
-  monitored_conditions:
-    - cpu_total_load
-    - memory_real_usage
-    - network_up
-    - network_down
-    - disk_smart_status
-    - disk_status
-    - volume_percentage_used
-
 - platform: plex
   name: Plex Spy
   host: rogue.makz.lan
@@ -43,21 +29,6 @@
   name: "Battery MaxiPhone5"
   unit_of_measurement: "%"
   value_template: '{{ value_json.batt }}'
-
-- platform: nzbget
-  host: !secret nzbget_host
-  username: !secret nzbget_username
-  password: !secret nzbget_password
-  monitored_variables:
-    - article_cache
-    - average_download_rate
-    - download_paused
-    - download_rate
-    - download_size
-    - free_disk_space
-    - post_paused
-    - remaining_size
-    - uptime
 
 - platform: openweathermap
   api_key: !secret owm_api_key
