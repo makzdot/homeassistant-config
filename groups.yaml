@@ -145,19 +145,18 @@ personen:
 #    - device_tracker.74a528a58562
 #    - device_tracker.74a528a5844b
 
+schoonmaak:
+  name: "Schoonmakers"
+  entities:
+    - device_tracker.74a528a58562
+    - device_tracker.74a528a5844b
+
 Overige_apparaten:
   name: "Overige apparaten"
   entities:
     - device_tracker.makzdot_maxiphone5
     - device_tracker.experiaz_tablet_experiaz
     - device_tracker.acbc32cbfd29 #macbook max
-
-
-schoonmaak:
-  name: "Schoonmakers"
-  entities:
-    - device_tracker.74a528a58562
-    - device_tracker.74a528a5844b
 
 Batterylevels:
   name: "Accu Niveaus"
