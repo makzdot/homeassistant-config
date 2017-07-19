@@ -267,7 +267,6 @@ Schakelaars Woonkamer:
   entities:
     - switch.zonnescherm
     - switch.main_switch
-    - switch.fluxer
     - switch.test_switch
 
 ##########################################

@@ -16,28 +16,6 @@
     service: scene.turn_on
     entity_id: scene.alle_lichten_uit
 
-- alias: 'schemerlampen wooonkamer aan met afstandsbediening'
-  trigger:
-    platform: state
-    entity_id: switch.test_switch
-    to: 'on'
-  action:
-    service: light.turn_on
-    entity_id:
-      - light.schemerlamp_noeri
-      - light.schemerlamp_max
-
-- alias: 'schemerlampen wooonkamer uit met afstandsbediening'
-  trigger:
-    platform: state
-    entity_id: switch.test_switch
-    to: 'off'
-  action:
-    service: light.turn_off
-    entity_id:
-      - light.schemerlamp_noeri
-      - light.schemerlamp_max
-
 - alias: 'Verander status van schakelaar als schemerlamp aan gaat'
   trigger:
     - platform: state
