@@ -14,6 +14,7 @@ default_view:
     - group.verlichting_badkamer
     - group.timer_light
     - group.schakelaars_woonkamer
+    - group.klimaatbeheersing_woonkamer
 
 cameras:
   name: Cameras
