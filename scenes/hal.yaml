@@ -1,4 +1,4 @@
-- name: Hal 100%
+- name: Hal voluit
   entities:
 #    switch.fluxer: on
     light.hal:
