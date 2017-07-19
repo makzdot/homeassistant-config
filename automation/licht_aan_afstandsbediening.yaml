@@ -25,8 +25,11 @@
       entity_id: light.schemerlamp_max
       to: 'on'
   action:
-    service: switch.turn_on
-    entity_id: switch.test_switch
+    service: light.turn_on
+    entity_id:
+      - light.schemerlamp_noeri
+      - light.schemerlamp_max
+
 
 - alias: 'Verander status van schakelaar als schemerlamp uit gaat'
   trigger:
@@ -37,5 +40,7 @@
       entity_id: light.schemerlamp_max
       to: 'off'
   action:
-    service: switch.turn_off
-    entity_id: switch.test_switch
+    service: light.turn_off
+    entity_id:
+      - light.schemerlamp_noeri
+      - light.schemerlamp_max
