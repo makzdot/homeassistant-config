@@ -4,6 +4,8 @@
       entity_id: switch.test_switch
       to: 'on'
   action:
+    - service: scene.turn_on
+      entity_id: scene.Schoonmaken
     - service: light.turn_on
       data:
         entity_id:
@@ -13,6 +15,4 @@
         color_name: red
         flash: long
     - service: script.red_alert
-    - service: scene.turn_on
-      entity_id: scene.Schoonmaken
 
