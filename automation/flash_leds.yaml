@@ -9,4 +9,4 @@
         entity_id: light.led_strip
         brightness: 255
         color_name: red
-        flash: long
+        flash: short
