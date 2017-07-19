@@ -1,0 +1,12 @@
+- name: Hal 100%
+  entities:
+#    switch.fluxer: on
+    light.hal:
+      state: on
+      brightness: 255
+
+- name: Hal zacht
+  entities:
+    light.hal:
+      state: on
+      brightness: 20
