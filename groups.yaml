@@ -214,6 +214,7 @@ Scripts:
     - script.update_config
     - script.refresh_devices
     - script.lifx_effects
+    - automation.test_flash
 
 ################################################
 ##         Scene groups                       ##
