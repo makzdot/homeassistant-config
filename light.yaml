@@ -58,6 +58,8 @@
   command_topic: "home/rgb1/set"
   brightness: true
   rgb: true
+  flash_time_long: 120
+  flash_time_short: 10
   # optimistic: false
   qos: 0
 
@@ -67,5 +69,7 @@
   command_topic: "home/rgb2/set"
   brightness: true
   rgb: true
+  flash_time_long: 120
+  flash_time_short: 10
   # optimistic: false
   qos: 0
