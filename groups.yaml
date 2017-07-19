@@ -213,7 +213,7 @@ Scripts:
   entities:
     - script.update_config
     - script.refresh_devices
-    - script.red_alert
+    - script.lifx_effects
 
 ################################################
 ##         Scene groups                       ##
