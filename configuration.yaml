@@ -18,11 +18,14 @@ weather:
     latitude: !secret latitude
     longitude: !secret longitude
 
-upnp:
-  port_mapping: false
+# upnp:
+#   port_mapping: false
 
 # Enables the frontend
 frontend:
+  themes:
+    petrol:
+      primary-color: "#005d73"
 
 # Enables the iOS component
 ios:
