@@ -213,7 +213,7 @@ Scripts:
   entities:
     - script.update_config
     - script.refresh_devices
-    - script.lifx_effects
+    - script.red_alert
     - automation.test_flash
 
 ################################################
