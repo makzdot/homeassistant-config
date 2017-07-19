@@ -221,10 +221,10 @@ Scenes:
   entities:
     - scene.alle_lichten_uit
     - scene.away
-    - scene.eettafel_effect
-    - scene.livingroom_dim
     - scene.livingroom_normal
+    - scene.livingroom_dim
     - scene.schoonmaken
+    - scene.eettafel_effect
 
 ################################################
 ##         Lighting groups                    ##
