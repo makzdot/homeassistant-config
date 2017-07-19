@@ -9,4 +9,4 @@
   entities:
     light.hal:
       state: on
-      brightness: 20
+      brightness: 40
