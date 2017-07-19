@@ -6,7 +6,9 @@
   action:
     - service: light.turn_on
       data:
-        entity_id: light.led_strip
+        entity_id:
+          - light.led_strip
+          - light.led_strip_2
         brightness: 255
         color_name: red
-        flash: short
+        flash: long
