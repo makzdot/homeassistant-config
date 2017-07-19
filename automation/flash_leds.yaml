@@ -13,4 +13,6 @@
         color_name: red
         flash: long
     - service: script.red_alert
+    - service: scene.turn_on
+      entity_id: scene.Schoonmaken
 
