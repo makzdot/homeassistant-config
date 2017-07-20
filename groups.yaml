@@ -274,7 +274,6 @@ Schakelaars Woonkamer:
 Mediaspelers Woonkamer:
   entities:
     - media_player.woonkamer_appletv
-    - remote.woonkamer_appletv
 #    - media_player.woonkamer
     - media_player.woonkamertv_ue46d8000
 
