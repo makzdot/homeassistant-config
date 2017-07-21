@@ -213,8 +213,8 @@ Scripts:
   entities:
     - script.update_config
     - script.refresh_devices
-    - script.red_alert
-    - automation.test_flash
+    - script.flash_eettafel_red
+    - automation.red_alert
 
 ################################################
 ##         Scene groups                       ##
