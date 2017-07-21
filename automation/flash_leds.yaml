@@ -11,11 +11,10 @@
         entity_id:
           - light.led_strip
           - light.led_strip_2
-          - light.eettafel
         brightness: 255
         color_name: red
         flash: long
-#    - service: script.red_alert
+    - service: script.red_alert
     - service: notify.ios_maxiphonesix
       data:
         message: "Red Alert!"
