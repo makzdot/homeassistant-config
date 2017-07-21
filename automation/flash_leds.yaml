@@ -16,4 +16,9 @@
         color_name: red
         flash: long
 #    - service: script.red_alert
-
+    - service: notify.ios_maxiphonesix
+      data:
+        message: "Red Alert!"
+        data:
+          push:
+            badge: 1
