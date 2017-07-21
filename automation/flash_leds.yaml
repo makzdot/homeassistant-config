@@ -14,7 +14,7 @@
         brightness: 255
         color_name: red
         flash: long
-    - service: script.red_alert
+    - service: script.flash_eettafel_red
     - service: notify.ios_maxiphonesix
       data:
         message: "Red Alert!"
