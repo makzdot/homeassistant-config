@@ -15,6 +15,7 @@ default_view:
     - group.timer_light
     - group.schakelaars_woonkamer
     - group.klimaatbeheersing_woonkamer
+    - group.tradfri_keuken
 
 cameras:
   name: Cameras
