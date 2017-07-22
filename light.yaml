@@ -6,8 +6,8 @@
 - platform: rfxtrx
   automatic_add: false
   devices:
-    0b11000203f5682002000070:
-      name: Keuken
+#    0b11000203f5682002000070:
+#      name: Keuken
     0b11000e011acf160e010f50:
       name: Schemerlampen
     0b110005011acf1602000070:
