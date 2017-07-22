@@ -110,6 +110,10 @@ rfxtrx:
   device: /dev/ttyUSB0
   debug: False
 
+tradfri:
+  host: tradfri_ip
+  api_key: !secret tradfri_api_key
+
 climate:
   platform: nest
 
