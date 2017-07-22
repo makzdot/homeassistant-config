@@ -2,8 +2,8 @@
   entities:
     light.plafoniere:
       state: off
-    light.keuken:
-      state: off
+#    light.keuken:
+#      state: off
     light.spots:
       state: on
     light.eettafel:
