@@ -4,7 +4,6 @@
       state: off
     light.keuken:
       state: off
-      brightness: 1
     light.spots:
       state: on
     light.eettafel:
