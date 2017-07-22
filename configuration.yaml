@@ -111,7 +111,7 @@ rfxtrx:
   debug: False
 
 tradfri:
-  host: tradfri_ip
+  host: !secret tradfri_ip
   api_key: !secret tradfri_api_key
 
 climate:
