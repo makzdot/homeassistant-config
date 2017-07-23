@@ -33,31 +33,40 @@
       state: off
       brightness: 80
       color_temp: 370
+      transition: 3
     light.keukenlamp_2:
       state: on
       brightness: 80
       color_temp: 370
+      transition: 3
     light.keukenlamp_3:
       state: off
       brightness: 80
       color_temp: 370
+      transition: 3
     light.keukenlamp_4:
       state: on
       brightness: 80
       color_temp: 370
+      transition: 3
     light.keukenlamp_5:
       state: off
       brightness: 80
       color_temp: 370
+      transition: 3
     light.keukenlamp_6:
       state: on
       brightness: 80
       color_temp: 370
+      transition: 3
     light.keukenlamp_7:
       state: off
       brightness: 80
       color_temp: 370
+      transition: 3
     light.keukenlamp_8:
       state: off
       brightness: 80
       color_temp: 370
+      transition: 3
+
