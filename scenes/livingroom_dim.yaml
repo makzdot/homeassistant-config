@@ -14,13 +14,13 @@
       transition: 5
     light.led_strip:
       state: on
-      brightness: 80
-      rgb_color: [255,159,80]
+#      brightness: 80
+      rgb_color: [230,117,0]
       transition: 3
     light.led_strip_2:
       state: on
-      brightness: 80
-      rgb_color: [255,159,80]
+#      brightness: 80
+      rgb_color: [230,117,0]
       transition: 3
     light.schemerlamp_noeri:
       state: off
