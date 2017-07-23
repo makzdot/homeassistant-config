@@ -1,9 +1,9 @@
 - name: Livingroom normal
   entities:
 #    switch.fluxer: on
-    light.keuken:
-      state: on
-      brightness: 80
+#    light.keuken:
+#      state: on
+#      brightness: 80
     light.spots:
       state: on
     light.plafoniere:
