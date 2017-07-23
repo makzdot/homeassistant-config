@@ -45,8 +45,8 @@
       state: on
       brightness: 1
     light.keukenlamp_7:
-#      state: off
-      brightness: 1
+      state: off
+#      brightness: 1
     light.keukenlamp_8:
       state: off
 #      brightness: 1
