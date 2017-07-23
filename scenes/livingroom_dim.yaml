@@ -28,28 +28,21 @@
       state: off
     light.keukenlamp_1:
       state: off
-#      brightness: 1
     light.keukenlamp_2:
-      state: on
-      brightness: 1
-      color_temp: 500
+      state: off
     light.keukenlamp_3:
-      state: off
-#      brightness: 1
+      state: on
+      brightness: 1
+      color_temp: 500
     light.keukenlamp_4:
-      state: on
-      brightness: 1
-      color_temp: 500
-    light.keukenlamp_5:
       state: off
-#      brightness: 1
-    light.keukenlamp_6:
+    light.keukenlamp_5:
       state: on
       brightness: 1
       color_temp: 500
+    light.keukenlamp_6:
+      state: off
     light.keukenlamp_7:
       state: off
-#      brightness: 1
     light.keukenlamp_8:
       state: off
-#      brightness: 1
