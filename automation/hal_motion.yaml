@@ -18,6 +18,26 @@
           - light.hal
         brightness: 50
 
+- alias: Hal light motion on full night before sunrise
+  trigger:
+    platform: state
+    entity_id: switch.bewegingsensor_gang
+    to: 'on'
+  condition:
+    condition: and
+    conditions:
+    - condition: state
+      entity_id: light.keukenlamp_3
+      state: 'on'
+    - condition: sun
+      before: 'sunrise'
+  action:
+    - service: light.turn_on
+      data:
+        entity_id:
+          - light.hal
+        brightness: 250
+
 - alias: Hal light motion on night after sunset
   trigger:
     platform: state
