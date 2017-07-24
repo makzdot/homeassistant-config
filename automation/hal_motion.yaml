@@ -24,4 +24,3 @@
       data:
         entity_id:
           - light.hal
-        brightness: 255
