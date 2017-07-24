@@ -16,7 +16,7 @@
   server: MaxFlix
 
 - platform: rfxtrx
-  automatic_add: true
+  automatic_add: false
 
 - platform: mqtt
   state_topic: "owntracks/makzdot/maxiphone6"
