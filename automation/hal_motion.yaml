@@ -4,12 +4,11 @@
       entity_id: switch.bewegingsensor_gang
       to: 'on'
   condition:
-    conditions:
-      - condition: state
-        entity_id: light.keukenlamp_3
-        state: off
-      - condition: sun
-        after: 'sunset'
+    - condition: state
+      entity_id: light.keukenlamp_3
+      state: off
+    - condition: sun
+      after: 'sunset'
   action:
     - service: light.turn_on
       data:
@@ -23,12 +22,11 @@
       entity_id: switch.bewegingsensor_gang
       to: 'off'
   condition:
-    conditions:
-      - condition: state
-        entity_id: light.keukenlamp_3
-        state: off
-      - condition: sun
-        after: 'sunset'
+    - condition: state
+      entity_id: light.keukenlamp_3
+      state: off
+    - condition: sun
+      after: 'sunset'
   action:
     - service: light.turn_off
       data:
