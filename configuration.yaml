@@ -159,5 +159,5 @@ automation: !include_dir_merge_list automation
 script: !include_dir_named scripts
 binary_sensor: !include binary_sensor.yaml
 # input_slider: !include input_slider.yaml
-input_bolean: !include input_bolean.yaml
+# input_bolean: !include input_bolean.yaml
 shell_command: !include shell_command.yaml
