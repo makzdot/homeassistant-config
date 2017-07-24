@@ -10,7 +10,7 @@
       data:
         entity_id:
           - light.hal
-        brightness: 255
+        brightness: 30
 
 - alias: Hal light motion off
   trigger:
