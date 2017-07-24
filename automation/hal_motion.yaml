@@ -1,14 +1,14 @@
 - alias: Hal light motion on
   trigger:
-    - platform: state
-      entity_id: switch.bewegingsensor_gang
-      to: 'on'
+    platform: state
+    entity_id: switch.bewegingsensor_gang
+    to: 'on'
   condition:
     condition: and
     conditions:
     - condition: state
       entity_id: light.keukenlamp_3
-      state: off
+      state: 'off'
     - condition: sun
       after: 'sunset'
   action:
@@ -20,15 +20,15 @@
 
 - alias: Hal light motion off
   trigger:
-    - platform: state
-      entity_id: switch.bewegingsensor_gang
-      to: 'off'
+    platform: state
+    entity_id: switch.bewegingsensor_gang
+    to: 'off'
   condition:
     condition: and
     conditions:
     - condition: state
       entity_id: light.keukenlamp_3
-      state: off
+      state: 'off'
     - condition: sun
       after: 'sunset'
   action:
