@@ -272,4 +272,4 @@ Mediaspelers Woonkamer:
 bewakingscameras_woonkamer:
   name: "Bewakingscamera's Woonkamer"
   entities:
-    - camera.foscam_camera
+    - camera.woonkamer
