@@ -4,7 +4,7 @@
       entity_id: switch.bewegingsensor_gang
       to: 'on'
   condition:
-    - conditions:
+    conditions:
       - condition: state
         entity_id: light.keukenlamp_3
         state: off
@@ -23,7 +23,7 @@
       entity_id: switch.bewegingsensor_gang
       to: 'off'
   condition:
-    - conditions:
+    conditions:
       - condition: state
         entity_id: light.keukenlamp_3
         state: off
