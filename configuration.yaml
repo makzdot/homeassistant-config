@@ -17,7 +17,9 @@ weather:
     api_key: !secret owm_api_key
     latitude: !secret latitude
     longitude: !secret longitude
-
+  - platform: buienradar
+    name: buienradar
+    forecast: True
 # upnp:
 #   port_mapping: false
 
