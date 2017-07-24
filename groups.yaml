@@ -63,7 +63,8 @@ weer:
   icon: mdi:weather-partlycloudy
   entities:
     - group.weer_algemeen
-    - group.dark_sky
+    - group.open_weathermap
+    - group.buienradar
 
 ################################################
 ##         Sensore Groups                     ##
@@ -83,35 +84,11 @@ time and date:
 
 Open weathermap:
   entities:
-    - sensor.owm_cloud_coverage
-    - sensor.owm_condition
-    - sensor.owm_humidity
-    - sensor.owm_pressure
-    - sensor.owm_rain
-    - sensor.owm_snow
-    - sensor.owm_temperature
-    - sensor.owm_wind_bearing
-    - sensor.owm_wind_speed
+    - weather.openweathermap
 
-Dark Sky:
+Buienradar:
   entities:
-    - sensor.dark_sky_summary
-    - sensor.dark_sky_daily_summary
-    - sensor.dark_sky_temperature
-    - sensor.dark_sky_apparent_temperature
-    - sensor.dark_sky_wind_bearing
-    - sensor.dark_sky_wind_speed
-    - sensor.dark_sky_cloud_coverage
-    - sensor.dark_sky_dew_point
-    - sensor.dark_sky_humidity
-    - sensor.dark_sky_icon
-    - sensor.dark_sky_ozone
-    - sensor.dark_sky_precip
-    - sensor.dark_sky_precip_intensity
-    - sensor.dark_sky_precip_probability
-    - sensor.dark_sky_pressure
-    - sensor.dark_sky_visibility
-
+    - weather.buienradar
 
 Rookmelder Hal:
   entities:
