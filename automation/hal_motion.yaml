@@ -1,0 +1,27 @@
+- alias: Hal light motion on
+  trigger:
+    - platform: state
+      entity_id: switch.bewegingsensor_gang
+      to: 'on'
+  action:
+#    - service: scene.turn_on
+#      entity_id: scene.Schoonmaken
+    - service: light.turn_on
+      data:
+        entity_id:
+          - light.hal
+        brightness: 255
+
+- alias: Hal light motion off
+  trigger:
+    - platform: state
+      entity_id: switch.bewegingsensor_gang
+      to: 'off'
+  action:
+#    - service: scene.turn_on
+#      entity_id: scene.Schoonmaken
+    - service: light.turn_on
+      data:
+        entity_id:
+          - light.hal
+        brightness: 255
