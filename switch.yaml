@@ -12,6 +12,9 @@
     0b110034011acf160b000070:
       name: Test eettafel
       fire_event: true
+    0b110000015e25460a010f70:
+      name: Bewegingsensor gang
+      fire_event: true
 
 - platform: flux
   lights:
