@@ -20,4 +20,4 @@
         message: "Red Alert!"
         data:
           push:
-            badge: 1
+            badge: 0

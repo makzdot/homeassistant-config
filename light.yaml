@@ -20,8 +20,8 @@
 #      name: Schemerlamp Max
     0b110036011acf1607010f70:
       name: Plafoniere Max
-    0b1100010131a3ce0a010f60:
-      name: Badkamer
+#    0b1100010131a3ce0a010f60:
+#      name: Badkamer
     0b11000c011acf160d000070:
       name: Hal
 
@@ -38,6 +38,15 @@
   name: "Schemerlamp Noeri"
   state_topic: "stat/sonoff-02/POWER"
   command_topic: "cmnd/sonoff-02/POWER"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  retain: true
+
+- platform: mqtt
+  name: "Badkamer"
+  state_topic: "stat/badkamer/POWER"
+  command_topic: "cmnd/badkamer/POWER"
   qos: 1
   payload_on: "ON"
   payload_off: "OFF"

@@ -2,3 +2,4 @@
   entities:
     group.all_lights: off
     switch.main_switch: off
+    switch.fluxer: off
