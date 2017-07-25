@@ -251,6 +251,7 @@ Verlichting Hal:
 Verlichting Badkamer:
   entities:
     - light.badkamer
+    - switch.schakelaar_badkamer
 
 Schakelaars Woonkamer:
   entities:
