@@ -15,3 +15,21 @@
   action:
     service: light.turn_off
     entity_id: light.badkamer
+
+- alias: 'Badkamer schakelaar volgt light aan'
+  trigger:
+    platform: state
+    entity_id: light.badkamer
+    to: 'on'
+  action:
+    service: switch.turn_on
+    entity_id: switch.schakelaar_badkamer
+
+- alias: 'Badkamer schakelaar volgt light uit'
+  trigger:
+    platform: state
+    entity_id: light.badkamer
+    to: 'off'
+  action:
+    service: switch.turn_off
+    entity_id: switch.schakelaar_badkamer
