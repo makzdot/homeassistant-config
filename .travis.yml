@@ -12,6 +12,7 @@ python:
   - "3.4"
 before_install:
   - mv travis_secrets.yaml secrets.yaml
+  - mv travis_automations.yaml automations.yaml
 install:
   - pip3 install homeassistant
 script:
