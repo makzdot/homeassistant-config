@@ -20,4 +20,4 @@
         message: "Red Alert!"
         data:
           push:
-            badge: 0
+            sound: "US-EN-Morgan-Freeman-Motion-Detected.wav"
