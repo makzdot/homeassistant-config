@@ -245,8 +245,6 @@ Verlichting Hal:
   entities:
     - light.hal
     - switch.bewegingsensor_gang
-    - scene.hal_voluit
-    - scene.hal_zacht
 
 Verlichting Badkamer:
   entities:
