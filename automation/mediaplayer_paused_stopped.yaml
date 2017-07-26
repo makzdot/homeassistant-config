@@ -5,9 +5,9 @@
       from: 'playing'
       to: 'paused'
   condition:
-    - condition: state
-      entity_id: sun.sun
-      state: 'below_horizon'
+    - condition: sun
+      after: 'sunset'
+      after_offset: '-1:20:00'
   action:
     - service: scene.turn_on
       entity_id: scene.livingroom_normal

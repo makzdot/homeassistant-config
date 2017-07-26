@@ -4,9 +4,9 @@
       entity_id: media_player.woonkamer_appletv
       state: 'playing'
   condition:
-    - condition: state
-      entity_id: sun.sun
-      state: 'below_horizon'
+    - condition: sun
+      after: 'sunset'
+      after_offset: '-1:20:00'
     - condition: template
       value_template: '{{ states.media_player.woonkamer_appletv.attributes.media_content_type == "movie" }}'
   action:
@@ -23,9 +23,9 @@
       entity_id: media_player.woonkamer_appletv
       state: 'playing'
   condition:
-    - condition: state
-      entity_id: sun.sun
-      state: 'below_horizon'
+    - condition: sun
+      after: 'sunset'
+      after_offset: '-1:20:00'
     - condition: template
       value_template: '{{ states.media_player.woonkamer_appletv.attributes.media_content_type == "tvshow" }}'
   action:
