@@ -16,7 +16,7 @@
       data:
         entity_id:
           - light.hal
-        brightness: 50
+        brightness: 30
 
 - alias: Hal light motion on full night before sunrise
   trigger:
@@ -36,7 +36,7 @@
       data:
         entity_id:
           - light.hal
-        brightness: 250
+        brightness: 255
 
 - alias: Hal light motion on night after sunset
   trigger:
@@ -51,12 +51,13 @@
       state: 'off'
     - condition: sun
       after: 'sunset'
+      offset: "-01:20:00"
   action:
     - service: light.turn_on
       data:
         entity_id:
           - light.hal
-        brightness: 50
+        brightness: 30
 
 - alias: Hal light motion on
   trigger:
@@ -76,7 +77,7 @@
       data:
         entity_id:
           - light.hal
-        brightness: 250
+        brightness: 255
 
 - alias: Hal light motion off
   trigger:
