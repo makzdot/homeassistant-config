@@ -15,32 +15,3 @@
   action:
     service: scene.turn_on
     entity_id: scene.alle_lichten_uit
-
-- alias: 'Verander status van schakelaar als schemerlamp aan gaat'
-  trigger:
-    - platform: state
-      entity_id: light.schemerlamp_noeri
-      to: 'on'
-    - platform: state
-      entity_id: light.schemerlamp_max
-      to: 'on'
-  action:
-    service: light.turn_on
-    entity_id:
-      - light.schemerlamp_noeri
-      - light.schemerlamp_max
-
-
-- alias: 'Verander status van schakelaar als schemerlamp uit gaat'
-  trigger:
-    - platform: state
-      entity_id: light.schemerlamp_noeri
-      to: 'off'
-    - platform: state
-      entity_id: light.schemerlamp_max
-      to: 'off'
-  action:
-    service: light.turn_off
-    entity_id:
-      - light.schemerlamp_noeri
-      - light.schemerlamp_max

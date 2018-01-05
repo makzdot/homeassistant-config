@@ -5,50 +5,47 @@ homeassistant:
   latitude: !secret latitude
   longitude: !secret longitude
   # Impacts weather/sunrise data (altitude above sea level in meters)
-  elevation: 3
+  elevation: 4
   # metric for Metric, imperial for Imperial
   unit_system: metric
   # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   time_zone: Europe/Amsterdam
   customize: !include customize.yaml
 
-weather:
-  - platform: openweathermap
-    api_key: !secret owm_api_key
-    latitude: !secret latitude
-    longitude: !secret longitude
-#  - platform: buienradar
-#    name: buienradar
-#    forecast: True
-
-# upnp:
-#   port_mapping: false
+# Show links to resources in log and frontend
+# introduction:
 
 # Enables the frontend
 frontend:
-  themes:
-    petrol:
-      primary-color: "#005d73"
 
-# Enables the iOS component
-ios:
+map:
 
-#Enable config panel
+# Enables configuration UI
 config:
 
 http:
-  api_password: !secret api_password
+  # Uncomment this to add a password (recommended!)
+  api_password: !secret http_api_password
+  # Uncomment this if you are using SSL or running in Docker etc
+  # base_url: home.makznet.nl
   use_x_forwarded_for: True
   login_attempts_threshold: 3
   ip_ban_enabled: True
-  # Uncomment this if you are using SSL or running in Docker etc
-  # base_url: example.duckdns.org:8123
 
 # Checks for available updates
+# Note: This component will send some information about your system to
+# the developers to assist with development of Home Assistant.
+# For more information, please see:
+# https://home-assistant.io/blog/2016/10/25/explaining-the-updater/
 updater:
+  # Optional, allows Home Assistant developers to focus on popular components.
+  # include_used_components: true
 
 # Discover some devices automatically
 discovery:
+
+# Support for the iOS App
+# ios:
 
 # Allows you to issue voice commands from the frontend in enabled browsers
 conversation:
@@ -56,9 +53,14 @@ conversation:
 # Enables support for tracking state changes over time.
 history:
 
-# Enable suport for logging to influxdb
+recorder:
+  purge_interval: 2
+  purge_keep_days: 30
+
 influxdb:
-  host: rogue.makz.lan
+  host: !secret influxdb_host
+  username: !secret influxdb_username
+  password: !secret influxdb_password
 
 # View all events in a logbook
 logbook:
@@ -66,99 +68,108 @@ logbook:
 # Track the sun
 sun:
 
-# Telegram notifications
-# notify:
-#   - name: telegram
-#     platform: telegram
-#     api_key: !secret telegram_api_key
-#     chat_id: !secret telegram_chat_id
+ifttt:
+  key: !secret ifttt_key
 
-mqtt:
-  broker: localhost
-  port: 1883
-  client_id: home-assistant
-  discovery: true
-  keepalive: 60
-  username: !secret mqtt_username
-  password: !secret mqtt_password
-  birth_message:
-    topic: "tele/hass1/LWT"
-    payload: "Online"
-    qos: 1
-    retain: true
-  will_message:
-    topic: "tele/hass1/LWT"
-    payload: "Offline"
-    qos: 1
-    retain: true
+# Weather Prediction
+sensor:
+  - platform: yr
+  - platform: moon
+  - platform: time_date
+    display_options:
+      - 'time'
+      - 'date'
+
+media_player:
+  - platform: samsungtv
+    host: 172.19.11.191
+    name: Woonkamer TV
+  - platform: emby
+    host: !secret emby_host
+    api_key: !secret emby_api_key
+
+apple_tv:
+  - host: !secret apple_tv_host
+    name: AppleTV Woonkamer
+    login_id: !secret apple_tv_login_id
+    credentials: !secret apple_tv_credentials
+
+weather:
+#  - platform: openweathermap
+#    api_key: 863ad9b2c8a16e93e991df700d2345e4
+  - platform: buienradar
+    latitude: !secret latitude
+    longitude: !secret longitude
+
+# Text to speech
+tts:
+  platform: google
 
 nest:
   client_id: !secret nest_client_id
   client_secret: !secret nest_client_secret
+  sensors:
+    monitored_conditions:
+      - 'humidity'
+      - 'operation_mode'
+      - 'temperature'
+      - 'target'
+      - 'hvac_state'
+      - 'co_status'
+      - 'smoke_status'
+      - 'battery_health'
 
-device_tracker:
-  - platform: owntracks
-    max_gps_accuracy: 150
-    waypoints: True
-    waypoint_whitelist:
-      - makzdot
-    track_new_devices: no
-  - platform: snmp
-    host: router.makz.lan
-    community: !secret router_snmp_communicty
-    baseoid: 1.3.6.1.2.1.4.22.1.2
-    track_new_devices: no
+camera:
+  - platform: foscam
+    name: Woonkamer camera
+    ip: 172.19.11.243
+    port: 80
+    username: !secret foscam_username
+    password: !secret foscam_password
 
 rfxtrx:
   device: /dev/ttyUSB0
   debug: False
 
 tradfri:
-  host: !secret tradfri_ip
-  api_key: !secret tradfri_api_key
 
-climate:
-  platform: nest
+mqtt:
+  broker: 172.17.0.1
+  username: !secret mqtt_username
+  password: !secret mqtt_password
+  discovery: true
+  discovery_prefix: homeassistant
 
-camera:
-#  - platform: synology
-#    url: http://wolverine.makz.lan:5000
-#    username: !secret synology_username
-#    password: !secret synology_password
-  - platform: foscam
-    name: Woonkamer
-    ip: 172.19.11.4
-    username: !secret foscam_username
-    password: !secret foscam_password
+device_tracker:
+#  - platform: locative
+  - platform: owntracks
+    max_gps_accuracy: 200
+    waypoints: True
+  - platform: snmp
+    host: !secret snmp_host
+    community: !secret snmp_community
+    baseoid: 1.3.6.1.2.1.4.22.1.2.3
+    track_new_devices: yes
 
+binary_sensor:
+  - platform: workday
+    country: NL
 
-media_player:
-  - platform: plex
+telegram_bot:
+  - platform: broadcast
+    api_key: 320539965:AAFh-sYMUSlq5hmo_mVNIGm9KasayDzeiiQ
+    allowed_chat_ids:
+      - !secret telegram_bot_chat_id
 
-apple_tv:
-  - name: Woonkamer AppleTV
-    host: 172.19.11.191
-    login_id: !secret appletv_login_id
-    credentials: !secret appletv_auth
-    start_off: true
-
-# Text to speech
-tts:
-  - platform: google
-    language: 'nl'
-
-##Includes
-zone: !include_dir_list zones
-sensor: !include sensor.yaml
-switch: !include switch.yaml
-cover: !include cover.yaml
-light: !include light.yaml
 group: !include groups.yaml
-scene: !include_dir_list scenes
 automation old: !include_dir_merge_list automation
 automation: !include automations.yaml
-script: !include_dir_named scripts
-binary_sensor: !include binary_sensor.yaml
-# input_slider: !include input_slider.yaml
-# input_bolean: !include input_bolean.yaml
-shell_command: !include shell_command.yaml
+light: !include lights.yaml
+switch: !include switches.yaml
+scene: !include_dir_list scenes
+zone: !include_dir_list zones
+script: !include scripts.yaml
+input_boolean: !include input_boolean.yaml
+#input_select: !include input_select.yaml
+#input_slider: !include input_slider.yaml
+input_datetime: !include input_datetime.yaml

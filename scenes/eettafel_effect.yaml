@@ -1,7 +1,0 @@
-- name: Eettafel effect
-  entities:
-    switch.fluxer: off
-    light.eettafel:
-      state: on
-      brightness: 40
-      effect: lifx_effect_colorloop

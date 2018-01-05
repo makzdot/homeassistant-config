@@ -1,48 +1,51 @@
-################################################
-##         View                               ##
-################################################
 default_view:
-  name: Verlichting
+  name: woonkamer
   view: yes
-  icon: mdi:home
+  icon: mdi:sofa
   entities:
-    - group.scenes
-    - group.verlichting_woonkamer
-    - group.verlichting_slaapkamer_max
-    - group.verlichting_slaapkamer_noeri
-    - group.verlichting_hal
-    - group.verlichting_badkamer
-    - group.timer_light
-    - group.schakelaars_woonkamer
-    - group.klimaatbeheersing_woonkamer
+    - group.scenes_woonkamer
+    - climate.living_room_thermostaat
     - group.tradfri_keuken
+    - group.tradfri_woonkamer
+    - group.verlichting_woonkamer
+    - group.led_strips_woonkamer
+    - media_player.woonkamer_appletv
+    - media_player.woonkamer_tv
+    - camera.woonkamer_camera
+    - group.schakelaars_woonkamer
 
-cameras:
-  name: Cameras
+Slaapkamers:
+  name: Slaapkamers
   view: yes
-  icon: mdi:video
+  icon: mdi:hotel
   entities:
-    - group.bewakingscameras_woonkamer
+    - group.slaapkamer_max
+    - group.slaapkamer_noeri
+    - group.hal
+    - group.verlichting_badkamer
+    - group.wekker_max
+
 
 media:
   name: Media
   view: yes
   icon: mdi:play-circle-outline
   entities:
-    - group.mediaspelers_woonkamer
-    - group.plex_server
-    - group.plex_sensor
+    - media_player.woonkamer_appletv_2
+    - media_player.woonkamer_appletv
+    - media_player.woonkamer_tv
+    - media_player.emby__tvos__woonkamerappletv
+    - group.all_remotes
 
-automation:
-  name: Automation
+weer:
+  name: weer
   view: yes
-  icon: mdi:robot
+  icon: mdi:weather-cloudy
   entities:
-    - group.licht_en_scenes
-    - group.multimedia
-    - group.device_tracker
-    - group.klimaat
-    - group.scripts
+#    - group.buienradar
+    - sensor.yr_symbol
+    - weather.br_unknown_station
+    - weather.openweathermap
 
 sensors:
   name: Sensors
@@ -50,179 +53,108 @@ sensors:
   icon: mdi:gauge
   entities:
     - group.personen
-    - group.overige_apparaten
     - group.schoonmaak
-    - group.weer
-    - group.rookmelder_hal
-    - group.batterylevels
-    - group.time_and_date
+    - group.devices
+    - group.nest
+    - group.nest_protect
+    - group.batterij_status_tradfri
+    - group.datum_en_tijd
+    - group.all_devices
 
-weer:
-  name: Weer
+automation:
+  name: Automation
   view: yes
-  icon: mdi:weather-partlycloudy
+  icon: mdi:robot
   entities:
-    - group.weer_algemeen
-    - group.open_weathermap
-    - group.buienradar
+    - group.all_automations
+    - group.all_scripts
 
-################################################
-##         Sensore Groups                     ##
-################################################
-Weer Algemeen:
+alldevices:
+  name: All Devices
+  view: yes
+  icon: mdi:infinity
   entities:
-    - sensor.yr_symbol
-    - sun.sun
-    - sensor.moon
+    - group.all_automations
+    - group.all_devices
+    - group.all_lights
+    - group.sonoff_schakelaars
+    - group.all_remotes
+    - group.all_scripts
+    - group.all_switches
 
-time and date:
-  name: "Tijd & datum"
+##################################
+# Sensors
+##################################
+Nest:
+  icon: mdi:nest-thermostat
   entities:
-    - sensor.time
-    - sensor.date
-    - binary_sensor.workday_sensor
+    - sensor.living_room_thermostat_thermostaat_operation_mode
+    - sensor.living_room_thermostat_thermostaat_hvac_state
+    - sensor.living_room_thermostat_thermostaat_target
+    - sensor.living_room_thermostat_thermostaat_temperature
+    - sensor.living_room_thermostat_thermostaat_humidity
+    - binary_sensor.living_room_thermostat_thermostaat_has_leaf
+    - binary_sensor.living_room_thermostat_thermostaat_online
+    - binary_sensor.living_room_thermostat_thermostaat_is_locked
+    - binary_sensor.living_room_thermostat_thermostaat_is_using_emergency_heat
+    - binary_sensor.living_room_thermostat_thermostaat_fan
 
-Open weathermap:
-  entities:
-    - weather.openweathermap
-
-Buienradar:
-  entities:
-    - weather.buienradar
-
-Rookmelder Hal:
+Nest Protect:
+  icon: mdi:nest-protect
   entities:
     - binary_sensor.hallway_nest_protect_online
     - sensor.hallway_nest_protect_battery_health
     - sensor.hallway_nest_protect_co_status
     - sensor.hallway_nest_protect_smoke_status
 
-Klimaatbeheersing Woonkamer:
+Batterij status tradfri:
+  icon: mdi:battery-70
   entities:
-    - climate.living_room_thermostaat
-    - sensor.living_room_thermostat_thermostaat_humidity
-    - binary_sensor.living_room_thermostat_thermostaat_has_leaf
-    - binary_sensor.living_room_thermostat_thermostaat_online
-    - sensor.living_room_thermostat_thermostaat_operation_mode
-    - sensor.living_room_thermostat_thermostaat_hvac_state
+    - sensor.afstandsbediening_hal
+    - sensor.afstandsbediening_keukenlicht
+    - sensor.afstandsbediening_woonkamer
+    - sensor.afstandsbediening_noeri
 
-
-Plex sensor:
+Datum en tijd:
+  icon: mdi:calendar-clock
   entities:
-    - sensor.plex_spy
+    - sensor.date
+    - sensor.time
+    - binary_sensor.workday_sensor
+    - sun.sun
+    - sensor.moon
 
-################################################
-##         Device tracker Groups              ##
-################################################
-personen:
-  name: "Personen en apparaten"
+Wekker Max:
+  icon: mdi:calendar
   entities:
-    - device_tracker.makzdot_maxiphone6
-    - device_tracker.makzdot_rikki_telefoon
-#    - device_tracker.74a528a58562
-#    - device_tracker.74a528a5844b
+    - input_boolean.alarmstatus
+    - input_boolean.alarmweekday
+    - input_datetime.only_time
 
-schoonmaak:
-  name: "Schoonmakers"
+###################################
+# Personen en Devices
+###################################
+Personen:
   entities:
-    - device_tracker.74a528a58562
-    - device_tracker.74a528a5844b
+    - device_tracker.makzdot_a23689f5324a4084a5473386709c87eb
+    - device_tracker.a010818e6c32
 
-Overige_apparaten:
-  name: "Overige apparaten"
+Schoonmaak:
   entities:
-    - device_tracker.makzdot_maxiphone5
-    - device_tracker.experiaz_tablet_experiaz
-    - device_tracker.acbc32cbfd29 #macbook max
-
-Batterylevels:
-  name: "Accu Niveaus"
+    - device_tracker.1c232c46cb0d
+    - device_tracker.9097f3588eb4
+Devices:
   entities:
-#    - sensor.battery_maxiphone5
-#    - sensor.battery_maxiphone6
-    - sensor.maxiphone_battery_level
-    - sensor.maxiphone_battery_state
-    - sensor.maxiphonesix_battery_level
-    - sensor.maxiphonesix_battery_state
-    - sensor.hallway_nest_protect_battery_health
+    - device_tracker.makzdot_456f498da3fe4abe8284f88867a4c8dc
+    - device_tracker.makzdot_tablet_experiaz
+    - device_tracker.acbc32cbfd29
 
-################################################
-##         Automation Groups                  ##
-################################################
-Timer light:
-  entities:
-    - input_slider.auto_light_minutes
-    - input_slider.auto_light_duration
-    - sensor.auto_light_duration
-    - sensor.auto_light_minutes
-    - sensor.auto_light_start
-    - sensor.auto_light_stop
-    - automation.auto_light_on
-    - automation.auto_light_off
-
-Multimedia:
-  entities:
-    - automation.appletv_aan_samen_met_tv
-    - automation.appletv_uit_samen_met_tv
-    - automation.media_player_playing_movie
-    - automation.media_player_playing_tvshow
-    - automation.media_player_playing_music
-    - automation.media_player_pausedstopped
-
-Klimaat:
-  entities:
-    - automation.thermostaat_uit_away_mode_bij_thuiskomst
-
-Licht en Scenes:
-  entities:
-    - automation.licht_aan_bij_thuiskomst
-    - automation.licht_aan_in_de_avond
-    - automation.licht_aan_met_afstandsbediening
-    - automation.licht_uit_met_afstandsbediening
-    - automation.licht_aan_voor_schoonmaker
-    - automation.bewoners_verlaten_huis
-    - automation.schoonmaak_verlaat_huis
-
-Device tracker:
-  entities:
-    - automation.refresh_owntracks
-
-Scripts:
-  entities:
-    - script.update_config
-    - script.refresh_devices
-    - script.flash_eettafel_red
-    - automation.red_alert
-
-################################################
-##         Scene groups                       ##
-################################################
-Scenes:
-  entities:
-    - scene.alle_lichten_uit
-    - scene.away
-    - scene.livingroom_normal
-    - scene.livingroom_dim
-    - scene.schoonmaken
-    - scene.eettafel_effect
-
-################################################
-##         Lighting groups                    ##
-################################################
-Verlichting Woonkamer:
-  entities:
-    - light.keuken
-    - light.plafoniere
-    - light.spots
-    - light.eettafel
-    - switch.fluxer
-    - light.led_strip
-    - light.led_strip_2
-    - light.schemerlamp_max
-    - light.schemerlamp_noeri
-
+###################################
+# Lichtgroepen
+###################################
 Tradfri Keuken:
   entities:
+    - light.keuken
     - light.keukenlamp_1
     - light.keukenlamp_2
     - light.keukenlamp_3
@@ -231,45 +163,73 @@ Tradfri Keuken:
     - light.keukenlamp_6
     - light.keukenlamp_7
     - light.keukenlamp_8
-
-Verlichting Slaapkamer Max:
+Tradfri Woonkamer:
   entities:
-    - light.plafoniere_max
-    - light.schemerlampen
+    - light.plafonniere
+    - light.woonkamer_1
+    - light.woonkamer_2
+    - light.woonkamer_3
+    - light.woonkamer_4
 
-Verlichting Slaapkamer Noeri:
+Verlichting Woonkamer:
   entities:
-    - light.hanglamp_noeri
+    - light.eettafel
+    - switch.sonoff_basic_076e52
+    - switch.sonoff_basic_0742d9
+    - switch.sonoff_basic_076a50
+    - switch.sonoff_basic_1ca1ce
 
-Verlichting Hal:
+Led strips Woonkamer:
   entities:
-    - light.hal
-    - switch.bewegingsensor_gang
+    - light.h801_9950fc
+    - light.h801_995008
+    - light.h801_9950fb
+
+Sonoff schakelaars:
+  entities:
+    - switch.sonoff_basic_0764b4
+    - switch.sonoff_basic_076a50
+    - switch.sonoff_basic_076e52
+    - switch.sonoff_basic_1ca1ce
+    - switch.sonoff_basic_0742d9
 
 Verlichting Badkamer:
   entities:
-    - light.badkamer
     - switch.schakelaar_badkamer
+    - switch.sonoff_badkamer
+
+Scenes woonkamer:
+  entities:
+    - scene.livingroom_normal
+    - scene.livingroom_dim
+    - scene.schoonmaken
+    - scene.alle_lichten_uit
+    - scene.away
 
 Schakelaars Woonkamer:
   entities:
+    - light.plafonniere
+    - light.keuken
     - switch.zonnescherm
     - switch.main_switch
-    - switch.test_switch
+    - switch.fluxer
 
-##########################################
-# Groups Mediaspelers per kamer
-##########################################
-Mediaspelers Woonkamer:
+Slaapkamer Max:
   entities:
-    - media_player.woonkamer_appletv
-#    - media_player.woonkamer
-    - media_player.woonkamertv_ue46d8000
+    - light.plafoniere_max
+    - light.schemerlamp_max
 
-##########################################
-# Groups bewakingscamera's per kamer
-##########################################
-bewakingscameras_woonkamer:
-  name: "Bewakingscamera's Woonkamer"
+Slaapkamer Noeri:
   entities:
-    - camera.woonkamer
+    - light.hanglamp_noeri
+    - light.noeri
+    - light.schemerlamp_noeri
+
+Hal:
+  entities:
+    - switch.bewegingsensor_gang
+    - light.hal
+    - light.hallamp_1
+    - light.hallamp_2
+    - light.hallamp_3
+    - light.hallamp_4

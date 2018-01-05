@@ -1,48 +1,79 @@
 - name: Livingroom dim
   entities:
-    light.plafoniere:
+    switch.fluxer:
       state: off
-#    light.keuken:
-#      state: off
-    light.spots:
+
+    light.plafonniere:
+      state: off
+
+    switch.sonoff_basic_076e52:
       state: on
+
     light.eettafel:
       state: on
       brightness: 20
       kelvin: 2700
-#      rgb_color: [255, 255, 255]
+      rgb_color: [236,43,0]
       transition: 5
-    light.led_strip:
+
+    light.h801_995008:
       state: on
-      brightness: 80
-      rgb_color: [230,117,0]
+      brightness: 70
+      # color_name: orangered
+      color_name: teal
       transition: 3
-    light.led_strip_2:
+
+    light.h801_9950fb:
       state: on
-      brightness: 80
-      rgb_color: [230,117,0]
+      brightness: 70
+      # color_name: orangered
+      color_name: teal
       transition: 3
-    light.schemerlamp_noeri:
+
+    light.h801_9950fc:
+      state: on
+      brightness: 40
+      color_name: teal
+      transition: 3
+
+    switch.sonoff_basic_076a50:
       state: off
-    light.schemerlamp_max:
+
+    switch.sonoff_basic_1ca1ce:
       state: off
+
     light.keukenlamp_1:
       state: off
+      transition: 3
+
     light.keukenlamp_2:
       state: off
+      transition: 3
+
     light.keukenlamp_3:
       state: on
       brightness: 1
       color_temp: 500
+      transition: 3
+
     light.keukenlamp_4:
       state: off
+      transition: 3
+
     light.keukenlamp_5:
       state: on
       brightness: 1
       color_temp: 500
+      transition: 3
+
     light.keukenlamp_6:
       state: off
+      transition: 3
+
     light.keukenlamp_7:
       state: off
+      transition: 3
+      
     light.keukenlamp_8:
       state: off
+      transition: 3

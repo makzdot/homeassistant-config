@@ -1,4 +1,4 @@
-- alias: Hal light motion on night before sunrise
+- alias: Hal light motion at night
   trigger:
     platform: state
     entity_id: switch.bewegingsensor_gang
@@ -6,81 +6,49 @@
   condition:
     condition: and
     conditions:
-    - condition: state
-      entity_id: light.keukenlamp_3
-      state: 'off'
-    - condition: sun
-      before: 'sunrise'
-      before_offset: "1:20:00"
+    - condition: or
+      conditions:
+      - condition: sun
+        before: 'sunrise'
+        before_offset: "1:20:00"
+      - condition: sun
+        after: 'sunset'
+        after_offset: "-1:20:00"
   action:
     - service: light.turn_on
       data:
+        entity_id: light.hallamp4
+        brightness: 50
+    - service: light.turn_on
+      data:
         entity_id:
-          - light.hal
-        brightness: 30
+          - light.hallamp_2
+        brightness: 3
+        color_temp: 457
 
-- alias: Hal light motion on full night before sunrise
+- alias: Hal light motion at daytime
   trigger:
     platform: state
     entity_id: switch.bewegingsensor_gang
     to: 'on'
   condition:
-    condition: and
-    conditions:
-    - condition: state
-      entity_id: light.keukenlamp_3
-      state: 'on'
-    - condition: sun
-      before: 'sunrise'
-      before_offset: "1:20:00"
+    condition: state
+    entity_id: light.keukenlamp_3
+    state: 'on'
   action:
     - service: light.turn_on
       data:
+        entity_id: light.hallamp_4
+        brightness: 200
+    - service: light.turn_on
+      data:
         entity_id:
-          - light.hal
-        brightness: 255
+          - light.hallamp_1
+          - light.hallamp_2
+          - light.hallamp_3
+        brightness: 200
+        color_temp: 457
 
-- alias: Hal light motion on night after sunset
-  trigger:
-    platform: state
-    entity_id: switch.bewegingsensor_gang
-    to: 'on'
-  condition:
-    condition: and
-    conditions:
-    - condition: state
-      entity_id: light.keukenlamp_3
-      state: 'off'
-    - condition: sun
-      after: 'sunset'
-      after_offset: "-1:20:00"
-  action:
-    - service: light.turn_on
-      data:
-        entity_id:
-          - light.hal
-        brightness: 30
-
-- alias: Hal light motion on
-  trigger:
-    platform: state
-    entity_id: switch.bewegingsensor_gang
-    to: 'on'
-  condition:
-    condition: and
-    conditions:
-    - condition: state
-      entity_id: light.keukenlamp_3
-      state: 'on'
-    - condition: sun
-      after: 'sunset'
-      after_offset: "-1:20:00"
-  action:
-    - service: light.turn_on
-      data:
-        entity_id:
-          - light.hal
-        brightness: 255
 
 - alias: Hal light motion off
   trigger:
@@ -91,4 +59,7 @@
     - service: light.turn_off
       data:
         entity_id:
-          - light.hal
+          - light.hallamp_4
+          - light.hallamp_1
+          - light.hallamp_2
+          - light.hallamp_3

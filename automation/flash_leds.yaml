@@ -1,23 +1,37 @@
 - alias: Red Alert
   trigger:
     - platform: state
-      entity_id: switch.test_switch
+      entity_id: switch.bewegingsensor_gang
       to: 'on'
+  condition:
+    condition: and
+    conditions:
+    - condition: state
+      entity_id: group.schoonmaak
+      state: 'not_home'
+    - condition: state
+      entity_id: group.personen
+      state: 'not_home'
   action:
-#    - service: scene.turn_on
-#      entity_id: scene.Schoonmaken
     - service: light.turn_on
       data:
         entity_id:
           - light.led_strip
           - light.led_strip_2
+          - light.led_strip_3
         brightness: 255
         color_name: red
         flash: long
-    - service: script.flash_eettafel_red
-    - service: notify.ios_maxiphonesix
+    - service: light.lifx_effect_pulse
       data:
-        message: "Red Alert!"
-        data:
-          push:
-            sound: "US-EN-Morgan-Freeman-Motion-Detected.wav"
+        brightness: 255
+        color_name: red
+        cycles: 120
+        entity_id: light.eettafel
+        mode: breathe
+        period: 1
+    - service: notify.facebook
+      data:
+        message: 'Good Evening'
+        target:
+          - 0031651541739
