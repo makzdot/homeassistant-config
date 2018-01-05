@@ -153,8 +153,9 @@ device_tracker:
 
 proximity:
   home:
-    devices:
-      - device_tracker.makzdot_a23689f5324a4084a5473386709c87eb 
+  mam:
+  esther:
+  surfnet: 
 
 binary_sensor:
   - platform: workday
