@@ -164,6 +164,10 @@ proximity:
     devices:
       - device_tracker.makzdot_a23689f5324a4084a5473386709c87eb
       - device_tracker.rikkert_rikki
+  mam:
+    devices:
+      - device_tracker.makzdot_a23689f5324a4084a5473386709c87eb
+      - device_tracker.rikkert_rikki
 
 binary_sensor:
   - platform: workday
