@@ -1,0 +1,4 @@
+only_time:
+  name: Wektijd Max
+  has_date: false
+  has_time: true
