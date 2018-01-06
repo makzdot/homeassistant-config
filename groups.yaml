@@ -124,6 +124,13 @@ Datum en tijd:
     - sun.sun
     - sensor.moon
 
+Travis CI:
+  - sensor.makzdothomeassistantconfig_last_build_id
+  - sensor.makzdothomeassistantconfig_last_build_started_at
+  - sensor.makzdothomeassistantconfig_last_build_finished_at
+  - sensor.makzdothomeassistantconfig_last_build_state
+  - sensor.makzdothomeassistantconfig_state
+
 Wekker Max:
   icon: mdi:calendar
   entities:
