@@ -54,7 +54,7 @@ https://github.com/home-assistant/hassio-build/tree/master/install#install-hassi
 - Travis-CI for checking Home-assistant configs
 
 ### Camera
-- Foscam c2
+- Foscam c2 (1x)
 
 ### Weather
 - Buienradar sensor
