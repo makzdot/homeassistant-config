@@ -7,21 +7,25 @@
 
     light.woonkamer_1:
       state: off
+      transition: 3
 
     light.woonkamer_2:
       state: on
       brightness: 3
       color_temp: 450
+      transition: 3
 
     light.woonkamer_3:
       state: on
       brightness: 3
       color_temp: 450
+      transition: 3
 
     light.woonkamer_4:
       state: on
       brightness: 3
       color_temp: 450
+      transition: 3
 
     light.eettafel:
       state: on
