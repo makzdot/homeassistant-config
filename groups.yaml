@@ -60,6 +60,7 @@ sensors:
     - group.batterij_status_tradfri
     - group.datum_en_tijd
     - group.all_devices
+    - group.travis_ci
 
 automation:
   name: Automation
