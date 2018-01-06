@@ -81,8 +81,6 @@ sensor:
       - 'date'
   - platform: travisci
     api_key: !secret travis_api_key
-    repository:
-      - https://github.com/makzdot/homeassistant-config.git
 
 media_player:
   - platform: samsungtv
