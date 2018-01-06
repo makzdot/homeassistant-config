@@ -5,6 +5,13 @@ This is my personal homeassistant configuration use for your inspiration if you 
 I'm running HASS.IO on an Ubuntu server manually installed so I can run other docker containers as well:
 https://github.com/home-assistant/hassio-build/tree/master/install#install-hassio
 
+## TO DO & ideas
+- Automate Continuous integration of my home-automation config.
+- Finish my alarm clock wake-up-light setup.
+- Think of a usefull usage of proximity sensor.
+- Automate kitchen lighting with motion sensors.
+- Ambilight TV lights.
+
 ### Hubs
 - RFXCOM_RFXtrx433
 - mqtt server mosquitto used for device tracking and WiFi switches
@@ -44,4 +51,7 @@ https://github.com/home-assistant/hassio-build/tree/master/install#install-hassi
 
 ### Weather
 - Buienradar sensor
+
+### Sensor
+- Workday sensor (Detect workday vs holidays)
 
