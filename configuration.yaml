@@ -86,12 +86,16 @@ media_player:
     host: !secret emby_host
     api_key: !secret emby_api_key
   - platform: plex
+    entity_namespace: 'plex'
+    show_all_controls: true
+    use_episode_art: true
 
 apple_tv:
   - host: !secret apple_tv_host
     name: AppleTV Woonkamer
     login_id: !secret apple_tv_login_id
     credentials: !secret apple_tv_credentials
+    start_off: true
 
 weather:
   - platform: buienradar
