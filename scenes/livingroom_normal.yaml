@@ -30,7 +30,7 @@
     light.eettafel:
       state: on
       brightness: 35
-      kelvin: 2700
+      color_temp: 368
       transition: 5
 
     light.h801_995008:
