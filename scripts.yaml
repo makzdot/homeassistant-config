@@ -1,5 +1,5 @@
 '1507321590747':
-  alias: wake-up-light-test
+  alias: Wake Up Light Max
   sequence:
   - data:
       brightness_pct: 1
