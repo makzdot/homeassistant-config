@@ -31,8 +31,8 @@ media:
   view: yes
   icon: mdi:play-circle-outline
   entities:
-    - media_player.woonkamer_appletv_2
     - media_player.woonkamer_appletv
+    - media_player.plex_woonkamer_appletv
     - media_player.woonkamer_tv
     - media_player.emby__tvos__woonkamerappletv
     - group.all_remotes
