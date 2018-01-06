@@ -24,10 +24,8 @@ map:
 config:
 
 http:
-  # Uncomment this to add a password (recommended!)
   api_password: !secret http_api_password
-  # Uncomment this if you are using SSL or running in Docker etc
-  # base_url: home.makznet.nl
+  base_url: home.makznet.nl
   use_x_forwarded_for: True
   login_attempts_threshold: 3
   ip_ban_enabled: True
@@ -98,8 +96,6 @@ apple_tv:
     credentials: !secret apple_tv_credentials
 
 weather:
-#  - platform: openweathermap
-#    api_key: 863ad9b2c8a16e93e991df700d2345e4
   - platform: buienradar
     latitude: !secret latitude
     longitude: !secret longitude
