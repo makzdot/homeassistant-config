@@ -11,9 +11,8 @@
 
     light.eettafel:
       state: on
-      brightness: 20
-      color_temp: 370
-      rgb_color: [236,43,0]
+      brightness: 15
+      color_temp: 368
       transition: 5
 
     light.h801_995008:
