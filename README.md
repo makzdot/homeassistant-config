@@ -1,6 +1,9 @@
 # homeassistent-config
 This is my personal homeassistant configuration use for your inspiration if you want.
 
+![alt text](./hassio.gif)
+
+
 ## My current Home-Assistant setup
 I'm running HASS.IO on an Ubuntu server manually installed so I can run other docker containers as well:
 https://github.com/home-assistant/hassio-build/tree/master/install#install-hassio
