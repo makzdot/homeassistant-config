@@ -2,10 +2,13 @@
 This is my personal homeassistant configuration use for your inspiration if you want.
 
 ## My current Home-Assistant setup
-My home automation is currenty running on a Ubuntu linux server running in a docker container. Witch I control using ansible for deployment.
+I'm running HASS.IO on an Ubuntu server manually installed so I can run other docker containers as well:
+https://github.com/home-assistant/hassio-build/tree/master/install#install-hassio
+
 ### Hubs
 - RFXCOM_RFXtrx433
 - mqtt server mosquitto used for device tracking and WiFi switches
+- Ikea Tradfri
 
 ### Climate
 - Nest Learning Thermostat
