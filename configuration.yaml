@@ -12,12 +12,10 @@ homeassistant:
   time_zone: Europe/Amsterdam
   customize: !include customize.yaml
 
-# Show links to resources in log and frontend
-# introduction:
-
 # Enables the frontend
 frontend:
 
+# Enable map
 map:
 
 # Enables configuration UI
