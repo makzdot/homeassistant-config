@@ -78,6 +78,8 @@ sensor:
   - platform: travisci
     api_key: !secret travis_api_key
   - platform: plex
+    host: !secret plex_host
+    token: !secret plex_token
 
 media_player:
   - platform: samsungtv
