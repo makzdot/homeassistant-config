@@ -1,4 +1,4 @@
-# homeassistent-config
+# homeassistant-config
 This is my personal homeassistant configuration use for your inspiration if you want.
 
 ![alt text](./hassio.gif)
@@ -14,6 +14,10 @@ https://github.com/home-assistant/hassio-build/tree/master/install#install-hassi
 - Think of a usefull usage of proximity sensor.
 - Automate kitchen lighting with motion sensors.
 - Ambilight TV lights.
+
+## HassIO Addons
+- HomeBridge (Apple Homekit integration)
+- Mosquitto broker (MQTT for user tracking and lights)
 
 ### Hubs
 - RFXCOM_RFXtrx433
