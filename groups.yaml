@@ -55,6 +55,7 @@ sensors:
   entities:
     - group.personen
     - group.schoonmaak
+    - group.pihole
     - group.devices
     - group.nest
     - group.nest_protect
