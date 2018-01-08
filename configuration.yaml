@@ -184,9 +184,8 @@ binary_sensor:
 #    allowed_chat_ids:
 #      - !secret telegram_bot_chat_id
 notify:
-  - name: Pushbullet notify
-    platform: pushbullet
-    apy_key: !secret pushbullet_api_key
+  - platform: pushbullet
+    api_key: !secret pushbullet_api_key
 
 
 group: !include groups.yaml
