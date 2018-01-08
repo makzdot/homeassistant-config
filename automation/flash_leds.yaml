@@ -30,8 +30,7 @@
         entity_id: light.eettafel
         mode: breathe
         period: 1
-    - service: notify.facebook
+    - service: notify.pushbullet
       data:
-        message: 'Good Evening'
-        target:
-          - 0031651541739
+        title: "Casa Di Maxi"
+        message: "Motion is detected!!"

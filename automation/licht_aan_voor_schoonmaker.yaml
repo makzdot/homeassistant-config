@@ -17,5 +17,9 @@
       entity_id: 'binary_sensor.workday_sensor'
       state: 'on'
   action:
-      service: scene.turn_on
+    - service: scene.turn_on
       entity_id: scene.schoonmaken
+    - service: notify.pushbullet
+      data:
+        title: "Casa Di Maxi"
+        message: "Schoonmaak komt binnen"

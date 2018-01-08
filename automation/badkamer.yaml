@@ -29,7 +29,3 @@
       entity_id: switch.sonoff_badkamer
     - service: switch.turn_off
       entity_id: switch.schakelaar_badkamer
-    - service: notify.pushbullet
-      data:
-        title: "Home Assistant"
-        message: "This is a test."
