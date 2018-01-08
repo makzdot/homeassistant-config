@@ -178,11 +178,11 @@ binary_sensor:
   - platform: workday
     country: NL
 
-telegram_bot:
-  - platform: broadcast
-    api_key: !secret telegram_bot_api_key
-    allowed_chat_ids:
-      - !secret telegram_bot_chat_id
+#telegram_bot:
+#  - platform: broadcast
+#    api_key: !secret telegram_bot_api_key
+#    allowed_chat_ids:
+#      - !secret telegram_bot_chat_id
 
 group: !include groups.yaml
 automation old: !include_dir_merge_list automation
