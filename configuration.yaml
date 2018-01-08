@@ -109,7 +109,7 @@ weather:
 # Text to speech
 tts:
   - platform: google
-    language: 'NL'
+    language: nl
 
 nest:
   client_id: !secret nest_client_id
