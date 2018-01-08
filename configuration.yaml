@@ -82,7 +82,7 @@ sensor:
     token: !secret plex_token
     server: MaxFlix
   - platform: pi_hole
-    host: rogue.makz.lan
+    host: 172.19.11.4
     monitored_conditions:
       - ads_blocked_today
       - ads_percentage_today
