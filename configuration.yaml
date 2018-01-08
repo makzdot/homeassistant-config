@@ -147,7 +147,6 @@ mqtt:
   discovery_prefix: homeassistant
 
 device_tracker:
-#  - platform: locative
   - platform: owntracks
     max_gps_accuracy: 200
     waypoints: True
@@ -181,7 +180,7 @@ binary_sensor:
 
 telegram_bot:
   - platform: broadcast
-    api_key: 320539965:AAFh-sYMUSlq5hmo_mVNIGm9KasayDzeiiQ
+    api_key: !secret telegram_bot_api_key
     allowed_chat_ids:
       - !secret telegram_bot_chat_id
 
