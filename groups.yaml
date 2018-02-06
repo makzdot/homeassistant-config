@@ -174,7 +174,6 @@ Devices:
 ###################################
 Tradfri Keuken:
   entities:
-    - light.keuken
     - light.keukenlamp_1
     - light.keukenlamp_2
     - light.keukenlamp_3
@@ -185,7 +184,6 @@ Tradfri Keuken:
     - light.keukenlamp_8
 Tradfri Woonkamer:
   entities:
-    - light.plafonniere
     - light.woonkamer_1
     - light.woonkamer_2
     - light.woonkamer_3
