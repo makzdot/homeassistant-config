@@ -9,7 +9,7 @@
     switch.sonoff_basic_076e52:
       state: on
 
-    light.eettafel:
+    light.noeri:
       state: on
       brightness: 15
       color_temp: 368

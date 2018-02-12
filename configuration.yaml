@@ -21,6 +21,8 @@ map:
 # Enables configuration UI
 config:
 
+hassio:
+
 http:
   api_password: !secret http_api_password
   base_url: home.makznet.nl
