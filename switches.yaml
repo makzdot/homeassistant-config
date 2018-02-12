@@ -1,6 +1,7 @@
 - platform: flux
   lights:
     - light.eettafel
+    - light.noeri
     - light.keukenlamp_1
     - light.keukenlamp_2
     - light.keukenlamp_3
@@ -11,7 +12,7 @@
     - light.keukenlamp_8
     - light.h801_995008
     - light.h801_9950fb
-    - light.h801_9950fc
+#    - light.h801_9950fc
   name: Fluxer
   # start_time: '06:30'
   # stop_time: '23:59'
