@@ -31,7 +31,7 @@
       state: on
       brightness: 35
       color_temp: 368
-      transition: 5
+      transition: 1
 
     light.h801_995008:
       state: on
