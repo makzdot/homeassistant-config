@@ -11,7 +11,6 @@ default_view:
     - group.led_strips_woonkamer
     - media_player.woonkamer_appletv
     - media_player.woonkamer_tv
-    - camera.woonkamer_camera
     - group.schakelaars_woonkamer
 
 Slaapkamers:

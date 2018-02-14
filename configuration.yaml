@@ -138,14 +138,6 @@ nest:
       - 'smoke_status'
       - 'battery_health'
 
-camera:
-  - platform: foscam
-    name: Woonkamer camera
-    ip: 172.19.11.243
-    port: 80
-    username: !secret foscam_username
-    password: !secret foscam_password
-
 rfxtrx:
   device: /dev/ttyUSB0
   debug: False
