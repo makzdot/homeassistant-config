@@ -191,8 +191,8 @@ Tradfri Woonkamer:
 
 Verlichting Woonkamer:
   entities:
-#    - light.eettafel
-    - light.noeri
+    - light.eettafel
+#    - light.noeri
     - switch.sonoff_basic_076e52
     - switch.sonoff_basic_0742d9
     - switch.sonoff_basic_076a50
@@ -241,6 +241,7 @@ Slaapkamer Max:
 Slaapkamer Noeri:
   entities:
     - light.schemerlamp_noeri
+    - light.noeri
 
 Hal:
   entities:
