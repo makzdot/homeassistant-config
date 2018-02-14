@@ -191,7 +191,7 @@ Tradfri Woonkamer:
 
 Verlichting Woonkamer:
   entities:
-    - light.eettafel
+    - light.lifx_d073d503bec2
 #    - light.noeri
     - switch.sonoff_basic_076e52
     - switch.sonoff_basic_0742d9
