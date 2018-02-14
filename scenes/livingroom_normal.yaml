@@ -27,7 +27,7 @@
       color_temp: 450
       transition: 3
 
-    light.noeri:
+    light.eettafel:
       state: on
       brightness: 35
       color_temp: 368
