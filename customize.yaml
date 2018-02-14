@@ -87,3 +87,5 @@ switch.sonoff_basic_076e52:
   friendly_name: Spotjes
 switch.sonoff_badkamer:
   friendly_name: Badkamerlamp
+light.lifx_d073d503bec2:
+  friendly_name: Eettafel
