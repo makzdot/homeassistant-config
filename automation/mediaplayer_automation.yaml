@@ -1,7 +1,7 @@
 - alias: "Media player paused/stopped"
   trigger:
     - platform: state
-      entity_id: media_player.woonkamer_appletv
+      entity_id: media_player.woonkamer_appletv_2
       from: 'playing'
   condition:
     condition: or
@@ -17,13 +17,13 @@
     - condition: or
       conditions:
       - condition: state
-        entity_id: media_player.woonkamer_appletv
+        entity_id: media_player.woonkamer_appletv_2
         state: 'paused'
       - condition: state
-        entity_id: media_player.woonkamer_appletv
+        entity_id: media_player.woonkamer_appletv_2
         state: 'idle'
       - condition: state
-        entity_id: media_player.woonkamer_appletv
+        entity_id: media_player.woonkamer_appletv_2
         state: 'off'
     - service: scene.turn_on
       entity_id: scene.livingroom_normal
@@ -34,14 +34,14 @@
 - alias: "Media player playing Movie"
   trigger:
     - platform: state
-      entity_id: media_player.woonkamer_appletv
+      entity_id: media_player.woonkamer_appletv_2
       from: 'paused'
       to: 'playing'
   condition:
     condition: and
     conditions:
     - condition: template
-      value_template: '{{ states.media_player.woonkamer_appletv.attributes.media_content_type == "movie" }}'
+      value_template: '{{ states.media_player.woonkamer_appletv_2.attributes.media_content_type == "movie" }}'
     - condition: or
       conditions:
       - condition: sun
@@ -61,13 +61,13 @@
 - alias: "Media player playing TVshow"
   trigger:
     - platform: state
-      entity_id: media_player.woonkamer_appletv
+      entity_id: media_player.woonkamer_appletv_2
       to: 'playing'
   condition:
     condition: and
     conditions:
     - condition: template
-      value_template: '{{ states.media_player.woonkamer_appletv.attributes.media_content_type == "tvshow" }}'
+      value_template: '{{ states.media_player.woonkamer_appletv_2.attributes.media_content_type == "tvshow" }}'
     - condition: or
       conditions:
       - condition: sun
