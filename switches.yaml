@@ -1,6 +1,6 @@
 - platform: flux
   lights:
-    - light.eettafel
+    - light.lifx_d073d503bec2
     - light.noeri
     - light.keukenlamp_1
     - light.keukenlamp_2
