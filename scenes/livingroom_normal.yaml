@@ -29,7 +29,7 @@
 
     light.lifx_d073d503bec2:
       state: on
-      brightness: 35
+      brightness: 70
       color_temp: 368
       transition: 1
 
