@@ -114,6 +114,12 @@ apple_tv:
     credentials: !secret apple_tv_credentials
     start_off: true
 
+camera:
+  - platform: foscam
+    ip: 172.19.12.72
+    username: !secret foscam_username
+    password: !secret foscam_password
+
 weather:
   - platform: buienradar
     latitude: !secret latitude
