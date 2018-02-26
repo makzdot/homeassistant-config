@@ -12,6 +12,7 @@ default_view:
     - media_player.woonkamer_appletv_2
     - media_player.woonkamer_tv
     - group.schakelaars_woonkamer
+    - camera.foscam_camera
 
 Slaapkamers:
   name: Slaapkamers
