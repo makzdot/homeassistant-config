@@ -4,19 +4,19 @@
     entity_id: switch.bewegingsensor_gang
     to: 'on'
   condition:
-    condition: and
-    conditions:
-    - condition: or
+    - condition: and
       conditions:
-      - condition: sun
-        before: 'sunrise'
-        before_offset: "1:20:00"
-      - condition: sun
-        after: 'sunset'
-        after_offset: "-1:20:00"
-      - condition: state
-        entity_id: group.personen
-        state: home
+        - condition: state
+          entity_id: group.personen
+          state: home
+        - condition: or
+          conditions:
+            - condition: sun
+              before: 'sunrise'
+              before_offset: "1:20:00"
+            - condition: sun
+              after: 'sunset'
+              after_offset: "-1:20:00"
   action:
     - service: light.turn_on
       data:
@@ -31,9 +31,19 @@
     entity_id: switch.bewegingsensor_gang
     to: 'on'
   condition:
-    condition: state
-    entity_id: group.personen
-    state: home
+    - condition: and
+      conditions:
+        - condition: state
+          entity_id: group.personen
+          state: home
+        - condition: or
+          conditions:
+            - condition: sun
+              before: 'sunrise'
+              before_offset: "1:20:00"
+            - condition: sun
+              after: 'sunset'
+              after_offset: "-1:20:00"
   action:
     - service: light.turn_on
       data:
