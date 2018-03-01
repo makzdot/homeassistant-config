@@ -4,10 +4,12 @@
     entity_id: switch.bewegingsensor_gang
     to: 'on'
   condition:
-    - condition: sun
-      before: 'sunrise'
-    - condition: sun
-      after: 'sunset'
+    condition: or
+    conditions:
+      - condition: sun
+        before: 'sunrise'
+      - condition: sun
+        after: 'sunset'
   action:
     - service: light.turn_on
       data:
@@ -22,10 +24,12 @@
     entity_id: switch.bewegingsensor_gang
     to: 'on'
   condition:
-    - condition: sun
-      before: 'sunset'
-    - condition: sun
-      after: 'sunrise'
+    condition: or
+    conditions:
+      - condition: sun
+        before: 'sunset'
+      - condition: sun
+        after: 'sunrise'
   action:
     - service: light.turn_on
       data:
