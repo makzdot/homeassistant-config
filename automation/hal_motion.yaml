@@ -14,11 +14,10 @@
       - condition: sun
         after: 'sunset'
         after_offset: "-1:20:00"
+      - condition: state
+        entity_id: group.personen
+        state: home
   action:
-    - service: light.turn_on
-      data:
-        entity_id: light.hallamp4
-        brightness: 50
     - service: light.turn_on
       data:
         entity_id:
@@ -33,12 +32,13 @@
     to: 'on'
   condition:
     condition: state
-    entity_id: light.keukenlamp_3
-    state: 'on'
+    entity_id: group.personen
+    state: home
   action:
     - service: light.turn_on
       data:
-        entity_id: light.hallamp_4
+        entity_id: 
+          - light.hallamp_4
         brightness: 200
     - service: light.turn_on
       data:
