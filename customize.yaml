@@ -89,3 +89,5 @@ switch.sonoff_badkamer:
   friendly_name: Badkamerlamp
 light.lifx_d073d503bec2:
   friendly_name: Eettafel
+device_tracker.makzdot_max_iphone6s:
+  friendly_name: Max (iPhone6s)
