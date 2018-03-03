@@ -115,10 +115,8 @@ apple_tv:
     start_off: true
 
 camera:
-  - platform: foscam
-    ip: 172.19.12.72
-    username: !secret foscam_username
-    password: !secret foscam_password
+  - platform: ffmpeg
+    input: !secret foscam_url
 
 weather:
   - platform: buienradar
