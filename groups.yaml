@@ -156,8 +156,9 @@ Pi-Hole:
 ###################################
 Personen:
   entities:
-    - device_tracker.makzdot_a23689f5324a4084a5473386709c87eb
+    - device_tracker.makzdot_max_iphone6s
     - device_tracker.a010818e6c32
+    - device_tracker.rikkert_rikki
 
 Schoonmaak:
   entities:
