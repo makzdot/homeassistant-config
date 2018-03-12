@@ -36,6 +36,10 @@
       color_temp: 320
       transition: 3
 
+    light.plafoniere_max:
+      state: on
+      brightness: 255
+
     automation.hal_light_motion_at_daytime:
       state: off
     automation.hal_light_motion_at_night:

@@ -235,6 +235,7 @@ Slaapkamer Noeri:
   entities:
     - light.schemerlamp_noeri
     - light.noeri
+    - light.noeri_2 
 
 Hal:
   entities:
