@@ -99,6 +99,7 @@ media_player:
   - platform: samsungtv
     host: woonkamertv.makz.lan
     name: Woonkamer TV
+    mac: d0:66:7b:8d:7c:85
   - platform: emby
     host: !secret emby_host
     api_key: !secret emby_api_key
