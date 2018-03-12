@@ -11,3 +11,15 @@
       brightness: 250
       color_temp: 450
       transition: 3
+
+    light.keukenverlichting_groep_1:
+      state: on
+      brightness: 250
+      color_temp: 450
+      transition: 3
+
+    light.keukenverlichting_groep_2:
+      state: on
+      brightness: 250
+      color_temp: 450
+      transition: 3
