@@ -6,8 +6,6 @@ default_view:
     - group.scenes_woonkamer
     - climate.living_room_thermostaat
     - group.tradfri_keuken
-    - light.keukenverlichting_groep_1
-    - light.keukenverlichting_groep_2
     - group.tradfri_woonkamer
     - group.verlichting_woonkamer
     - group.led_strips_woonkamer
@@ -177,14 +175,8 @@ Devices:
 ###################################
 Tradfri Keuken:
   entities:
-    - light.keukenlamp_1
-    - light.keukenlamp_2
-    - light.keukenlamp_3
-    - light.keukenlamp_4
-    - light.keukenlamp_5
-    - light.keukenlamp_6
-    - light.keukenlamp_7
-    - light.keukenlamp_8
+    - light.keukenverlichting_groep_1
+    - light.keukenverlichting_groep_2
 Tradfri Woonkamer:
   entities:
     - light.woonkamer_1
