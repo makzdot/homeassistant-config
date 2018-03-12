@@ -233,9 +233,8 @@ Slaapkamer Max:
 
 Slaapkamer Noeri:
   entities:
+    - light.hanglamp_noeri
     - light.schemerlamp_noeri
-    - light.noeri
-    - light.noeri_2 
 
 Hal:
   entities:
