@@ -41,38 +41,12 @@
     switch.sonoff_basic_1ca1ce:
       state: off
 
-    light.keukenlamp_1:
+    light.keukenverlichting_groep_1:
       state: off
       transition: 3
 
-    light.keukenlamp_2:
-      state: off
-      transition: 3
-
-    light.keukenlamp_3:
+    light.keukenverlichting_groep_2:
       state: on
       brightness: 1
       color_temp: 500
-      transition: 3
-
-    light.keukenlamp_4:
-      state: off
-      transition: 3
-
-    light.keukenlamp_5:
-      state: on
-      brightness: 1
-      color_temp: 500
-      transition: 3
-
-    light.keukenlamp_6:
-      state: off
-      transition: 3
-
-    light.keukenlamp_7:
-      state: off
-      transition: 3
-      
-    light.keukenlamp_8:
-      state: off
       transition: 3

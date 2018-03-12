@@ -9,19 +9,7 @@
       state: off
       transition: 3
 
-    light.woonkamer_2:
-      state: on
-      brightness: 3
-      color_temp: 450
-      transition: 3
-
-    light.woonkamer_3:
-      state: on
-      brightness: 3
-      color_temp: 450
-      transition: 3
-
-    light.woonkamer_4:
+    light.woonkamer_groep_1 :
       state: on
       brightness: 3
       color_temp: 450
@@ -62,50 +50,16 @@
     switch.sonoff_basic_1ca1ce:
       state: on
 
-    light.keukenlamp_1:
+    light.keukenverlichting_groep_1:
       state: on
       brightness: 80
       color_temp: 370
       transition: 3
 
-    light.keukenlamp_2:
+    light.keukenverlichting_groep_2:
       state: on
       brightness: 80
       color_temp: 370
       transition: 3
 
-    light.keukenlamp_3:
-      state: on
-      brightness: 80
-      color_temp: 370
-      transition: 3
 
-    light.keukenlamp_4:
-      state: on
-      brightness: 80
-      color_temp: 370
-      transition: 3
-
-    light.keukenlamp_5:
-      state: on
-      brightness: 80
-      color_temp: 370
-      transition: 3
-
-    light.keukenlamp_6:
-      state: on
-      brightness: 80
-      color_temp: 370
-      transition: 3
-
-    light.keukenlamp_7:
-      state: on
-      brightness: 80
-      color_temp: 370
-      transition: 3
-
-    light.keukenlamp_8:
-      state: on
-      brightness: 80
-      color_temp: 370
-      transition: 3
