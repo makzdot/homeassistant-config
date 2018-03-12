@@ -180,9 +180,7 @@ Tradfri Keuken:
 Tradfri Woonkamer:
   entities:
     - light.woonkamer_1
-    - light.woonkamer_2
-    - light.woonkamer_3
-    - light.woonkamer_4
+    - light.woonkamer_groep_1 
 
 Verlichting Woonkamer:
   entities:
