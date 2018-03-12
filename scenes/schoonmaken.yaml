@@ -1,54 +1,13 @@
 - name: Schoonmaken
   entities:
-    light.schemerlampen:
-      state: off
-    switch.sonoff_basic_0742d9:
-      state: on
     light.woonkamer_1:
       state: on
       brightness: 250
-      color_temp: 270
+      color_temp: 450
       transition: 3
-    light.woonkamer_2:
+
+    light.woonkamer_groep_1 :
       state: on
       brightness: 250
-      color_temp: 270
-      transition: 3
-    light.woonkamer_3:
-      state: on
-      brightness: 250
-      color_temp: 270
-      transition: 3
-    light.woonkamer_4:
-      state: on
-      brightness: 250
-      color_temp: 270
-      transition: 3
-    light.plafoniere_max:
-      state: on
-      brightness: 255
-    light.hanglamp_noeri:
-      state: on
-      brightness: 255
-    light.badkamer:
-      state: on
-      brightness: 255
-    light.hal:
-      state: on
-      brightness: 255
-      color_temp: 250
-    light.eettafel:
-      state: on
-      brightness: 180
-      color_temp: 270
-      transition: 3
-    light.keuken:
-      state: on
-      brightness: 250
-      color_temp: 270
-      transition: 3
-    light.h801_995008:
-      state: on
-      brightness: 250
-      color_temp: 300
+      color_temp: 450
       transition: 3
