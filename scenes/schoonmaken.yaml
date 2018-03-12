@@ -3,35 +3,35 @@
     light.woonkamer_1:
       state: on
       brightness: 250
-      color_temp: 450
+      color_temp: 320
       transition: 3
 
     light.woonkamer_groep_1 :
       state: on
       brightness: 250
-      color_temp: 450
+      color_temp: 320
       transition: 3
 
     light.keukenverlichting_groep_1:
       state: on
       brightness: 250
-      color_temp: 450
+      color_temp: 320
       transition: 3
 
     light.keukenverlichting_groep_2:
       state: on
       brightness: 250
-      color_temp: 450
+      color_temp: 320
       transition: 3
 
     light.lifx_d073d503bec2:
       state: on
       brightness: 200
-      color_temp: 450
+      color_temp: 320
       transition: 3
 
     light.h801_9950fb:
       state: on
       brightness: 250
-      color_temp: 450
+      color_temp: 320
       transition: 3
