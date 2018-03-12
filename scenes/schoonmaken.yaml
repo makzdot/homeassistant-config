@@ -67,9 +67,11 @@
       state: on
       brightness: 255
 
-    automation.hal_light_motion_at_daytime:
+    automation.hal_overdag:
       state: off
-    automation.hal_light_motion_at_night:
+    automation.hal_s_nachts_dim:
       state: off
-    automation.hal_light_motion_off:
+    automation.hal_s_nachts_full:
+      state: off
+    automation.hal_uit:
       state: off
