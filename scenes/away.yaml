@@ -4,3 +4,9 @@
     group.all_switches: off
     media_player.woonkamer_appletv: off
     media_player.woonkamer_tv: off
+    automation.hal_light_motion_at_daytime:
+      state: on
+    automation.hal_light_motion_at_night:
+      state: on
+    automation.hal_light_motion_off:
+      state: on
