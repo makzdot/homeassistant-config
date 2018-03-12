@@ -35,3 +35,10 @@
       brightness: 250
       color_temp: 320
       transition: 3
+
+    automation.hal_light_motion_at_daytime:
+      state: off
+    automation.hal_light_motion_at_night:
+      state: off
+    automation.hal_light_motion_off:
+      state: off
