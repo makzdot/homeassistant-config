@@ -32,3 +32,10 @@
   entities:
     - light.keukenlamp_3
     - light.keukenlamp_5
+
+- platform : group
+  name: Woonkamer groep 1
+  entities:
+    - light.woonkamer_2
+    - light.woonkamer_3
+    - light.woonkamer_4
