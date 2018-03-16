@@ -1,0 +1,52 @@
+- name: Woonkamer bioscoop
+  entities:
+    switch.fluxer:
+      state: off
+
+    light.plafonniere:
+      state: off
+
+    switch.sonoff_basic_076e52:
+      state: on
+
+    light.lifx_light_03bec2:
+      state: on
+      brightness: 15
+      color_temp: 368
+      transition: 1
+
+    light.h801_995008:
+      state: on
+      brightness: 70
+      # color_name: orangered
+      color_name: teal
+      transition: 3
+
+    light.h801_9950fb:
+      state: on
+      brightness: 70
+      # color_name: orangered
+      color_name: teal
+      transition: 3
+
+    light.h801_9950fc:
+      state: on
+      brightness: 40
+      color_name: teal
+      transition: 3
+
+    switch.sonoff_basic_076a50:
+      state: off
+
+    switch.sonoff_basic_1ca1ce:
+      state: off
+
+    light.keukenverlichting_groep_1:
+      state: off
+      transition: 3
+
+    light.keukenverlichting_groep_2:
+      state: on
+      brightness: 1
+      color_temp: 500
+      transition: 3
