@@ -137,10 +137,6 @@ mqtt:
   discovery: true
   discovery_prefix: homeassistant
 
-camera:
-  - platform: ffmpeg
-    input: !secret foscam_url
-
 # Cloud
 cloud:
 
