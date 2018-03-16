@@ -20,10 +20,11 @@ frontend:
 config:
 
 http:
-  # Secrets are defined in the file secrets.yaml
-  # api_password: !secret http_password
-  # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
-  # base_url: example.duckdns.org:8123
+  api_password: !secret http_api_password
+  base_url: home.makznet.nl
+  use_x_forwarded_for: True
+  login_attempts_threshold: 3
+  ip_ban_enabled: True
 
 # Checks for available updates
 # Note: This component will send some information about your system to
