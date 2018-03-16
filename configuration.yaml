@@ -74,11 +74,7 @@ sensor:
     latitude: !secret latitude
     longitude: !secret longitude
     monitored_conditions:
-      - stationname
-      - conditioncode
       - condition
-      - conditiondetailed
-      - conditionexact
       - symbol
       - humidity
       - temperature
