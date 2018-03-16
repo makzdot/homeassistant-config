@@ -60,6 +60,11 @@ binary_sensor:
   - platform: workday
     country: NL
 
+device_tracker:
+  - platform: owntracks
+    max_gps_accuracy: 200
+    waypoints: True
+
 # Text to speech
 tts:
   - platform: google
