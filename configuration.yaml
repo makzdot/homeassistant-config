@@ -77,6 +77,11 @@ apple_tv:
     start_off: 1
     credentials: apple_tv_credentials
 
+# Klik aan klik Uit hub
+rfxtrx:
+  device: /dev/ttyUSB0
+  debug: False
+
 # MQTT server config
 mqtt:
   broker: 172.17.0.1
