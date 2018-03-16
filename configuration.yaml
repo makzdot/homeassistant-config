@@ -149,6 +149,7 @@ cloud:
 
 group: !include groups.yaml
 automation: !include automations.yaml
+automation old: !include_dir_merge_list automation
 script: !include scripts.yaml
 zone: !include_dir_list zones
 light: !include lights.yaml
