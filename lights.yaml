@@ -1,0 +1,18 @@
+- platform: lifx
+  broadcast: 172.19.12.63
+
+#klik aan klik uit verlichting
+- platform: rfxtrx
+  automatic_add: false
+  devices:
+    0b11000e011acf160e010f50:
+      name: Schemerlamp Max
+
+    0b110000011acf160f010f70:
+      name: Schemerlamp Noeri
+
+    0b110036011acf1607010f70:
+      name: Plafoniere Max
+
+    0b11000c011acf160d000070:
+      name: hallamp 4
