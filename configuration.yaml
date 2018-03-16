@@ -115,6 +115,20 @@ rfxtrx:
   device: /dev/ttyUSB0
   debug: False
 
+nest:
+  client_id: !secret nest_client_id
+  client_secret: !secret nest_client_secret
+  sensors:
+    monitored_conditions:
+      - 'humidity'
+      - 'operation_mode'
+      - 'temperature'
+      - 'target'
+      - 'hvac_state'
+      - 'co_status'
+      - 'smoke_status'
+      - 'battery_health'
+
 # MQTT server config
 mqtt:
   broker: 172.17.0.1
