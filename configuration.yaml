@@ -56,10 +56,15 @@ sun:
 sensor:
   - platform: yr
 
+binary_sensor:
+  - platform: workday
+    country: NL
+
 # Text to speech
 tts:
   - platform: google
 
+# Apple TV config
 apple_tv:
   - host: !secret apple_tv_host
     login_id: !secret apple_tv_login_id
@@ -67,9 +72,18 @@ apple_tv:
     start_off: 1
     credentials: apple_tv_credentials
 
+# MQTT server config
+mqtt:
+  broker: 172.17.0.1
+  username: !secret mqtt_username
+  password: !secret mqtt_password
+  discovery: true
+  discovery_prefix: homeassistant
+
 # Cloud
 cloud:
 
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
+zone: !include_dir_list zones
