@@ -26,6 +26,11 @@ http:
   login_attempts_threshold: 3
   ip_ban_enabled: True
 
+influxdb:
+  host: !secret influxdb_host
+  username: !secret influxdb_username
+  password: !secret influxdb_password
+
 homekit:
   pincode: !secret homekit_pin
 
