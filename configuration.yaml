@@ -97,3 +97,6 @@ group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
 zone: !include_dir_list zones
+light: !include lights.yaml
+switch: !include switches.yaml
+
