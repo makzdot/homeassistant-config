@@ -15,7 +15,7 @@
       color_temp: 450
       transition: 3
 
-    light.lifx_d073d503bec2:
+    light.lifx_light_03bec2:
       state: on
       brightness: 70
       color_temp: 368
