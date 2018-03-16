@@ -2,8 +2,8 @@ homeassistant:
   # Name of the location where Home Assistant is running
   name: Home
   # Location required to calculate the time the sun rises and sets
-  latitude: 52.0626
-  longitude: 5.1191
+  latitude: !secret latitude
+  longitude: !secret longitude
   # Impacts weather/sunrise data (altitude above sea level in meters)
   elevation: 0
   # metric for Metric, imperial for Imperial
@@ -12,9 +12,6 @@ homeassistant:
   time_zone: Europe/Amsterdam
   # Customization file
   customize: !include customize.yaml
-
-# Show links to resources in log and frontend
-introduction:
 
 # Enables the frontend
 frontend:
@@ -62,6 +59,13 @@ sensor:
 # Text to speech
 tts:
   - platform: google
+
+apple_tv:
+  - host: !secret apple_tv_host
+    login_id: !secret apple_tv_login_id
+    name: AppleTV Woonkamer
+    start_off: START_OFF_1
+    credentials: apple_tv_credentials
 
 # Cloud
 cloud:
