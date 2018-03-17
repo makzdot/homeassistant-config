@@ -55,3 +55,14 @@ Personen:
   entities:
     - device_tracker.makzdot_max_iphone6s
     - device_tracker.rikkert_rikki
+
+Schoonmaak:
+  icon: mdi:human-female
+  entities:
+    - device_tracker.74a528a58562 
+    - device_tracker.74a528a5844b
+
+Apparaten:
+  icon: mdi:cellphone-link
+  entities:
+    - device_tracker.makzdot_456f498da3fe4abe8284f88867a4c8dc
