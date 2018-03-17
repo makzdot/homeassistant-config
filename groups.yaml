@@ -15,6 +15,10 @@ Nest thermostaat:
   icon: mdi:nest-thermostat
   entities:
     - climate.living_room_thermostaat
+
+Nest sensors:
+  icon: mdi:nest-thermostat
+  entities:
     - sensor.living_room_thermostat_thermostaat_temperature
     - sensor.living_room_thermostat_thermostaat_humidity
     - sensor.living_room_thermostat_thermostaat_target
