@@ -18,6 +18,16 @@ Sensors:
     - group.schoonmaak
     - group.apparaten
 
+media:
+  name: Media
+  view: yes
+  icon: mdi:play-circle-outline
+  entities:
+    - sensor.plex
+    - media_player.woonkamer_appletv
+    - media_player.woonkamer_tv
+    - remote.woonkamer_appletv
+
 Buienradar:
   icon: mdi:weather-partlycloudy
   entities:
