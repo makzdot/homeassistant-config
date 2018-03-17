@@ -1,7 +1,6 @@
 Buienradar:
     name: Buienradar
     icon: mdi:weather-partlycloudy
-    view: yes
     entities:
       - sensor.br_humidity
       - sensor.br_precipitation
