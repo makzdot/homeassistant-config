@@ -66,3 +66,4 @@ Apparaten:
   icon: mdi:cellphone-link
   entities:
     - device_tracker.makzdot_456f498da3fe4abe8284f88867a4c8dc
+    - device_tracker.makzdot_tablet_experiaz
