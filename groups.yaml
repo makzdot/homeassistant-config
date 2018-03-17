@@ -28,3 +28,11 @@ Batterij status:
     - sensor.afstandsbediening_keukenlicht
     - sensor.afstandsbediening_noeri
     - sensor.afstandsbediening_woonkamer
+
+Datum en tijd:
+  icon: mdi:calendar-clock
+  entities:
+    - sensor.time
+    - binary_sensor.workday_sensor
+    - sun.sun
+    - sensor.moon
