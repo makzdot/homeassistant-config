@@ -1,3 +1,23 @@
+Weer:
+  name: weer
+  view: yes
+  icon: mdi:weather-cloudy
+  entities:
+    - group.buienradar
+
+Sensors:
+  name: Sensors
+  view: yes
+  icon: mdi:gauge
+  entities:
+    - group.nest_sensors
+    - group.nest_protect
+    - group.batterij_status
+    - group.datum_en_tijd
+    - group.personen
+    - group.schoonmaak
+    - group.apparaten
+
 Buienradar:
   icon: mdi:weather-partlycloudy
   entities:
