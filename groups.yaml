@@ -21,6 +21,14 @@ Nest thermostaat:
     - sensor.living_room_thermostat_thermostaat_hvac_state
     - sensor.living_room_thermostat_thermostaat_operation_mode
 
+Nest protect:
+  icon: mdi:nest-protect
+  entities:
+    - binary_sensor.hallway_nest_protect_online
+    - sensor.hallway_nest_protect_co_status
+    - sensor.hallway_nest_protect_smoke_status
+    - sensor.hallway_nest_protect_battery_health
+
 Batterij status:
   icon: mdi:battery
   entities:
