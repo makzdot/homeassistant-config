@@ -1,13 +1,22 @@
 Buienradar:
-    name: Buienradar
-    icon: mdi:weather-partlycloudy
-    entities:
-      - sensor.br_humidity
-      - sensor.br_precipitation
-      - sensor.br_pressure
-      - sensor.br_symbol
-      - sensor.br_temperature
-      - sensor.br_wind_direction
-      - sensor.br_wind_direction_azimuth
-      - sensor.br_wind_gust
-      - sensor.br_wind_speed
+  icon: mdi:weather-partlycloudy
+  entities:
+    - sensor.br_symbol
+    - sensor.br_temperature
+    - sensor.br_pressure
+    - sensor.br_humidity
+    - sensor.br_precipitation
+    - sensor.br_wind_direction
+    - sensor.br_wind_direction_azimuth
+    - sensor.br_wind_gust
+    - sensor.br_wind_speed
+
+Nest:
+  icon: mdi:nest-thermostat
+  entities:
+    - climate.living_room_thermostaat
+    - sensor.living_room_thermostat_thermostaat_temperature
+    - sensor.living_room_thermostat_thermostaat_humidity
+    - sensor.living_room_thermostat_thermostaat_target
+    - sensor.living_room_thermostat_thermostaat_hvac_state
+    - sensor.living_room_thermostat_thermostaat_operation_mode
