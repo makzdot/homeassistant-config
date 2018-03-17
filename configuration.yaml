@@ -122,6 +122,7 @@ media_player:
   - platform: plex
     entity_namespace: 'plex'
     use_episode_art: true
+    use_custom_entity_ids: true
 
 # Klik aan klik Uit hub
 rfxtrx:
