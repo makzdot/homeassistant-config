@@ -120,7 +120,7 @@ media_player:
     host: !secret emby_host
     api_key: !secret emby_api_key
   - platform: plex
-    entity_namespace: plex
+    entity_namespace: 'plex'
     use_episode_art: true
 
 # Klik aan klik Uit hub
