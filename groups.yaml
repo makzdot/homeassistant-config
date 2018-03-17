@@ -20,6 +20,10 @@ Nest thermostaat:
     - sensor.living_room_thermostat_thermostaat_target
     - sensor.living_room_thermostat_thermostaat_hvac_state
     - sensor.living_room_thermostat_thermostaat_operation_mode
+    - binary_sensor.living_room_thermostat_thermostaat_online
+    - binary_sensor.living_room_thermostat_thermostaat_has_leaf
+    - binary_sensor.living_room_thermostat_thermostaat_is_locked
+    - binary_sensor.living_room_thermostat_thermostaat_is_using_emergency_heat
 
 Nest protect:
   icon: mdi:nest-protect
