@@ -1,3 +1,19 @@
+Woonkamer:
+  name: woonkamer
+  view: yes
+  icon: mdi:sofa
+  entities:
+    - group.scenes_woonkamer
+    - climate.living_room_thermostaat
+    - group.tradfri_keuken
+    - group.tradfri_woonkamer
+    - group.verlichting_woonkamer
+    - group.led_strips_woonkamer
+    - media_player.woonkamer_appletv_2
+    - media_player.woonkamer_tv
+    - group.schakelaars_woonkamer
+    - camera.ffmpeg
+
 Weer:
   name: weer
   view: yes
