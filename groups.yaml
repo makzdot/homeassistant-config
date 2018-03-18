@@ -10,6 +10,7 @@ Woonkamer:
     - camera.ffmpeg
     - group.keukenverlichting
     - group.woonkamerverlichting
+    - group.woonkamer_led_strips
 
 Weer:
   name: weer
@@ -112,7 +113,6 @@ Apparaten:
 
 ####### Licht groepen
 Keukenverlichting:
-  icon: mdi:silverware
   entities:
     - light.keukenverlichting_groep_1
     - light.keukenverlichting_groep_2
@@ -122,3 +122,12 @@ Woonkamerverlichting:
     - light.lifx_light_03bec2
     - light.woonkamer_1
     - light.woonkamer_groep_1
+    - switch.sonoff_basic_076e52
+    - switch.sonoff_basic_076a50
+    - switch.sonoff_basic_1ca1ce
+
+Woonkamer LED strips:
+  entities:
+    - light.h801_995008
+    - light.h801_9950fb
+    - light.h801_9950fc
