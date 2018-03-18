@@ -8,6 +8,7 @@ Woonkamer:
     - media_player.woonkamer_appletv
     - media_player.woonkamer_tv
     - camera.ffmpeg
+    - group.keukenverlichting
 
 Weer:
   name: weer
@@ -107,3 +108,18 @@ Apparaten:
   entities:
     - device_tracker.makzdot_456f498da3fe4abe8284f88867a4c8dc
     - device_tracker.makzdot_tablet_experiaz
+
+####### Licht groepen
+Keukenverlichting:
+  icon: mdi:silverware
+  entities:
+    - light.keukenverlichting_groep_1
+    - light.keukenverlichting_groep_2
+    - light.keukenlamp_1
+    - light.keukenlamp_2
+    - light.keukenlamp_3
+    - light.keukenlamp_4
+    - light.keukenlamp_5
+    - light.keukenlamp_6
+    - light.keukenlamp_7
+    - light.keukenlamp_8
