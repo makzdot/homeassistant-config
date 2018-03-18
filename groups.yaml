@@ -9,6 +9,7 @@ Woonkamer:
     - media_player.woonkamer_tv
     - camera.ffmpeg
     - group.keukenverlichting
+    - group.woonkamerverlichting
 
 Weer:
   name: weer
@@ -115,11 +116,9 @@ Keukenverlichting:
   entities:
     - light.keukenverlichting_groep_1
     - light.keukenverlichting_groep_2
-    - light.keukenlamp_1
-    - light.keukenlamp_2
-    - light.keukenlamp_3
-    - light.keukenlamp_4
-    - light.keukenlamp_5
-    - light.keukenlamp_6
-    - light.keukenlamp_7
-    - light.keukenlamp_8
+
+Woonkamerverlichting:
+  entities:
+    - light.lifx_light_03bec2
+    - light.woonkamer_1
+    - light.woonkamer_groep_1
