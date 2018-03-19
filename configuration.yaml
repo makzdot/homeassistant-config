@@ -160,6 +160,5 @@ script: !include scripts.yaml
 zone: !include_dir_list zones
 light: !include lights.yaml
 switch: !include switches.yaml
-zone: !include_dir_list zones
 scene: !include_dir_list scenes
 
