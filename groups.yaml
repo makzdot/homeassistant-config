@@ -166,6 +166,7 @@ Hal:
     - light.hallamp_2
     - light.hallamp_3
     - light.hallamp_4
+    - switch.bewegingsensor_gang
 
 Badkamer:
   entities:
