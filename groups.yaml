@@ -12,6 +12,8 @@ Woonkamer:
     - group.woonkamerverlichting
     - group.woonkamer_led_strips
     - group.scenes
+    - switch.zonnescherm
+    - switch.main_switch
 
 Kamers:
   name: Kamers
