@@ -13,6 +13,16 @@ Woonkamer:
     - group.woonkamer_led_strips
     - group.scenes
 
+Kamers:
+  name: Kamers
+  view: yes
+  icon: mdi:hotel
+  entities:
+    - group.slaapkamer_max
+    - group.slaapkamer_noeri
+    - group.hal
+    - group.badkamer
+
 Weer:
   name: weer
   view: yes
@@ -139,3 +149,25 @@ Scenes:
     - scene.woonkamer_bioscoop
     - scene.alle_lichten_uit
     - scene.afwezig
+
+Slaapkamer Max:
+  entities:
+    - light.plafoniere_max
+    - light.schemerlamp_max
+
+Slaapkamer Noeri:
+  entities:
+    - light.schemerlamp_noeri
+    - light.hanglamp_noeri
+
+Hal:
+  entities:
+    - light.hallamp_1
+    - light.hallamp_2
+    - light.hallamp_3
+    - light.hallamp_4
+
+Badkamer:
+  entities:
+    - switch.sonoff_badkamer
+    - switch.schakelaar_badkamer
