@@ -1,0 +1,22 @@
+- alias: 'Main switch automation on'
+  trigger:
+    - platform: state
+      entity_id: switch.main_switch
+      from: 'off'
+      to: 'on'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.woonkamer_sfeerverlichting
+
+
+- alias: 'Main switch automation off'
+  trigger:
+    - platform: state
+      entity_id: switch.main_switch
+      from: 'on'
+      to: 'off'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.alle_lichten_uit
+
+
