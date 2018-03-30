@@ -52,6 +52,7 @@ media:
   entities:
     - sensor.plex
     - media_player.woonkamer_appletv
+    - media_player.plex_woonkamer_appletv
     - media_player.woonkamer_tv
     - remote.woonkamer_appletv
 
