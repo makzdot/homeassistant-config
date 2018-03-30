@@ -26,7 +26,7 @@
         entity_id: media_player.woonkamer_appletv
         state: 'off'
     - service: scene.turn_on
-      entity_id: scene.livingroom_normal
+      entity_id: scene.woonkamer_sfeerverlichting
 
 
 - alias: "Media player playing Movie"
@@ -51,7 +51,7 @@
   action:
     - delay: '0:00:02'
     - service: scene.turn_on
-      entity_id: scene.livingroom_dim
+      entity_id: scene.woonkamer_bioscoop
 
 
 - alias: "Media player playing TVshow"
@@ -75,4 +75,4 @@
   action:
     - delay: '0:00:02'
     - service: scene.turn_on
-      entity_id: scene.livingroom_dim
+      entity_id: scene.woonkamer_bioscoop
