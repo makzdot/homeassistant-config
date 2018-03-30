@@ -1,0 +1,47 @@
+- alias: 'Licht aan bij thuiskomst'
+  trigger:
+    platform: state
+    entity_id: group.personen
+    to: home
+  condition:
+    condition: sun
+    after: 'sunset'
+    after_offset: "-1:20:00"
+  action:
+    service: scene.turn_on
+    entity_id: scene.woonkamer_sfeerverlichting
+
+- alias: 'Licht aan in de avond'
+  trigger:
+    platform: sun
+    event: sunset
+    offset: "-01:20:00"
+  condition:
+    condition: state
+    entity_id: group.personen
+    state: home
+  action:
+    service: scene.turn_on
+    entity_id: scene.woonkamer_sfeerverlichting
+
+- alias: 'Licht aan voor schoonmaker'
+  trigger:
+    platform: state
+    entity_id: group.schoonmaak
+    from: 'not_home'
+    to: 'home'
+  condition:
+    condition: and
+    conditions:
+    - condition: time
+      after: "09:00:00"
+      before: "17:30:00"
+    - condition: state
+      entity_id: group.personen
+      state: 'not_home'
+    - condition: state
+      entity_id: 'binary_sensor.workday_sensor'
+      state: 'on'
+  action:
+    - service: scene.turn_on
+      entity_id: scene.schoonmaak
