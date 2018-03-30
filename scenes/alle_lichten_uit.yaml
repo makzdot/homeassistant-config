@@ -7,4 +7,7 @@
     switch.sonoff_basic_076a50: off
     switch.sonoff_basic_076e52: off
     switch.sonoff_basic_1ca1ce: off
-
+    automation.hal_aan:
+      state: on
+    automation.hal_uit:
+      state: on
