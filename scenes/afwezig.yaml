@@ -4,11 +4,7 @@
     group.all_switches: off
     media_player.woonkamer_appletv: off
     media_player.woonkamer_tv: off
-    automation.hal_overdag:
-      state: on
-    automation.hal_s_nachts_dim:
-      state: on
-    automation.hal_s_nachts_full:
-      state: on
+    automation.hal_aan:
+      state: off
     automation.hal_uit:
-      state: on
+      state: off
