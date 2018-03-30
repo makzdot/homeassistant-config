@@ -1,4 +1,4 @@
-- name: Schoonmaken
+- name: Schoonmaak
   entities:
     light.woonkamer_1:
       state: on

@@ -5,6 +5,6 @@
     media_player.woonkamer_appletv: off
     media_player.woonkamer_tv: off
     automation.hal_aan:
-      state: off
+      state: on
     automation.hal_uit:
-      state: off
+      state: on
