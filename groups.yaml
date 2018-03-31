@@ -116,8 +116,8 @@ Personen:
 Schoonmaak:
   icon: mdi:human-female
   entities:
-    - device_tracker.74a528a58562 
-    - device_tracker.74a528a5844b
+    - device_tracker.1c232c46cb0d
+    - device_tracker.9097f3588eb4
 
 Apparaten:
   icon: mdi:cellphone-link
