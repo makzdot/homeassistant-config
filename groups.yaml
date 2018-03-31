@@ -1,4 +1,4 @@
-Woonkamer:
+default_view:
   name: woonkamer
   view: yes
   icon: mdi:sofa
