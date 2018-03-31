@@ -4,3 +4,55 @@ device_tracker.74a528a5844b:
 device_tracker.74a528a58562:
   friendly_name: Dagmar
   icon: mdi:cellphone-android
+
+
+climate.living_room_thermostaat:
+  friendly_name: Thermostaat
+sensor.living_room_thermostat_thermostaat_humidity:
+  friendly_name: Luchtvochtigheid binnen
+sensor.living_room_thermostat_thermostaat_hvac_state:
+  friendly_name: Ketel status
+  icon: mdi:fire
+sensor.living_room_thermostat_thermostaat_operation_mode:
+  friendly_name: Operation modus
+sensor.living_room_thermostat_thermostaat_target:
+  friendly_name: Doeltemperatuur binnen
+  homebridge_hidden: true
+sensor.living_room_thermostat_thermostaat_temperature:
+  friendly_name: Temperatuur binnen
+binary_sensor.living_room_thermostat_thermostaat_fan:
+  friendly_name: Ventilator
+  icon: mdi:fan
+binary_sensor.living_room_thermostat_thermostaat_has_leaf:
+  friendly_name: Blaadje
+  icon: mdi:leaf
+binary_sensor.living_room_thermostat_thermostaat_is_locked:
+  friendly_name: Gelocked
+  icon: mdi:lock
+binary_sensor.living_room_thermostat_thermostaat_is_using_emergency_heat:
+  friendly_name: Noodwarmte
+binary_sensor.living_room_thermostat_thermostaat_online:
+  friendly_name: Online
+  icon: mdi:power-plug
+
+
+light.h801_995008:
+  friendly_name: LED strip 2
+light.h801_9950fb:
+  friendly_name: LED strip 3
+light.h801_9950fc:
+  friendly_name: LED strip TV
+switch.sonoff_basic_0742d9:
+  friendly_name: Spots
+switch.sonoff_basic_076a50:
+  friendly_name: Schemerlamp 1
+switch.sonoff_basic_1ca1ce:
+  friendly_name: Schemerlamp 2
+switch.sonoff_basic_076e52:
+  friendly_name: Spotjes
+switch.sonoff_badkamer:
+  friendly_name: Badkamerlamp
+
+
+device_tracker.makzdot_max_iphone6s:
+  friendly_name: Max (iPhone6s)
