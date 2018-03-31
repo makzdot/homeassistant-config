@@ -32,7 +32,6 @@ influxdb:
   password: !secret influxdb_password
 
 homekit:
-  pincode: !secret homekit_pin
 
 # Checks for available updates
 # Note: This component will send some information about your system to
