@@ -50,6 +50,8 @@
     switch.sonoff_basic_1ca1ce:
       state: on
 
+    switch.espurna_0742d9: on
+
     light.keukenverlichting_groep_1:
       state: on
       brightness: 80

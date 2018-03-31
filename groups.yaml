@@ -139,6 +139,7 @@ Woonkamerverlichting:
     - switch.sonoff_basic_076e52
     - switch.sonoff_basic_076a50
     - switch.sonoff_basic_1ca1ce
+    - switch.espurna_0742d9
 
 Woonkamer LED strips:
   entities:

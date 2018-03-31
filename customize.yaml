@@ -46,7 +46,8 @@ switch.sonoff_basic_0742d9:
   friendly_name: Spots
 switch.sonoff_basic_076a50:
   friendly_name: Schemerlamp 1
-switch.sonoff_basic_1ca1ce:
+#switch.sonoff_basic_1ca1ce:
+switch.espurna_0742d9:
   friendly_name: Schemerlamp 2
 switch.sonoff_basic_076e52:
   friendly_name: Spotjes
