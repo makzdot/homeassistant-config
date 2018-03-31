@@ -23,6 +23,7 @@ Kamers:
     - group.slaapkamer_max
     - group.slaapkamer_noeri
     - group.hal
+    - group.hal_automations
     - group.badkamer
 
 Weer:
@@ -172,6 +173,11 @@ Hal:
     - light.hallamp_3
     - light.hallamp_4
     - switch.bewegingsensor_gang
+
+Hal automations:
+  entities:
+    - automation.hal_aan
+    - automation.hal_uit
 
 Badkamer:
   entities:
