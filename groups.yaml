@@ -57,6 +57,18 @@ media:
     - media_player.woonkamer_tv
     - remote.woonkamer_appletv
 
+alldevices:
+  name: All Devices
+  view: yes
+  icon: mdi:infinity
+  entities:
+    - group.all_automations
+    - group.all_devices
+    - group.all_lights
+    - group.all_remotes
+    - group.all_scripts
+    - group.all_switches
+
 Buienradar:
   icon: mdi:weather-partlycloudy
   entities:

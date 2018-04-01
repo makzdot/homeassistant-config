@@ -57,3 +57,18 @@ switch.sonoff_badkamer:
 
 device_tracker.makzdot_max_iphone6s:
   friendly_name: Max (iPhone6s)
+
+
+group.all_devices:
+  order: 999
+  hidden: false
+group.all_remotes:
+  hidden: false
+group.all_automations:
+  hidden: false
+group.all_scripts:
+  hidden: false
+group.all_lights:
+  hidden: false
+group.all_switches:
+  hidden: false
