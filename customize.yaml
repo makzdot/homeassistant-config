@@ -4,6 +4,10 @@ device_tracker.9097f3588eb4:
 device_tracker.1c232c46cb0d:
   friendly_name: Dagmar
   icon: mdi:cellphone-android
+device_tracker.makzdot_max_iphone6s:
+  friendly_name: Max (iPhone6s)
+device_tracker.rikkert_rikki:
+  friendly_name: Rikki
 
 
 climate.living_room_thermostaat:
@@ -54,9 +58,6 @@ switch.sonoff_basic_076e52:
 switch.sonoff_badkamer:
   friendly_name: Badkamerlamp
 
-
-device_tracker.makzdot_max_iphone6s:
-  friendly_name: Max (iPhone6s)
 
 
 group.all_devices:
