@@ -10,6 +10,10 @@ device_tracker.makzdot_max_iphone6s:
 device_tracker.rikkert_rikki:
   friendly_name: Rikki
   icon: mdi:cellphone-android
+device_tracker.a010818e6c32:
+  friendly_name: Esther
+  icon: mdi:cellphone-android
+
 
 
 climate.living_room_thermostaat:
