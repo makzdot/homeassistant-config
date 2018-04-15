@@ -61,7 +61,6 @@ switch.sonoff_badkamer:
   friendly_name: Badkamerlamp
 
 
-
 group.all_devices:
   order: 999
   hidden: false

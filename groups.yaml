@@ -124,6 +124,7 @@ Personen:
   icon: mdi:account-multiple
   entities:
     - device_tracker.makzdot_max_iphone6s
+    - device_tracker.a010818e6c32
     - device_tracker.rikkert_rikki
 
 Schoonmaak:
