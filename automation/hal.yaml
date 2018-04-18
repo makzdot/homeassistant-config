@@ -1,18 +1,34 @@
 - alias: 'Hal aan'
   trigger:
     - platform: state
-      entity_id: switch.bewegingsensor_gang 
+      entity_id: switch.bewegingsensor_gang
       from: 'off'
       to: 'on'
   action:
     - service: light.turn_on
-      entity_id: 
-        - light.hallamp_1
+      entity_id:
         - light.hallamp_2
-        - light.hallamp_3
       data:
         brightness: 140
         color_temp: 460
+    - condtition:
+      condtition: and
+      condtitions:
+        - condtition: state
+          entity_id: light.h801_995008
+          state: 'off'
+        - condtition: state
+          entity_id: sun.sun
+          state: 'below_horizon'
+    - service: light.turn_on
+      entity_id:
+        - light.hallamp_1
+        - light.hallamp_3
+        - light.hallamp_4
+      data:
+        brightness: 140
+        color_temp: 460
+
 
 - alias: 'Hal uit'
   trigger:
@@ -26,3 +42,4 @@
         - light.hallamp_1
         - light.hallamp_2
         - light.hallamp_3
+        - light.hallamp_4
