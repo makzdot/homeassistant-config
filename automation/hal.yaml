@@ -11,14 +11,14 @@
       data:
         brightness: 140
         color_temp: 460
-    - condition: and
+    - condition: or
       conditions:
         - condition: state
           entity_id: light.h801_995008
-          state: 'off'
+          state: 'on'
         - condition: state
           entity_id: sun.sun
-          state: 'below_horizon'
+          state: 'above_horizon'
     - service: light.turn_on
       entity_id:
         - light.hallamp_1
