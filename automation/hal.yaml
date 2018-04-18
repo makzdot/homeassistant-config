@@ -11,12 +11,12 @@
       data:
         brightness: 140
         color_temp: 460
-    - condtition: and
-      condtitions:
-        - condtition: state
+    - condition: and
+      conditions:
+        - condition: state
           entity_id: light.h801_995008
           state: 'off'
-        - condtition: state
+        - condition: state
           entity_id: sun.sun
           state: 'below_horizon'
     - service: light.turn_on
