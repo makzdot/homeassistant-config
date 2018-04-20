@@ -9,7 +9,7 @@
       entity_id:
         - light.hallamp_2
       data:
-        brightness: 140
+        brightness: 50
         color_temp: 460
     - condition: or
       conditions:
@@ -22,6 +22,7 @@
     - service: light.turn_on
       entity_id:
         - light.hallamp_1
+        - light.hallamp_2
         - light.hallamp_3
         - light.hallamp_4
       data:
