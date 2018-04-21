@@ -19,6 +19,9 @@
         - condition: state
           entity_id: sun.sun
           state: 'above_horizon'
+        - condition: state
+          entity_id: input_boolean.noeri_slaapt
+          state: off
     - service: light.turn_on
       entity_id:
         - light.hallamp_1
