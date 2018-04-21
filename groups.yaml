@@ -186,6 +186,7 @@ Hal:
     - light.hallamp_3
     - light.hallamp_4
     - switch.bewegingsensor_gang
+    - input_boolean.noeri_slaapt
 
 Hal automations:
   entities:
