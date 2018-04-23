@@ -14,14 +14,17 @@
     - condition: or
       conditions:
         - condition: state
+          entity_id: input_boolean.noeri_slaapt
+          state: 'off'
+    - condition: or
+      conditions:
+        - condition: state
           entity_id: light.h801_995008
           state: 'on'
         - condition: state
           entity_id: sun.sun
           state: 'above_horizon'
-        - condition: state
-          entity_id: input_boolean.noeri_slaapt
-          state: 'off'
+
     - service: light.turn_on
       entity_id:
         - light.hallamp_1
