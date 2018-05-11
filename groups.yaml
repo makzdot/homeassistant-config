@@ -14,6 +14,7 @@ default_view:
     - group.scenes
     - switch.zonnescherm
     - switch.main_switch
+    - camera.woonkamer_cam
 
 Kamers:
   name: Kamers

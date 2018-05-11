@@ -123,6 +123,13 @@ media_player:
     entity_namespace: 'plex'
     use_episode_art: true
 
+camera:
+  - platform: foscam
+    name: woonkamer-cam
+    ip: ipcam.makz.lan
+    username: !secret foscam_username
+    password: !secret foscam_password
+
 # Klik aan klik Uit hub
 rfxtrx:
   device: /dev/ttyUSB0
