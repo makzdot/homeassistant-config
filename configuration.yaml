@@ -31,8 +31,8 @@ influxdb:
   username: !secret influxdb_username
   password: !secret influxdb_password
 
-homekit:
-  auto_start: false
+# homekit:
+#  auto_start: false
 
 # Checks for available updates
 # Note: This component will send some information about your system to
