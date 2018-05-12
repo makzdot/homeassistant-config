@@ -38,6 +38,11 @@ influxdb:
 
 homekit:
   auto_start: False
+  filter:
+    include_domains:
+      - light
+      - switch
+      - climate
 
 # Checks for available updates
 # Note: This component will send some information about your system to
