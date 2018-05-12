@@ -3,7 +3,7 @@
     group.all_lights: off
     switch.main_switch: off
     switch.sonoff_badkamer: off
-    switch.sonoff_basic_0764b4: off
+    # switch.sonoff_basic_0764b4: off
     switch.sonoff_basic_076a50: off
     switch.sonoff_basic_076e52: off
     switch.sonoff_basic_1ca1ce: off
