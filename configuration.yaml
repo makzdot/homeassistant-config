@@ -16,6 +16,11 @@ homeassistant:
 # Enables the frontend
 frontend:
 
+logger:
+  default: warning
+  logs:
+    homeassistant.components.homekit: debug
+
 # Enables configuration UI
 config:
 
@@ -95,7 +100,7 @@ device_tracker:
   - platform: snmp
     host: !secret snmp_host
     community: !secret snmp_community
-    baseoid: 1.3.6.1.2.1.4.22.1.2.4
+    baseoid: .1.3.6.1.2.1.4.22.1.2.4
     # track_new_devices: true
 
 
