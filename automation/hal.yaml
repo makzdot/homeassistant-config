@@ -49,3 +49,12 @@
         - light.hallamp_2
         - light.hallamp_3
         - light.hallamp_4
+
+- alias: 'Switch off in the morning'
+  trigger:
+    platform: time
+    at: '07:00:00'
+  action:
+    - service: input_boolean.turn_off
+      entity_id:
+        - input_boolean.noeri_slaapt
