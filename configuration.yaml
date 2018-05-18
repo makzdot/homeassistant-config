@@ -28,6 +28,8 @@ http:
   use_x_forwarded_for: True
   login_attempts_threshold: 3
   ip_ban_enabled: True
+  cors_allowed_origins:
+    - http://hassio.makz.lan:7080
 
 influxdb:
   host: !secret influxdb_host
