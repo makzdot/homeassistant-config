@@ -24,7 +24,7 @@ config:
 
 http:
   api_password: !secret http_api_password
-  base_url: home.makznet.nl
+  # base_url: home.makznet.nl
   use_x_forwarded_for: True
   login_attempts_threshold: 3
   ip_ban_enabled: True
