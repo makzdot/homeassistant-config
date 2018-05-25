@@ -96,6 +96,14 @@ sensor:
       - windazimuth
       - windgust
       - precipitation
+  - platform: darksky
+    api_key: 01bd73236d2f8e8b45bb6e3f1f1fb291
+    language: nl
+    monitored_conditions:
+      - summary
+      - daily_summary
+      - icon
+      - precip_intensity
 
 binary_sensor:
   - platform: workday
