@@ -5,5 +5,5 @@
     value_template: "{{ state.attributes.azimuth }}"
     above: 298.0
   action:
-    service: switch.turn_on
+    service: switch.turn_off
     entity_id: switch.zonnescherm
