@@ -33,6 +33,7 @@ Weer:
   icon: mdi:weather-cloudy
   entities:
     - group.buienradar
+    - sensor.dark_sky
 
 Sensors:
   name: Sensors
@@ -82,6 +83,13 @@ Buienradar:
     - sensor.br_wind_direction_azimuth
     - sensor.br_wind_gust
     - sensor.br_wind_speed
+
+Dark Sky:
+  entities:
+    - sensor.dark_sky_icon
+    - sensor.dark_sky_precip
+    - sensor.dark_sky_precip_intensity
+    - sensor.dark_sky_precip_probability
 
 Nest sensors:
   icon: mdi:nest-thermostat
