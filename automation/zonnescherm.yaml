@@ -3,7 +3,7 @@
     platform: numeric_state
       entity_id: sun.sun
       value_template: "{{ states.sun.sun.attributes.azimuth }}"
-      above: 200.0
+      above: 298.0
     action:
       - service: switch.turn_off
         entity_id: switch.zonnescherm
