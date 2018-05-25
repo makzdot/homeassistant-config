@@ -103,7 +103,10 @@ sensor:
       - summary
       - daily_summary
       - icon
+      - precip_type
       - precip_intensity
+      - precip_probability
+      - precip_intensity_max
 
 binary_sensor:
   - platform: workday
