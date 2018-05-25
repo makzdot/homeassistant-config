@@ -33,7 +33,7 @@ Weer:
   icon: mdi:weather-cloudy
   entities:
     - group.buienradar
-    - sensor.dark_sky
+    - group.dark_sky
 
 Sensors:
   name: Sensors
