@@ -1,6 +1,6 @@
 - alias: 'Zonnescherm inrollen'
   trigger:
-    platform: numeric_state
+    - platform: numeric_state
       entity_id: sun.sun
       value_template: "{{ states.sun.sun.attributes.azimuth }}"
       above: 298.0
