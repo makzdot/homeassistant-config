@@ -38,9 +38,6 @@
     switch.sonoff_basic_076a50:
       state: off
 
-    switch.sonoff_basic_1ca1ce:
-      state: off
-
     switch.espurna_0742d9: off
 
     light.keukenverlichting_groep_1:
