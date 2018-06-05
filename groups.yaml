@@ -5,7 +5,7 @@ default_view:
   entities:
     - group.all_scenes
     - climate.living_room_thermostaat
-    - media_player.woonkamer_appletv
+    - media_player.woonkamer_appletv_2
     - media_player.woonkamer_tv
     - camera.ffmpeg
     - group.keukenverlichting
