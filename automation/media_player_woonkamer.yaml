@@ -39,7 +39,7 @@
     condition: and
     conditions:
     - condition: template
-      value_template: '{{ states.media_player.woonkamer_appletv.attributes.media_content_type == "movie" }}'
+      value_template: '{{ states.media_player.woonkamer_appletv.attributes.media_content_type == "video" }}'
     - condition: or
       conditions:
       - condition: sun
@@ -63,7 +63,7 @@
     condition: and
     conditions:
     - condition: template
-      value_template: '{{ states.media_player.woonkamer_appletv.attributes.media_content_type == "tvshow" }}'
+      value_template: '{{ states.media_player.woonkamer_appletv.attributes.media_content_type == "video" }}'
     - condition: or
       conditions:
       - condition: sun
