@@ -57,8 +57,8 @@ switch.sonoff_basic_0742d9:
 switch.sonoff_basic_076a50:
   friendly_name: Schemerlamp 1
 #switch.sonoff_basic_1ca1ce:
-switch.espurna_0742d9:
-  friendly_name: Schemerlamp 2
+switch.wkschemerlamprechts:
+  friendly_name: Schemerlamp rechts
 switch.sonoff_basic_076e52:
   friendly_name: Spotjes
 switch.sonoff_badkamer:
