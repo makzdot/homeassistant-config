@@ -161,7 +161,7 @@ Woonkamerverlichting:
     - light.woonkamer_1
     - light.woonkamer_groep_1
     - switch.sonoff_basic_076e52
-    - switch.sonoff_basic_076a50
+    - switch.espurna_076a50
     - switch.wkschemerlamprechts
 
 Woonkamer LED strips:

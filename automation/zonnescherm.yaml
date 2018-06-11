@@ -9,7 +9,7 @@
     service: switch.turn_off
     entity_id: switch.zonnescherm
 
-- alias: "Zonnescherm inrollen wanneer bij regen"
+- alias: "Zonnescherm inrollen bij regen"
   trigger:
     platform: numeric_state
     entity_id: sensor.br_precipitation
