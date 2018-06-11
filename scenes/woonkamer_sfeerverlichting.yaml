@@ -44,7 +44,7 @@
     switch.sonoff_basic_076e52:
       state: on
 
-    switch.sonoff_basic_076a50:
+    switch.espurna_076a50:
       state: on
 
     switch.wkschemerlamprechts: on

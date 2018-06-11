@@ -35,7 +35,7 @@
       color_name: teal
       transition: 3
 
-    switch.sonoff_basic_076a50:
+    switch.espurna_076a50:
       state: off
 
     switch.wkschemerlamprechts: off
