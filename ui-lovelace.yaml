@@ -8,8 +8,16 @@ views:
           - domain: automation
             state: 'off'
         card_config:
-          title: All Automations
+          title: Automations in off state
       - type: entity-filter
         filter:
           - domain: light
             state: 'on'
+        card_config:
+          title: Lights in on state
+      - type: entity-filter
+        filter:
+          - domain: switch
+            state: 'on'
+        card_config:
+          title: Automations in on state
