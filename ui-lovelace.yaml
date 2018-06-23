@@ -1,4 +1,3 @@
-
 name: My Awesome Home
 views:
     # The name of a view will be used as tab title.
@@ -16,3 +15,27 @@ views:
         entities:
           - input_boolean.noeri_slaapt
 
+        # The filter card will filter available entities for certain criteria
+        # and render it as type 'entities'.
+      - type: entity-filter
+        # Filter criteria. They are all optional.
+        filter:
+          domain: input_boolean
+          state: 'on'
+        # This config will be passed to the card rendering the filter results
+        card_config:
+          title: Input booleans that are on
+
+    # Specify a tab_icon if you want the view tab to be an icon.
+  - tab_icon: mdi:home-assistant
+    # Name of the view. Will be used as the tooltip for tab icon
+    name: Second view
+    cards:
+      - type: entities
+        title: Lots of Kitchen AC
+        entities:
+            # It is totally possible to render duplicates.
+          - input_boolean.noeri_slaapt
+          - input_boolean.noeri_slaapt
+          - input_boolean.noeri_slaapt
+          - input_boolean.noeri_slaapt
