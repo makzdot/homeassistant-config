@@ -5,9 +5,9 @@ views:
     cards:
       - type: entity-filter
         filter:
-          domain: automation
+          - domain: automation
         card_config:
           title: All Automations
       - type: entity-filter
         filter:
-          domain: light
+          - domain: light
