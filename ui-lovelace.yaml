@@ -1,16 +1,8 @@
-title: ARS Home
+title: Makzdots Home
 views:
   - tab_icon: mdi:home-assistant
-    # Name of the view. Will be used as the tooltip for tab icon
-    name: Second view
-    # theme: darkorange
+    name: Blah
     cards:
-      - type: entities
-        title: Information
-        entities:
-          - sensor.plex
-      - type: camera-preview
-        entity:  camera.woonkamercam
       - type: entity-filter
         filter:
           domain: automation
