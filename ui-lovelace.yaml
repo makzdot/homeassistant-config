@@ -26,14 +26,3 @@ views:
         # This config will be passed to the card rendering the filter results
         card_config:
           title: Input booleans that are on
-
-    # Specify a tab_icon if you want the view tab to be an icon.
-  - tab_icon: mdi:home-assistant
-    # Name of the view. Will be used as the tooltip for tab icon
-    name: Second view
-    cards:
-      - type: entities
-        title: Lots of Kitchen AC
-        entities:
-            # It is totally possible to render duplicates.
-          - input_boolean.noeri_slaapt
