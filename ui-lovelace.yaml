@@ -25,6 +25,12 @@ views:
       card_config:
         title: Keukenverlighting
 
+    - type: entity-filter
+      filter:
+        - entity_id: ' light.h801*'
+      card_config:
+        title: LED strips
+
     - type: camera-preview
       entity: camera.woonkamercam
 
