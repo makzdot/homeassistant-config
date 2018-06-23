@@ -3,21 +3,11 @@ views:
   - tab_icon: mdi:home-assistant
     name: Blah
     cards:
-      - type: entity-filter
-        filter:
-          - domain: automation
-            state: 'off'
-        card_config:
-          title: Automations in off state
-      - type: entity-filter
-        filter:
-          - domain: light
-            state: 'on'
-        card_config:
-          title: Lights in on state
-      - type: entity-filter
-        filter:
-          - domain: switch
-            state: 'on'
-        card_config:
-          title: Switches in on state
+    - type: entity-filter
+      filter:
+        - domain: device_tracker
+          state: 'home'
+        - entity_id: 'device_tracker.makzdot*'
+      card: glance
+      card_config:
+        title: People at home
