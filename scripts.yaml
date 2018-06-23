@@ -533,11 +533,3 @@ stop_flash_leds:
         - script.flash_leds_on
         - script.flash_leds_off
     service: script.turn_off
-
-device_refresh:
-  alias: "Device Refresh"
-  sequence:
-  - data:
-    topic: "owntracks/rikkert/Rikki/cmd"
-    payload_template: '{"_type":"cmd","action":"reportLocation"}'
-    service: mqtt.publish
