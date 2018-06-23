@@ -6,7 +6,7 @@ views:
     - type: entity-filter
       filter:
         - entity_id: 'device_tracker.makzdot*'
-        - state: 'home'
+          state: 'home'
       card: glance
       card_config:
         title: People at home
