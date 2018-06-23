@@ -25,6 +25,16 @@ views:
       card_config:
         title: Keukenverlighting
 
+    - type: entity
+      title: Woonkamerverlichting
+      entities:
+        - light.lifx_light_03bec2
+        - light.woonkamer_1
+        - light.woonkamer_groep_1
+        - switch.sonoff_basic_076e52
+        - switch.espurna_076a50
+        - switch.wkschemerlamprechts
+
     - type: entity-filter
       filter:
         - entity_id: 'light.h801*'
