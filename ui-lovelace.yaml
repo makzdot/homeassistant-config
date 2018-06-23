@@ -74,7 +74,7 @@ views:
     - type: entity-filter
       filter:
         - entity_id: 'binary_sensor.living_room_thermostat*'
-          state: true
+          state: 'on'
       card_config:
         title: Nest Thermostaat
 
