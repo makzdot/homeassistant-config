@@ -7,6 +7,17 @@ views:
       filter:
         - entity_id: 'device_tracker.makzdot_max_iphone6s'
           state: 'home'
+        - entity_id: device_tracker.1c232c46cb0d
+          state: 'home'
+        - entity_id: device_tracker.9097f3588eb4
+          state: 'home'
+        - entity_id: device_tracker.a010818e6c32
+          state: 'home'
+        - entity_id:  device_tracker.rikkert_rikki
+          state: 'home'
+
       card: glance
       card_config:
         title: People at home
+    - type: camera-preview
+      entity: camera.woonkamercam
