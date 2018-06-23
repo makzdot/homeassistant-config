@@ -16,13 +16,3 @@ views:
         entities:
           - input_boolean.noeri_slaapt
 
-        # The filter card will filter available entities for certain criteria
-        # and render it as type 'entities'.
-      - type: entity-filter
-        # Filter criteria. They are all optional.
-        filter:
-          domain: input_boolean
-          state: 'on'
-        # This config will be passed to the card rendering the filter results
-        card_config:
-          title: Input booleans that are on
