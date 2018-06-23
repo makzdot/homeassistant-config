@@ -8,4 +8,4 @@ views:
       - type: entities
         title: Information
         entities:
-          - sensor.plexspy
+          - sensor.plex
