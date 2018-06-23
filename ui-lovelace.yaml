@@ -11,3 +11,8 @@ views:
           - sensor.plex
       - type: camera-preview
         entity:  camera.woonkamercam
+      - type: entity-filter
+        filter:
+          domain: automation
+        card_config:
+          title: All Automations
