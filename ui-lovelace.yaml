@@ -8,3 +8,8 @@ views:
           domain: automation
         card_config:
           title: All Automations
+      - type: entity-filter
+        filter:
+          domain: light
+        card_config:
+          title: All lights
