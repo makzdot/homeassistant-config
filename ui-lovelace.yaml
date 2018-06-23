@@ -9,3 +9,5 @@ views:
         title: Information
         entities:
           - sensor.plex
+      - type: camera-preview
+        entity:  camera.woonkamercam
