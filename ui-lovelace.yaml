@@ -20,7 +20,6 @@ views:
         title: Mensen thuis
 
     - type: entities
-      title: Thermostaat
       entities:
         - climate.living_room_thermostaat
 
