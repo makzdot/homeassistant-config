@@ -1,0 +1,6 @@
+alias: "Device Refresh"
+ sequence:
+   - service: mqtt.publish
+     data:
+       topic: "owntracks/rikkert/Rikki/cmd"
+       payload_template: '{"_type":"cmd","action":"reportLocation"}'
