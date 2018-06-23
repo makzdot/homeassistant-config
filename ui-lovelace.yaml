@@ -71,6 +71,13 @@ views:
     name: Sensors
     cards:
 
+    - type: entities
+      entities:
+        - sensor.time
+        - binary_sensor.workday_sensor
+        - sun.sun
+        - sensor.moon
+
     - type: entity-filter
       filter:
         - entity_id: 'binary_sensor.living_room_thermostat*'
