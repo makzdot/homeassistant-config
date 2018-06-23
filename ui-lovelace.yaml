@@ -20,3 +20,6 @@ views:
 
     - type: camera-preview
       entity: camera.woonkamercam
+
+    - type: media-control
+      entity: media_player.woonkamer_appletv_2
