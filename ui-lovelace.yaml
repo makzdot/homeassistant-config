@@ -35,6 +35,3 @@ views:
         entities:
             # It is totally possible to render duplicates.
           - input_boolean.noeri_slaapt
-          - input_boolean.noeri_slaapt
-          - input_boolean.noeri_slaapt
-          - input_boolean.noeri_slaapt
