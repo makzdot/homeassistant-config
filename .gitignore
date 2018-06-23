@@ -20,5 +20,6 @@ harmony_media_room.conf
 pyozw.sqlite
 !/.gitignore
 automations.yaml
+scripts.yaml
 ._.DS_Store
 homebridge
