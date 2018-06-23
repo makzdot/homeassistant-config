@@ -11,5 +11,3 @@ views:
       - type: entity-filter
         filter:
           domain: light
-        card_config:
-          title: All lights
