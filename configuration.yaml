@@ -127,6 +127,7 @@ device_tracker:
 # Text to speech
 tts:
   - platform: google
+    language: 'nl'
 
 # Apple TV config
 apple_tv:
