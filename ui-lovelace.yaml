@@ -15,9 +15,8 @@ views:
           state: 'home'
         - entity_id:  device_tracker.rikkert_rikki
           state: 'home'
-
-      card: glance
       card_config:
-        title: People at home
+        title: Mensen thuis
+
     - type: camera-preview
       entity: camera.woonkamercam
