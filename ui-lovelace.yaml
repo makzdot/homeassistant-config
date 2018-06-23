@@ -74,21 +74,18 @@ views:
     - type: entity-filter
       filter:
         - entity_id: '*sensor.living_room_thermostat*'
-      card: glance
       card_config:
         title: Nest Thermostaat
 
     - type: entity-filter
       filter:
         - entity_id: '*_nest_protect_*'
-      card: glance
       card_config:
         title: Nest Protects
 
     - type: entity-filter
       filter:
         - entity_id: 'sensor.afstandsbediening*'
-      card: glance
       card_config:
         title: Battery afstandsbedieningen
 
