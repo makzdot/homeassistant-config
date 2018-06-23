@@ -25,7 +25,7 @@ views:
       card_config:
         title: Keukenverlighting
 
-    - type: entity
+    - type: entities
       title: Woonkamerverlichting
       entities:
         - light.lifx_light_03bec2
