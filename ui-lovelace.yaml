@@ -6,8 +6,10 @@ views:
       - type: entity-filter
         filter:
           - domain: automation
+            state: 'off'
         card_config:
           title: All Automations
       - type: entity-filter
         filter:
           - domain: light
+            state: 'on'
