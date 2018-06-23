@@ -72,6 +72,7 @@ views:
     cards:
 
     - type: entities
+      title: Datum en Tijd
       entities:
         - sensor.time
         - binary_sensor.workday_sensor
