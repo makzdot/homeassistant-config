@@ -45,6 +45,12 @@ views:
       card_config:
         title: LED strips
 
+    - type: entities
+      title: Schakelaars
+      entities:
+        - switch.main_switch
+        - switch.zonnescherm
+
     - type: camera-preview
       entity: camera.woonkamercam
 
