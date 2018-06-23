@@ -20,4 +20,4 @@ views:
           - domain: switch
             state: 'on'
         card_config:
-          title: Automations in on state
+          title: Switches in on state
