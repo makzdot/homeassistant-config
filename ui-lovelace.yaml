@@ -19,6 +19,12 @@ views:
       card_config:
         title: Mensen thuis
 
+    - type: entity-filter
+      filter:
+        - entity_id: 'scene.*'
+      card_config:
+        title: Scenes
+
     - type: entities
       entities:
         - climate.living_room_thermostaat
