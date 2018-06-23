@@ -15,6 +15,7 @@ views:
           state: 'home'
         - entity_id:  device_tracker.rikkert_rikki
           state: 'home'
+      card: glance
       card_config:
         title: Mensen thuis
 
@@ -30,5 +31,6 @@ views:
     - type: entity-filter
       filter:
         - entity_id: '*sensor.living_room_thermostat*'
+      card: glance
       card_config:
         title: Thermostaat
