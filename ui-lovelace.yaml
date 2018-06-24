@@ -71,11 +71,11 @@ views:
   - tab_icon: mdi:hotel
     name: Slaapkamers
     cards:
-      type: entities
-      title: Wekker
-      entities:
-        - input_datetime.wektijd
-        - binary_sensor.workday_sensor
+      - type: entities
+        title: Wekker
+        entities:
+          - input_datetime.wektijd
+          - binary_sensor.workday_sensor
 
   - tab_icon: mdi:gauge
     name: Sensors
