@@ -84,6 +84,12 @@ views:
           - light.plafoniere_max
           - light.schemerlamp_max
 
+      - type: entities
+        title: Slaapkamer Noeri
+        entities:
+          - light.schemerlamp_noeri
+          - light.hanglamp_noeri
+
   - tab_icon: mdi:gauge
     name: Sensors
     cards:
