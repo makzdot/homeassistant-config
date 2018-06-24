@@ -32,8 +32,9 @@ http:
     - http://hassio.makz.lan:7080
 
 panel_iframe:
-  title: 'Lovelace UI'
-  url: '/lovelace'
+  lovelace:
+    title: 'Lovelace UI'
+    url: '/lovelace'
 
 influxdb:
   host: !secret influxdb_host
