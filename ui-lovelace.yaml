@@ -78,6 +78,12 @@ views:
           - input_datetime.wektijd
           - binary_sensor.workday_sensor
 
+      - type: entities
+        title: Slaapkamer Max
+        entities:
+          - light.plafoniere_max
+          - light.schemerlamp_max
+
   - tab_icon: mdi:gauge
     name: Sensors
     cards:
