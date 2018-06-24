@@ -149,6 +149,9 @@ views:
   - tab_icon: mdi:play-circle-outline
     name: Media players
     cards:
+    - type: entities
+      entities:
+        - sensor.plex
     - type: entity-filter
       filter:
         - entity_id: 'media_player.*'
