@@ -32,7 +32,7 @@ http:
     - http://hassio.makz.lan:7080
 
 panel_iframe:
-  lovelace:
+  lovelaceui:
     title: 'Lovelace UI'
     url: '/lovelace'
 
