@@ -146,4 +146,12 @@ views:
       card_config:
         title: Battery afstandsbedieningen
 
+  - tab_icon: mdi:play-circle-outline
+    name: Media players
+    cards:
+    - type: entity-filter
+      filter:
+        - entity_id: 'media_player.*'
+      card_config:
+        title: Media Players
 
