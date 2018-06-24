@@ -1,18 +1,18 @@
 device_tracker.9097f3588eb4:
   friendly_name: Ingeborg
-  icon: mdi:cellphone-android
+  # icon: mdi:cellphone-android
 device_tracker.1c232c46cb0d:
   friendly_name: Dagmar
-  icon: mdi:cellphone-android
+  # icon: mdi:cellphone-android
 device_tracker.makzdot_max_iphone6s:
   friendly_name: Max
-  icon: mdi:cellphone-iphone
+  # icon: mdi:cellphone-iphone
 device_tracker.rikkert_rikki:
   friendly_name: Rikki
-  icon: mdi:cellphone-android
+  # icon: mdi:cellphone-android
 device_tracker.a010818e6c32:
   friendly_name: Esther
-  icon: mdi:cellphone-android
+  # icon: mdi:cellphone-android
 
 
 
