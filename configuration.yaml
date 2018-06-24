@@ -31,11 +31,6 @@ http:
   cors_allowed_origins:
     - http://hassio.makz.lan:7080
 
-panel_iframe:
-  lovelaceui:
-    title: 'Lovelace UI'
-    url: '/lovelace'
-
 influxdb:
   host: !secret influxdb_host
   username: !secret influxdb_username
