@@ -6,6 +6,9 @@
     - condition: state
       entity_id: 'binary_sensor.workday_sensor'
       state: 'on'
+    - condition: state
+      entity_id: 'input_boolean.wekker_aan_uit'
+      state: 'on'
   action:
     service: script.turn_on
     entity_id:  script.1507321590747
