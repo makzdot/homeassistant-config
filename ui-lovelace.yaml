@@ -95,7 +95,7 @@ views:
         title: Nest Thermostaat
 
     - type: history-graph
-      entity: sensor.br_temperature
+      entity: history_graph.recent_switches
 
     - type: entity-filter
       filter:
