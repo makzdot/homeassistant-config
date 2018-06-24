@@ -3,10 +3,9 @@
     platform: template
     value_template: '{{ states.sensor.time.state == (states.input_datetime.wektijd.attributes.timestamp | int | timestamp_custom("%H:%M", False)) }}'
   condition:
-    conditions:
-      - condition: state
-        entity_id: 'binary_sensor.workday_sensor'
-        state: 'on'
+    - condition: state
+      entity_id: 'binary_sensor.workday_sensor'
+      state: 'on'
   action:
     service: script.turn_on
     entity_id:  script.1507321590747
