@@ -1,7 +1,6 @@
-automation:
-  trigger:
-    platform: template
-    value_template: "{{ states('sensor.time') == (states.input_datetime.wektijd.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
-  action:
-    service: light.turn_on
-    entity_id: light.h801_9950fc
+trigger:
+  platform: template
+  value_template: "{{ states('sensor.time') == (states.input_datetime.wektijd.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+action:
+  service: light.turn_on
+  entity_id: light.h801_9950fc
