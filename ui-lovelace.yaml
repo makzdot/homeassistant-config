@@ -90,6 +90,22 @@ views:
           - light.schemerlamp_noeri
           - light.hanglamp_noeri
 
+      - type: entities
+        title: Hal
+        entities:
+          - light.hallamp_1
+          - light.hallamp_2
+          - light.hallamp_3
+          - light.hallamp_4
+          - switch.bewegingsensor_gang
+          - input_boolean.noeri_slaapt
+
+      - type: entities
+        title: Hal automations
+        entities:
+          - automation.hal_aan
+          - automation.hal_uit
+
   - tab_icon: mdi:gauge
     name: Sensors
     cards:
