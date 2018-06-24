@@ -2,3 +2,8 @@ noeri_slaapt:
   name: Noeri Slaapt
   initial: off
   icon: mdi:human-child
+
+wekker_aan_uit:
+  name: Wekker
+  initial: on
+  icon: mdi:power

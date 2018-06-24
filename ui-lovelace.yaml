@@ -74,6 +74,7 @@ views:
       - type: entities
         title: Wekker
         entities:
+          - input_boolean.wekker_aan_uit
           - input_datetime.wektijd
           - binary_sensor.workday_sensor
 
