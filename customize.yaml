@@ -5,7 +5,7 @@ device_tracker.1c232c46cb0d:
   friendly_name: Dagmar
   icon: mdi:cellphone-android
 device_tracker.makzdot_max_iphone6s:
-  friendly_name: Max (iPhone6s)
+  friendly_name: Max
   icon: mdi:cellphone-iphone
 device_tracker.rikkert_rikki:
   friendly_name: Rikki
