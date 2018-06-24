@@ -147,7 +147,6 @@ media_player:
   - platform: plex
     entity_namespace: 'plex'
     use_episode_art: true
-    entity_namespace: true
 
 camera:
   - platform: foscam
