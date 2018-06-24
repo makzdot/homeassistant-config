@@ -106,6 +106,12 @@ views:
           - automation.hal_aan
           - automation.hal_uit
 
+      - type: entities
+        title: Badkamer
+        entities:
+          - switch.sonoff_badkamer
+          - switch.schakelaar_badkamer
+
   - tab_icon: mdi:gauge
     name: Sensors
     cards:
