@@ -5,7 +5,7 @@
   condition:
     - condition: state
       entity_id: 'binary_sensor.workday_sensor'
-      state: 'off'
+      state: 'on'
     - condition: state
       entity_id: 'input_boolean.wekker_aan_uit'
       state: 'on'
