@@ -25,9 +25,11 @@ views:
       card_config:
         title: Scenes
 
-    - type: entities
-      entities:
-        - climate.living_room_thermostaat
+    - type: entity-filter
+      filter:
+        - entity_id: climate.living_room_thermostaat
+        - entity_id: 'binary_sensor.living_room_thermostat*'
+          state: 'on'
 
     - type: entity-filter
       filter:
