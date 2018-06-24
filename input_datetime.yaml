@@ -1,0 +1,5 @@
+wektijd:
+  name: Wektijd
+  has_date: false
+  has_time: true
+  initial: 07:00

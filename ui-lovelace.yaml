@@ -68,6 +68,14 @@ views:
     - type: media-control
       entity: media_player.woonkamer_tv
 
+  - tab_icon: mdi:hotel
+    name: Slaapkamers
+    cards:
+      type: entities
+      title: Wekker
+      entities:
+        - input_datetime.wektijd
+        - binary_sensor.workday_sensor
 
   - tab_icon: mdi:gauge
     name: Sensors

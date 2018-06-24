@@ -193,5 +193,6 @@ zone: !include_dir_list zones
 light: !include lights.yaml
 switch: !include switches.yaml
 input_boolean: !include input_boolean.yaml
+input_datetime: !include input_datetime.yaml
 scene: !include_dir_list scenes
 
