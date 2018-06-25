@@ -154,6 +154,12 @@ views:
       card_config:
         title: Battery afstandsbedieningen
 
+    - type: entity-filter
+      filter:
+        - domain: device_tracker
+      card_config:
+        title: Alle device trackers
+
   - tab_icon: mdi:play-circle-outline
     name: Media players
     cards:
