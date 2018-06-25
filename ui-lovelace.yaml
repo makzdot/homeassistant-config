@@ -16,7 +16,7 @@ views:
         - entity_id:  device_tracker.rikkert_rikki
           state: 'home'
         - entity_id:  device_tracker.rikkert_rikki
-          state: 'mam'
+          state: 'Mam'
       card: glance
       card_config:
         title: Mensen thuis
