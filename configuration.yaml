@@ -165,6 +165,7 @@ nest:
   client_secret: !secret nest_client_secret
   sensors:
     monitored_conditions:
+      - 'eta'
       - 'humidity'
       - 'operation_mode'
       - 'temperature'
@@ -173,6 +174,7 @@ nest:
       - 'co_status'
       - 'smoke_status'
       - 'battery_health'
+      - 'color_status'
 
 # MQTT server config
 mqtt:
