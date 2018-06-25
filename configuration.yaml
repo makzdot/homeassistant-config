@@ -160,6 +160,10 @@ rfxtrx:
   device: /dev/ttyUSB0
   debug: False
 
+nest:
+  client_id: !secret nest_client_id
+  client_secret: !secret nest_client_secret
+
 # MQTT server config
 mqtt:
   broker: 172.17.0.1
