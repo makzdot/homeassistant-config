@@ -4,4 +4,7 @@
       minutes: '/30'
       seconds: 0
   action:
-    service: script.1529775488735
+    - service: mqtt.publish
+      data:
+        topic: "owntracks/rikkert/rikki/cmd"
+        payload_template: '{"_type": "cmd","action": "reportLocation"}'
