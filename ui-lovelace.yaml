@@ -5,7 +5,8 @@ views:
     cards:
     - type: entity-filter
       filter:
-        - state: 'home'
+        - domain: device_tracker
+          state: 'home'
       card: glance
       card_config:
         title: Mensen thuis
