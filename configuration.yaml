@@ -156,7 +156,7 @@ camera:
     password: !secret foscam_password
   - platform: onvif
     name: woonkamer-onfiv
-    ip: ipcam.makz.lan
+    host: ipcam.makz.lan
     port: 888
     username: !secret foscam_username
     password: !secret foscam_password
