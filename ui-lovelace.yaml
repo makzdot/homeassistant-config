@@ -51,8 +51,11 @@ views:
         - switch.main_switch
         - switch.zonnescherm
 
-    - type: camera-preview
-      entity: camera.woonkamercam
+    - type: entity-filter
+      filter:
+        - entity_id: 'camera.*'
+      card_config:
+        title: Camera's
 
     - type: media-control
       entity: media_player.woonkamer_appletv_2
