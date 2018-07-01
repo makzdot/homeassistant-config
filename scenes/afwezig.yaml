@@ -1,7 +1,15 @@
 - name: Afwezig
   entities:
     group.all_lights: off
-    group.all_switches: off
+    # group.all_switches: off
+    switch.bewegingsensor_gang: off
+    switch.espurna_076a50: off
+    switch.main_switch: off
+    switch.schakelaar_badkamer: off
+    switch.sonoff_badkamer: off
+    switch.sonoff_basic_076e52: off
+    switch.wkschemerlamprechts: off
+    # switch.zonnescherm
     media_player.woonkamer_appletv: off
     media_player.woonkamer_tv: off
     automation.hal_aan:

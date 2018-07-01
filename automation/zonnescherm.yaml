@@ -17,3 +17,11 @@
   action:
     service: switch.turn_off
     entity_id: switch.zonnescherm
+
+- alias: 'Zonnescherm inrollen in de avond'
+  trigger:
+    platform: sun
+    event: sunset
+  action:
+    service: scene.turn_off
+    entity_id: switch.zonnescherm
