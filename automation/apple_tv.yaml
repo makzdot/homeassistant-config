@@ -6,7 +6,7 @@
       to: 'on'
   action:
     - service: media_player.turn_on
-      entity_id: media_player.woonkamer_appletv_2
+      entity_id: media_player.woonkamer_appletv
 
 - alias: 'TV uit'
   trigger:
@@ -16,5 +16,5 @@
       to: 'off'
   action:
     - service: media_player.turn_off
-      entity_id: media_player.woonkamer_appletv_2
+      entity_id: media_player.woonkamer_appletv
 
