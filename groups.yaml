@@ -5,7 +5,7 @@ default_view:
   entities:
     - group.all_scenes
     - climate.living_room_thermostaat
-    - media_player.woonkamer_appletv_2
+    - media_player.woonkamer_appletv
     - media_player.woonkamer_tv
     - camera.ffmpeg
     - group.keukenverlichting
@@ -55,10 +55,9 @@ media:
   entities:
     - sensor.plex
     - media_player.woonkamer_appletv
-    - media_player.woonkamer_appletv_2
     - media_player.plex_woonkamer_appletv
     - media_player.woonkamer_tv
-    - remote.woonkamer_appletv
+    - remote.woonkamer_:
 
 alldevices:
   name: All Devices

@@ -64,7 +64,7 @@ views:
       entity: camera.woonkameronfiv
 
     - type: media-control
-      entity: media_player.woonkamer_appletv_2
+      entity: media_player.woonkamer_appletv
 
     - type: media-control
       entity: media_player.woonkamer_tv
