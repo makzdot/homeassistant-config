@@ -57,7 +57,7 @@ media:
     - media_player.woonkamer_appletv
     - media_player.plex_woonkamer_appletv
     - media_player.woonkamer_tv
-    - remote.woonkamer_:
+    - remote.woonkamer_appletv
 
 alldevices:
   name: All Devices
