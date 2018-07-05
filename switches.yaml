@@ -1,7 +1,8 @@
 - platform: rfxtrx
   automatic_add: True
   devices:
-    0b110000011acf1604010f70:
+    0b11000001b40efe0a000070:
+    # 0b110000011acf1604010f70:
       name: Zonnescherm
     0b110000015e25460a010f70:
       name: Bewegingsensor gang
