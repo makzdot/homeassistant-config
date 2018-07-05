@@ -3,7 +3,7 @@
 
 #klik aan klik uit verlichting
 - platform: rfxtrx
-  automatic_add: True
+  automatic_add: false
   devices:
     0b11000e011acf160e010f50:
       name: Schemerlamp Max
