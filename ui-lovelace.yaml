@@ -221,6 +221,8 @@ views:
           - light.woonkamerspots
           - light.woonkamer_groep_1
           - light.woonkamer_1
+          - light.keukenverlichting_groep_1
+          - light.keukenverlichting_groep_2
 
       - type: entities
         title: RGB Led verlichting
