@@ -47,7 +47,7 @@ binary_sensor.living_room_thermostat_thermostaat_online:
 
 
 light.woonkamerledstriptvmeubel:
-  friendly_name: LED strip 2
+  friendly_name: LED strip TV-meubel
 light.woonkamerledstrip3:
   friendly_name: LED strip 3
 light.woonkamerledstriptv:
