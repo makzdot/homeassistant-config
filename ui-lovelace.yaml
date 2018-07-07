@@ -194,13 +194,13 @@ views:
             entity: light.hallamp_4
             tap_action: toggle
             style:
-              top: 45%
+              top: 75%
               left: 25%
           - type: state-icon
             entity: switch.bewegingsensor_gang
             tap_action: toggle
             style:
-              top: 26%
+              top: 45%
               left: 25%
 
       - type: entities
