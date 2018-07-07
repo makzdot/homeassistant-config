@@ -127,7 +127,7 @@ views:
           - type: state-icon
             entity: climate.living_room_thermostaat
             style:
-              top: 70%
+              top: 69%
               left: 30%
 
       - type: entities
