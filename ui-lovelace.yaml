@@ -24,185 +24,185 @@ views:
             entity: light.schemerlamp_noeri
             tap_action: toggle
             style:
-              left: 2%
-              top: 6%
+              top: 2%
+              left: 6%
           - type: state-icon
             entity: light.noeri
             tap_action: toggle
             style:
-              left: 12%
-              top: 22%
+              top: 12%
+              left: 22%
           - type: state-icon
             entity: input_boolean.noeri_slaapt
             tap_action: toggle
             style:
-              left: 18%
-              top: 10%
+              top: 18%
+              left: 10%
           - type: state-icon
             entity: light.schemerlamp_max
             tap_action: toggle
             style:
-              left: 7%
-              top: 90%
+              top: 7%
+              left: 90%
           - type: state-icon
             entity: light.plafoniere_max
             tap_action: toggle
             style:
-              left: 17%
-              top: 55%
+              top: 17%
+              left: 55%
           - type: state-icon
             entity: light.badkamer
             tap_action: toggle
             style:
-              left: 45%
-              top: 70%
+              top: 45%
+              left: 70%
           - type: state-icon
             entity: light.hallamp_1
             tap_action: toggle
             style:
-              left: 55%
-              top: 25%
+              top: 55%
+              left: 25%
           - type: state-icon
             entity: light.hallamp_2
             tap_action: toggle
             style:
-              left: 60%
-              top: 25%
+              top: 60%
+              left: 25%
           - type: state-icon
             entity: light.hallamp_3
             tap_action: toggle
             style:
-              left: 65%
-              top: 25%
+              top: 65%
+              left: 25%
           - type: state-icon
             entity: light.hallamp_4
             tap_action: toggle
             style:
-              left: 45%
-              top: 25%
+              top: 45%
+              left: 25%
           - type: state-icon
             entity: switch.bewegingsensor_gang
             tap_action: toggle
             style:
-              left: 26%
-              top: 25%
+              top: 26%
+              left: 25%
           - type: state-icon
             entity: light.woonkamer_groep_1
             tap_action: toggle
             style:
-              left: 85%
-              top: 20%
+              top: 85%
+              left: 20%
           - type: state-icon
             entity: light.woonkamer_1
             tap_action: toggle
             style:
-              left: 80%
-              top: 20%
+              top: 80%
+              left: 20%
           - type: state-icon
             entity: light.keukenverlichting_groep_1
             tap_action: toggle
             style:
-              left: 56%
-              top: 55%
+              top: 56%
+              left: 55%
           - type: state-icon
             entity: light.keukenverlichting_groep_2
             tap_action: toggle
             style:
-              left: 56%
-              top: 75%
+              top: 56%
+              left: 75%
           - type: state-icon
             entity:  light.lifx_light_03bec2
             tap_action: toggle
             style:
-              left: 68%
-              top: 89%
+              top: 68%
+              left: 89%
           - type: state-icon
             entity: climate.living_room_thermostaat
             style:
-              left: 69%
-              top: 30%
+              top: 69%
+              left: 30%
           - type: state-icon
             entity: light.woonkamerschemerlamplinks
             tap_action: toggle
             style:
-              left: 76%
-              top: 96%
+              top: 76%
+              left: 96%
           - type: state-icon
             entity: light.woonkamerschemerlamprechts
             tap_action: toggle
             style:
-              left: 90%
-              top: 96%
+              top: 90%
+              left: 96%
           - type: state-icon
             entity: light.woonkamerspots
             tap_action: toggle
             style:
-              left: 93%
-              top: 96%
+              top: 93%
+              left: 96%
           - type: state-icon
             entity: media_player.woonkamer_appletv
             style:
-              left: 82%
-              top: 95%
+              top: 82%
+              left: 95%
           - type: state-icon
             entity: media_player.woonkamer_tv
             style:
-              left: 85%
-              top: 95%
+              top: 85%
+              left: 95%
           - type: state-icon
             entity: light.woonkamerledstrip3
             tap_action: toggle
             style:
-              left: 70%
-              top: 5%
+              top: 70%
+              left: 5%
           - type: state-icon
             entity: light.woonkamerledstriptv
             tap_action: toggle
             style:
-              left: 87%
-              top: 96%
+              top: 87%
+              left: 96%
           - type: state-icon
             entity: light.woonkamerledstriptvmeubel
             tap_action: toggle
             style:
-              left: 79%
-              top: 96%
+              top: 79%
+              left: 96%
           - type: state-icon
             entity: camera.woonkamercam
             style:
-              left: 94%
-              top: 45%
+              top: 94%
+              left: 45%
           - type: state-label
             entity:  sensor.living_room_thermostat_thermostaat_temperature
             style:
-              left: 80%
-              top: 50%
+              top: 80%
+              left: 50%
           - type: state-label
             entity: sensor.living_room_thermostat_thermostaat_temperature
             style:
-              left: 80%
-              top: 50%
+              top: 80%
+              left: 50%
           - type: state-label
             entity: sensor.living_room_thermostat_thermostaat_humidity
             style:
-              left: 82%
-              top: 50%
+              top: 82%
+              left: 50%
           - type: state-label
             entity: sensor.br_temperature
             style:
-              left: 97%
-              top: 10%
+              top: 97%
+              left: 10%
           - type: state-label
             entity: sensor.br_humidity
             style:
-              left: 99%
-              top: 10%
+              top: 99%
+              left: 10%
           - type: state-icon
             entity: switch.zonnescherm
             tap_action: toggle
             style:
-              left: 98%
-              top: 66%
+              top: 98%
+              left: 66%
 
       - type: entities
         title: Woonkamer scenes
