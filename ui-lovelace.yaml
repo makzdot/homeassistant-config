@@ -303,49 +303,10 @@ views:
           - sun.sun
           - sensor.moon
 
-      - type: entity-filter
-        filter:
-          - entity_id: 'binary_sensor.living_room_thermostat*'
-            state: 'on'
-        card_config:
-          title: Nest Thermostaat status
-
-      - type: entity-filter
-        filter:
-          - entity_id: 'sensor.living_room_thermostat*'
-        card_config:
-          title: Nest Thermostaat
-
-      - type: history-graph
-        entity: history_graph.recent_switches
-
-      - type: entity-filter
-        filter:
-          - entity_id: '*_nest_protect_*'
-        card_config:
-          title: Nest Protects
-
-      - type: entity-filter
-        filter:
-          - entity_id: 'sensor.afstandsbediening*'
-        card_config:
-          title: Battery afstandsbedieningen
-
-      - type: entity-filter
-        filter:
-          - domain: device_tracker
-        card_config:
-          title: Alle device trackers
-
   - icon: mdi:play-circle-outline
     title: Media players
     cards:
       - type: entities
         entities:
           - sensor.plex
-      - type: entity-filter
-        filter:
-          - entity_id: 'media_player.*'
-        card_config:
-          title: Media Players
 
