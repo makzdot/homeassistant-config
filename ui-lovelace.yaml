@@ -188,7 +188,7 @@ views:
             entity: light.badkamer
             tap_action: toggle
             style:
-              top: 45%
+              top: 80%
               left: 70%
           - type: state-icon
             entity: light.hallamp_4
