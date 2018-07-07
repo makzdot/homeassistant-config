@@ -44,8 +44,8 @@ views:
             entity: input_boolean.noeri_slaapt
             tap_action: toggle
             style:
-              top: 5%
-              left: 30%
+              top: 20%
+              left: 10%
 
       - type: entities
         title: Schakelaars
