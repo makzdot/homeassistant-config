@@ -20,14 +20,6 @@ views:
         # title: Casa di Maxi
         image: https://raw.githubusercontent.com/makzdot/diagrams/master/Floorplan%20Casa%20di%20Maxi.png
         elements:
-          - type: service-button
-            title: Alle lichten uit
-            style:
-              top: 99%
-              left: 80%
-            service: light.turn_off
-            service_data:
-                entity_id: group.all_lights
           - type: state-icon
             entity: light.schemerlamp_noeri
             tap_action: toggle
