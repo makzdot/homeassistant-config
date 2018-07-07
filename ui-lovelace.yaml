@@ -64,6 +64,13 @@ views:
             style:
               top: 45%
               left: 70%
+          - type: state-icon
+            entity: light.hallamp_4
+            tap_action: toggle
+            style:
+              top: 45%
+              left: 35%
+
 
       - type: entities
         title: Schakelaars
