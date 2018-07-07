@@ -137,13 +137,13 @@ views:
             entity: light.woonkamerschemerlamprechts
             tap_action: toggle
             style:
-              top: 82%
+              top: 81%
               left: 96%
           - type: state-icon
             entity: light.woonkamerspots
             tap_action: toggle
             style:
-              top: 93%
+              top: 85%
               left: 96%
           - type: state-icon
             entity: media_player.woonkamer_appletv
