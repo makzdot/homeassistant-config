@@ -3,7 +3,7 @@ views:
   - icon: mdi:home-assistant
     title: Woonkamer
     cards:
-      - type: horizontal-stack
+      - type: vertical-stack
         cards:
           - type: entity-filter
             entities:
