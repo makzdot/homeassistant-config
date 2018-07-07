@@ -129,6 +129,16 @@ views:
             style:
               top: 69%
               left: 30%
+          - type: state-icon
+            entity: light.woonkamerschemerlamplinks
+            style:
+              top: 80%
+              left: 95%
+          - type: state-icon
+            entity: light.woonkamerschemerlamprechts
+            style:
+              top: 85%
+              left: 95%
 
       - type: entities
         title: Schakelaars
