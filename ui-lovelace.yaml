@@ -122,7 +122,7 @@ views:
             entity:  light.lifx_light_03bec2
             tap_action: toggle
             style:
-              top: 67%
+              top: 68%
               left: 90%
 
 
