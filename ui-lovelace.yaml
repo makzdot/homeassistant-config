@@ -100,6 +100,12 @@ views:
             style:
               top: 70%
               left: 20%
+          - type: state-icon
+            entity: light.woonkamer_4
+            tap_action: toggle
+            style:
+              top: 75%
+              left: 20%
 
       - type: entities
         title: Schakelaars
