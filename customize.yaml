@@ -46,11 +46,11 @@ binary_sensor.living_room_thermostat_thermostaat_online:
   icon: mdi:power-plug
 
 
-light.h801_995008:
+light.woonkamerledstriptvmeubel:
   friendly_name: LED strip 2
-light.h801_9950fb:
+light.woonkamerledstrip3:
   friendly_name: LED strip 3
-light.h801_9950fc:
+light.woonkamerledstriptv:
   friendly_name: LED strip TV
 switch.sonoff_basic_0742d9:
   friendly_name: Spots
