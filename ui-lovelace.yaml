@@ -197,6 +197,12 @@ views:
             style:
               top: 99%
               left: 10%
+          - type: state-icon
+            entity: switch.zonnescherm
+            tap_action: toggle
+            style:
+              top: 98%
+              left: 66%
 
 
 
