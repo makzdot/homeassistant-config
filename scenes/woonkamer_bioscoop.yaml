@@ -29,7 +29,7 @@
       color_name: teal
       transition: 3
 
-    light.woonkamerschemerlamplinks:
+    light.woonkamerledstrip3:
       state: on
       brightness: 50
       color_name: teal
@@ -41,7 +41,7 @@
 
     light.woonkamerschemerlamplinks: off
 
-    light.woonkamerschemerlamprecht: off
+    light.woonkamerschemerlamprechts: off
 
     light.keukenverlichting_groep_1:
       state: on

@@ -29,7 +29,7 @@
       color_temp: 500
       transition: 3
 
-    light.woonkamerschemerlamplinks:
+    light.woonkamerledstrip3:
       state: on
       brightness: 107
       color_temp: 500
