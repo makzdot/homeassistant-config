@@ -204,6 +204,14 @@ views:
               top: 98%
               left: 66%
 
+      - type: "custom:monster-card"
+        card:
+          type: glance
+          title: My lovely card
+        filter:
+          include:
+            - entity_id: "light.woonkamerled*"
+
       - type: entities
         title: Schakelaars
         entities:
@@ -222,7 +230,6 @@ views:
   - icon: mdi:hotel
     title: Slaapkamers
     cards:
-
         - type: entities
           title: Wekker
           entities:
