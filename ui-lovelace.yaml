@@ -159,7 +159,7 @@ views:
             entity: light.woonkamerledstrip3
             tap_action: toggle
             style:
-              top: 40%
+              top: 41%
               left: 5%
           - type: state-icon
             entity: light.woonkamerledstriptv
