@@ -177,7 +177,6 @@ views:
               left: 96%
           - type: state-icon
             entity: camera.woonkamercam
-            tap_action: toggle
             style:
               top: 94%
               left: 45%
