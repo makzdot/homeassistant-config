@@ -96,7 +96,7 @@ views:
             entity: light.woonkamer_groep_1
             tap_action: toggle
             style:
-              top: 65%
+              top: 70%
               left: 20%
           - type: state-icon
             entity: light.woonkamer_1
