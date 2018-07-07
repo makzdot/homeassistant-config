@@ -67,6 +67,8 @@ switch.bewegingsensor_gang:
   icon: mdi:run
 switch.zonnescherm:
   icon: mdi:blinds
+media_player.woonkamer_tv:
+  icon: mdi:television
 
 group.all_devices:
   order: 999
