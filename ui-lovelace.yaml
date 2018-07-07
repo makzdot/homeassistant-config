@@ -22,7 +22,7 @@ views:
           - switch.main_switch
           - switch.zonnescherm
 
-      - type: camera-preview
+      - type: picture-entity
         entity: camera.woonkamercam
 
       - type: media-control
