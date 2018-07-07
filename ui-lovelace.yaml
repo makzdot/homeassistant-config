@@ -46,8 +46,7 @@ views:
             style:
               top: 5%
               left: 30%
-
-
+              
       - type: entities
         title: Schakelaars
         entities:
