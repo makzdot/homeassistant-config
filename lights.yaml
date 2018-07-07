@@ -17,7 +17,7 @@
     0b11000c011acf160d000070:
       name: hallamp 4
 
-- platform : group
+- platform: group
   name: Keukenverlichting groep 1
   entities:
     - light.keukenlamp_1
@@ -27,15 +27,26 @@
     - light.keukenlamp_7
     - light.keukenlamp_8
 
-- platform : group
+- platform: group
   name: Keukenverlichting groep 2
   entities:
     - light.keukenlamp_3
     - light.keukenlamp_5
 
-- platform : group
+- platform: group
   name: Woonkamer groep 1
   entities:
     - light.woonkamer_2
     - light.woonkamer_3
     - light.woonkamer_4
+
+- platform: mqtt
+  name: SONOFF_BADKAMER
+  platform: mqtt
+  state_topic: /home/light/SONOFF_BADKAMER/relay/0
+  command_topic: /home/light/SONOFF_BADKAMER/relay/0/set
+  payload_on: 1
+  payload_off: 0
+  availability_topic: /home/light/SONOFF_BADKAMER/status
+  payload_available: 1
+  payload_not_available: 0
