@@ -58,6 +58,12 @@ views:
             style:
               top: 17%
               left: 55%
+          - type: state-icon
+            entity: light.badkamer
+            tap_action: toggle
+            style:
+              top: 50%
+              left: 70%
 
       - type: entities
         title: Schakelaars
