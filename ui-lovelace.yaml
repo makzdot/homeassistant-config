@@ -164,13 +164,13 @@ views:
             entity: light.noeri
             tap_action: toggle
             style:
-              top: 12%
+              top: 20%
               left: 22%
           - type: state-icon
             entity: input_boolean.noeri_slaapt
             tap_action: toggle
             style:
-              top: 18%
+              top: 25%
               left: 10%
           - type: state-icon
             entity: light.schemerlamp_max
