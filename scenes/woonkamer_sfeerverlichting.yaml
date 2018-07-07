@@ -41,7 +41,7 @@
 
     light.woonkamerschemerlamplinks: on
 
-    light.woonkamerschemerlamprecht: on
+    light.woonkamerschemerlamprechts: on
 
     light.keukenverlichting_groep_1:
       state: on
