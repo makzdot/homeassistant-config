@@ -87,6 +87,7 @@ views:
               top: 26%
               left: 25%
 
+
       - type: picture-elements
         # title: Casa di Maxi
         image: https://raw.githubusercontent.com/makzdot/diagrams/master/Floorplan%20Casa%20di%20Maxi-Floorplan%20woonkamer.png
