@@ -124,7 +124,11 @@ views:
             style:
               top: 68%
               left: 89%
-
+          - type: state-icon
+            entity: climate.living_room_thermostaat
+            style:
+              top: 68%
+              left: 15%
 
       - type: entities
         title: Schakelaars
