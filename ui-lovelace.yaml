@@ -16,57 +16,14 @@ views:
           type: glance
           title: Mensen thuis
 
-      - type: entity-filter
-        filter:
-          - entity_id: 'scene.*'
-        card_config:
-          title: Scenes
-
-      - type: entity-filter
-        filter:
-          - entity_id: climate.living_room_thermostaat
-          - entity_id: 'binary_sensor.living_room_thermostat*'
-            state: 'on'
-
-      - type: entity-filter
-        filter:
-          - entity_id: 'light.keukenverlichting_groep*'
-        card_config:
-          title: Keukenverlighting
-
-      - type: entities
-        title: Woonkamerverlichting
-        entities:
-          - light.lifx_light_03bec2
-          - light.woonkamer_1
-          - light.woonkamer_groep_1
-          - switch.sonoff_basic_076e52
-          - switch.espurna_076a50
-          - switch.wkschemerlamprechts
-
-      - type: entity-filter
-        filter:
-          - entity_id: 'light.h801*'
-        card_config:
-          title: LED strips
-
       - type: entities
         title: Schakelaars
         entities:
           - switch.main_switch
           - switch.zonnescherm
 
-      - type: entity-filter
-        filter:
-          - entity_id: 'camera.*'
-        card_config:
-          title: Camera's
-
       - type: camera-preview
         entity: camera.woonkamercam
-
-      - type: camera-preview
-        entity: camera.woonkameronfiv
 
       - type: media-control
         entity: media_player.woonkamer_appletv
