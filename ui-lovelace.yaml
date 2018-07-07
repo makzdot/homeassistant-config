@@ -179,7 +179,7 @@ views:
             entity: camera.woonkamercam
             tap_action: toggle
             style:
-              top: 93%
+              top: 94%
               left: 45%
 
       - type: entities
