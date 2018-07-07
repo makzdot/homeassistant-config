@@ -147,12 +147,6 @@ views:
             style:
               top: 93%
               left: 96%
-           - type: state-icon
-             entity: media_player.woonkamer_appletv 
-             style:
-              top: 83%
-              left: 96%
-
 
       - type: entities
         title: Schakelaars
