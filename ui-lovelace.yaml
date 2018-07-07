@@ -50,8 +50,8 @@ views:
             entity: light.schemerlamp_max
             tap_action: toggle
             style:
-              top: 10%
-              left: 80%
+              top: 5%
+              left: 85%
 
       - type: entities
         title: Schakelaars
