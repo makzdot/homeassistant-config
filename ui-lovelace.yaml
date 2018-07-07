@@ -18,7 +18,7 @@ views:
 
       - type: picture-elements
         # title: Casa di Maxi
-        image: https://raw.githubusercontent.com/makzdot/diagrams/master/Floorplan%20Casa%20di%20Maxi.png
+        image: https://raw.githubusercontent.com/makzdot/diagrams/master/Floorplan%20Casa%20di%20Maxi-Floorplan%20slaapkamers.png
         elements:
           - type: state-icon
             entity: light.schemerlamp_noeri
@@ -86,6 +86,11 @@ views:
             style:
               top: 26%
               left: 25%
+
+      - type: picture-elements
+        # title: Casa di Maxi
+        image: https://raw.githubusercontent.com/makzdot/diagrams/master/Floorplan%20Casa%20di%20Maxi-Floorplan%20woonkamer.png
+        elements:
           - type: state-icon
             entity: light.woonkamer_groep_1
             tap_action: toggle
