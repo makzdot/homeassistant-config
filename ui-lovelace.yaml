@@ -204,8 +204,6 @@ views:
               top: 98%
               left: 66%
 
-
-
       - type: entities
         title: Schakelaars
         entities:
