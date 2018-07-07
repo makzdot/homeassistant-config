@@ -165,7 +165,7 @@ views:
             entity: light.woonkamerledstriptv
             tap_action: toggle
             style:
-              top: 87%
+              top: 73%
               left: 96%
           - type: state-icon
             entity: light.woonkamerledstriptvmeubel
