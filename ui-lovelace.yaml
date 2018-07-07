@@ -261,7 +261,7 @@ views:
         - type: entities
           title: Badkamer
           entities:
-            - switch.sonoff_badkamer
+            - light.badkamer
             - switch.schakelaar_badkamer
 
   - icon: mdi:gauge
