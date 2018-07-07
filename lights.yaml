@@ -42,7 +42,6 @@
 
 - platform: mqtt
   name: SONOFF_BADKAMER
-  platform: mqtt
   state_topic: /home/light/SONOFF_BADKAMER/relay/0
   command_topic: /home/light/SONOFF_BADKAMER/relay/0/set
   payload_on: 1
