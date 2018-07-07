@@ -21,7 +21,7 @@ views:
         image: https://raw.githubusercontent.com/makzdot/diagrams/master/Floorplan%20Casa%20di%20Maxi.png
         elements:
           - type: service-button
-            title: Turn lights off
+            title: Alle lichten uit
             style:
               top: 99%
               left: 80%
