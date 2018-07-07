@@ -101,7 +101,7 @@ views:
               top: 70%
               left: 20%
           - type: state-icon
-            entity: light.woonkamer_4
+            entity: light.woonkamer_1
             tap_action: toggle
             style:
               top: 75%
