@@ -1,7 +1,7 @@
 title: Makzdots Home
 views:
   - tab_icon: mdi:home-assistant
-    name: Woonkamer
+    Title: Woonkamer
     cards:
     - type: entity-filter
       filter:
@@ -70,7 +70,7 @@ views:
       entity: media_player.woonkamer_tv
 
   - tab_icon: mdi:hotel
-    name: Slaapkamers
+    title: Slaapkamers
     cards:
       - type: entities
         title: Wekker
@@ -114,7 +114,7 @@ views:
           - switch.schakelaar_badkamer
 
   - tab_icon: mdi:gauge
-    name: Sensors
+    title: Sensors
     cards:
 
     - type: entities
@@ -160,7 +160,7 @@ views:
         title: Alle device trackers
 
   - tab_icon: mdi:play-circle-outline
-    name: Media players
+    title: Media players
     cards:
     - type: entities
       entities:
