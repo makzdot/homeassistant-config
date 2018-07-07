@@ -23,8 +23,8 @@ views:
           - type: service-button
             title: Turn lights off
             style:
-              top: 95%
-              left: 60%
+              top: 99%
+              left: 70%
             service: light.turn_off
             service_data:
                 entity_id: group.all_lights
