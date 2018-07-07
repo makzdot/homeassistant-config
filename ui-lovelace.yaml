@@ -191,12 +191,12 @@ views:
           - type: state-label
             entity: sensor.br_temperature
             style:
-              top: 97%
+              top: 95%
               left: 10%
           - type: state-label
             entity: sensor.br_humidity
             style:
-              top: 99%
+              top: 97%
               left: 10%
           - type: state-icon
             entity: switch.zonnescherm
