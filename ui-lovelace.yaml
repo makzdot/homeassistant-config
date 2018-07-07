@@ -302,6 +302,8 @@ views:
           - binary_sensor.workday_sensor
           - sun.sun
           - sensor.moon
+      - type: weather-forecast
+        entity: weather.darksky
 
   - icon: mdi:play-circle-outline
     title: Media players
