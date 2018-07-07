@@ -19,6 +19,7 @@ views:
       - type: picture-elements
         # title: Casa di Maxi
         image: https://raw.githubusercontent.com/makzdot/diagrams/master/Floorplan%20Casa%20di%20Maxi.png
+        elements:
 
       - type: entities
         title: Schakelaars
