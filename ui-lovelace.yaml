@@ -205,7 +205,7 @@ views:
               left: 66%
 
       - type: entities
-        title: Scenes
+        title: Woonkamer scenes
         entities:
           - scene.woonkamer_sfeerverlichting
           - scene.woonkamer_bioscoop
