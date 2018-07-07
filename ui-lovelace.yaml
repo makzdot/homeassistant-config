@@ -110,13 +110,13 @@ views:
             entity: light.keukenverlichting_groep_1
             tap_action: toggle
             style:
-              top: 60%
+              top: 56%
               left: 55%
           - type: state-icon
             entity: light.keukenverlichting_groep_2
             tap_action: toggle
             style:
-              top: 60%
+              top: 56%
               left: 75%
 
 
