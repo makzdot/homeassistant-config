@@ -125,7 +125,7 @@ views:
           - type: state-icon
             entity: climate.living_room_thermostaat
             style:
-              top: 69%
+              top: 38%
               left: 30%
           - type: state-icon
             entity: light.woonkamerschemerlamplinks
