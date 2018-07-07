@@ -176,7 +176,7 @@ views:
           - type: state-icon
             entity: camera.woonkamercam
             style:
-              top: 90%
+              top: 86%
               left: 45%
           - type: state-label
             entity:  sensor.living_room_thermostat_thermostaat_temperature
