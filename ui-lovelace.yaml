@@ -46,6 +46,12 @@ views:
             style:
               top: 18%
               left: 10%
+          - type: state-icon
+            entity: light.schemerlamp_max
+            tap_action: toggle
+            style:
+              top: 10%
+              left: 80%
 
       - type: entities
         title: Schakelaars
