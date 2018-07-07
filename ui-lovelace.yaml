@@ -69,7 +69,7 @@ views:
             tap_action: toggle
             style:
               top: 45%
-              left: 35%
+              left: 25%
 
 
       - type: entities
