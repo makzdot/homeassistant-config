@@ -38,8 +38,8 @@ views:
             entity: light.noeri
             tap_action: toggle
             style:
-              top: 10%
-              left: 10%
+              top: 15%
+              left: 12%
 
       - type: entities
         title: Schakelaars
