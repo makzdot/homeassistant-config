@@ -40,12 +40,12 @@
     - light.woonkamer_3
     - light.woonkamer_4
 
-- platform: mqtt
-  name: SONOFF_BADKAMER
-  state_topic: /home/light/SONOFF_BADKAMER/relay/0
-  command_topic: /home/light/SONOFF_BADKAMER/relay/0/set
+- name: badkamer
+  platform: mqtt
+  state_topic: /home/light/badkamer/relay/0
+  command_topic: /home/light/badkamer/relay/0/set
   payload_on: 1
   payload_off: 0
-  availability_topic: /home/light/SONOFF_BADKAMER/status
+  availability_topic: /home/light/badkamer/status
   payload_available: 1
   payload_not_available: 0
