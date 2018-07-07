@@ -14,6 +14,7 @@ views:
         card:
           type: glance
           title: Mensen thuis
+        show_empty: false
 
       - type: picture-elements
         # title: Casa di Maxi
