@@ -149,7 +149,7 @@ views:
               left: 96%
            - type: state-icon
              entity: media_player.woonkamer_appletv 
-            style:
+             style:
               top: 83%
               left: 96%
 
