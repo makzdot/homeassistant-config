@@ -175,7 +175,12 @@ views:
             style:
               top: 79%
               left: 96%
-
+          - type: state-icon
+            entity: camera.woonkamercam
+            tap_action: toggle
+            style:
+              top: 95%
+              left: 45%
 
       - type: entities
         title: Schakelaars
