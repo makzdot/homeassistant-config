@@ -204,13 +204,13 @@ views:
               top: 98%
               left: 66%
 
-      - type: "custom:monster-card"
-        card:
-          type: glance
-          title: My lovely card
-        filter:
-          include:
-            - entity_id: "light.woonkamerled*"
+      - type: entities
+        title: RGB Led verlichting
+        entities:
+          - light.woonkamerledstrip3
+          - light.woonkamerledstriptv
+          - light.woonkamerledstriptvmeubel
+          - light.lifx_light_03bec2
 
       - type: entities
         title: Schakelaars
