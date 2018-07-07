@@ -202,7 +202,7 @@ views:
             entity: switch.zonnescherm
             tap_action: toggle
             style:
-              top: 98%
+              top: 95%
               left: 66%
 
       - type: entities
