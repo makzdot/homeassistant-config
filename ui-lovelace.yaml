@@ -38,7 +38,7 @@ views:
             entity: light.noeri
             tap_action: toggle
             style:
-              top: 13%
+              top: 12%
               left: 15%
 
       - type: entities
