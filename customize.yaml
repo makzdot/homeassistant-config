@@ -65,7 +65,8 @@ switch.sonoff_badkamer:
   friendly_name: Badkamerlamp
 switch.bewegingsensor_gang:
   icon: mdi:run
-
+switch.zonnescherm:
+  icon: mdi:blinds
 
 group.all_devices:
   order: 999
