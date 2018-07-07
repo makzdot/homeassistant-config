@@ -6,7 +6,6 @@
       name: Zonnescherm
     0b110000015e25460a010f70:
       name: Bewegingsensor gang
-      icon: mdi:run
       # fire_event: true
     0b1100010131a3ce0a010f60:
       name: Schakelaar Badkamer
