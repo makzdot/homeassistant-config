@@ -207,10 +207,11 @@ views:
       - type: entities
         title: Woonkamer scenes
         entities:
-          - light.woonkamerledstrip3
-          - light.woonkamerledstriptv
-          - light.woonkamerledstriptvmeubel
-          - light.lifx_light_03bec2
+          - scene.woonkamer_sfeerverlichting
+          - scene.woonkamer_bioscoop
+          - scene.afwezig
+          - scene.alle_lichten_uit
+          - scene.schoonmaak
 
       - type: entities
         title: RGB Led verlichting
