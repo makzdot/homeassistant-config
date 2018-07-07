@@ -68,19 +68,19 @@ views:
             entity: light.hallamp_1
             tap_action: toggle
             style:
-              top: 50%
+              top: 55%
               left: 25%
           - type: state-icon
             entity: light.hallamp_2
             tap_action: toggle
             style:
-              top: 55%
+              top: 60%
               left: 25%
           - type: state-icon
             entity: light.hallamp_3
             tap_action: toggle
             style:
-              top: 70%
+              top: 65%
               left: 25%
           - type: state-icon
             entity: light.hallamp_4
