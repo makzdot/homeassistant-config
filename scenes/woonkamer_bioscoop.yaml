@@ -44,13 +44,13 @@
     light.woonkamerschemerlamprechts: off
 
     light.keukenverlichting_groep_1:
-      state: on
+      state: off
       brightness: 1
       color_temp: 370
       transition: 3
 
     light.keukenverlichting_groep_2:
-      state: on
+      state: off
       brightness: 1
       color_temp: 370
       transition: 3
