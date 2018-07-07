@@ -88,6 +88,12 @@ views:
             style:
               top: 45%
               left: 25%
+          - type: state-icon
+            entity: switch.bewegingsensor_gang
+            tap_action: toggle
+            style:
+              top: 45%
+              left: 25%
 
       - type: entities
         title: Schakelaars
