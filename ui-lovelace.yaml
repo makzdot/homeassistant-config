@@ -176,7 +176,7 @@ views:
             entity: light.schemerlamp_max
             tap_action: toggle
             style:
-              top: 12%
+              top: 13%
               left: 90%
           - type: state-icon
             entity: light.plafoniere_max
