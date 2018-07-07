@@ -160,7 +160,7 @@ views:
           - type: state-icon
             entity: light.woonkamerledstrip3
             style:
-              top: 69%
+              top: 70%
               left: 5%
 
       - type: entities
