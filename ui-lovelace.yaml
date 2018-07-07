@@ -39,7 +39,7 @@ views:
             tap_action: toggle
             style:
               top: 12%
-              left: 16%
+              left: 18%
 
       - type: entities
         title: Schakelaars
