@@ -203,5 +203,5 @@ Hal automations:
 
 Badkamer:
   entities:
-    - switch.badkamer
+    - light.badkamer
     - switch.schakelaar_badkamer
