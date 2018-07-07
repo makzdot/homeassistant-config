@@ -27,7 +27,13 @@ views:
               left: 80%
             service: light.turn_off
             service_data:
-                entity_id: group.all_lights
+                entity_id: group.
+          - type: state-icon
+            entity: light.schemerlamp_noeri
+            tap_action: toggle
+            style:
+              top: 10%
+              left: 10%
 
       - type: entities
         title: Schakelaars
