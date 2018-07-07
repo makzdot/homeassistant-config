@@ -132,7 +132,7 @@ views:
           - type: state-icon
             entity: light.woonkamerschemerlamplinks
             style:
-              top: 80%
+              top: 75%
               left: 95%
           - type: state-icon
             entity: light.woonkamerschemerlamprechts
