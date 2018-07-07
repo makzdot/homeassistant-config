@@ -214,6 +214,15 @@ views:
           - scene.schoonmaak
 
       - type: entities
+        title: Woonkamer verlichting
+        entities:
+          - light.woonkamerschemerlamplinks
+          - light.woonkamerschemerlamprechts
+          - light.woonkamerspots
+          - light.woonkamer_groep_1
+          - light.woonkamer_1
+
+      - type: entities
         title: RGB Led verlichting
         entities:
           - light.woonkamerledstrip3
