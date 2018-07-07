@@ -157,6 +157,11 @@ views:
             style:
               top: 86%
               left: 95%
+          - type: state-icon
+            entity: light.woonkamerledstrip3
+            style:
+              top: 69%
+              left: 5%
 
       - type: entities
         title: Schakelaars
