@@ -195,6 +195,18 @@ views:
             style:
               top: 82%
               left: 50%
+          - type: state-label
+            entity: sensor.living_room_thermostat_thermostaat_temperature
+            style:
+              top: 98%
+              left: 5%
+          - type: state-label
+            entity: sensor.living_room_thermostat_thermostaat_humidity
+            style:
+              top: 99%
+              left: 5%
+
+
 
       - type: entities
         title: Schakelaars
