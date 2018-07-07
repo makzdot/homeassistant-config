@@ -44,7 +44,7 @@ views:
             entity: input_boolean.noeri_slaapt
             tap_action: toggle
             style:
-              top: 20%
+              top: 18%
               left: 10%
 
       - type: entities
