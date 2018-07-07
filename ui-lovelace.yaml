@@ -131,7 +131,7 @@ views:
             entity: light.woonkamerschemerlamplinks
             tap_action: toggle
             style:
-              top: 53%
+              top: 52%
               left: 96%
           - type: state-icon
             entity: light.woonkamerschemerlamprechts
