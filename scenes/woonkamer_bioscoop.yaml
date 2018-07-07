@@ -45,12 +45,9 @@
 
     light.keukenverlichting_groep_1:
       state: off
-      brightness: 1
-      color_temp: 370
-      transition: 3
 
     light.keukenverlichting_groep_2:
-      state: off
+      state: on
       brightness: 1
       color_temp: 370
       transition: 3
