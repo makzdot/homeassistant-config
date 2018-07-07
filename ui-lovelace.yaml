@@ -3,175 +3,177 @@ views:
   - icon: mdi:home-assistant
     title: Woonkamer
     cards:
-    - type: entity-filter
-      entities:
-        - device_tracker.makzdot_max
-        - device_tracker.rikkert_rikki
-        - device_tracker.a010818e6c32
-        - device_tracker.9097f3588eb4
-      state_filter:
-        - 'home'
-      card:
-        type: glance
-        title: Mensen thuis
 
-    - type: entity-filter
-      filter:
-        - entity_id: 'scene.*'
-      card_config:
-        title: Scenes
+      - type: entity-filter
+        entities:
+          - device_tracker.makzdot_max
+          - device_tracker.rikkert_rikki
+          - device_tracker.a010818e6c32
+          - device_tracker.9097f3588eb4
+        state_filter:
+          - 'home'
+        card:
+          type: glance
+          title: Mensen thuis
 
-    - type: entity-filter
-      filter:
-        - entity_id: climate.living_room_thermostaat
-        - entity_id: 'binary_sensor.living_room_thermostat*'
-          state: 'on'
+      - type: entity-filter
+        filter:
+          - entity_id: 'scene.*'
+        card_config:
+          title: Scenes
 
-    - type: entity-filter
-      filter:
-        - entity_id: 'light.keukenverlichting_groep*'
-      card_config:
-        title: Keukenverlighting
+      - type: entity-filter
+        filter:
+          - entity_id: climate.living_room_thermostaat
+          - entity_id: 'binary_sensor.living_room_thermostat*'
+            state: 'on'
 
-    - type: entities
-      title: Woonkamerverlichting
-      entities:
-        - light.lifx_light_03bec2
-        - light.woonkamer_1
-        - light.woonkamer_groep_1
-        - switch.sonoff_basic_076e52
-        - switch.espurna_076a50
-        - switch.wkschemerlamprechts
+      - type: entity-filter
+        filter:
+          - entity_id: 'light.keukenverlichting_groep*'
+        card_config:
+          title: Keukenverlighting
 
-    - type: entity-filter
-      filter:
-        - entity_id: 'light.h801*'
-      card_config:
-        title: LED strips
+      - type: entities
+        title: Woonkamerverlichting
+        entities:
+          - light.lifx_light_03bec2
+          - light.woonkamer_1
+          - light.woonkamer_groep_1
+          - switch.sonoff_basic_076e52
+          - switch.espurna_076a50
+          - switch.wkschemerlamprechts
 
-    - type: entities
-      title: Schakelaars
-      entities:
-        - switch.main_switch
-        - switch.zonnescherm
+      - type: entity-filter
+        filter:
+          - entity_id: 'light.h801*'
+        card_config:
+          title: LED strips
 
-    - type: entity-filter
-      filter:
-        - entity_id: 'camera.*'
-      card_config:
-        title: Camera's
+      - type: entities
+        title: Schakelaars
+        entities:
+          - switch.main_switch
+          - switch.zonnescherm
 
-    - type: camera-preview
-      entity: camera.woonkamercam
+      - type: entity-filter
+        filter:
+          - entity_id: 'camera.*'
+        card_config:
+          title: Camera's
 
-    - type: camera-preview
-      entity: camera.woonkameronfiv
+      - type: camera-preview
+        entity: camera.woonkamercam
 
-    - type: media-control
-      entity: media_player.woonkamer_appletv
+      - type: camera-preview
+        entity: camera.woonkameronfiv
 
-    - type: media-control
-      entity: media_player.woonkamer_tv
+      - type: media-control
+        entity: media_player.woonkamer_appletv
+
+      - type: media-control
+        entity: media_player.woonkamer_tv
 
   - icon: mdi:hotel
     title: Slaapkamers
     cards:
-      - type: entities
-        title: Wekker
-        entities:
-          - input_boolean.wekker_aan_uit
-          - input_datetime.wektijd
-          - binary_sensor.workday_sensor
+      
+        - type: entities
+          title: Wekker
+          entities:
+            - input_boolean.wekker_aan_uit
+            - input_datetime.wektijd
+            - binary_sensor.workday_sensor
 
-      - type: entities
-        title: Slaapkamer Max
-        entities:
-          - light.plafoniere_max
-          - light.schemerlamp_max
+        - type: entities
+          title: Slaapkamer Max
+          entities:
+            - light.plafoniere_max
+            - light.schemerlamp_max
 
-      - type: entities
-        title: Slaapkamer Noeri
-        entities:
-          - light.schemerlamp_noeri
-          - light.hanglamp_noeri
+        - type: entities
+          title: Slaapkamer Noeri
+          entities:
+            - light.schemerlamp_noeri
+            - light.hanglamp_noeri
 
-      - type: entities
-        title: Hal
-        entities:
-          - light.hallamp_1
-          - light.hallamp_2
-          - light.hallamp_3
-          - light.hallamp_4
-          - switch.bewegingsensor_gang
-          - input_boolean.noeri_slaapt
+        - type: entities
+          title: Hal
+          entities:
+            - light.hallamp_1
+            - light.hallamp_2
+            - light.hallamp_3
+            - light.hallamp_4
+            - switch.bewegingsensor_gang
+            - input_boolean.noeri_slaapt
 
-      - type: entities
-        title: Hal automations
-        entities:
-          - automation.hal_aan
-          - automation.hal_uit
+        - type: entities
+          title: Hal automations
+          entities:
+            - automation.hal_aan
+            - automation.hal_uit
 
-      - type: entities
-        title: Badkamer
-        entities:
-          - switch.sonoff_badkamer
-          - switch.schakelaar_badkamer
+        - type: entities
+          title: Badkamer
+          entities:
+            - switch.sonoff_badkamer
+            - switch.schakelaar_badkamer
 
   - icon: mdi:gauge
     title: Sensors
     cards:
 
-    - type: entities
-      title: Datum en Tijd
-      entities:
-        - sensor.time
-        - binary_sensor.workday_sensor
-        - sun.sun
-        - sensor.moon
+      - type: entities
+        title: Datum en Tijd
+        entities:
+          - sensor.time
+          - binary_sensor.workday_sensor
+          - sun.sun
+          - sensor.moon
 
-    - type: entity-filter
-      filter:
-        - entity_id: 'binary_sensor.living_room_thermostat*'
-          state: 'on'
-      card_config:
-        title: Nest Thermostaat status
+      - type: entity-filter
+        filter:
+          - entity_id: 'binary_sensor.living_room_thermostat*'
+            state: 'on'
+        card_config:
+          title: Nest Thermostaat status
 
-    - type: entity-filter
-      filter:
-        - entity_id: 'sensor.living_room_thermostat*'
-      card_config:
-        title: Nest Thermostaat
+      - type: entity-filter
+        filter:
+          - entity_id: 'sensor.living_room_thermostat*'
+        card_config:
+          title: Nest Thermostaat
 
-    - type: history-graph
-      entity: history_graph.recent_switches
+      - type: history-graph
+        entity: history_graph.recent_switches
 
-    - type: entity-filter
-      filter:
-        - entity_id: '*_nest_protect_*'
-      card_config:
-        title: Nest Protects
+      - type: entity-filter
+        filter:
+          - entity_id: '*_nest_protect_*'
+        card_config:
+          title: Nest Protects
 
-    - type: entity-filter
-      filter:
-        - entity_id: 'sensor.afstandsbediening*'
-      card_config:
-        title: Battery afstandsbedieningen
+      - type: entity-filter
+        filter:
+          - entity_id: 'sensor.afstandsbediening*'
+        card_config:
+          title: Battery afstandsbedieningen
 
-    - type: entity-filter
-      filter:
-        - domain: device_tracker
-      card_config:
-        title: Alle device trackers
+      - type: entity-filter
+        filter:
+          - domain: device_tracker
+        card_config:
+          title: Alle device trackers
 
   - icon: mdi:play-circle-outline
     title: Media players
     cards:
-    - type: entities
-      entities:
-        - sensor.plex
-    - type: entity-filter
-      filter:
-        - entity_id: 'media_player.*'
-      card_config:
-        title: Media Players
+      - type: entities
+        entities:
+          - sensor.plex
+      - type: entity-filter
+        filter:
+          - entity_id: 'media_player.*'
+        card_config:
+          title: Media Players
 
