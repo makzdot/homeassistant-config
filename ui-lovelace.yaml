@@ -176,7 +176,7 @@ views:
             entity: light.schemerlamp_max
             tap_action: toggle
             style:
-              top: 10%
+              top: 12%
               left: 90%
           - type: state-icon
             entity: light.plafoniere_max
@@ -188,8 +188,8 @@ views:
             entity: light.badkamer
             tap_action: toggle
             style:
-              top: 80%
-              left: 70%
+              top: 82%
+              left: 69%
           - type: state-icon
             entity: light.hallamp_4
             tap_action: toggle
