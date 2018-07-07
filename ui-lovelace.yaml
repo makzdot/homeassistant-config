@@ -303,7 +303,7 @@ views:
           - sun.sun
           - sensor.moon
       - type: weather-forecast
-        entity: weather.darksky
+        entity: weather.dark_sky
 
   - icon: mdi:play-circle-outline
     title: Media players
