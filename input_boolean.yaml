@@ -6,4 +6,4 @@ noeri_slaapt:
 wekker_aan_uit:
   name: Wekker
   initial: on
-  icon: mdi:power
+  icon: mdi:alarm

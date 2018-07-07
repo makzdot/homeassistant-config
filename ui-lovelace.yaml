@@ -186,6 +186,12 @@ views:
               top: 33%
               left: 55%
           - type: state-icon
+            entity: wekker_aan_uit
+            tap_action: toggle
+            style:
+              top: 25%
+              left: 90%
+          - type: state-icon
             entity: light.badkamer
             tap_action: toggle
             style:
