@@ -158,7 +158,7 @@ views:
             entity: light.schemerlamp_noeri
             tap_action: toggle
             style:
-              top: 2%
+              top: 5%
               left: 6%
           - type: state-icon
             entity: light.noeri
