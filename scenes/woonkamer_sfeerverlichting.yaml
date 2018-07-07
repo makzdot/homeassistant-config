@@ -1,9 +1,5 @@
 - name: Woonkamer sfeerverlichting
   entities:
-    switch.fluxer:
-      state: on
-    switch.sonoff_basic_0742d9:
-      state: on
 
     light.woonkamer_1:
       state: off
@@ -21,19 +17,19 @@
       color_temp: 368
       transition: 1
 
-    light.h801_995008:
+    light.woonkamerledstriptv:
       state: on
       brightness: 107
       color_temp: 500
       transition: 3
 
-    light.h801_9950fb:
+    light.woonkamerledstriptvmeubel:
       state: on
       brightness: 107
       color_temp: 500
       transition: 3
 
-    light.h801_9950fc:
+    light.woonkamerschemerlamplinks:
       state: on
       brightness: 107
       color_temp: 500
@@ -41,13 +37,11 @@
 
     switch.main_switch: on
 
-    switch.sonoff_basic_076e52:
-      state: on
+    light.woonkamerspots: on
 
-    switch.espurna_076a50:
-      state: on
+    light.woonkamerschemerlamplinks: on
 
-    switch.wkschemerlamprechts: on
+    light.woonkamerschemerlamprecht: on
 
     light.keukenverlichting_groep_1:
       state: on
