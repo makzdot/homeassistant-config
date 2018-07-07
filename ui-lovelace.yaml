@@ -19,78 +19,6 @@ views:
 
           - type: picture-elements
             # title: Casa di Maxi
-            image: https://raw.githubusercontent.com/makzdot/diagrams/master/Floorplan%20Casa%20di%20Maxi-Floorplan%20slaapkamers.png
-            elements:
-              - type: state-icon
-                entity: light.schemerlamp_noeri
-                tap_action: toggle
-                style:
-                  top: 2%
-                  left: 6%
-              - type: state-icon
-                entity: light.noeri
-                tap_action: toggle
-                style:
-                  top: 12%
-                  left: 22%
-              - type: state-icon
-                entity: input_boolean.noeri_slaapt
-                tap_action: toggle
-                style:
-                  top: 18%
-                  left: 10%
-              - type: state-icon
-                entity: light.schemerlamp_max
-                tap_action: toggle
-                style:
-                  top: 7%
-                  left: 90%
-              - type: state-icon
-                entity: light.plafoniere_max
-                tap_action: toggle
-                style:
-                  top: 17%
-                  left: 55%
-              - type: state-icon
-                entity: light.badkamer
-                tap_action: toggle
-                style:
-                  top: 45%
-                  left: 70%
-              - type: state-icon
-                entity: light.hallamp_1
-                tap_action: toggle
-                style:
-                  top: 55%
-                  left: 25%
-              - type: state-icon
-                entity: light.hallamp_2
-                tap_action: toggle
-                style:
-                  top: 60%
-                  left: 25%
-              - type: state-icon
-                entity: light.hallamp_3
-                tap_action: toggle
-                style:
-                  top: 65%
-                  left: 25%
-              - type: state-icon
-                entity: light.hallamp_4
-                tap_action: toggle
-                style:
-                  top: 45%
-                  left: 25%
-              - type: state-icon
-                entity: switch.bewegingsensor_gang
-                tap_action: toggle
-                style:
-                  top: 26%
-                  left: 25%
-
-
-          - type: picture-elements
-            # title: Casa di Maxi
             image: https://raw.githubusercontent.com/makzdot/diagrams/master/Floorplan%20Casa%20di%20Maxi-Floorplan%20woonkamer.png
             elements:
               - type: state-icon
@@ -205,6 +133,77 @@ views:
                 style:
                   top: 95%
                   left: 66%
+  
+          - type: picture-elements
+            # title: Casa di Maxi
+            image: https://raw.githubusercontent.com/makzdot/diagrams/master/Floorplan%20Casa%20di%20Maxi-Floorplan%20slaapkamers.png
+            elements:
+              - type: state-icon
+                entity: light.schemerlamp_noeri
+                tap_action: toggle
+                style:
+                  top: 2%
+                  left: 6%
+              - type: state-icon
+                entity: light.noeri
+                tap_action: toggle
+                style:
+                  top: 12%
+                  left: 22%
+              - type: state-icon
+                entity: input_boolean.noeri_slaapt
+                tap_action: toggle
+                style:
+                  top: 18%
+                  left: 10%
+              - type: state-icon
+                entity: light.schemerlamp_max
+                tap_action: toggle
+                style:
+                  top: 7%
+                  left: 90%
+              - type: state-icon
+                entity: light.plafoniere_max
+                tap_action: toggle
+                style:
+                  top: 17%
+                  left: 55%
+              - type: state-icon
+                entity: light.badkamer
+                tap_action: toggle
+                style:
+                  top: 45%
+                  left: 70%
+              - type: state-icon
+                entity: light.hallamp_1
+                tap_action: toggle
+                style:
+                  top: 55%
+                  left: 25%
+              - type: state-icon
+                entity: light.hallamp_2
+                tap_action: toggle
+                style:
+                  top: 60%
+                  left: 25%
+              - type: state-icon
+                entity: light.hallamp_3
+                tap_action: toggle
+                style:
+                  top: 65%
+                  left: 25%
+              - type: state-icon
+                entity: light.hallamp_4
+                tap_action: toggle
+                style:
+                  top: 45%
+                  left: 25%
+              - type: state-icon
+                entity: switch.bewegingsensor_gang
+                tap_action: toggle
+                style:
+                  top: 26%
+                  left: 25%
 
           - type: entities
             title: Woonkamer scenes
