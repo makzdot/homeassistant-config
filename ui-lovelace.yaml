@@ -20,6 +20,24 @@ views:
         image: https://raw.githubusercontent.com/makzdot/diagrams/master/Floorplan%20Casa%20di%20Maxi-Floorplan%20woonkamer.png
         elements:
           - type: state-icon
+            entity: light.hallamp_1
+            tap_action: toggle
+            style:
+              top: 10%
+              left: 25%
+          - type: state-icon
+            entity: light.hallamp_2
+            tap_action: toggle
+            style:
+              top: 15%
+              left: 25%
+          - type: state-icon
+            entity: light.hallamp_3
+            tap_action: toggle
+            style:
+              top: 20%
+              left: 25%
+          - type: state-icon
             entity: light.woonkamer_groep_1
             tap_action: toggle
             style:
@@ -172,24 +190,6 @@ views:
             style:
               top: 45%
               left: 70%
-          - type: state-icon
-            entity: light.hallamp_1
-            tap_action: toggle
-            style:
-              top: 55%
-              left: 25%
-          - type: state-icon
-            entity: light.hallamp_2
-            tap_action: toggle
-            style:
-              top: 60%
-              left: 25%
-          - type: state-icon
-            entity: light.hallamp_3
-            tap_action: toggle
-            style:
-              top: 65%
-              left: 25%
           - type: state-icon
             entity: light.hallamp_4
             tap_action: toggle
