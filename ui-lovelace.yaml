@@ -92,7 +92,7 @@ views:
             entity: switch.bewegingsensor_gang
             tap_action: toggle
             style:
-              top: 30%
+              top: 20%
               left: 25%
 
       - type: entities
