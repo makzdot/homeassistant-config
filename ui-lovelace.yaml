@@ -148,12 +148,12 @@ views:
           - type: state-icon
             entity: media_player.woonkamer_appletv
             style:
-              top: 60%
+              top: 63%
               left: 95%
           - type: state-icon
             entity: media_player.woonkamer_tv
             style:
-              top: 85%
+              top: 70%
               left: 95%
           - type: state-icon
             entity: light.woonkamerledstrip3
