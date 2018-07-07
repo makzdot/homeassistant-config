@@ -63,6 +63,8 @@ switch.sonoff_basic_076e52:
   friendly_name: Spotjes
 switch.sonoff_badkamer:
   friendly_name: Badkamerlamp
+switch.bewegingsensor_gang:
+  icon: mdi:run
 
 
 group.all_devices:
