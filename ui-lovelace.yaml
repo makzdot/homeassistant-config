@@ -120,7 +120,7 @@ views:
             entity:  light.lifx_light_03bec2
             tap_action: toggle
             style:
-              top: 30%
+              top: 35%
               left: 89%
           - type: state-icon
             entity: climate.living_room_thermostaat
