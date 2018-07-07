@@ -56,8 +56,8 @@ views:
             entity: light.plafoniere_max
             tap_action: toggle
             style:
-              top: 16%
-              left: 60%
+              top: 17%
+              left: 50%
 
       - type: entities
         title: Schakelaars
