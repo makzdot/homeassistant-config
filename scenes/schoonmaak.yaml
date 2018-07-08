@@ -30,12 +30,6 @@
       color_temp: 320
       transition: 3
 
-    light.h801_9950fb:
-      state: on
-      brightness: 250
-      color_temp: 320
-      transition: 3
-
     light.plafoniere_max:
       state: on
       brightness: 255

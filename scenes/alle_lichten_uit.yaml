@@ -2,12 +2,6 @@
   entities:
     group.all_lights: off
     switch.main_switch: off
-    switch.sonoff_badkamer: off
-    # switch.sonoff_basic_0764b4: off
-    switch.espurna_076a50: off
-    switch.sonoff_basic_076e52: off
-    # switch.sonoff_basic_1ca1ce: off
-    switch.wkschemerlamprechts: off
     automation.hal_aan:
       state: on
     automation.hal_uit:
