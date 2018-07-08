@@ -132,7 +132,7 @@ views:
               - type: state-label
                 entity: sensor.living_room_thermostat_thermostaat_humidity
                 style:
-                  top: 53%
+                  top: 54%
                   left: 50%
               - type: state-label
                 entity: sensor.br_temperature
@@ -142,7 +142,7 @@ views:
               - type: state-label
                 entity: sensor.br_humidity
                 style:
-                  top: 97%
+                  top: 98%
                   left: 10%
               - type: state-icon
                 entity: switch.zonnescherm
