@@ -142,12 +142,6 @@ Schoonmaak:
     - device_tracker.1c232c46cb0d
     - device_tracker.9097f3588eb4
 
-Apparaten:
-  icon: mdi:cellphone-link
-  entities:
-    - device_tracker.makzdot_456f498da3fe4abe8284f88867a4c8dc
-    - device_tracker.makzdot_tablet_experiaz
-
 ####### Licht groepen
 Keukenverlichting:
   entities:
@@ -156,18 +150,20 @@ Keukenverlichting:
 
 Woonkamerverlichting:
   entities:
-    - light.lifx_light_03bec2
-    - light.woonkamer_1
+    - light.woonkamerschemerlamplinks
+    - light.woonkamerschemerlamprechts
+    - light.woonkamerspots
     - light.woonkamer_groep_1
-    - switch.sonoff_basic_076e52
-    - switch.espurna_076a50
-    - switch.wkschemerlamprechts
+    - light.woonkamer_1
+    - light.keukenverlichting_groep_1
+    - light.keukenverlichting_groep_2
 
 Woonkamer LED strips:
   entities:
-    - light.h801_995008
-    - light.h801_9950fb
-    - light.h801_9950fc
+    - light.woonkamerledstrip3
+    - light.woonkamerledstriptv
+    - light.woonkamerledstriptvmeubel
+    - light.lifx_light_03bec2
 
 Scenes:
   entities:
