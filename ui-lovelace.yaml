@@ -189,7 +189,7 @@ views:
             entity: input_boolean.wekker_aan_uit
             tap_action: toggle
             style:
-              top: 25%
+              top: 20%
               left: 90%
           - type: state-icon
             entity: light.badkamer
