@@ -16,7 +16,6 @@ views:
           title: Mensen thuis
 
       - type: picture-elements
-        # title: Casa di Maxi
         image: https://raw.githubusercontent.com/makzdot/diagrams/master/Floorplan%20Casa%20di%20Maxi-Floorplan%20woonkamer.png
         elements:
           - type: state-icon
@@ -151,7 +150,6 @@ views:
               left: 66%
 
       - type: picture-elements
-        # title: Casa di Maxi
         image: https://raw.githubusercontent.com/makzdot/diagrams/master/Floorplan%20Casa%20di%20Maxi-Floorplan%20slaapkamers.png
         elements:
           - type: state-icon
