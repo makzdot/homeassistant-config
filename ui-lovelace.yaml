@@ -14,201 +14,200 @@ views:
         card:
           type: glance
           title: Mensen thuis
-      - type: horizontal-stack
-        cards:
-          - type: picture-elements
-            # title: Casa di Maxi
-            image: https://raw.githubusercontent.com/makzdot/diagrams/master/Floorplan%20Casa%20di%20Maxi-Floorplan%20woonkamer.png
-            elements:
-              - type: state-icon
-                entity: light.hallamp_1
-                tap_action: toggle
-                style:
-                  top: 10%
-                  left: 25%
-              - type: state-icon
-                entity: light.hallamp_2
-                tap_action: toggle
-                style:
-                  top: 15%
-                  left: 25%
-              - type: state-icon
-                entity: light.hallamp_3
-                tap_action: toggle
-                style:
-                  top: 20%
-                  left: 25%
-              - type: state-icon
-                entity: light.woonkamer_groep_1
-                tap_action: toggle
-                style:
-                  top: 70%
-                  left: 20%
-              - type: state-icon
-                entity: light.woonkamer_1
-                tap_action: toggle
-                style:
-                  top: 60%
-                  left: 20%
-              - type: state-icon
-                entity: light.keukenverlichting_groep_1
-                tap_action: toggle
-                style:
-                  top: 15%
-                  left: 55%
-              - type: state-icon
-                entity: light.keukenverlichting_groep_2
-                tap_action: toggle
-                style:
-                  top: 15%
-                  left: 75%
-              - type: state-icon
-                entity:  light.lifx_light_03bec2
-                tap_action: toggle
-                style:
-                  top: 36%
-                  left: 89%
-              - type: state-icon
-                entity: climate.living_room_thermostaat
-                style:
-                  top: 38%
-                  left: 30%
-              - type: state-icon
-                entity: light.woonkamerschemerlamplinks
-                tap_action: toggle
-                style:
-                  top: 52%
-                  left: 96%
-              - type: state-icon
-                entity: light.woonkamerschemerlamprechts
-                tap_action: toggle
-                style:
-                  top: 81%
-                  left: 96%
-              - type: state-icon
-                entity: light.woonkamerspots
-                tap_action: toggle
-                style:
-                  top: 87%
-                  left: 96%
-              - type: state-icon
-                entity: media_player.woonkamer_appletv
-                style:
-                  top: 64%
-                  left: 95%
-              - type: state-icon
-                entity: media_player.woonkamer_tv
-                style:
-                  top: 70%
-                  left: 95%
-              - type: state-icon
-                entity: light.woonkamerledstrip3
-                tap_action: toggle
-                style:
-                  top: 41%
-                  left: 5%
-              - type: state-icon
-                entity: light.woonkamerledstriptv
-                tap_action: toggle
-                style:
-                  top: 73%
-                  left: 96%
-              - type: state-icon
-                entity: light.woonkamerledstriptvmeubel
-                tap_action: toggle
-                style:
-                  top: 55%
-                  left: 96%
-              - type: state-icon
-                entity: camera.woonkamercam
-                style:
-                  top: 88%
-                  left: 45%
-              - type: state-label
-                entity: sensor.living_room_thermostat_thermostaat_temperature
-                style:
-                  top: 50%
-                  left: 50%
-              - type: state-label
-                entity: sensor.living_room_thermostat_thermostaat_humidity
-                style:
-                  top: 54%
-                  left: 50%
-              - type: state-label
-                entity: sensor.br_temperature
-                style:
-                  top: 94%
-                  left: 10%
-              - type: state-label
-                entity: sensor.br_humidity
-                style:
-                  top: 98%
-                  left: 10%
-              - type: state-icon
-                entity: switch.zonnescherm
-                tap_action: toggle
-                style:
-                  top: 95%
-                  left: 66%
+          
+      - type: picture-elements
+        # title: Casa di Maxi
+        image: https://raw.githubusercontent.com/makzdot/diagrams/master/Floorplan%20Casa%20di%20Maxi-Floorplan%20woonkamer.png
+        elements:
+          - type: state-icon
+            entity: light.hallamp_1
+            tap_action: toggle
+            style:
+              top: 10%
+              left: 25%
+          - type: state-icon
+            entity: light.hallamp_2
+            tap_action: toggle
+            style:
+              top: 15%
+              left: 25%
+          - type: state-icon
+            entity: light.hallamp_3
+            tap_action: toggle
+            style:
+              top: 20%
+              left: 25%
+          - type: state-icon
+            entity: light.woonkamer_groep_1
+            tap_action: toggle
+            style:
+              top: 70%
+              left: 20%
+          - type: state-icon
+            entity: light.woonkamer_1
+            tap_action: toggle
+            style:
+              top: 60%
+              left: 20%
+          - type: state-icon
+            entity: light.keukenverlichting_groep_1
+            tap_action: toggle
+            style:
+              top: 15%
+              left: 55%
+          - type: state-icon
+            entity: light.keukenverlichting_groep_2
+            tap_action: toggle
+            style:
+              top: 15%
+              left: 75%
+          - type: state-icon
+            entity:  light.lifx_light_03bec2
+            tap_action: toggle
+            style:
+              top: 36%
+              left: 89%
+          - type: state-icon
+            entity: climate.living_room_thermostaat
+            style:
+              top: 38%
+              left: 30%
+          - type: state-icon
+            entity: light.woonkamerschemerlamplinks
+            tap_action: toggle
+            style:
+              top: 52%
+              left: 96%
+          - type: state-icon
+            entity: light.woonkamerschemerlamprechts
+            tap_action: toggle
+            style:
+              top: 81%
+              left: 96%
+          - type: state-icon
+            entity: light.woonkamerspots
+            tap_action: toggle
+            style:
+              top: 87%
+              left: 96%
+          - type: state-icon
+            entity: media_player.woonkamer_appletv
+            style:
+              top: 64%
+              left: 95%
+          - type: state-icon
+            entity: media_player.woonkamer_tv
+            style:
+              top: 70%
+              left: 95%
+          - type: state-icon
+            entity: light.woonkamerledstrip3
+            tap_action: toggle
+            style:
+              top: 41%
+              left: 5%
+          - type: state-icon
+            entity: light.woonkamerledstriptv
+            tap_action: toggle
+            style:
+              top: 73%
+              left: 96%
+          - type: state-icon
+            entity: light.woonkamerledstriptvmeubel
+            tap_action: toggle
+            style:
+              top: 55%
+              left: 96%
+          - type: state-icon
+            entity: camera.woonkamercam
+            style:
+              top: 88%
+              left: 45%
+          - type: state-label
+            entity: sensor.living_room_thermostat_thermostaat_temperature
+            style:
+              top: 50%
+              left: 50%
+          - type: state-label
+            entity: sensor.living_room_thermostat_thermostaat_humidity
+            style:
+              top: 54%
+              left: 50%
+          - type: state-label
+            entity: sensor.br_temperature
+            style:
+              top: 94%
+              left: 10%
+          - type: state-label
+            entity: sensor.br_humidity
+            style:
+              top: 98%
+              left: 10%
+          - type: state-icon
+            entity: switch.zonnescherm
+            tap_action: toggle
+            style:
+              top: 95%
+              left: 66%
 
-          - type: picture-elements
-            # title: Casa di Maxi
-            image: https://raw.githubusercontent.com/makzdot/diagrams/master/Floorplan%20Casa%20di%20Maxi-Floorplan%20slaapkamers.png
-            elements:
-              - type: state-icon
-                entity: light.schemerlamp_noeri
-                tap_action: toggle
-                style:
-                  top: 5%
-                  left: 6%
-              - type: state-icon
-                entity: light.noeri
-                tap_action: toggle
-                style:
-                  top: 23%
-                  left: 22%
-              - type: state-icon
-                entity: input_boolean.noeri_slaapt
-                tap_action: toggle
-                style:
-                  top: 33%
-                  left: 10%
-              - type: state-icon
-                entity: light.schemerlamp_max
-                tap_action: toggle
-                style:
-                  top: 13%
-                  left: 90%
-              - type: state-icon
-                entity: light.plafoniere_max
-                tap_action: toggle
-                style:
-                  top: 33%
-                  left: 55%
-              - type: state-icon
-                entity: input_boolean.wekker_aan_uit
-                tap_action: toggle
-                style:
-                  top: 20%
-                  left: 95%
-              - type: state-icon
-                entity: light.badkamer
-                tap_action: toggle
-                style:
-                  top: 85%
-                  left: 68%
-              - type: state-icon
-                entity: light.hallamp_4
-                tap_action: toggle
-                style:
-                  top: 75%
-                  left: 25%
-              - type: state-icon
-                entity: switch.bewegingsensor_gang
-                tap_action: toggle
-                style:
-                  top: 46%
-                  left: 25%
+      - type: picture-elements
+        # title: Casa di Maxi
+        image: https://raw.githubusercontent.com/makzdot/diagrams/master/Floorplan%20Casa%20di%20Maxi-Floorplan%20slaapkamers.png
+        elements:
+          - type: state-icon
+            entity: light.schemerlamp_noeri
+            tap_action: toggle
+            style:
+              top: 5%
+              left: 6%
+          - type: state-icon
+            entity: light.noeri
+            tap_action: toggle
+            style:
+              top: 23%
+              left: 22%
+          - type: state-icon
+            entity: input_boolean.noeri_slaapt
+            tap_action: toggle
+            style:
+              top: 33%
+              left: 10%
+          - type: state-icon
+            entity: light.schemerlamp_max
+            tap_action: toggle
+            style:
+              top: 13%
+              left: 90%
+          - type: state-icon
+            entity: light.plafoniere_max
+            tap_action: toggle
+            style:
+              top: 33%
+              left: 55%
+          - type: state-icon
+            entity: input_boolean.wekker_aan_uit
+            tap_action: toggle
+            style:
+              top: 20%
+              left: 95%
+          - type: state-icon
+            entity: light.badkamer
+            tap_action: toggle
+            style:
+              top: 85%
+              left: 68%
+          - type: state-icon
+            entity: light.hallamp_4
+            tap_action: toggle
+            style:
+              top: 75%
+              left: 25%
+          - type: state-icon
+            entity: switch.bewegingsensor_gang
+            tap_action: toggle
+            style:
+              top: 46%
+              left: 25%
 
       - type: entities
         title: Woonkamer scenes
