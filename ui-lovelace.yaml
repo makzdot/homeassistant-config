@@ -61,7 +61,7 @@ views:
               top: 15%
               left: 75%
           - type: state-icon
-            entity:  light.lifx_light_03bec2
+            entity: light.eettafel
             tap_action: toggle
             style:
               top: 36%
