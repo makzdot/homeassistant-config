@@ -233,7 +233,7 @@ views:
           - light.woonkamerledstrip3
           - light.woonkamerledstriptv
           - light.woonkamerledstriptvmeubel
-          - light.lifx_light_03bec2
+          - light.eettafel
 
       - type: entities
         title: Schakelaars
