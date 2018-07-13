@@ -8,7 +8,7 @@
     light.woonkamer_groep_1 :
       state: off
 
-    light.lifx_light_03bec2:
+    light.eettafel:
       state: on
       brightness: 20
       color_temp: 368

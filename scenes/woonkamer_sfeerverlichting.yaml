@@ -11,7 +11,7 @@
       color_temp: 450
       transition: 3
 
-    light.lifx_light_03bec2:
+    light.eettafel:
       state: on
       brightness: 70
       color_temp: 368

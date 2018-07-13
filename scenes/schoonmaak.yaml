@@ -24,7 +24,7 @@
       color_temp: 320
       transition: 3
 
-    light.lifx_light_03bec2:
+    light.eettafel:
       state: on
       brightness: 200
       color_temp: 320
