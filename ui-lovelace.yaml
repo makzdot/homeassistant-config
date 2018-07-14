@@ -324,6 +324,15 @@ views:
       - type: weather-forecast
         entity: weather.dark_sky
 
+- type: glance
+  title: Nest Protect Gang
+  entities:
+    - binary_sensor.hallway_nest_protect_online
+    - sensor.hallway_nest_protect_battery_health
+    - sensor.hallway_nest_protect_co_status
+    - sensor.hallway_nest_protect_smoke_status
+    - sensor.hallway_nest_protect_color_status
+
   - icon: mdi:play-circle-outline
     title: Media players
     cards:
