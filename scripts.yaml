@@ -490,7 +490,10 @@
       brightness_pct: 100
       entity_id: light.schemerlamp_max
     service: light.turn_on
-  - delay: '12'
+  - delay: '7200'
+  - data:
+      entity_id: light.schemerlamp_max
+    service: light.turn_off
 flash_leds_on:
   alias: Flash light on
   sequence:
