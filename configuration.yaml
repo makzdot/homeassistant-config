@@ -142,6 +142,8 @@ media_player:
     entity_namespace: 'plex'
     use_episode_art: true
 
+ffmpeg:
+
 camera:
   - platform: ffmpeg
     name: woonkamer-cam
