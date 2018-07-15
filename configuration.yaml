@@ -143,17 +143,9 @@ media_player:
     use_episode_art: true
 
 camera:
-  - platform: foscam
+  - platform: ffmpeg
     name: woonkamer-cam
-    ip: ipcam.makz.lan
-    username: !secret foscam_username
-    password: !secret foscam_password
-  - platform: onvif
-    name: woonkamer-onfiv
-    host: ipcam.makz.lan
-    port: 888
-    username: !secret foscam_username
-    password: !secret foscam_password
+    input: foscam_url
 
 # Klik aan klik Uit hub
 rfxtrx:
