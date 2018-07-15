@@ -13,3 +13,13 @@
     0b11000b011acf1609010f70:
       name: Main Switch
       # fire_event: True
+
+- name: woonkamer-tvmeubel
+  platform: mqtt
+  state_topic: /home/switch/woonkamer-tvmeubel/relay/0
+  command_topic: /home/switch/woonkamer-tvmeubel/relay/0/set
+  payload_on: 1
+  payload_off: 0
+  availability_topic: /home/switch/woonkamer-tvmeubel/status
+  payload_available: 1
+  payload_not_available: 0
