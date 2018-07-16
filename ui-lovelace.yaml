@@ -3,17 +3,6 @@ views:
   - icon: mdi:home-assistant
     title: Woonkamer
     cards:
-      - type: entity-filter
-        entities:
-          - device_tracker.makzdot_max
-          - device_tracker.rikkert_rikki
-          - device_tracker.a010818e6c32
-          - device_tracker.9097f3588eb4
-        state_filter:
-          - 'home'
-        card:
-          type: glance
-          title: Mensen thuis
 
       - type: picture-elements
         image: https://raw.githubusercontent.com/makzdot/diagrams/master/Floorplan%20Casa%20di%20Maxi-Floorplan%20woonkamer.png
@@ -206,6 +195,18 @@ views:
             style:
               top: 46%
               left: 25%
+
+      - type: entity-filter
+        entities:
+          - device_tracker.makzdot_max
+          - device_tracker.rikkert_rikki
+          - device_tracker.a010818e6c32
+          - device_tracker.9097f3588eb4
+        state_filter:
+          - 'home'
+        card:
+          type: glance
+          title: Mensen thuis
 
       - type: entities
         title: Woonkamer scenes
