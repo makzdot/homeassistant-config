@@ -147,7 +147,7 @@ ffmpeg:
 camera:
   - platform: ffmpeg
     name: woonkamer-cam
-    input: foscam_url
+    input: !secret foscam_url
 
 # Klik aan klik Uit hub
 rfxtrx:
