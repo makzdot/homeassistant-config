@@ -97,6 +97,11 @@ sensor:
       - windazimuth
       - windgust
       - precipitation
+  - platform: iperf3
+    host: iperf.he.net
+    monitored_conditions:
+      - download
+      - upload
 
 weather:
   - platform: darksky
