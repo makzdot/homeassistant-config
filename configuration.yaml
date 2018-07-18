@@ -98,7 +98,7 @@ sensor:
       - windgust
       - precipitation
   - platform: iperf3
-    host: iperf.he.net
+    host: mail.makznet.nl
     monitored_conditions:
       - download
       - upload
