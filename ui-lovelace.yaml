@@ -323,6 +323,12 @@ views:
           - binary_sensor.workday_sensor
           - sun.sun
           - sensor.moon
+
+      - type: entities
+        title: Afstand tot huis
+        entities:
+          - proximity.home
+
       - type: weather-forecast
         entity: weather.dark_sky
 
