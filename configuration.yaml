@@ -119,6 +119,12 @@ device_tracker:
     track_new_devices: false
   - platform: bluetooth_tracker
 
+proximity:
+  home:
+    devices:
+      - device_tracker.rikkert_rikki
+      - device_tracker.makzdot_max
+    tolerance: 100
 
 # Text to speech
 tts:
