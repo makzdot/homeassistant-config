@@ -13,7 +13,7 @@ homeassistant:
   # Customization file
   customize: !include customize.yaml
   auth_providers:
-    # - type: homeassistant
+    - type: homeassistant
     - type: legacy_api_password
 
 
