@@ -1,9 +1,9 @@
 title: Makzdots Home
 views:
-  - icon: mdi:home-assistant
-    title: Woonkamer
-    cards:
 
+  - icon: mdi:map-legend
+    title: Plattegronden
+    cards:
       - type: picture-elements
         image: https://raw.githubusercontent.com/makzdot/diagrams/master/Floorplan%20Casa%20di%20Maxi-Floorplan%20woonkamer.png
         elements:
@@ -195,6 +195,10 @@ views:
             style:
               top: 46%
               left: 25%
+
+  - icon: mdi:home-assistant
+    title: Woonkamer
+    cards:
 
       - type: entity-filter
         entities:
