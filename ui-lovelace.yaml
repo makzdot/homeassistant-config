@@ -1,5 +1,80 @@
 title: Makzdots Home
 views:
+  - icon: mdi:home-assistant
+    title: Woonkamer
+    cards:
+
+      - type: entity-filter
+        entities:
+          - device_tracker.makzdot_max
+          - device_tracker.rikkert_rikki
+          - device_tracker.a010818e6c32
+          - device_tracker.9097f3588eb4
+        state_filter:
+          - 'home'
+        card:
+          type: glance
+          title: Mensen thuis
+
+      - type: entities
+        title: Woonkamer scenes
+        entities:
+          - scene.woonkamer_sfeerverlichting
+          - scene.woonkamer_bioscoop
+          - scene.afwezig
+          - scene.alle_lichten_uit
+          - scene.schoonmaak
+
+      - type: entities
+        title: Woonkamer verlichting
+        entities:
+          - light.woonkamerschemerlamplinks
+          - light.woonkamerschemerlamprechts
+          - light.woonkamerspots
+          - light.woonkamer_groep_1
+          - light.woonkamer_1
+          - light.keukenverlichting_groep_1
+          - light.keukenverlichting_groep_2
+
+      - type: entities
+        title: RGB Led verlichting
+        entities:
+          - light.woonkamerledstrip3
+          - light.woonkamerledstriptv
+          - light.woonkamerledstriptvmeubel
+          - light.eettafel
+
+      - type: entities
+        title: Schakelaars
+        entities:
+          - switch.woonkamertvmeubel
+          - switch.main_switch
+          - switch.zonnescherm
+
+      - type: entities
+        entities:
+          - climate.living_room_thermostaat
+
+      - type: entity-filter
+        entities:
+          - binary_sensor.living_room_thermostat_thermostaat_fan
+          - binary_sensor.living_room_thermostat_thermostaat_has_leaf
+          - binary_sensor.living_room_thermostat_thermostaat_is_locked
+          - binary_sensor.living_room_thermostat_thermostaat_is_using_emergency_heat
+          - binary_sensor.living_room_thermostat_thermostaat_online
+        state_filter:
+          - 'on'
+        card:
+          title: Thermostaat status
+
+      - type: picture-entity
+        entity: camera.woonkamercam
+
+      - type: media-control
+        entity: media_player.woonkamer_appletv
+
+      - type: media-control
+        entity: media_player.woonkamer_tv
 
   - icon: mdi:map
     title: Plattegronden
@@ -195,82 +270,6 @@ views:
             style:
               top: 46%
               left: 25%
-
-  - icon: mdi:home-assistant
-    title: Woonkamer
-    cards:
-
-      - type: entity-filter
-        entities:
-          - device_tracker.makzdot_max
-          - device_tracker.rikkert_rikki
-          - device_tracker.a010818e6c32
-          - device_tracker.9097f3588eb4
-        state_filter:
-          - 'home'
-        card:
-          type: glance
-          title: Mensen thuis
-
-      - type: entities
-        title: Woonkamer scenes
-        entities:
-          - scene.woonkamer_sfeerverlichting
-          - scene.woonkamer_bioscoop
-          - scene.afwezig
-          - scene.alle_lichten_uit
-          - scene.schoonmaak
-
-      - type: entities
-        title: Woonkamer verlichting
-        entities:
-          - light.woonkamerschemerlamplinks
-          - light.woonkamerschemerlamprechts
-          - light.woonkamerspots
-          - light.woonkamer_groep_1
-          - light.woonkamer_1
-          - light.keukenverlichting_groep_1
-          - light.keukenverlichting_groep_2
-
-      - type: entities
-        title: RGB Led verlichting
-        entities:
-          - light.woonkamerledstrip3
-          - light.woonkamerledstriptv
-          - light.woonkamerledstriptvmeubel
-          - light.eettafel
-
-      - type: entities
-        title: Schakelaars
-        entities:
-          - switch.woonkamertvmeubel
-          - switch.main_switch
-          - switch.zonnescherm
-
-      - type: entities
-        entities:
-          - climate.living_room_thermostaat
-
-      - type: entity-filter
-        entities:
-          - binary_sensor.living_room_thermostat_thermostaat_fan
-          - binary_sensor.living_room_thermostat_thermostaat_has_leaf
-          - binary_sensor.living_room_thermostat_thermostaat_is_locked
-          - binary_sensor.living_room_thermostat_thermostaat_is_using_emergency_heat
-          - binary_sensor.living_room_thermostat_thermostaat_online
-        state_filter:
-          - 'on'
-        card:
-          title: Thermostaat status
-
-      - type: picture-entity
-        entity: camera.woonkamercam
-
-      - type: media-control
-        entity: media_player.woonkamer_appletv
-
-      - type: media-control
-        entity: media_player.woonkamer_tv
 
   - icon: mdi:hotel
     title: Slaapkamers
