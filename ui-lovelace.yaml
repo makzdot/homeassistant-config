@@ -1,7 +1,7 @@
 title: Makzdots Home
 views:
 
-  - icon: mdi:map-legend
+  - icon: mdi:map
     title: Plattegronden
     cards:
       - type: picture-elements
