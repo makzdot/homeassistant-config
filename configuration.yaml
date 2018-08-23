@@ -123,6 +123,8 @@ device_tracker:
 
 proximity:
   home:
+    ignored_zones:
+      - mam
     devices:
       - device_tracker.rikkert_rikki
       - device_tracker.makzdot_max
