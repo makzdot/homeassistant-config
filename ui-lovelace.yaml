@@ -71,7 +71,7 @@ views:
         entity: camera.woonkamercam
 
       - type: media-control
-        entity: media_player.woonkamer_appletv
+        entity: media_player.woonkamer
 
       - type: media-control
         entity: media_player.woonkamer_tv
@@ -154,7 +154,7 @@ views:
               top: 87%
               left: 96%
           - type: state-icon
-            entity: media_player.woonkamer_appletv
+            entity: media_player.woonkamer
             style:
               top: 64%
               left: 95%
@@ -357,7 +357,7 @@ views:
           - sensor.plex
 
       - type: media-control
-        entity: media_player.woonkamer_appletv
+        entity: media_player.woonkamer
 
       - type: media-control
         entity: media_player.woonkamer_tv
