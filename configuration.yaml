@@ -138,12 +138,12 @@ tts:
     language: 'nl'
 
 # Apple TV config
-apple_tv:
-  - host: !secret apple_tv_host
-    login_id: !secret apple_tv_login_id
-    name: AppleTV Woonkamer
-    start_off: 1
-    credentials: apple_tv_credentials
+# apple_tv:
+#  - host: !secret apple_tv_host
+#    login_id: !secret apple_tv_login_id
+#    name: AppleTV Woonkamer
+#    start_off: 1
+#    credentials: apple_tv_credentials
 
 media_player:
   - platform: samsungtv
