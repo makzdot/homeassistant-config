@@ -1,0 +1,10 @@
+- alias: "Create weekly Hassio snapshot"
+  trigger:
+    platform: time
+    at: '01:00:00'
+  condition:
+  - condition: time
+    weekday:
+      - fri
+  action:
+    - service: hassio.snapshot_full
