@@ -320,6 +320,12 @@ views:
     cards:
 
       - type: entities
+        title: Personen
+        entities:
+          - group.personen
+          - group.schoonmaak
+
+      - type: entities
         title: Datum en Tijd
         entities:
           - sensor.time
