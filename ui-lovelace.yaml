@@ -361,7 +361,7 @@ views:
 
       - type: media-control
         entity: media_player.woonkamer_tv
-        
+
       - type: media-control
         entity: media_player.plex_woonkamer
 
