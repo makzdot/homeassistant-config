@@ -341,7 +341,7 @@ views:
       - type: weather-forecast
         entity: weather.dark_sky
 
-      - type: entities:
+      - type:
         title: Buienradar Sensors
         entities:
           - sensor.br_symbol
