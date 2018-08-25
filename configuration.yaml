@@ -130,6 +130,7 @@ proximity:
       - device_tracker.rikkert_rikki
       - device_tracker.makzdot_max
     tolerance: 100
+    unit_of_measurement: m
 
 # Text to speech
 tts:
