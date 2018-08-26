@@ -1,0 +1,7 @@
+nest_protect_color_green:
+  name: Nest protect status changed to green
+  entity_id: sensor.hallway_nest_protect_color_status
+  state: 'green'
+  can_acknowledge: true
+  notifiers:
+    - ios_maxiphonesix
