@@ -1,8 +1,8 @@
-smoke_detectors_warning:
-  name: 'Warning: Smoke is detected'
-  done_message: 'Smoke alarm cleared'
-  entity_id: sensor.hallway_nest_protect_smoke_status
-  state: 'Warning'
+Noeri test:
+  name: 'Noeri is thuis'
+  done_message: 'Noer is weg'
+  entity_id: input_boolean.noeri_slaapt
+  state: 'On'
   repeat: 5
   notifiers:
     - notify.ios_maxiphonesix
