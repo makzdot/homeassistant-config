@@ -79,7 +79,7 @@ logbook:
 # Enables a map showing the location of tracked devices
 map:
 
-alert: !include automations.yaml
+alert: !include alerts.yaml
 
 # Track the sun
 sun:
