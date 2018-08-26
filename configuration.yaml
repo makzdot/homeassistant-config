@@ -113,10 +113,6 @@ weather:
   - platform: darksky
     api_key: 01bd73236d2f8e8b45bb6e3f1f1fb291
 
-binary_sensor:
-  - platform: workday
-    country: NL
-
 device_tracker:
   - platform: owntracks
     max_gps_accuracy: 200
@@ -202,4 +198,5 @@ input_boolean: !include input_boolean.yaml
 input_datetime: !include input_datetime.yaml
 scene: !include_dir_list scenes
 alert: !include_dir_merge_named alerts/
+binary_sensor: !include binary_sensors.yaml
 

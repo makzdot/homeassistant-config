@@ -1,5 +1,5 @@
-nest_protect_color_grey:
-  name: Nest protect status changed to gray
+tradfri_keuken:
+  name: Battery kitchen remote needs replacement
   entity_id: sensor.hallway_nest_protect_color_status
   state: 'gray'
   can_acknowledge: true
