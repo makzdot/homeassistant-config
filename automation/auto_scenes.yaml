@@ -93,6 +93,10 @@
         data:
           push:
             sound: "US-EN-Morgan-Freeman-Turning-Off-The-Lights.wav"
+    - service: climate.set_away_mode
+      data:
+        entity_id: climate.living_room_thermostaat
+        away_mode: true
 
 - alias: 'Thermostaat uit Away mode bij thuiskomst'
   trigger:

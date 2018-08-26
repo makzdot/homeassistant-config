@@ -7,7 +7,7 @@
 
     light.woonkamer_groep_1 :
       state: on
-      brightness: 3
+      brightness: 110
       color_temp: 450
       transition: 3
 

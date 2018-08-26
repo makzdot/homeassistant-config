@@ -4,6 +4,15 @@
       entity_id: switch.bewegingsensor_gang
       from: 'off'
       to: 'on'
+  condition:
+    condition: and
+    conditions:
+    - condition: state
+      entity_id: group.personen
+      state: 'not_home'
+    - condition: state
+      entity_id: group.schoonmaak
+      state: 'not_home'
   action:
     - service: light.turn_on
       entity_id:
@@ -24,7 +33,6 @@
         - condition: state
           entity_id: sun.sun
           state: 'above_horizon'
-
     - service: light.turn_on
       entity_id:
         - light.hallamp_1

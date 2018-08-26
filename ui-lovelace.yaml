@@ -385,6 +385,7 @@ views:
           - alert.nest_protect_color_grey
           - alert.nest_protect_color_red
           - alert.nest_protect_color_yellow
+          - alert.nest_thermostat_online
 
   - icon: mdi:play-circle-outline
     title: Media players
