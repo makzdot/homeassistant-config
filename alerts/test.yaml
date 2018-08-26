@@ -1,4 +1,4 @@
-Noeri test:
+Noeritest:
   name: 'Noeri is thuis'
   done_message: 'Noer is weg'
   entity_id: input_boolean.noeri_slaapt
