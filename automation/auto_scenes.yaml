@@ -87,6 +87,12 @@
       data:
         entity_id: climate.living_room_thermostaat
         away_mode: true
+    - service: notify.ios_maxiphonesix
+      data:
+        message: “Dagmar en Ingeborg zijn vertrokken”
+        data:
+          push:
+            sound: "US-EN-Morgan-Freeman-Turning-Off-The-Lights.wav"
 
 - alias: 'Thermostaat uit Away mode bij thuiskomst'
   trigger:
