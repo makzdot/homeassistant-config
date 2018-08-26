@@ -1,5 +1,5 @@
 high_humidity:
-  name: Humidity is High
+  name: Noeri slaapt
   entity_id: input_boolean.noeri_slaapt
   repeat:
     - 30
@@ -7,4 +7,4 @@ high_humidity:
     - 120
   can_acknowledge: true
   notifiers:
-    - steff_phone
+    - maxiphonesix
