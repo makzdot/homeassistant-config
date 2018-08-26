@@ -2,10 +2,10 @@ nest_protect_color_yellow:
   name: Nest protect status changed to yellow
   entity_id: sensor.hallway_nest_protect_color_status
   state: 'yellow'
+  can_acknowledge: true
   repeat:
     - 5
     - 30
     - 60
-  can_acknowledge: true
   notifiers:
     - ios_maxiphonesix
