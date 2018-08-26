@@ -3,5 +3,9 @@ nest_protect_color_red:
   entity_id: sensor.hallway_nest_protect_color_status
   state: 'red'
   can_acknowledge: true
+  repeat:
+    - 5
+    - 30
+    - 60
   notifiers:
     - ios_maxiphonesix
