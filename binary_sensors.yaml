@@ -8,6 +8,6 @@
     hal_battery_low:
       value_template: '{{ states.sensor.afstandsbediening_hal.attributes.battery_level < 15 }}'
     noeri_battery_low:
-      value_template: '{{ states.sensor.afstandsbediening_noeri.attributes.battery_level > 15 }}'
+      value_template: '{{ states.sensor.afstandsbediening_noeri.attributes.battery_level < 15 }}'
     woonkamer_battery_low:
       value_template: '{{ states.sensor.afstandsbediening_woonkamer.attributes.battery_level < 15 }}'
