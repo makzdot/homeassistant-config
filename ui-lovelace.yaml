@@ -375,6 +375,17 @@ views:
           - zone.home
           - zone.surfnet
 
+      - type: entities
+        title: Alerts state-icon
+        entities:
+          - alert.battery_tradfri_hal
+          - alert.battery_tradfri_keuken
+          - alert.battery_tradfri_livingroom
+          - alert.battery_tradfri_noeri
+          - alert.nest_protect_color_grey
+          - alert.nest_protect_color_red
+          - alert.nest_protect_color_yellow
+
   - icon: mdi:play-circle-outline
     title: Media players
     cards:

@@ -64,6 +64,7 @@ Personen:
     - device_tracker.rikkert_rikki
 
 Schoonmaak:
+  icon: mdi:account-multiple
   entities:
     - device_tracker.1c232c46cb0d
     - device_tracker.9097f3588eb4
