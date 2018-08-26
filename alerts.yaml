@@ -1,0 +1,8 @@
+smoke_detectors_warning:
+  name: 'Warning: Smoke is detected'
+  done_message: 'Smoke alarm cleared'
+  entity_id: sensor.hallway_nest_protect_smoke_status
+  state: 'Warning'
+  repeat: 5
+  notifiers:
+    - notify.ios_maxiphonesix
