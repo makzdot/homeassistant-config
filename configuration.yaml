@@ -80,7 +80,9 @@ logbook:
 map:
 
 notify:
-  - platform: ios
+  - name: pushbullet
+    platform: pushbullet
+    api_key: !secret pushbullet_api_key
 
 # Track the sun
 sun:
