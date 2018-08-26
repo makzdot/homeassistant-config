@@ -27,3 +27,12 @@ nest_protect_color_yellow:
     - 30
   notifiers:
     - ios_maxiphonesix
+
+nest_thermostat_online:
+  name: Nest thermostat is offline
+  entity_id: binary_sensor.living_room_thermostat_thermostaat_online
+  state: 'off'
+  can_acknowledge: true
+  repeat: 60
+  notifiers:
+    - ios_maxiphonesix
