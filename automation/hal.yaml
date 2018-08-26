@@ -19,7 +19,7 @@
     - condition: or
       conditions:
         - condition: state
-          entity_id: light.h801_995008
+          entity_id: light.woonkamerledstriptvmeubel
           state: 'on'
         - condition: state
           entity_id: sun.sun
