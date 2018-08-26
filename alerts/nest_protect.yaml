@@ -1,0 +1,29 @@
+nest_protect_color_grey:
+  name: Nest protect status changed to gray
+  entity_id: sensor.hallway_nest_protect_color_status
+  state: 'gray'
+  can_acknowledge: true
+  repeat: 60
+  notifiers:
+    - ios_maxiphonesix
+
+nest_protect_color_red:
+  name: Nest protect status changed to red
+  entity_id: sensor.hallway_nest_protect_color_status
+  state: 'red'
+  can_acknowledge: true
+  repeat: 5
+  notifiers:
+    - ios_maxiphonesix
+
+nest_protect_color_yellow:
+  name: Nest protect status changed to yellow
+  entity_id: sensor.hallway_nest_protect_color_status
+  state: 'yellow'
+  can_acknowledge: true
+  repeat:
+    - 5
+    - 15
+    - 30
+  notifiers:
+    - ios_maxiphonesix
