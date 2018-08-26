@@ -79,7 +79,8 @@ logbook:
 # Enables a map showing the location of tracked devices
 map:
 
-alert: !include alerts.yaml
+notify:
+  - platform: ios
 
 # Track the sun
 sun:
@@ -198,4 +199,5 @@ switch: !include switches.yaml
 input_boolean: !include input_boolean.yaml
 input_datetime: !include input_datetime.yaml
 scene: !include_dir_list scenes
+alert: !include_dir_merge_named alerts/
 
