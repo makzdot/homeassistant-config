@@ -45,6 +45,12 @@
   action:
     - service: scene.turn_on
       entity_id: scene.schoonmaak
+    - service: notify.ios_maxiphonesix
+      data:
+        message: “Dagmar en Ingeborg arriveren”
+        data:
+          push:
+            sound: "US-EN-Morgan-Freeman-Friend-Is-Arriving.wav"
 
 - alias: 'Bewoners verlaten huis'
   trigger:
