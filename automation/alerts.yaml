@@ -1,0 +1,22 @@
+- alias: 'Motion detected'
+  trigger:
+    platform: state
+    entity_id: switch.bewegingsensor_gang
+    from: 'off'
+    to: 'on'
+  condition:
+    condition: and
+    conditions:
+    - condition: state
+      entity_id: group.personen
+      state: 'not_home'
+    - condition: state
+      entity_id: group.schoonmaak
+      state: 'not_home'
+  action:
+    service: notify.ios_maxiphonesix
+    data:
+      message: “Motion has been detected!”
+      data:
+        push:
+          sound: "US-EN-Alexa-Motion-Detected-Generic.wav"
