@@ -1,7 +1,7 @@
 - platform: workday
   country: NL
 
-- template:
+- platform: template
   sensors:
     kitchen_battery_low:
       value_template: '{{ states.sensor.afstandsbediening_keukenlicht.attributes.battery_level < 15 }}'
