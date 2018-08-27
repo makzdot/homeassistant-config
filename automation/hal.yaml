@@ -5,14 +5,14 @@
       from: 'off'
       to: 'on'
   condition:
-    condition: and
+    condition: or
     conditions:
     - condition: state
       entity_id: group.personen
-      state: 'not_home'
+      state: 'home'
     - condition: state
       entity_id: group.schoonmaak
-      state: 'not_home'
+      state: 'home'
   action:
     - service: light.turn_on
       entity_id:
