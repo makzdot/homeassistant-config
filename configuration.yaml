@@ -163,9 +163,9 @@ media_player:
 ffmpeg:
 
 camera:
-  - platform: ffmpeg
-    name: woonkamer-cam2
-    input: !secret foscam_url
+  #- platform: ffmpeg
+  #  name: woonkamer-cam2
+  #  input: !secret foscam_url
   - platform: foscam
     name: woonkamer-cam
     ip: ipcam.makz.lan
