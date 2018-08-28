@@ -164,10 +164,10 @@ ffmpeg:
 
 camera:
   - platform: ffmpeg
-    name: woonkamer-cam
+    name: woonkamer-cam2
     input: !secret foscam_url
   - platform: foscam
-    name: woonkamer-cam2
+    name: woonkamer-cam
     ip: ipcam.makz.lan
     username: !secret foscam_username
     password: !secret foscam_password
