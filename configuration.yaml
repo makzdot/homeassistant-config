@@ -166,6 +166,12 @@ camera:
   - platform: ffmpeg
     name: woonkamer-cam
     input: !secret foscam_url
+  - platform: foscam
+    name: woonkamer-cam2
+    ip: ipcam.makz.lan
+    username: !secret foscam_username
+    password: !secret foscam_password
+
 
 # Klik aan klik Uit hub
 rfxtrx:

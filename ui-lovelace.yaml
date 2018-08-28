@@ -69,6 +69,8 @@ views:
 
       - type: picture-entity
         entity: camera.woonkamercam
+      - type: picture-entity
+        entity: camera.woonkamercam2
 
       - type: media-control
         entity: media_player.woonkamer
