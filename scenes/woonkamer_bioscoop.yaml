@@ -44,7 +44,7 @@
     light.keukenverlichting_groep_2:
       state: on
       brightness: 1
-      color_temp: 453
+      color_temp: 454
       transition: 3
 
 
