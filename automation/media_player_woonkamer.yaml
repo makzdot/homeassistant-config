@@ -33,7 +33,6 @@
   trigger:
     - platform: state
       entity_id: media_player.woonkamer
-      from: 'paused'
       to: 'playing'
   condition:
     condition: and

@@ -54,14 +54,14 @@ views:
       - type: entities
         entities:
           - climate.living_room_thermostaat
+          - binary_sensor.living_room_thermostat_thermostaat_online
+          - binary_sensor.living_room_thermostat_thermostaat_has_leaf
 
       - type: entity-filter
         entities:
           - binary_sensor.living_room_thermostat_thermostaat_fan
-          - binary_sensor.living_room_thermostat_thermostaat_has_leaf
           - binary_sensor.living_room_thermostat_thermostaat_is_locked
           - binary_sensor.living_room_thermostat_thermostaat_is_using_emergency_heat
-          - binary_sensor.living_room_thermostat_thermostaat_online
         state_filter:
           - 'on'
         card:
