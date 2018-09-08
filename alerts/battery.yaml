@@ -2,7 +2,7 @@ battery_tradfri_keuken:
   name: Battery kitchen remote needs replacement
   entity_id: binary_sensor.kitchen_battery_low
   can_acknowledge: true
-  repeat: 60
+  repeat: 1440
   notifiers:
     - ios_maxiphonesix
 
@@ -10,7 +10,7 @@ battery_tradfri_hal:
   name: Battery hallway remote needs replacement
   entity_id: binary_sensor.hal_battery_low
   can_acknowledge: true
-  repeat: 60
+  repeat: 1440
   notifiers:
     - ios_maxiphonesix
 
@@ -18,7 +18,7 @@ battery_tradfri_noeri:
   name: Battery kamer Noeri remote needs replacement
   entity_id: binary_sensor.noeri_battery_low
   can_acknowledge: true
-  repeat: 60
+  repeat: 1440
   notifiers:
     - ios_maxiphonesix
 
@@ -26,6 +26,6 @@ battery_tradfri_livingroom:
   name: Battery Livingroom remote needs replacement
   entity_id: binary_sensor.woonkamer_battery_low
   can_acknowledge: true
-  repeat: 60
+  repeat: 1440
   notifiers:
     - ios_maxiphonesix
