@@ -57,6 +57,7 @@ views:
           - binary_sensor.living_room_thermostat_thermostaat_online
           - binary_sensor.living_room_thermostat_thermostaat_has_leaf
 
+
       - type: picture-entity
         entity: camera.woonkamercam
 
