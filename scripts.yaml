@@ -3,496 +3,496 @@
   sequence:
   - data:
       brightness_pct: 1
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 2
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 3
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 4
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 5
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 6
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 7
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 8
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 9
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 10
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 11
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 12
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 13
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 15
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 16
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 17
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 18
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 19
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 20
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 21
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 22
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 23
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 24
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 25
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 26
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 27
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 28
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 29
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 30
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 31
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 32
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 33
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 34
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 35
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 36
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 37
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 38
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 39
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 40
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 41
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 42
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 43
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 44
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 45
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 46
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 47
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 48
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 49
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 50
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 52
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 53
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 54
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 55
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 56
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 57
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 58
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 59
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 60
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 61
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 62
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 63
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 64
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 65
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 66
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 67
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 68
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 69
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 70
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 71
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 72
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 73
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 74
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 75
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 76
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 77
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 78
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 79
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 80
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 81
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 82
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 83
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 84
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 85
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 86
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 87
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 88
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 89
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 90
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 91
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 92
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 93
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 94
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 95
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 96
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 97
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 98
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 99
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '12'
   - data:
       brightness_pct: 100
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_on
   - delay: '7200'
   - data:
-      entity_id: light.schemerlamp_max
+      entity_id: light.schemerlampen_slaapkamers
     service: light.turn_off
 flash_leds_on:
   alias: Flash light on
