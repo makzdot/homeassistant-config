@@ -34,6 +34,12 @@
     - light.keukenlamp_5
 
 - platform: group
+  name: Schemerlampen slaapkamers
+  entities:
+    - light.schemerlamp_noeri
+    - light.schemerlamp_max
+
+- platform: group
   name: Woonkamer groep 1
   entities:
     - light.woonkamer_2
