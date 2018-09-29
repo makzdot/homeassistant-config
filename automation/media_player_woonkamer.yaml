@@ -11,7 +11,7 @@
         after_offset: '-1:20:00'
       - condition: sun
         before: 'sunrise'
-        before_offset: "1:20:00"
+        before_offset: "-1:20:00"
   action:
     - delay: '0:00:07'
     - condition: or
@@ -43,7 +43,7 @@
       conditions:
       - condition: sun
         before: 'sunrise'
-        before_offset: "1:20:00"
+        before_offset: "-1:20:00"
       - condition: sun
         after: 'sunset'
         after_offset: "-1:20:00"
@@ -67,7 +67,7 @@
       conditions:
       - condition: sun
         before: 'sunrise'
-        before_offset: "1:20:00"
+        before_offset: "-1:20:00"
       - condition: sun
         after: 'sunset'
         after_offset: "-1:20:00"

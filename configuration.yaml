@@ -140,9 +140,6 @@ tts:
   - platform: google
     language: 'nl'
 
-tradfri:
-  host: GW-B072BFB316D9.makz.lan
-
 # Apple TV config
 apple_tv:
   - host: !secret apple_tv_host
