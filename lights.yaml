@@ -1,5 +1,5 @@
 - platform: lifx
-  broadcast: 172.19.12.63
+  broadcast: 192.168.178.255
 
 #klik aan klik uit verlichting
 - platform: rfxtrx
