@@ -29,6 +29,7 @@ logger:
 config:
 
 http:
+  server_host: ::0
   api_password: !secret http_api_password
   # base_url: home.makznet.nl
   use_x_forwarded_for: True
