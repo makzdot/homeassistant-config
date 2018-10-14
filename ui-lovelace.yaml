@@ -396,3 +396,11 @@ views:
       - type: media-control
         entity: media_player.plex_woonkamer
 
+  - icon: mdi:chart-line
+    title: Network
+    cards:
+      - type: sensor
+        entity: sensor.arris_tg2492lg85_router_kbytesec_received
+      - type: sensor
+        entity: sensor.arris_tg2492lg85_router_kbytesec_sent     
+
