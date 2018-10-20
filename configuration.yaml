@@ -79,10 +79,10 @@ logbook:
 # Enables a map showing the location of tracked devices
 map:
 
-notify:
-  - name: pushbullet
-    platform: pushbullet
-    api_key: !secret pushbullet_api_key
+#notify:
+#  - name: pushbullet
+#    platform: pushbullet
+#    api_key: !secret pushbullet_api_key
 
 # Track the sun
 sun:
