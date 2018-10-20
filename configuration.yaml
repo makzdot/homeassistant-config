@@ -151,7 +151,7 @@ apple_tv:
 
 media_player:
   - platform: samsungtv
-    host: 192.168.178.24
+    host: 192.168.1.179
     name: Woonkamer TV
     mac: d0:66:7b:8d:7c:85
 #  - platform: emby
