@@ -31,13 +31,12 @@ config:
 http:
   server_host: ::0
   api_password: !secret http_api_password
-  # base_url: home.makznet.nl
-  use_x_forwarded_for: True
-  trusted_proxies: !secret trusted_proxies
+  base_url: home.makznet.nl
+  use_x_forwarded_for: true
+  trusted_proxies:
+    - 2001:610:0:800f::/64
   login_attempts_threshold: 3
   ip_ban_enabled: True
-  cors_allowed_origins:
-    - http://hassio.makz.lan:7080
 
 influxdb:
   host: !secret influxdb_host
