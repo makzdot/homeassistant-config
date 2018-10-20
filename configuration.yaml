@@ -95,6 +95,7 @@ sensor:
     host: !secret plex_host
     token: !secret plex_token
     server: MaxFlix
+    include_non_clients: true
   - platform: buienradar
     latitude: !secret latitude
     longitude: !secret longitude
