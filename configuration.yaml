@@ -33,7 +33,7 @@ http:
   api_password: !secret http_api_password
   # base_url: home.makznet.nl
   use_x_forwarded_for: True
-  trusted_proxies: 2001:610::800f:f816:3eff:fe43:9518
+  trusted_proxies: !secret trusted_proxies
   login_attempts_threshold: 3
   ip_ban_enabled: True
   cors_allowed_origins:
