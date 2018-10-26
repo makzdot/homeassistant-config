@@ -175,7 +175,7 @@ camera:
   #  input: !secret foscam_url
   - platform: foscam
     name: woonkamer-cam
-    ip: ipcam.makz.lan
+    ip: woonkamer-ipcam.makz.lan
     username: !secret foscam_username
     password: !secret foscam_password
 
