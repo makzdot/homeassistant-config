@@ -53,8 +53,8 @@ views:
           - switch.zonnescherm
 
       - type: thermostat
-        entity: climate.nest
-
+        entity: climate.living_room_thermostaat
+    
       - type: picture-entity
         entity: camera.woonkamercam
 
