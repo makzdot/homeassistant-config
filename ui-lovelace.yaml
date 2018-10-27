@@ -52,12 +52,8 @@ views:
           - switch.main_switch
           - switch.zonnescherm
 
-      - type: entities
-        entities:
-          - climate.living_room_thermostaat
-          - binary_sensor.living_room_thermostat_thermostaat_online
-          - binary_sensor.living_room_thermostat_thermostaat_has_leaf
-
+      - type: thermostat
+        entity: climate.nest
 
       - type: picture-entity
         entity: camera.woonkamercam
