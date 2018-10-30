@@ -157,12 +157,8 @@ apple_tv:
 
 media_player:
   - platform: samsungtv
-    host: 192.168.1.10
+    host: woonkamer-tv.makz.lan
     name: Woonkamer TV
-    mac: d0:66:7b:8d:7c:85
-#  - platform: emby
-#    host: !secret emby_host
-#    api_key: !secret emby_api_key
   - platform: plex
     entity_namespace: 'plex'
     use_episode_art: true
