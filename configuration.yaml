@@ -157,7 +157,7 @@ apple_tv:
 
 media_player:
   - platform: samsungtv
-    host: woonkamer-tv.makz.lan
+    host: 192.168.1.10
     name: Woonkamer TV
   - platform: plex
     entity_namespace: 'plex'
