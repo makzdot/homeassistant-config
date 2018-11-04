@@ -12,3 +12,21 @@
   action:
     service: script.turn_on
     entity_id:  script.1507321590747
+
+- alias: Tijd om op te staan in het weekend.
+  trigger:
+    platform: time
+    at: '07:30:00'
+  condition:
+    - condition: state
+      entity_id: 'binary_sensor.workday_sensor'
+      state: 'off'
+    - condition: state
+      entity_id: 'input_boolean.wekker_aan_uit'
+      state: 'on'
+  action:
+    service: light.turn_on
+    entity_id:
+      - light.schemerlamp_noeri
+      - light.schemerlamp_max
+    brightness_pct: 1
