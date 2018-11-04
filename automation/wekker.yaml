@@ -30,4 +30,4 @@
       - light.schemerlamp_noeri
       - light.schemerlamp_max
     data:
-      brightness_pct: 5
+      brightness: 5
