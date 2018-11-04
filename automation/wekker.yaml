@@ -30,4 +30,4 @@
       entity_id:
         - light.schemerlamp_noeri
         - light.schemerlamp_max
-      brightness_pct: 1
+      brightness_pct: 3
