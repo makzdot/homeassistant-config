@@ -13,7 +13,7 @@
     service: script.turn_on
     entity_id:  script.1507321590747
 
-- alias: Tijd om op te staan in het weekend
+- alias: Weekend wakeup
   trigger:
     platform: time
     at: '07:30:00'
