@@ -70,7 +70,7 @@ conversation:
 history:
 
 recorder:
-  db_url: !secret mariadburl
+  #db_url: !secret mariadburl
   purge_keep_days: 365
 
 # View all events in a logbook
@@ -180,10 +180,6 @@ camera:
 rfxtrx:
   device: /dev/ttyUSB0
   debug: False
-
-#nest:
-#  client_id: !secret nest_client_id
-#  client_secret: !secret nest_client_secret
 
 # MQTT server config
 mqtt:
