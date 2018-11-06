@@ -155,6 +155,10 @@ apple_tv:
     start_off: 1
     credentials: apple_tv_credentials
 
+nest:
+  client_id: !secret nest_client_id
+  client_secret: !secret nest_client_secret
+
 media_player:
   - platform: samsungtv
     host: 192.168.1.10
