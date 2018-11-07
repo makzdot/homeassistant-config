@@ -124,12 +124,12 @@ device_tracker:
   - platform: owntracks
     max_gps_accuracy: 200
     waypoints: True
-    track_new_devices: false
+    #track_new_devices: false
   - platform: snmp
     host: !secret snmp_host
     community: !secret snmp_community
     baseoid: .1.3.6.1.2.1.4.22.1.2.3
-    track_new_devices: false
+    #track_new_devices: false
   - platform: bluetooth_tracker
 
 proximity:
