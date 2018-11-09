@@ -59,9 +59,14 @@
     from: 'home'
     to: 'not_home'
   condition:
-    condition: state
-    entity_id: group.schoonmaak
-    state: 'not_home'
+    condition: or
+      conditions:
+        - condition: state
+          entity_id: group.schoonmaak
+          state: 'not_home'
+        - condition: state
+          entity_id: group.schoonmaak
+          state: 'unknown'        
   action:
     - service: scene.turn_on
       entity_id: scene.afwezig
