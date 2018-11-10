@@ -33,15 +33,15 @@
   condition:
     condition: and
     conditions:
-    - condition: time
-      after: "09:00:00"
-      before: "17:30:00"
-    - condition: state
-      entity_id: group.personen
-      state: 'not_home'
-    - condition: state
-      entity_id: 'binary_sensor.workday_sensor'
-      state: 'on'
+      - condition: time
+        after: "09:00:00"
+        before: "17:30:00"
+      - condition: state
+        entity_id: group.personen
+        state: 'not_home'
+      - condition: state
+        entity_id: 'binary_sensor.workday_sensor'
+        state: 'on'
   action:
     - service: scene.turn_on
       entity_id: scene.schoonmaak
