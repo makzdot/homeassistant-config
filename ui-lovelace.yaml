@@ -5,7 +5,7 @@ views:
     cards:
 
       - type: entity-filter
-	id: 001
+        id: 001
         entities:
           - device_tracker.makzdot_max
           - device_tracker.rikkert_rikki
