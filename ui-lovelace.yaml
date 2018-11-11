@@ -1,12 +1,10 @@
 title: Makzdots Home
 views:
   - icon: mdi:home-assistant
-    id: 000
     title: Woonkamer
     cards:
 
       - type: entity-filter
-        id: 001
         entities:
           - device_tracker.makzdot_max
           - device_tracker.rikkert_rikki
@@ -20,7 +18,6 @@ views:
           title: Mensen thuis
 
       - type: entities
-        id: 002
         title: Woonkamer scenes
         entities:
           - scene.woonkamer_sfeerverlichting
@@ -30,7 +27,6 @@ views:
           - scene.schoonmaak
 
       - type: entities
-        id: 003
         title: Woonkamer verlichting
         entities:
           - light.woonkamerschemerlamplinks
@@ -42,7 +38,6 @@ views:
           - light.keukenverlichting_groep_2
 
       - type: entities
-        id: 004
         title: RGB Led verlichting
         entities:
           - light.woonkamerledstrip3
@@ -51,7 +46,6 @@ views:
           - light.eettafel
 
       - type: entities
-        id: 005
         title: Schakelaars
         entities:
           - switch.woonkamertvmeubel
@@ -59,27 +53,21 @@ views:
           - switch.zonnescherm
 
       - type: thermostat
-        id: 006
         entity: climate.living_room_thermostaat
     
       - type: picture-entity
-        id: 007
         entity: camera.woonkamercam
 
       - type: media-control
-        id: 008
         entity: media_player.woonkamer
 
       - type: media-control
-        id: 009
         entity: media_player.woonkamer_tv
 
   - icon: mdi:map
-    id: 010
     title: Plattegronden
     cards:
       - type: picture-elements
-        id: 011
         image: https://raw.githubusercontent.com/makzdot/diagrams/master/Floorplan%20Casa%20di%20Maxi-Floorplan%20woonkamer.png
         elements:
           - type: state-icon
@@ -214,7 +202,6 @@ views:
               left: 66%
 
       - type: picture-elements
-        id: 012
         image: https://raw.githubusercontent.com/makzdot/diagrams/master/Floorplan%20Casa%20di%20Maxi-Floorplan%20slaapkamers.png
         elements:
           - type: state-icon
@@ -273,11 +260,9 @@ views:
               left: 25%
 
   - icon: mdi:hotel
-    id: 013
     title: Slaapkamers
     cards:
       - type: entities
-        id: 014
         title: Wekker
         entities:
           - input_boolean.wekker_aan_uit
@@ -285,21 +270,18 @@ views:
           - binary_sensor.workday_sensor
 
       - type: entities
-        id: 015
         title: Slaapkamer Max
         entities:
           - light.plafoniere_max
           - light.schemerlamp_max
 
       - type: entities
-        id: 016
         title: Slaapkamer Noeri
         entities:
           - light.schemerlamp_noeri
           - light.hanglamp_noeri
 
       - type: entities
-        id: 017
         title: Hal
         entities:
           - light.hallamp_1
@@ -310,26 +292,22 @@ views:
           - input_boolean.noeri_slaapt
 
       - type: entities
-        id: 018
         title: Hal automations
         entities:
           - automation.hal_aan
           - automation.hal_uit
 
       - type: entities
-        id: 019
         title: Badkamer
         entities:
           - light.badkamer
           - switch.schakelaar_badkamer
 
   - icon: mdi:gauge
-    id: 020
     title: Sensors
     cards:
 
       - type: entities
-        id: 021
         title: Personen
         entities:
           - group.personen
@@ -342,7 +320,6 @@ views:
           - device_tracker.9097f3588eb4
 
       - type: entities
-        id: 022
         title: Datum en Tijd
         entities:
           - sensor.time
@@ -351,17 +328,14 @@ views:
           - sensor.moon
 
       - type: entities
-        id: 023
         title: Afstand tot huis
         entities:
           - proximity.home
 
       - type: weather-forecast
-        id: 024
         entity: weather.dark_sky
 
       - type: entities
-        id: 025
         title: Buienradar Sensors
         entities:
           - sensor.br_symbol
@@ -375,7 +349,6 @@ views:
           - sensor.br_wind_speed
 
       - type: glance
-        id: 026
         title: Nest Protect Gang
         entities:
           - binary_sensor.hallway_nest_protect_online
@@ -385,7 +358,6 @@ views:
           - sensor.hallway_nest_protect_color_status
 
       - type: map
-        id: 027
         title: Where the hell is Max
         entities:
           - device_tracker.makzdot_max
@@ -393,7 +365,6 @@ views:
           - zone.surfnet
 
       - type: entities
-        id: 028
         title: Alerts state-icon
         entities:
           - alert.battery_tradfri_hal
@@ -406,23 +377,17 @@ views:
           - alert.nest_thermostat_online
 
   - icon: mdi:play-circle-outline
-    id: 029
     title: Media players
     cards:
       - type: entities
-        id: 030
         entities:
           - sensor.plex
 
       - type: media-control
-        id: 031
         entity: media_player.woonkamer
 
       - type: media-control
-        id: 032
         entity: media_player.woonkamer_tv
 
       - type: media-control
-        id: 033
         entity: media_player.plex_woonkamer
-
