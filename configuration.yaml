@@ -183,7 +183,7 @@ rfxtrx:
 
 # MQTT server config
 mqtt:
-  broker: hassio.makz.lan
+  broker: mqtt.makznet.nl
   username: !secret mqtt_username
   password: !secret mqtt_password
   discovery: true
