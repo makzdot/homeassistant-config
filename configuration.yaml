@@ -115,12 +115,13 @@ weather:
   - platform: darksky
     api_key: 01bd73236d2f8e8b45bb6e3f1f1fb291
 
-owntracks:
-  max_gps_accuracy: 200
-  waypoints: True
-  #track_new_devices: false
+
 
 device_tracker:
+  -platform: owntracks
+    max_gps_accuracy: 200
+    waypoints: True
+    #track_new_devices: false
   - platform: snmp
     host: !secret snmp_host
     community: !secret snmp_community
