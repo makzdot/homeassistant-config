@@ -35,7 +35,7 @@ http:
   use_x_forwarded_for: true
   trusted_proxies:
     - 2001:610:0:800f::/64
-  login_attempts_threshold: 3
+  login_attempts_threshold: 20
   ip_ban_enabled: True
 
 influxdb:
