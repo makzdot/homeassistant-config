@@ -164,6 +164,7 @@ media_player:
     entity_namespace: 'plex'
     use_episode_art: true
     include_non_clients: true
+    use_custom_entity_ids: true
 
 ffmpeg:
 
