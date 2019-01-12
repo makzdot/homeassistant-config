@@ -11,13 +11,6 @@ Buienradar:
     - sensor.br_wind_gust
     - sensor.br_wind_speed
 
-Dark Sky:
-  entities:
-    - sensor.dark_sky_icon
-    - sensor.dark_sky_precip
-    - sensor.dark_sky_precip_intensity
-    - sensor.dark_sky_precip_probability
-
 Nest sensors:
   icon: mdi:nest-thermostat
   entities:
