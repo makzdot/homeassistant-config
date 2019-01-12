@@ -52,7 +52,7 @@ Datum en tijd:
 Personen:
   icon: mdi:account-multiple
   entities:
-    - device_tracker.makzdot_max
+    - device_tracker.mmudde_maxiphonesix
     - device_tracker.a010818e6c32
     - device_tracker.rikkert_rikki
     - device_tracker.rikkert_rikkiiphone 
