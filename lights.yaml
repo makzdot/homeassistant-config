@@ -130,13 +130,3 @@
   availability_topic: /home/light/woonkamer-spots/status
   payload_available: 1
   payload_not_available: 0
-
-- name: badkamer
-  platform: mqtt
-  state_topic: /home/light/badkamer/relay/0
-  command_topic: /home/light/badkamer/relay/0/set
-  payload_on: 1
-  payload_off: 0
-  availability_topic: /home/light/badkamer/status
-  payload_available: 1
-  payload_not_available: 0
