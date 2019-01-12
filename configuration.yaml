@@ -119,10 +119,6 @@ weather:
 
 
 device_tracker:
-  - platform: owntracks
-    max_gps_accuracy: 200
-    waypoints: True
-    #track_new_devices: false
   - platform: snmp
     host: !secret snmp_host
     community: !secret snmp_community
