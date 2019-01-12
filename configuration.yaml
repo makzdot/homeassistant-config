@@ -88,10 +88,6 @@ sensor:
       - windgust
       - precipitation
 
-weather:
-  - platform: darksky
-    api_key: 01bd73236d2f8e8b45bb6e3f1f1fb291
-
 device_tracker:
   - platform: snmp
     host: !secret snmp_host
@@ -147,8 +143,6 @@ camera:
 rfxtrx:
   device: /dev/ttyUSB0
   debug: False
-
-owntracks:
 
 mqtt:
   broker: 192.168.1.5
