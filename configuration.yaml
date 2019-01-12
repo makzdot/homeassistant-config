@@ -185,6 +185,11 @@ rfxtrx:
   device: /dev/ttyUSB0
   debug: False
 
+owntracks:
+  max_gps_accuracy: 200
+  secret: !secret owntrackssecret
+
+
 # MQTT server config
 mqtt:
   broker: 192.168.1.5
